@@ -1,0 +1,58 @@
+record(bi, "pom:enable")
+{
+	field(DESC, "enable or disable pom measurment")
+}
+
+record(ai, "pom:ozone")
+{
+	field(DESC,"measure ozone concentration") #description
+	field(EGU, "ppb") #engineering units
+}
+
+record(ai, "pom:cell_temp")
+{
+	field(DESC,"measure cell temperature") #description
+	field(EGU, "kelvin") #engineering units
+}
+
+record(ai, "pom:cell_pressure")
+{
+	field(DESC,"measure cell pressure") #description
+	field(EGU, "torr") #engineering units
+}
+
+record(ai, "pom:power_supply")
+{
+	field(DESC,"measure power supply") #description
+	field(EGU, "volts") #engineering units
+}
+
+record(ai, "pom:photo_volt")
+{
+	field(DESC,"measure photodiode voltage") #description
+	field(EGU, "volts") #engineering units
+}
+
+record(ai, "pom:latitude")
+{
+	field(DESC,"measure latitude") #description
+	field(EGU, "no units") #engineering units
+}
+
+record(ai, "pom:longitude")
+{
+	field(DESC,"measure longitude") #description
+	field(EGU, "no units") #engineering units
+}
+
+record(ai, "pom:altitude")
+{
+	field(DESC,"measure altitude") #description
+	field(EGU, "no units") #engineering units
+}
+
+record(stringout, "pom:utc_time")
+{
+	field(DESC,"UTC time - synchronized by GPS") #description
+}
+

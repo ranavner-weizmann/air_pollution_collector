@@ -1,0 +1,47 @@
+record(ai, "logger_rtk:save_interval")
+{
+	field(DESC,"saving to file interval") #description
+	field(EGU, "s") #engineering units
+	field(INP, "4")
+	field(PREC, "1")
+	field(LOPR, "2")
+	field(HOPR, "100")
+}
+
+#record(lso, "logger_rtk:file_name")
+#record(lso, "logger_rtk:folder_name")
+#record(lso, "logger_rtk:project_name")
+
+record(waveform, "logger_rtk:file_name")
+{
+	field(DESC, "file_name")
+	field(NELM, "256")
+	field(FTVL, "CHAR")
+}
+
+record(waveform, "logger_rtk:folder_name")
+{
+	field(DESC, "folder_name")
+	field(NELM, "256")
+	field(FTVL, "CHAR")
+}
+
+record(waveform, "logger_rtk:project_name")
+{
+	field(DESC, "project_name")
+	field(NELM, "256")
+	field(FTVL, "CHAR")
+}
+
+# control commands
+record(bi, "logger_rtk:enable")
+{
+	field(DESC, "enable or disable rtk")
+}
+
+record(ai, "logger_rtk:no_records_saved_rtk")
+{
+	field(EGU, "records")
+}
+
+record(bi, "logger_rtk:save_rtk")

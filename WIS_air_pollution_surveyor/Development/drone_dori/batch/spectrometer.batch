@@ -1,0 +1,9 @@
+#!/bin/bash
+#SBATCH --job-name=spectrometer
+#SBATCH --nodelist=node01
+#SBATCH --partition=drone_queue
+#SBATCH --oversubscribe
+
+
+cd ../spectrometer
+srun python spectrometer_service.py

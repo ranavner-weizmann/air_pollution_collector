@@ -1,0 +1,10 @@
+record(ai, "thermocoupleGroove:temperature")
+{
+	field(DESC, "Read Temperature")
+    field(EGU, "Celsius")
+}
+record(ai, "thermocoupleGroove:len")
+{
+	field(DESC,"number of measures") #description
+	field(EGU, "mdps") #engineering units
+}

@@ -1,0 +1,42 @@
+record(bi, "imu:enable")
+{
+	field(DESC, "enable or disable imu measurment")
+}
+
+record(ai, "imu:acc_direction_x")
+{
+	field(DESC,"measure wind accelaration") #description
+	field(EGU, "m/s^2") #engineering units
+}
+
+record(ai, "imu:acc_direction_y")
+{
+	field(DESC,"measure wind accelaration") #description
+	field(EGU, "m/s^2") #engineering units
+}
+
+record(ai, "imu:acc_direction_z")
+{
+	field(DESC,"measure wind accelaration") #description
+	field(EGU, "m/s^2") #engineering units
+}
+
+
+record(ai, "imu:rotation_x")
+{
+	field(DESC,"measure gyro rotation") #description
+	field(EGU, "radian/second") #engineering units
+}
+
+record(ai, "imu:rotation_y")
+{
+	field(DESC,"measure gyro rotation") #description
+	field(EGU, "radian/second") #engineering units
+}
+
+record(ai, "imu:rotation_z")
+{
+	field(DESC,"measure gyro rotation") #description
+	field(EGU, "radian/second") #engineering units
+}
+

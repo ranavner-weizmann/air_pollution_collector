@@ -1,0 +1,47 @@
+record(ai, "tec:ls")
+{
+	field(DESC,"loop status") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "tec:temp")
+{
+	field(DESC,"tec1091 current temperature") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "tec:target")
+{
+	field(DESC,"tec1091 target temperature") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "tec:voltage_cur")
+{
+	field(DESC,"tec1091 current voltage") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "tec:voltage_out")
+{
+	field(DESC,"tec1091 output voltage") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "tec:sink_temp")
+{
+	field(DESC,"tec1091 sink_temperature") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "tec:ramp_temp")
+{
+	field(DESC,"tec1091 ramp temperature") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "tec:num_samples")
+{
+	field(DESC,"number of measures") #description
+	field(EGU, "mdps") #engineering units
+}

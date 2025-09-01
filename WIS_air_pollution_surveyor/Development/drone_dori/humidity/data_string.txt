@@ -1,0 +1,21 @@
+The humidity data string: 
+
+Example:
+
+2.58,2.58,2.58.2.58,2.58,2.58,2.58,2.58,XQ,+098168,+2268,+0499,+2383,2015/10/18,02:29:07,-855702219,+428939479,+00242872,00
+
+The data transmitted is a string containing the following fields, separated by commas:
+
+the string representations of eight consecutive floating point numbers (the ADC sample)
+the letters "XQ" (to denote the beginning of the iMet data)
+the string representation of a signed integer for atmospheric pressure, in Pascals
+the string representation of a signed integer for temperature, in hundreths of a degree Celcius
+the string representation of a signed integer for relative humidity, in thousandths of a percent
+the string representation of a signed integer for humidity temperature, in hunredths of a degree Celcius
+the date and time in UTC
+the string representation of a signed integer for longitude in 10 millionths of a degree
+the string representation of a signed integer for latitude in 10 millionths of a degree
+the string representation of a signed integer for altitude in millimeters above sea level
+the string representation of a integer for the number of satellites in view
+
+https://github.com/ukyuav/iMetSerialWrite

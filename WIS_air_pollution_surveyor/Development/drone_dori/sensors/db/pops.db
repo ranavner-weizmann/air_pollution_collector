@@ -1,0 +1,301 @@
+record(bi, "pops:enable")
+{
+	field(DESC, "enable or disable pops measurment")
+}
+
+record(ai, "pops:DateTime")
+{
+	field(DESC,"POPS Date and time in seconds") #description
+}
+
+record(ai, "pops:TimeSSM")
+{
+	field(DESC,"TimeSSM") #description
+}
+
+record(ai, "pops:Status")
+{
+	field(DESC,"1 = run") #description
+}
+
+record(ai, "pops:DataStatus")
+{
+	field(DESC,"Particle counts (# / s)") #description
+}
+
+record(ai, "pops:PartCt")
+{
+	field(DESC,"Particle counts") #description
+    field(EGU, "#/s") #engineering units
+}
+
+record(ai, "pops:HistSum")
+{
+	field(DESC,"HistSum") #description
+}
+
+record(ai, "pops:PartCon")
+{
+	field(DESC,"Particle volumetric concentration")
+    field(EGU, "cm^3") #engineering units
+}
+
+record(ai, "pops:BL")
+{
+	field(DESC,"Current baseline of the detector")
+}
+
+record(ai, "pops:BLTH")
+{
+	field(DESC,"Current threshold for particle counting")
+}
+
+record(ai, "pops:STD")
+{
+	field(DESC,"Current standard deviation of baseline") #description
+}
+
+record(ai, "pops:MaxSTD")
+{
+	field(DESC,"Status") #description
+}
+
+record(ai, "pops:P")
+{
+	field(DESC,"Ambient pressure measured on POPS Cape") #description
+    field(EGU, "hPa") #engineering units
+}
+
+record(ai, "pops:TofP")
+{
+	field(DESC,"temperature measured on POPS Cape")
+    field(EGU, "C") #engineering units
+}
+
+record(ai, "pops:PumpLife_hrs")
+{
+	field(DESC,"temperature measured on POPS Cape")
+    field(EGU, "C") #engineering units
+}
+
+record(ai, "pops:WidthSTD")
+{
+	field(DESC,"temperature measured on POPS Cape")
+    field(EGU, "C") #engineering units
+}
+
+record(ai, "pops:AveWidth")
+{
+	field(DESC,"temperature measured on POPS Cape")
+    field(EGU, "C") #engineering units
+}
+
+record(ai, "pops:POPS_Flow")
+{
+	field(DESC,"Current sample flow rate") #description
+    field(EGU, "cm^3/s") #engineering units
+}
+
+record(ai, "pops:Pump_FB")
+{
+	field(DESC,"Feedback value") #description
+}
+
+record(ai, "pops:LDTemp")
+{
+	field(DESC,"Temperature of laser diode control board") #description
+    field(EGU, "C") #engineering units
+}
+
+record(ai, "pops:LaserFB")
+{
+	field(DESC,"Feedback value") #description
+}
+
+record(ai, "pops:LD_Mon")
+{
+	field(DESC,"Laser diode output power monitor") #description
+}
+
+record(ai, "pops:Temp")
+{
+	field(DESC,"External thermistor value") #description
+    field(EGU, "C") #engineering units
+}
+
+record(ai, "pops:BatV")
+{
+	field(DESC,"Battery or input DC power voltage") #description
+    field(EGU, "V") #engineering units
+}
+
+record(ai, "pops:LD_Mon")
+{
+	field(DESC,"Laser diode current") #description
+}
+
+record(ai, "pops:Flow_Set")
+{
+	field(DESC,"Pump voltage set point") #description
+}
+
+record(ai, "pops:BL_Start")
+{
+	field(DESC,"Starting point") #description
+}
+
+record(ai, "pops:TH_Mult")
+{
+	field(DESC,"Threshold multiplier") #description
+}
+
+record(ai, "pops:nbins")
+{
+	field(DESC,"Number of bins") #description
+}
+
+record(ai, "pops:logmin")
+{
+	field(DESC,"lowest particle signal bin") #description
+}
+
+record(ai, "pops:logmax")
+{
+	field(DESC,"largest particle signal bin") #description
+}
+
+record(ai, "pops:Skip_save")
+{
+	field(DESC,"Value of the skip save parameter") #description
+}
+
+record(ai, "pops:MinPeakPts")
+{
+	field(DESC,"Minimum number of peak points") #description
+}
+
+record(ai, "pops:MaxPeakPts")
+{
+	field(DESC,"Maximum number of peak points") #description
+}
+
+record(ai, "pops:RawPts")
+{
+	field(DESC,"Number of points saved") #description
+}
+
+record(ai, "pops:b0")
+{
+	field(DESC,"counts recorded") #description
+}
+
+record(ai, "pops:b1")
+{
+	field(DESC,"counts recorded") #description
+}
+
+record(ai, "pops:b2")
+{
+	field(DESC,"counts recorded") #description
+}
+
+record(ai, "pops:b3")
+{
+	field(DESC,"counts recorded") #description
+}
+
+record(ai, "pops:b4")
+{
+	field(DESC,"counts recorded") #description
+}
+
+record(ai, "pops:b5")
+{
+	field(DESC,"counts recorded") #description
+}
+
+record(ai, "pops:b6")
+{
+	field(DESC,"counts recorded") #description
+}
+
+record(ai, "pops:b7")
+{
+	field(DESC,"counts recorded") #description
+}
+
+record(ai, "pops:b8")
+{
+	field(DESC,"counts recorded") #description
+}
+
+record(ai, "pops:b9")
+{
+	field(DESC,"counts recorded") #description
+}
+
+record(ai, "pops:b10")
+{
+	field(DESC,"counts recorded") #description
+}
+
+record(ai, "pops:b11")
+{
+	field(DESC,"counts recorded") #description
+}
+
+record(ai, "pops:b12")
+{
+	field(DESC,"counts recorded") #description
+}
+
+record(ai, "pops:b13")
+{
+	field(DESC,"counts recorded") #description
+}
+
+record(ai, "pops:b14")
+{
+	field(DESC,"counts recorded") #description
+}
+
+record(ai, "pops:b15")
+{
+	field(DESC,"counts recorded") #description
+}
+
+record(waveform, "pops:bins")
+{
+	field(FTVL, "DOUBLE")
+	field(DESC,"particle counts per s per bin size") #description
+	field(NELM, 16)
+	field(EGU, "count/s")
+}
+record(ai, "pops:num_samples")
+{
+	field(DESC,"number of measures") #description
+	field(EGU, "mdps") #engineering units
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

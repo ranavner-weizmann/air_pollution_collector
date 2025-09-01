@@ -1,0 +1,17 @@
+A typical data line would read:
+
+3.2,307.4,608.1,1.2740,12.1,4001.27765,-10513.0308,1591.20,1,23/03/12,16:39:14
+
+where:
+
+Ozone = 3.2 ppb
+Cell temperature = 307.4 K
+Cell pressure = 608.1 torr (1 atm = 760 torr)
+Photodiode Voltage = 1.2740 volts
+Power Supply Voltage = 12.1 volts
+Latitude = 4001.27765
+Longitude = -10513.0308
+Altitude = 1591.20
+GPS Quality = 1
+Date = March 23, 2012
+Time = 4:39:14 pm

@@ -1,0 +1,8 @@
+#!/bin/bash
+#SBATCH --job-name=iMet_logger
+#SBATCH --nodelist=node01
+#SBATCH --partition=drone_queue
+#SBATCH --oversubscribe
+
+cd ../logger
+srun python logger_hum_service.py

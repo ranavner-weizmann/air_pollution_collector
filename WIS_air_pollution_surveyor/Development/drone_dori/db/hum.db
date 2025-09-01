@@ -1,0 +1,59 @@
+record(bi, "hum:enable")
+{
+	field(DESC, "enable or disable humidity measurment")
+}
+
+record(ai, "hum:pressure")
+{
+	field(DESC,"measure atmospheric pressure") #description
+	field(EGU, "pascals") #engineering units
+}
+
+record(ai, "hum:time")
+{
+	field(DESC,"measure date and time") #description
+	field(DESC,"UTC time - synchronized by GPS") #description
+}
+
+record(ai, "hum:temp")
+{
+	field(DESC,"measure temperature") #description
+	field(EGU, "Celcius") #engineering units
+}
+
+record(ai, "hum:rel_hum")
+{
+	field(DESC,"measure relative humidity") #description
+	field(EGU, "percent") #engineering units
+}
+
+record(ai, "hum:hum_temp")
+{
+	field(DESC,"measure humidity temperature") #description
+	field(EGU, "celcius") #engineering units
+}
+
+record(ai, "hum:longitude")
+{
+	field(DESC,"measure longitude") #description
+	field(EGU, "degree") #engineering units
+}
+
+record(ai, "hum:latitude")
+{
+	field(DESC,"measure latitude") #description
+	field(EGU, "degree") #engineering units
+}
+
+record(ai, "hum:altitude")
+{
+	field(DESC,"measure altitude about the sea") #description
+	field(EGU, "millimeters") #engineering units
+}
+
+record(bi, "hum:sat")
+{
+	field(DESC,"number of satellites") #description
+}
+
+

@@ -1,0 +1,165 @@
+# sampling time is in seconds, default is 1 s
+# vitality cooldown in seconds, default is 0.1 s
+opc:
+  demo_mode: False
+  device_name: "opc"
+  is_device: False
+  location: drone
+  #sampling_time: 1
+  vital_attributes: ["timestamp", "pm1", "pm2dot5", "pm10", "num_samples"]
+  vital_attributes_lite: ["timestamp", "pm2dot5", "pm10"]
+
+gps:
+  demo_mode: False
+  device_name: "gps"
+  is_device: False
+  location: drone
+  #sampling_time: 2
+  vital_attributes: ["timestamp", "latitude", "longitude", "altitude", "num_samples"]
+  vital_attributes_lite: ["timestamp", "latitude", "longitude"]
+
+sniffer:
+  demo_mode: False
+  device_name: "sniffer"
+  is_device: False
+  location: tripod
+  #sampling_time: 10
+  vital_attributes: ["timestamp", "CO", "NO2", "Ox", "SO2", "num_samples"]
+  vital_attributes_lite: ["timestamp", "num_samples"]
+
+aeth:
+  demo_mode: False
+  device_name: "aeth"
+  is_device: False
+  location: drone
+  #measure_delay: 4
+  sampling_time: 10
+  vital_attributes: ["timestamp", "UV_BCc", "blue_BCc", "green_BCc", "red_BCc", "IR_BCc", "num_samples"]
+  vital_attributes_lite: ["timestamp", "green_BCc"]
+
+
+wind:
+  demo_mode: False
+  device_name: "wind"
+  is_device: False
+  location: tripod
+  #sampling_time: 5
+  vital_attributes: ["timestamp", "speed", "direction", "num_samples"]
+  vital_attributes_lite: ["timestamp", "speed", "direction"]
+
+pom:
+  demo_mode: False
+  device_name: "pom"
+  #is_device: False
+  location: drone
+  sampling_time: 1
+  vital_attributes: ["timestamp", "ozone", "power_supply", "num_samples"]
+  vital_attributes_lite: ["timestamp", "ozone"]
+
+hum:
+  demo_mode: False
+  device_name: "hum"
+  is_device: False
+  location: drone
+  vital_attributes: ["timestamp", "pressure", "temp", "rel_hum", "num_samples"]
+  vital_attributes_lite: ["timestamp", "pressure", "temp", "rel_hum"]
+  #sampling_time: 1
+
+spectrometer:
+  demo_mode: False
+  device_name: "spectrometer"
+  is_device: False
+  location: drone
+  vital_attributes: ["timestamp", "i421", "tec_t_c", "num_samples"]
+  vital_attributes_lite: ["timestamp", "i421", "tec_t_c"]
+  #sampling_time: 0.25
+
+stSpectrometer:
+  demo_mode: False
+  device_name: "stSpectrometer"
+  is_device: False
+  location: drone
+  vital_attributes: ["timestamp", "i421", "num_samples"]
+  vital_attributes_lite: ["timestamp", "i421"]
+  #sampling_time: 0.25
+
+imu:
+  demo_mode: False
+  device_name: "imu"
+  is_device: False
+  location: drone
+  #measure_delay: 0.0
+  sampling_time: 1
+  vital_attributes: ["timestamp", "gyro_rotation_x", "gyro_rotation_y", "gyro_rotation_z", "num_samples"]
+  vital_attributes_lite: ["timestamp", "num_samples"]
+
+
+pops:
+  demo_mode: False
+  device_name: "pops"
+  is_device: False
+  location: drone
+  #sampling_time: 1
+  vital_attributes: ["timestamp", "BatV", "b1", "b7", "b14", "num_samples"]
+  vital_attributes_lite: ["timestamp", "BatV", "b14"]
+
+
+mceasPressure:
+  demo_mode: False
+  device_name: "mceasPressure"
+  is_device: False
+  location: drone
+  #sampling_time: 1
+  vital_attributes: ["timestamp", "fp", "humidity", "temperature", "num_samples"]
+  vital_attributes_lite: ["timestamp", "fp", "humidity", "temperature"]
+
+tec:
+  demo_mode: False
+  device_name: "tec"
+  is_device: False
+  location: drone
+  vital_attributes: ["timestamp", "temp", "target", "voltage_out", "num_samples"]
+  vital_attributes_lite: ["timestamp", "temp", "target", "voltage_out"]
+  #sampling_time: 1
+
+mceasArduinoPump:
+  demo_mode: False
+  device_name: "mceasArduinoPump"
+  is_device: False
+  location: drone
+  #sampling_time: 1
+  vital_attributes: ["timestamp", "FLM", "num_samples"]
+  vital_attributes_lite: ["timestamp", "FLM"]
+
+thermacoupleGroove:
+  demo_mode: False
+  device_name: "thermacoupleGroove"
+  is_device: False
+  location: drone
+  vital_attributes: ["timestamp", "temperature", "num_samples"]
+  vital_attributes_lite: ["timestamp", "temperature", "num_samples"]
+
+mceasArduino:
+  demo_mode: False
+  device_name: "mceasArduino"
+  is_device: False
+  location: drone
+  vital_attributes: ["timestamp", "temperature", "laserDiodeCurrent", "tecObjectTemp1", "tecObjectTemp2", "pressureFormulated", "num_samples"]
+  vital_attributes_lite: ["timestamp", "temperature"]
+
+
+define: &ldd
+  demo_mode: False
+  is_device: False
+  location: drone
+  vital_attributes:
+    ["timestamp", "laserDiodeCurrent", "laserDiodeVoltage", "photodiodeInput", "temperatureLDDriver", "lddErrorNumber", "num_samples"]
+  vital_attributes_lite: ["timestamp", "photodiodeInput", "num_samples"]
+
+ldd1:
+  <<: *ldd
+  device_name: "ldd1"
+
+ldd2:
+  <<: *ldd
+  device_name: "ldd2"

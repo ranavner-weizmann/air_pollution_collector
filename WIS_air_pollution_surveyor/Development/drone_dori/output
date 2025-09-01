@@ -1,0 +1,18 @@
+wlx28ee521fb1d1  unassociated  ESSID:""  Nickname:"<WIFI@REALTEK>"
+          Mode:Auto  Frequency=2.412 GHz  Access Point: Not-Associated   
+          Sensitivity:0/0  
+          Retry:off   RTS thr:off   Fragment thr:off
+          Power Management:off
+          Link Quality:0  Signal level:0  Noise level:0
+          Rx invalid nwid:0  Rx invalid crypt:0  Rx invalid frag:0
+          Tx excessive retries:0  Invalid misc:0   Missed beacon:0
+
+wlan0     IEEE 802.11  ESSID:"Dronelink"  
+          Mode:Managed  Frequency:2.457 GHz  Access Point: 00:5F:67:78:A6:F2   
+          Bit Rate=150 Mb/s   Tx-Power=31 dBm   
+          Retry short limit:7   RTS thr:off   Fragment thr:off
+          Power Management:on
+          Link Quality=70/70  Signal level=-25 dBm  
+          Rx invalid nwid:0  Rx invalid crypt:0  Rx invalid frag:0
+          Tx excessive retries:0  Invalid misc:0   Missed beacon:0
+

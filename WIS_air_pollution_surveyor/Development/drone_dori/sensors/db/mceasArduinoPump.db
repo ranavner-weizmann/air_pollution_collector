@@ -1,0 +1,31 @@
+record(ai, "mceasArduinoPump:FLM")
+{
+	field(DESC,"measured flow from arduino pump") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "mceasArduinoPump:FTARGET")
+{
+	field(DESC,"flow target in arduino pump") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "mceasArduinoPump:CPSI")
+{
+	field(DESC,"calculated psi in arduino pump") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "mceasArduinoPump:CMB")
+{
+	field(DESC,"calculated MB in arduino pump") #description
+	field(EGU, "mg") #engineering units
+}
+
+
+record(ai, "mceasArduinoPump:num_samples")
+{
+	field(DESC,"number of measures") #description
+	field(EGU, "mdps") #engineering units
+}
+

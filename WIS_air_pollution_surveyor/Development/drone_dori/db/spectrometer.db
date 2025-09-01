@@ -1,0 +1,29 @@
+record(bi, "spectrometer:enable")
+
+
+# record(aai, "spectrometer:intensities")
+# {
+# 	field(DESC,"Spectral Intensities") #description
+# }
+
+# record(aai, "spectrometer:wavelengths")
+# {
+# 	field(DESC,"Wavelengths") #description
+# 	field(EGU, "nm") #engineering units
+# }
+
+record(waveform, "spectrometer:intensities")
+{
+	field(FTVL, "DOUBLE")
+	field(DESC,"Spectral Intensities") #description
+	field(NELM, 1200) # TODO: check if can be dynamically allocated?
+	field(EGU, "Counts")
+}
+
+record(waveform, "spectrometer:wavelengths")
+{
+	field(FTVL, "DOUBLE")
+	field(DESC,"Wavelengths") 
+	field(NELM, 1200) # TODO: check if can be dynamically allocated?
+	field(EGU, "nm")
+}

@@ -1,0 +1,116 @@
+import os
+import pandas as pd
+import numpy as np
+
+#                                      first part
+#--------------------------------------------------------------------------------------------#
+
+os.chdir('Drone')
+list_files = os.listdir()
+files = []
+
+for file in list_files:
+    if 'csv' in file:
+        files.append(pd.read_csv(file))
+    else:
+        files.append(pd.read_excel(file))
+
+dataframe_list = files
+same_type_df_list = []               
+reference_list = []
+
+
+for df in dataframe_list: 
+    temp_columns_list = list(df.columns)
+    if temp_columns_list not in same_type_df_list:
+        same_type_df_list.append(temp_columns_list)
+
+length = len(same_type_df_list)
+concated_df_list = []
+
+for df in dataframe_list[:]:
+    temp_list = list(df.columns)
+    if temp_list not in reference_list:
+        reference_list.append(temp_list)
+        concated_df_list.append(df)  
+    else:
+        for j in range(len(concated_df_list)):
+            if temp_list == list(concated_df_list[j].columns):
+                temp = pd.concat([df,concated_df_list[j]],axis=0)
+                concated_df_list[j] = temp
+
+#                                        second part        
+#--------------------------------------------------------------------------------------------------#
+
+os.chdir('../')
+data_points = pd.read_excel('data_points.xlsx')
+time_list = list(data_points['date_time'])
+start = time_list[0]
+stop = time_list[-1]
+gap = '1min'
+
+
+# concated_df_list = []
+
+# for file in files:
+#     if 'csv' in file:
+#         concated_df_list.append(pd.read_csv(file))
+#     else:
+#         concated_df_list.append(pd.read_excel(file))
+        
+df_all_times = pd.DataFrame(index=pd.date_range(start,stop, freq=gap))
+
+for df in concated_df_list:
+    df.set_index(pd.to_datetime(df['date_time']),inplace=True)
+for df in concated_df_list:
+    df = pd.merge(df_all_times,df,right_index=True,left_index=True,how='outer')
+# concated_df_list[0].to_csv('test1.csv')
+new_list = []
+for dataset in concated_df_list:
+    new_list.append(dataset.groupby([pd.Grouper(freq=gap)]).mean())
+    
+merged_df = new_list[0]
+
+for i in range(1,len(new_list)):
+    merged_df = pd.merge(merged_df,new_list[i],right_index=True,left_index=True,how='outer')
+    
+os.chdir('../')
+# merged_df.to_csv('merged_dataset__weiz.csv')
+
+data_points_index = pd.to_datetime(data_points['date_time'])
+data_points.set_index(data_points_index,inplace=True)
+final_merge = pd.merge(merged_df,data_points,right_index=True,left_index=True,how='inner')
+final_merge.to_csv("final_merge3.csv")
+    else:
+        for j in range(len(concated_df_list)):
+            if temp_list == list(concated_df_list[j].columns):
+                temp = pd.concat([df,concated_df_list[j]],axis=0)
+                concated_df_list[j] = temp
+
+#                                        second part        
+#--------------------------------------------------------------------------------------------------#
+
+os.chdir('../')
+data_points = pd.read_excel(data_points_file)
+time_list = list(data_points['date_time'])
+start = time_list[0]
+stop = time_list[-1]
+gap = '1min'
+        
+df_all_times = pd.DataFrame(index=pd.date_range(start,stop, freq=gap))
+
+for df in concated_df_list:
+    df.set_index(pd.to_datetime(df['date_time']),inplace=True)
+for df in concated_df_list:
+    df = pd.merge(df_all_times,df,right_index=True,left_index=True,how='outer')
+new_list = []
+for dataset in concated_df_list:
+    new_list.append(dataset.groupby([pd.Grouper(freq=gap)]).mean())
+    
+merged_df = new_list[0]
+
+for i in range(1,len(new_list)):
+    merged_df = pd.merge(merged_df,new_list[i],right_index=True,left_index=True,how='outer')
+    
+os.chdir('../')
+merged_df.to_csv('merged_dataset__weiz.csv')

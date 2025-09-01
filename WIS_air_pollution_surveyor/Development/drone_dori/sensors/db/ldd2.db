@@ -1,0 +1,61 @@
+record(ai, "ldd:laserDiodeCurrent")
+{
+	field(DESC,"laserDiodeCurrent") #description
+	field(EGU, "A") #engineering units
+}
+record(ai, "ldd:laserDiodeVoltage")
+{
+	field(DESC,"laserDiodeVoltage") #description
+	field(EGU, "V") #engineering units
+}
+record(ai, "ldd:anodeVoltage")
+{
+	field(DESC,"anodeVoltage") #description
+	field(EGU, "V") #engineering units
+}
+record(ai, "ldd:cathodeVoltage")
+{
+	field(DESC,"cathodeVoltage") #description
+	field(EGU, "V") #engineering units
+}
+record(ai, "ldd:laserPower")
+{
+	field(DESC,"laserPower") #description
+	field(EGU, "W") #engineering units
+}
+record(ai, "ldd:externalTemperatureMeasurement")
+{
+	field(DESC,"externalTemperatureMeasurement") #description
+	field(EGU, "Celsius") #engineering units
+}
+record(ai, "ldd:photodiodeInput")
+{
+	field(DESC,"photodiodeInput") #description
+	field(EGU, "A") #engineering units
+}
+record(ai, "ldd:lddErrorNumber")
+{
+	field(DESC,"lddErrorNumber") #description
+}
+record(ai, "ldd:lddErrorInstance")
+{
+	field(DESC,"lddErrorInstance") #description
+}
+record(ai, "ldd:lddErrorParameter")
+{
+	field(DESC,"lddErrorParameter") #description
+}
+record(ai, "ldd:deviceTemperature")
+{
+	field(DESC,"deviceTemperature") #description
+	field(EGU, "Celsius") #engineering units
+}
+record(ai, "ldd:temperatureLDDriver")
+{
+	field(DESC,"temperatureLDDriver") #description
+	field(EGU, "Celsius") #engineering units
+}
+record(ai, "ldd:num_samples")
+{
+	field(DESC,"num_samples") #description
+}

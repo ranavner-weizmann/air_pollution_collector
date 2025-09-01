@@ -1,0 +1,47 @@
+record(ai, "logger_rtk_arduino:save_interval")
+{
+	field(DESC,"saving to file interval") #description
+	field(EGU, "s") #engineering units
+	field(INP, "4")
+	field(PREC, "1")
+	field(LOPR, "2")
+	field(HOPR, "100")
+}
+
+#record(lso, "logger_rtk_arduino:file_name")
+#record(lso, "logger_rtk_arduino:folder_name")
+#record(lso, "logger_rtk_arduino:project_name")
+
+record(waveform, "logger_rtk_arduino:file_name")
+{
+	field(DESC, "file_name")
+	field(NELM, "256")
+	field(FTVL, "CHAR")
+}
+
+record(waveform, "logger_rtk_arduino:folder_name")
+{
+	field(DESC, "folder_name")
+	field(NELM, "256")
+	field(FTVL, "CHAR")
+}
+
+record(waveform, "logger_rtk_arduino:project_name")
+{
+	field(DESC, "project_name")
+	field(NELM, "256")
+	field(FTVL, "CHAR")
+}
+
+# control commands
+record(bi, "logger_rtk_arduino:enable")
+{
+	field(DESC, "enable or disable rtk")
+}
+
+record(ai, "logger_rtk_arduino:no_records_saved_rtk")
+{
+	field(EGU, "records")
+}
+
+record(bi, "logger_rtk_arduino:save_rtk")

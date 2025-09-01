@@ -1,0 +1,62 @@
+record(ai, "mceasArduino:temperature")
+{
+	field(DESC,"measure temperature") #description
+	field(EGU, "Celcius") #engineering units
+}
+record(ai, "mceasArduino:humidity")
+{
+	field(DESC,"measure humidity") #description
+	field(EGU, "percent") #engineering units
+}
+record(ai, "mceasArduino:laserDiodeCurrent")
+{
+	field(DESC,"laserDiodeCurrent") #description
+}
+record(ai, "mceasArduino:laserDiodeVoltage")
+{
+	field(DESC,"laserDiodeVoltage") #description
+}
+record(ai, "mceasArduino:anodeVoltage")
+{
+	field(DESC,"anodeVoltage") #description
+}
+record(ai, "mceasArduino:cathodeVoltage")
+{
+	field(DESC,"cathodeVoltage") #description
+}
+record(ai, "mceasArduino:laserPower")
+{
+	field(DESC,"laserPower") #description
+}
+record(ai, "mceasArduino:laserDiodeTemperature")
+{
+	field(DESC,"laserDiodeTemperature") #description
+}
+record(ai, "mceasArduino:basePlateTemperature")
+{
+	field(DESC,"basePlateTemperature") #description
+}
+record(ai, "mceasArduino:photodiodeInput")
+{
+	field(DESC,"photodiodeInput") #description
+}
+record(ai, "mceasArduino:lddErrorNumber")
+{
+	field(DESC,"lddErrorNumber") #description
+}
+record(ai, "mceasArduino:lddErrorInstance")
+{
+	field(DESC,"lddErrorInstance") #description
+}
+record(ai, "mceasArduino:lddErrorParameter")
+{
+	field(DESC,"lddErrorParameter") #description
+}
+record(ai, "mceasArduino:tecObjectTemp1")
+{
+	field(DESC,"TEC temperature from instance 1") #description
+}
+record(ai, "mceasArduino:tecObjectTemp2")
+{
+	field(DESC,"TEC temperature from instance 2") #description
+}

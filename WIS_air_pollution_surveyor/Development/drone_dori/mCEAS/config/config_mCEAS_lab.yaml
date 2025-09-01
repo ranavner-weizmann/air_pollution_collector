@@ -1,0 +1,76 @@
+spectrometer:
+    integration_time: 100000  # in usec (100000 = 0.1 sec)
+    is_demo_mode: True
+    spectrometer_ID: "QEP03372"
+    update_rate: 1 # in Hz
+    is_PV: True
+    name_PV: "spectrometer"
+    default_log_dir: "~/data/spectrometer"
+    to_log: True
+    add_time_to_filename: False
+
+mCEAS:
+    arduino_port: "/dev/ttyUSB0" # arduino port
+    is_demo_mode: True
+    update_rate: 1 # in Hz
+    default_log_dir: "~/data/mCEAS"
+    d_full: 15.94 #cm
+    d_purging: 15.94 #cm
+    name_PV: "mCEAS"
+    reflectivity_Ts1: [296.2,296.05,296,296]
+    reflectivity_Ts2: [296.03,295.95,296,295.95]
+    reflectivity_Ps1: [1013.25,1013.25,1013.25,1013.25]
+    reflectivity_Ps2: [1013.25,1013.25,1013.25,1013.25]
+    # jupyter   
+    measured_gases_and_sigma_filenames: {"NO2_455":"../../mCEAS/config/sigmas/sigma_455_NO2.csv"} #,"Glyoxal":... # TODO: how to add variables in yaml file
+    atmospheric_gases_and_sigma_filenames: {"H2O_455":"../../mCEAS/config/sigmas/sigma_455_H2O.csv"}
+    lab_reflectivity_Is1: [
+        "../../mCEAS/config/lab_reflectivity/N_1_QEP033721__0__14-59-21-464.txt",
+        "../../mCEAS/config/lab_reflectivity/N_2_QEP033721__0__15-59-04-830.txt",
+        "../../mCEAS/config/lab_reflectivity/N_3_QEP033721__0__16-18-10-822.txt",
+        "../../mCEAS/config/lab_reflectivity/N_4_QEP033721__0__16-39-49-812.txt",
+    ]
+    lab_reflectivity_Is2: [
+        "../../mCEAS/config/lab_reflectivity/He_1_QEP033721__0__15-11-46-851.txt",
+        "../../mCEAS/config/lab_reflectivity/He_2_QEP033721__0__16-05-52-827.txt",
+        "../../mCEAS/config/lab_reflectivity/He_3_QEP033721__0__16-29-06-817.txt",
+        "../../mCEAS/config/lab_reflectivity/He_4_QEP033721__0__16-59-39-803.txt",
+    ]
+    lab_reflectivity_names1: ["N2","N2","N2","N2"]
+    lab_reflectivity_names2: ["He","He","He","He"]
+    reflectivity_filename: "../../mCEAS/config/reflectivity.npy"
+    reflectivity_wavelengths_filename: "../../mCEAS/config/reflectivity_wavelengths.npy"
+    I0_filename: "../../mCEAS/config/NO2_QEP033721__0__18-22-35-729.txt"
+    
+
+    # .py    
+    # lab_reflectivity_Is1: [
+    #     "drone_dori/mCEAS/config/lab_reflectivity/N_1_QEP033721__0__14-59-21-464.txt",
+    #     "drone_dori/mCEAS/config/lab_reflectivity/N_2_QEP033721__0__15-59-04-830.txt",
+    #     "drone_dori/mCEAS/config/lab_reflectivity/N_3_QEP033721__0__16-18-10-822.txt",
+    #     "drone_dori/mCEAS/config/lab_reflectivity/N_4_QEP033721__0__16-39-49-812.txt",
+    # ]
+    # lab_reflectivity_Is2: [
+    #     "drone_dori/mCEAS/config/lab_reflectivity/He_1_QEP033721__0__15-11-46-851.txt",
+    #     "drone_dori/mCEAS/config/lab_reflectivity/He_2_QEP033721__0__16-05-52-827.txt",
+    #     "drone_dori/mCEAS/config/lab_reflectivity/He_3_QEP033721__0__16-29-06-817.txt",
+    #     "drone_dori/mCEAS/config/lab_reflectivity/He_4_QEP033721__0__16-59-39-803.txt",
+    # ]
+    # reflectivity_filename: "../../mCEAS/config/reflectivity.npy"
+    # reflectivity_wavelengths_filename: "../../mCEAS/config/reflectivity_wavelengths.npy"
+    # I0_filename: "drone_dori/mCEAS/config/NO2_QEP033721__0__18-22-35-729.txt"
+    # reflectivity_filename: "drone_dori/mCEAS/config/reflectivity.npy"
+    # reflectivity_wavelengths_filename: "drone_dori/mCEAS/config/reflectivity_wavelengths.npy"
+    # measured_gases_and_sigma_filenames: {"NO2_455":"drone_dori/mCEAS/config/sigmas/sigma_455_NO2.csv"} #,"Glyoxal":...
+    # atmospheric_gases_and_sigma_filenames: {"H2O_455":"drone_dori/mCEAS/config/sigmas/sigma_455_H2O.csv"}
+
+    # I0_filename: "config/NO2_QEP033721__0__18-22-35-729.txt"
+    
+    T0: 295.95
+    P0: 1013.25
+    I0_NO2: 0.
+    measurement_gases: ["NO2"]
+    arduino_params: ["LED_intensity","LED_T","peltier_T","P","P_volts","flow","pump"]
+    to_log: False
+    log_filename: "NO2"
+

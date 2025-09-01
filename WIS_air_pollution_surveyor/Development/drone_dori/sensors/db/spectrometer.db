@@ -1,0 +1,6275 @@
+record(ai, "spectrometer:i0")
+{
+	field(DESC,"spectrometer intesity i0") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i1")
+{
+	field(DESC,"spectrometer intesity i1") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i2")
+{
+	field(DESC,"spectrometer intesity i2") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i3")
+{
+	field(DESC,"spectrometer intesity i3") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i4")
+{
+	field(DESC,"spectrometer intesity i4") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i5")
+{
+	field(DESC,"spectrometer intesity i5") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i6")
+{
+	field(DESC,"spectrometer intesity i6") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i7")
+{
+	field(DESC,"spectrometer intesity i7") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i8")
+{
+	field(DESC,"spectrometer intesity i8") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i9")
+{
+	field(DESC,"spectrometer intesity i9") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i10")
+{
+	field(DESC,"spectrometer intesity i10") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i11")
+{
+	field(DESC,"spectrometer intesity i11") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i12")
+{
+	field(DESC,"spectrometer intesity i12") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i13")
+{
+	field(DESC,"spectrometer intesity i13") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i14")
+{
+	field(DESC,"spectrometer intesity i14") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i15")
+{
+	field(DESC,"spectrometer intesity i15") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i16")
+{
+	field(DESC,"spectrometer intesity i16") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i17")
+{
+	field(DESC,"spectrometer intesity i17") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i18")
+{
+	field(DESC,"spectrometer intesity i18") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i19")
+{
+	field(DESC,"spectrometer intesity i19") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i20")
+{
+	field(DESC,"spectrometer intesity i20") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i21")
+{
+	field(DESC,"spectrometer intesity i21") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i22")
+{
+	field(DESC,"spectrometer intesity i22") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i23")
+{
+	field(DESC,"spectrometer intesity i23") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i24")
+{
+	field(DESC,"spectrometer intesity i24") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i25")
+{
+	field(DESC,"spectrometer intesity i25") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i26")
+{
+	field(DESC,"spectrometer intesity i26") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i27")
+{
+	field(DESC,"spectrometer intesity i27") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i28")
+{
+	field(DESC,"spectrometer intesity i28") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i29")
+{
+	field(DESC,"spectrometer intesity i29") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i30")
+{
+	field(DESC,"spectrometer intesity i30") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i31")
+{
+	field(DESC,"spectrometer intesity i31") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i32")
+{
+	field(DESC,"spectrometer intesity i32") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i33")
+{
+	field(DESC,"spectrometer intesity i33") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i34")
+{
+	field(DESC,"spectrometer intesity i34") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i35")
+{
+	field(DESC,"spectrometer intesity i35") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i36")
+{
+	field(DESC,"spectrometer intesity i36") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i37")
+{
+	field(DESC,"spectrometer intesity i37") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i38")
+{
+	field(DESC,"spectrometer intesity i38") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i39")
+{
+	field(DESC,"spectrometer intesity i39") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i40")
+{
+	field(DESC,"spectrometer intesity i40") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i41")
+{
+	field(DESC,"spectrometer intesity i41") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i42")
+{
+	field(DESC,"spectrometer intesity i42") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i43")
+{
+	field(DESC,"spectrometer intesity i43") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i44")
+{
+	field(DESC,"spectrometer intesity i44") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i45")
+{
+	field(DESC,"spectrometer intesity i45") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i46")
+{
+	field(DESC,"spectrometer intesity i46") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i47")
+{
+	field(DESC,"spectrometer intesity i47") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i48")
+{
+	field(DESC,"spectrometer intesity i48") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i49")
+{
+	field(DESC,"spectrometer intesity i49") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i50")
+{
+	field(DESC,"spectrometer intesity i50") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i51")
+{
+	field(DESC,"spectrometer intesity i51") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i52")
+{
+	field(DESC,"spectrometer intesity i52") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i53")
+{
+	field(DESC,"spectrometer intesity i53") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i54")
+{
+	field(DESC,"spectrometer intesity i54") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i55")
+{
+	field(DESC,"spectrometer intesity i55") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i56")
+{
+	field(DESC,"spectrometer intesity i56") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i57")
+{
+	field(DESC,"spectrometer intesity i57") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i58")
+{
+	field(DESC,"spectrometer intesity i58") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i59")
+{
+	field(DESC,"spectrometer intesity i59") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i60")
+{
+	field(DESC,"spectrometer intesity i60") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i61")
+{
+	field(DESC,"spectrometer intesity i61") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i62")
+{
+	field(DESC,"spectrometer intesity i62") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i63")
+{
+	field(DESC,"spectrometer intesity i63") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i64")
+{
+	field(DESC,"spectrometer intesity i64") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i65")
+{
+	field(DESC,"spectrometer intesity i65") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i66")
+{
+	field(DESC,"spectrometer intesity i66") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i67")
+{
+	field(DESC,"spectrometer intesity i67") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i68")
+{
+	field(DESC,"spectrometer intesity i68") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i69")
+{
+	field(DESC,"spectrometer intesity i69") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i70")
+{
+	field(DESC,"spectrometer intesity i70") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i71")
+{
+	field(DESC,"spectrometer intesity i71") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i72")
+{
+	field(DESC,"spectrometer intesity i72") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i73")
+{
+	field(DESC,"spectrometer intesity i73") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i74")
+{
+	field(DESC,"spectrometer intesity i74") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i75")
+{
+	field(DESC,"spectrometer intesity i75") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i76")
+{
+	field(DESC,"spectrometer intesity i76") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i77")
+{
+	field(DESC,"spectrometer intesity i77") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i78")
+{
+	field(DESC,"spectrometer intesity i78") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i79")
+{
+	field(DESC,"spectrometer intesity i79") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i80")
+{
+	field(DESC,"spectrometer intesity i80") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i81")
+{
+	field(DESC,"spectrometer intesity i81") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i82")
+{
+	field(DESC,"spectrometer intesity i82") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i83")
+{
+	field(DESC,"spectrometer intesity i83") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i84")
+{
+	field(DESC,"spectrometer intesity i84") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i85")
+{
+	field(DESC,"spectrometer intesity i85") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i86")
+{
+	field(DESC,"spectrometer intesity i86") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i87")
+{
+	field(DESC,"spectrometer intesity i87") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i88")
+{
+	field(DESC,"spectrometer intesity i88") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i89")
+{
+	field(DESC,"spectrometer intesity i89") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i90")
+{
+	field(DESC,"spectrometer intesity i90") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i91")
+{
+	field(DESC,"spectrometer intesity i91") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i92")
+{
+	field(DESC,"spectrometer intesity i92") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i93")
+{
+	field(DESC,"spectrometer intesity i93") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i94")
+{
+	field(DESC,"spectrometer intesity i94") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i95")
+{
+	field(DESC,"spectrometer intesity i95") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i96")
+{
+	field(DESC,"spectrometer intesity i96") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i97")
+{
+	field(DESC,"spectrometer intesity i97") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i98")
+{
+	field(DESC,"spectrometer intesity i98") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i99")
+{
+	field(DESC,"spectrometer intesity i99") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i100")
+{
+	field(DESC,"spectrometer intesity i100") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i101")
+{
+	field(DESC,"spectrometer intesity i101") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i102")
+{
+	field(DESC,"spectrometer intesity i102") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i103")
+{
+	field(DESC,"spectrometer intesity i103") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i104")
+{
+	field(DESC,"spectrometer intesity i104") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i105")
+{
+	field(DESC,"spectrometer intesity i105") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i106")
+{
+	field(DESC,"spectrometer intesity i106") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i107")
+{
+	field(DESC,"spectrometer intesity i107") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i108")
+{
+	field(DESC,"spectrometer intesity i108") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i109")
+{
+	field(DESC,"spectrometer intesity i109") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i110")
+{
+	field(DESC,"spectrometer intesity i110") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i111")
+{
+	field(DESC,"spectrometer intesity i111") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i112")
+{
+	field(DESC,"spectrometer intesity i112") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i113")
+{
+	field(DESC,"spectrometer intesity i113") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i114")
+{
+	field(DESC,"spectrometer intesity i114") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i115")
+{
+	field(DESC,"spectrometer intesity i115") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i116")
+{
+	field(DESC,"spectrometer intesity i116") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i117")
+{
+	field(DESC,"spectrometer intesity i117") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i118")
+{
+	field(DESC,"spectrometer intesity i118") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i119")
+{
+	field(DESC,"spectrometer intesity i119") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i120")
+{
+	field(DESC,"spectrometer intesity i120") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i121")
+{
+	field(DESC,"spectrometer intesity i121") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i122")
+{
+	field(DESC,"spectrometer intesity i122") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i123")
+{
+	field(DESC,"spectrometer intesity i123") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i124")
+{
+	field(DESC,"spectrometer intesity i124") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i125")
+{
+	field(DESC,"spectrometer intesity i125") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i126")
+{
+	field(DESC,"spectrometer intesity i126") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i127")
+{
+	field(DESC,"spectrometer intesity i127") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i128")
+{
+	field(DESC,"spectrometer intesity i128") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i129")
+{
+	field(DESC,"spectrometer intesity i129") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i130")
+{
+	field(DESC,"spectrometer intesity i130") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i131")
+{
+	field(DESC,"spectrometer intesity i131") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i132")
+{
+	field(DESC,"spectrometer intesity i132") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i133")
+{
+	field(DESC,"spectrometer intesity i133") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i134")
+{
+	field(DESC,"spectrometer intesity i134") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i135")
+{
+	field(DESC,"spectrometer intesity i135") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i136")
+{
+	field(DESC,"spectrometer intesity i136") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i137")
+{
+	field(DESC,"spectrometer intesity i137") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i138")
+{
+	field(DESC,"spectrometer intesity i138") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i139")
+{
+	field(DESC,"spectrometer intesity i139") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i140")
+{
+	field(DESC,"spectrometer intesity i140") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i141")
+{
+	field(DESC,"spectrometer intesity i141") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i142")
+{
+	field(DESC,"spectrometer intesity i142") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i143")
+{
+	field(DESC,"spectrometer intesity i143") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i144")
+{
+	field(DESC,"spectrometer intesity i144") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i145")
+{
+	field(DESC,"spectrometer intesity i145") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i146")
+{
+	field(DESC,"spectrometer intesity i146") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i147")
+{
+	field(DESC,"spectrometer intesity i147") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i148")
+{
+	field(DESC,"spectrometer intesity i148") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i149")
+{
+	field(DESC,"spectrometer intesity i149") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i150")
+{
+	field(DESC,"spectrometer intesity i150") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i151")
+{
+	field(DESC,"spectrometer intesity i151") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i152")
+{
+	field(DESC,"spectrometer intesity i152") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i153")
+{
+	field(DESC,"spectrometer intesity i153") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i154")
+{
+	field(DESC,"spectrometer intesity i154") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i155")
+{
+	field(DESC,"spectrometer intesity i155") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i156")
+{
+	field(DESC,"spectrometer intesity i156") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i157")
+{
+	field(DESC,"spectrometer intesity i157") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i158")
+{
+	field(DESC,"spectrometer intesity i158") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i159")
+{
+	field(DESC,"spectrometer intesity i159") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i160")
+{
+	field(DESC,"spectrometer intesity i160") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i161")
+{
+	field(DESC,"spectrometer intesity i161") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i162")
+{
+	field(DESC,"spectrometer intesity i162") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i163")
+{
+	field(DESC,"spectrometer intesity i163") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i164")
+{
+	field(DESC,"spectrometer intesity i164") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i165")
+{
+	field(DESC,"spectrometer intesity i165") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i166")
+{
+	field(DESC,"spectrometer intesity i166") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i167")
+{
+	field(DESC,"spectrometer intesity i167") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i168")
+{
+	field(DESC,"spectrometer intesity i168") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i169")
+{
+	field(DESC,"spectrometer intesity i169") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i170")
+{
+	field(DESC,"spectrometer intesity i170") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i171")
+{
+	field(DESC,"spectrometer intesity i171") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i172")
+{
+	field(DESC,"spectrometer intesity i172") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i173")
+{
+	field(DESC,"spectrometer intesity i173") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i174")
+{
+	field(DESC,"spectrometer intesity i174") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i175")
+{
+	field(DESC,"spectrometer intesity i175") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i176")
+{
+	field(DESC,"spectrometer intesity i176") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i177")
+{
+	field(DESC,"spectrometer intesity i177") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i178")
+{
+	field(DESC,"spectrometer intesity i178") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i179")
+{
+	field(DESC,"spectrometer intesity i179") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i180")
+{
+	field(DESC,"spectrometer intesity i180") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i181")
+{
+	field(DESC,"spectrometer intesity i181") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i182")
+{
+	field(DESC,"spectrometer intesity i182") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i183")
+{
+	field(DESC,"spectrometer intesity i183") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i184")
+{
+	field(DESC,"spectrometer intesity i184") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i185")
+{
+	field(DESC,"spectrometer intesity i185") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i186")
+{
+	field(DESC,"spectrometer intesity i186") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i187")
+{
+	field(DESC,"spectrometer intesity i187") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i188")
+{
+	field(DESC,"spectrometer intesity i188") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i189")
+{
+	field(DESC,"spectrometer intesity i189") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i190")
+{
+	field(DESC,"spectrometer intesity i190") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i191")
+{
+	field(DESC,"spectrometer intesity i191") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i192")
+{
+	field(DESC,"spectrometer intesity i192") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i193")
+{
+	field(DESC,"spectrometer intesity i193") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i194")
+{
+	field(DESC,"spectrometer intesity i194") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i195")
+{
+	field(DESC,"spectrometer intesity i195") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i196")
+{
+	field(DESC,"spectrometer intesity i196") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i197")
+{
+	field(DESC,"spectrometer intesity i197") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i198")
+{
+	field(DESC,"spectrometer intesity i198") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i199")
+{
+	field(DESC,"spectrometer intesity i199") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i200")
+{
+	field(DESC,"spectrometer intesity i200") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i201")
+{
+	field(DESC,"spectrometer intesity i201") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i202")
+{
+	field(DESC,"spectrometer intesity i202") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i203")
+{
+	field(DESC,"spectrometer intesity i203") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i204")
+{
+	field(DESC,"spectrometer intesity i204") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i205")
+{
+	field(DESC,"spectrometer intesity i205") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i206")
+{
+	field(DESC,"spectrometer intesity i206") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i207")
+{
+	field(DESC,"spectrometer intesity i207") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i208")
+{
+	field(DESC,"spectrometer intesity i208") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i209")
+{
+	field(DESC,"spectrometer intesity i209") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i210")
+{
+	field(DESC,"spectrometer intesity i210") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i211")
+{
+	field(DESC,"spectrometer intesity i211") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i212")
+{
+	field(DESC,"spectrometer intesity i212") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i213")
+{
+	field(DESC,"spectrometer intesity i213") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i214")
+{
+	field(DESC,"spectrometer intesity i214") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i215")
+{
+	field(DESC,"spectrometer intesity i215") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i216")
+{
+	field(DESC,"spectrometer intesity i216") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i217")
+{
+	field(DESC,"spectrometer intesity i217") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i218")
+{
+	field(DESC,"spectrometer intesity i218") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i219")
+{
+	field(DESC,"spectrometer intesity i219") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i220")
+{
+	field(DESC,"spectrometer intesity i220") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i221")
+{
+	field(DESC,"spectrometer intesity i221") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i222")
+{
+	field(DESC,"spectrometer intesity i222") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i223")
+{
+	field(DESC,"spectrometer intesity i223") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i224")
+{
+	field(DESC,"spectrometer intesity i224") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i225")
+{
+	field(DESC,"spectrometer intesity i225") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i226")
+{
+	field(DESC,"spectrometer intesity i226") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i227")
+{
+	field(DESC,"spectrometer intesity i227") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i228")
+{
+	field(DESC,"spectrometer intesity i228") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i229")
+{
+	field(DESC,"spectrometer intesity i229") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i230")
+{
+	field(DESC,"spectrometer intesity i230") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i231")
+{
+	field(DESC,"spectrometer intesity i231") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i232")
+{
+	field(DESC,"spectrometer intesity i232") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i233")
+{
+	field(DESC,"spectrometer intesity i233") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i234")
+{
+	field(DESC,"spectrometer intesity i234") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i235")
+{
+	field(DESC,"spectrometer intesity i235") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i236")
+{
+	field(DESC,"spectrometer intesity i236") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i237")
+{
+	field(DESC,"spectrometer intesity i237") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i238")
+{
+	field(DESC,"spectrometer intesity i238") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i239")
+{
+	field(DESC,"spectrometer intesity i239") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i240")
+{
+	field(DESC,"spectrometer intesity i240") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i241")
+{
+	field(DESC,"spectrometer intesity i241") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i242")
+{
+	field(DESC,"spectrometer intesity i242") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i243")
+{
+	field(DESC,"spectrometer intesity i243") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i244")
+{
+	field(DESC,"spectrometer intesity i244") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i245")
+{
+	field(DESC,"spectrometer intesity i245") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i246")
+{
+	field(DESC,"spectrometer intesity i246") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i247")
+{
+	field(DESC,"spectrometer intesity i247") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i248")
+{
+	field(DESC,"spectrometer intesity i248") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i249")
+{
+	field(DESC,"spectrometer intesity i249") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i250")
+{
+	field(DESC,"spectrometer intesity i250") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i251")
+{
+	field(DESC,"spectrometer intesity i251") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i252")
+{
+	field(DESC,"spectrometer intesity i252") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i253")
+{
+	field(DESC,"spectrometer intesity i253") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i254")
+{
+	field(DESC,"spectrometer intesity i254") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i255")
+{
+	field(DESC,"spectrometer intesity i255") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i256")
+{
+	field(DESC,"spectrometer intesity i256") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i257")
+{
+	field(DESC,"spectrometer intesity i257") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i258")
+{
+	field(DESC,"spectrometer intesity i258") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i259")
+{
+	field(DESC,"spectrometer intesity i259") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i260")
+{
+	field(DESC,"spectrometer intesity i260") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i261")
+{
+	field(DESC,"spectrometer intesity i261") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i262")
+{
+	field(DESC,"spectrometer intesity i262") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i263")
+{
+	field(DESC,"spectrometer intesity i263") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i264")
+{
+	field(DESC,"spectrometer intesity i264") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i265")
+{
+	field(DESC,"spectrometer intesity i265") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i266")
+{
+	field(DESC,"spectrometer intesity i266") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i267")
+{
+	field(DESC,"spectrometer intesity i267") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i268")
+{
+	field(DESC,"spectrometer intesity i268") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i269")
+{
+	field(DESC,"spectrometer intesity i269") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i270")
+{
+	field(DESC,"spectrometer intesity i270") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i271")
+{
+	field(DESC,"spectrometer intesity i271") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i272")
+{
+	field(DESC,"spectrometer intesity i272") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i273")
+{
+	field(DESC,"spectrometer intesity i273") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i274")
+{
+	field(DESC,"spectrometer intesity i274") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i275")
+{
+	field(DESC,"spectrometer intesity i275") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i276")
+{
+	field(DESC,"spectrometer intesity i276") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i277")
+{
+	field(DESC,"spectrometer intesity i277") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i278")
+{
+	field(DESC,"spectrometer intesity i278") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i279")
+{
+	field(DESC,"spectrometer intesity i279") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i280")
+{
+	field(DESC,"spectrometer intesity i280") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i281")
+{
+	field(DESC,"spectrometer intesity i281") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i282")
+{
+	field(DESC,"spectrometer intesity i282") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i283")
+{
+	field(DESC,"spectrometer intesity i283") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i284")
+{
+	field(DESC,"spectrometer intesity i284") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i285")
+{
+	field(DESC,"spectrometer intesity i285") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i286")
+{
+	field(DESC,"spectrometer intesity i286") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i287")
+{
+	field(DESC,"spectrometer intesity i287") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i288")
+{
+	field(DESC,"spectrometer intesity i288") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i289")
+{
+	field(DESC,"spectrometer intesity i289") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i290")
+{
+	field(DESC,"spectrometer intesity i290") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i291")
+{
+	field(DESC,"spectrometer intesity i291") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i292")
+{
+	field(DESC,"spectrometer intesity i292") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i293")
+{
+	field(DESC,"spectrometer intesity i293") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i294")
+{
+	field(DESC,"spectrometer intesity i294") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i295")
+{
+	field(DESC,"spectrometer intesity i295") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i296")
+{
+	field(DESC,"spectrometer intesity i296") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i297")
+{
+	field(DESC,"spectrometer intesity i297") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i298")
+{
+	field(DESC,"spectrometer intesity i298") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i299")
+{
+	field(DESC,"spectrometer intesity i299") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i300")
+{
+	field(DESC,"spectrometer intesity i300") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i301")
+{
+	field(DESC,"spectrometer intesity i301") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i302")
+{
+	field(DESC,"spectrometer intesity i302") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i303")
+{
+	field(DESC,"spectrometer intesity i303") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i304")
+{
+	field(DESC,"spectrometer intesity i304") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i305")
+{
+	field(DESC,"spectrometer intesity i305") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i306")
+{
+	field(DESC,"spectrometer intesity i306") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i307")
+{
+	field(DESC,"spectrometer intesity i307") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i308")
+{
+	field(DESC,"spectrometer intesity i308") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i309")
+{
+	field(DESC,"spectrometer intesity i309") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i310")
+{
+	field(DESC,"spectrometer intesity i310") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i311")
+{
+	field(DESC,"spectrometer intesity i311") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i312")
+{
+	field(DESC,"spectrometer intesity i312") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i313")
+{
+	field(DESC,"spectrometer intesity i313") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i314")
+{
+	field(DESC,"spectrometer intesity i314") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i315")
+{
+	field(DESC,"spectrometer intesity i315") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i316")
+{
+	field(DESC,"spectrometer intesity i316") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i317")
+{
+	field(DESC,"spectrometer intesity i317") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i318")
+{
+	field(DESC,"spectrometer intesity i318") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i319")
+{
+	field(DESC,"spectrometer intesity i319") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i320")
+{
+	field(DESC,"spectrometer intesity i320") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i321")
+{
+	field(DESC,"spectrometer intesity i321") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i322")
+{
+	field(DESC,"spectrometer intesity i322") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i323")
+{
+	field(DESC,"spectrometer intesity i323") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i324")
+{
+	field(DESC,"spectrometer intesity i324") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i325")
+{
+	field(DESC,"spectrometer intesity i325") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i326")
+{
+	field(DESC,"spectrometer intesity i326") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i327")
+{
+	field(DESC,"spectrometer intesity i327") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i328")
+{
+	field(DESC,"spectrometer intesity i328") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i329")
+{
+	field(DESC,"spectrometer intesity i329") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i330")
+{
+	field(DESC,"spectrometer intesity i330") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i331")
+{
+	field(DESC,"spectrometer intesity i331") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i332")
+{
+	field(DESC,"spectrometer intesity i332") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i333")
+{
+	field(DESC,"spectrometer intesity i333") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i334")
+{
+	field(DESC,"spectrometer intesity i334") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i335")
+{
+	field(DESC,"spectrometer intesity i335") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i336")
+{
+	field(DESC,"spectrometer intesity i336") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i337")
+{
+	field(DESC,"spectrometer intesity i337") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i338")
+{
+	field(DESC,"spectrometer intesity i338") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i339")
+{
+	field(DESC,"spectrometer intesity i339") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i340")
+{
+	field(DESC,"spectrometer intesity i340") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i341")
+{
+	field(DESC,"spectrometer intesity i341") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i342")
+{
+	field(DESC,"spectrometer intesity i342") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i343")
+{
+	field(DESC,"spectrometer intesity i343") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i344")
+{
+	field(DESC,"spectrometer intesity i344") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i345")
+{
+	field(DESC,"spectrometer intesity i345") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i346")
+{
+	field(DESC,"spectrometer intesity i346") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i347")
+{
+	field(DESC,"spectrometer intesity i347") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i348")
+{
+	field(DESC,"spectrometer intesity i348") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i349")
+{
+	field(DESC,"spectrometer intesity i349") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i350")
+{
+	field(DESC,"spectrometer intesity i350") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i351")
+{
+	field(DESC,"spectrometer intesity i351") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i352")
+{
+	field(DESC,"spectrometer intesity i352") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i353")
+{
+	field(DESC,"spectrometer intesity i353") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i354")
+{
+	field(DESC,"spectrometer intesity i354") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i355")
+{
+	field(DESC,"spectrometer intesity i355") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i356")
+{
+	field(DESC,"spectrometer intesity i356") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i357")
+{
+	field(DESC,"spectrometer intesity i357") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i358")
+{
+	field(DESC,"spectrometer intesity i358") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i359")
+{
+	field(DESC,"spectrometer intesity i359") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i360")
+{
+	field(DESC,"spectrometer intesity i360") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i361")
+{
+	field(DESC,"spectrometer intesity i361") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i362")
+{
+	field(DESC,"spectrometer intesity i362") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i363")
+{
+	field(DESC,"spectrometer intesity i363") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i364")
+{
+	field(DESC,"spectrometer intesity i364") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i365")
+{
+	field(DESC,"spectrometer intesity i365") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i366")
+{
+	field(DESC,"spectrometer intesity i366") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i367")
+{
+	field(DESC,"spectrometer intesity i367") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i368")
+{
+	field(DESC,"spectrometer intesity i368") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i369")
+{
+	field(DESC,"spectrometer intesity i369") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i370")
+{
+	field(DESC,"spectrometer intesity i370") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i371")
+{
+	field(DESC,"spectrometer intesity i371") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i372")
+{
+	field(DESC,"spectrometer intesity i372") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i373")
+{
+	field(DESC,"spectrometer intesity i373") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i374")
+{
+	field(DESC,"spectrometer intesity i374") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i375")
+{
+	field(DESC,"spectrometer intesity i375") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i376")
+{
+	field(DESC,"spectrometer intesity i376") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i377")
+{
+	field(DESC,"spectrometer intesity i377") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i378")
+{
+	field(DESC,"spectrometer intesity i378") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i379")
+{
+	field(DESC,"spectrometer intesity i379") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i380")
+{
+	field(DESC,"spectrometer intesity i380") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i381")
+{
+	field(DESC,"spectrometer intesity i381") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i382")
+{
+	field(DESC,"spectrometer intesity i382") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i383")
+{
+	field(DESC,"spectrometer intesity i383") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i384")
+{
+	field(DESC,"spectrometer intesity i384") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i385")
+{
+	field(DESC,"spectrometer intesity i385") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i386")
+{
+	field(DESC,"spectrometer intesity i386") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i387")
+{
+	field(DESC,"spectrometer intesity i387") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i388")
+{
+	field(DESC,"spectrometer intesity i388") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i389")
+{
+	field(DESC,"spectrometer intesity i389") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i390")
+{
+	field(DESC,"spectrometer intesity i390") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i391")
+{
+	field(DESC,"spectrometer intesity i391") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i392")
+{
+	field(DESC,"spectrometer intesity i392") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i393")
+{
+	field(DESC,"spectrometer intesity i393") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i394")
+{
+	field(DESC,"spectrometer intesity i394") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i395")
+{
+	field(DESC,"spectrometer intesity i395") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i396")
+{
+	field(DESC,"spectrometer intesity i396") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i397")
+{
+	field(DESC,"spectrometer intesity i397") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i398")
+{
+	field(DESC,"spectrometer intesity i398") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i399")
+{
+	field(DESC,"spectrometer intesity i399") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i400")
+{
+	field(DESC,"spectrometer intesity i400") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i401")
+{
+	field(DESC,"spectrometer intesity i401") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i402")
+{
+	field(DESC,"spectrometer intesity i402") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i403")
+{
+	field(DESC,"spectrometer intesity i403") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i404")
+{
+	field(DESC,"spectrometer intesity i404") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i405")
+{
+	field(DESC,"spectrometer intesity i405") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i406")
+{
+	field(DESC,"spectrometer intesity i406") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i407")
+{
+	field(DESC,"spectrometer intesity i407") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i408")
+{
+	field(DESC,"spectrometer intesity i408") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i409")
+{
+	field(DESC,"spectrometer intesity i409") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i410")
+{
+	field(DESC,"spectrometer intesity i410") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i411")
+{
+	field(DESC,"spectrometer intesity i411") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i412")
+{
+	field(DESC,"spectrometer intesity i412") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i413")
+{
+	field(DESC,"spectrometer intesity i413") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i414")
+{
+	field(DESC,"spectrometer intesity i414") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i415")
+{
+	field(DESC,"spectrometer intesity i415") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i416")
+{
+	field(DESC,"spectrometer intesity i416") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i417")
+{
+	field(DESC,"spectrometer intesity i417") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i418")
+{
+	field(DESC,"spectrometer intesity i418") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i419")
+{
+	field(DESC,"spectrometer intesity i419") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i420")
+{
+	field(DESC,"spectrometer intesity i420") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i421")
+{
+	field(DESC,"spectrometer intesity i421") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i422")
+{
+	field(DESC,"spectrometer intesity i422") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i423")
+{
+	field(DESC,"spectrometer intesity i423") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i424")
+{
+	field(DESC,"spectrometer intesity i424") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i425")
+{
+	field(DESC,"spectrometer intesity i425") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i426")
+{
+	field(DESC,"spectrometer intesity i426") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i427")
+{
+	field(DESC,"spectrometer intesity i427") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i428")
+{
+	field(DESC,"spectrometer intesity i428") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i429")
+{
+	field(DESC,"spectrometer intesity i429") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i430")
+{
+	field(DESC,"spectrometer intesity i430") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i431")
+{
+	field(DESC,"spectrometer intesity i431") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i432")
+{
+	field(DESC,"spectrometer intesity i432") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i433")
+{
+	field(DESC,"spectrometer intesity i433") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i434")
+{
+	field(DESC,"spectrometer intesity i434") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i435")
+{
+	field(DESC,"spectrometer intesity i435") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i436")
+{
+	field(DESC,"spectrometer intesity i436") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i437")
+{
+	field(DESC,"spectrometer intesity i437") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i438")
+{
+	field(DESC,"spectrometer intesity i438") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i439")
+{
+	field(DESC,"spectrometer intesity i439") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i440")
+{
+	field(DESC,"spectrometer intesity i440") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i441")
+{
+	field(DESC,"spectrometer intesity i441") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i442")
+{
+	field(DESC,"spectrometer intesity i442") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i443")
+{
+	field(DESC,"spectrometer intesity i443") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i444")
+{
+	field(DESC,"spectrometer intesity i444") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i445")
+{
+	field(DESC,"spectrometer intesity i445") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i446")
+{
+	field(DESC,"spectrometer intesity i446") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i447")
+{
+	field(DESC,"spectrometer intesity i447") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i448")
+{
+	field(DESC,"spectrometer intesity i448") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i449")
+{
+	field(DESC,"spectrometer intesity i449") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i450")
+{
+	field(DESC,"spectrometer intesity i450") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i451")
+{
+	field(DESC,"spectrometer intesity i451") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i452")
+{
+	field(DESC,"spectrometer intesity i452") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i453")
+{
+	field(DESC,"spectrometer intesity i453") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i454")
+{
+	field(DESC,"spectrometer intesity i454") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i455")
+{
+	field(DESC,"spectrometer intesity i455") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i456")
+{
+	field(DESC,"spectrometer intesity i456") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i457")
+{
+	field(DESC,"spectrometer intesity i457") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i458")
+{
+	field(DESC,"spectrometer intesity i458") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i459")
+{
+	field(DESC,"spectrometer intesity i459") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i460")
+{
+	field(DESC,"spectrometer intesity i460") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i461")
+{
+	field(DESC,"spectrometer intesity i461") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i462")
+{
+	field(DESC,"spectrometer intesity i462") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i463")
+{
+	field(DESC,"spectrometer intesity i463") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i464")
+{
+	field(DESC,"spectrometer intesity i464") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i465")
+{
+	field(DESC,"spectrometer intesity i465") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i466")
+{
+	field(DESC,"spectrometer intesity i466") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i467")
+{
+	field(DESC,"spectrometer intesity i467") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i468")
+{
+	field(DESC,"spectrometer intesity i468") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i469")
+{
+	field(DESC,"spectrometer intesity i469") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i470")
+{
+	field(DESC,"spectrometer intesity i470") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i471")
+{
+	field(DESC,"spectrometer intesity i471") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i472")
+{
+	field(DESC,"spectrometer intesity i472") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i473")
+{
+	field(DESC,"spectrometer intesity i473") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i474")
+{
+	field(DESC,"spectrometer intesity i474") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i475")
+{
+	field(DESC,"spectrometer intesity i475") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i476")
+{
+	field(DESC,"spectrometer intesity i476") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i477")
+{
+	field(DESC,"spectrometer intesity i477") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i478")
+{
+	field(DESC,"spectrometer intesity i478") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i479")
+{
+	field(DESC,"spectrometer intesity i479") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i480")
+{
+	field(DESC,"spectrometer intesity i480") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i481")
+{
+	field(DESC,"spectrometer intesity i481") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i482")
+{
+	field(DESC,"spectrometer intesity i482") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i483")
+{
+	field(DESC,"spectrometer intesity i483") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i484")
+{
+	field(DESC,"spectrometer intesity i484") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i485")
+{
+	field(DESC,"spectrometer intesity i485") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i486")
+{
+	field(DESC,"spectrometer intesity i486") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i487")
+{
+	field(DESC,"spectrometer intesity i487") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i488")
+{
+	field(DESC,"spectrometer intesity i488") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i489")
+{
+	field(DESC,"spectrometer intesity i489") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i490")
+{
+	field(DESC,"spectrometer intesity i490") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i491")
+{
+	field(DESC,"spectrometer intesity i491") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i492")
+{
+	field(DESC,"spectrometer intesity i492") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i493")
+{
+	field(DESC,"spectrometer intesity i493") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i494")
+{
+	field(DESC,"spectrometer intesity i494") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i495")
+{
+	field(DESC,"spectrometer intesity i495") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i496")
+{
+	field(DESC,"spectrometer intesity i496") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i497")
+{
+	field(DESC,"spectrometer intesity i497") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i498")
+{
+	field(DESC,"spectrometer intesity i498") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i499")
+{
+	field(DESC,"spectrometer intesity i499") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i500")
+{
+	field(DESC,"spectrometer intesity i500") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i501")
+{
+	field(DESC,"spectrometer intesity i501") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i502")
+{
+	field(DESC,"spectrometer intesity i502") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i503")
+{
+	field(DESC,"spectrometer intesity i503") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i504")
+{
+	field(DESC,"spectrometer intesity i504") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i505")
+{
+	field(DESC,"spectrometer intesity i505") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i506")
+{
+	field(DESC,"spectrometer intesity i506") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i507")
+{
+	field(DESC,"spectrometer intesity i507") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i508")
+{
+	field(DESC,"spectrometer intesity i508") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i509")
+{
+	field(DESC,"spectrometer intesity i509") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i510")
+{
+	field(DESC,"spectrometer intesity i510") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i511")
+{
+	field(DESC,"spectrometer intesity i511") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i512")
+{
+	field(DESC,"spectrometer intesity i512") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i513")
+{
+	field(DESC,"spectrometer intesity i513") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i514")
+{
+	field(DESC,"spectrometer intesity i514") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i515")
+{
+	field(DESC,"spectrometer intesity i515") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i516")
+{
+	field(DESC,"spectrometer intesity i516") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i517")
+{
+	field(DESC,"spectrometer intesity i517") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i518")
+{
+	field(DESC,"spectrometer intesity i518") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i519")
+{
+	field(DESC,"spectrometer intesity i519") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i520")
+{
+	field(DESC,"spectrometer intesity i520") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i521")
+{
+	field(DESC,"spectrometer intesity i521") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i522")
+{
+	field(DESC,"spectrometer intesity i522") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i523")
+{
+	field(DESC,"spectrometer intesity i523") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i524")
+{
+	field(DESC,"spectrometer intesity i524") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i525")
+{
+	field(DESC,"spectrometer intesity i525") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i526")
+{
+	field(DESC,"spectrometer intesity i526") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i527")
+{
+	field(DESC,"spectrometer intesity i527") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i528")
+{
+	field(DESC,"spectrometer intesity i528") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i529")
+{
+	field(DESC,"spectrometer intesity i529") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i530")
+{
+	field(DESC,"spectrometer intesity i530") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i531")
+{
+	field(DESC,"spectrometer intesity i531") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i532")
+{
+	field(DESC,"spectrometer intesity i532") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i533")
+{
+	field(DESC,"spectrometer intesity i533") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i534")
+{
+	field(DESC,"spectrometer intesity i534") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i535")
+{
+	field(DESC,"spectrometer intesity i535") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i536")
+{
+	field(DESC,"spectrometer intesity i536") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i537")
+{
+	field(DESC,"spectrometer intesity i537") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i538")
+{
+	field(DESC,"spectrometer intesity i538") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i539")
+{
+	field(DESC,"spectrometer intesity i539") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i540")
+{
+	field(DESC,"spectrometer intesity i540") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i541")
+{
+	field(DESC,"spectrometer intesity i541") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i542")
+{
+	field(DESC,"spectrometer intesity i542") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i543")
+{
+	field(DESC,"spectrometer intesity i543") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i544")
+{
+	field(DESC,"spectrometer intesity i544") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i545")
+{
+	field(DESC,"spectrometer intesity i545") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i546")
+{
+	field(DESC,"spectrometer intesity i546") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i547")
+{
+	field(DESC,"spectrometer intesity i547") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i548")
+{
+	field(DESC,"spectrometer intesity i548") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i549")
+{
+	field(DESC,"spectrometer intesity i549") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i550")
+{
+	field(DESC,"spectrometer intesity i550") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i551")
+{
+	field(DESC,"spectrometer intesity i551") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i552")
+{
+	field(DESC,"spectrometer intesity i552") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i553")
+{
+	field(DESC,"spectrometer intesity i553") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i554")
+{
+	field(DESC,"spectrometer intesity i554") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i555")
+{
+	field(DESC,"spectrometer intesity i555") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i556")
+{
+	field(DESC,"spectrometer intesity i556") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i557")
+{
+	field(DESC,"spectrometer intesity i557") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i558")
+{
+	field(DESC,"spectrometer intesity i558") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i559")
+{
+	field(DESC,"spectrometer intesity i559") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i560")
+{
+	field(DESC,"spectrometer intesity i560") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i561")
+{
+	field(DESC,"spectrometer intesity i561") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i562")
+{
+	field(DESC,"spectrometer intesity i562") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i563")
+{
+	field(DESC,"spectrometer intesity i563") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i564")
+{
+	field(DESC,"spectrometer intesity i564") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i565")
+{
+	field(DESC,"spectrometer intesity i565") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i566")
+{
+	field(DESC,"spectrometer intesity i566") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i567")
+{
+	field(DESC,"spectrometer intesity i567") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i568")
+{
+	field(DESC,"spectrometer intesity i568") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i569")
+{
+	field(DESC,"spectrometer intesity i569") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i570")
+{
+	field(DESC,"spectrometer intesity i570") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i571")
+{
+	field(DESC,"spectrometer intesity i571") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i572")
+{
+	field(DESC,"spectrometer intesity i572") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i573")
+{
+	field(DESC,"spectrometer intesity i573") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i574")
+{
+	field(DESC,"spectrometer intesity i574") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i575")
+{
+	field(DESC,"spectrometer intesity i575") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i576")
+{
+	field(DESC,"spectrometer intesity i576") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i577")
+{
+	field(DESC,"spectrometer intesity i577") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i578")
+{
+	field(DESC,"spectrometer intesity i578") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i579")
+{
+	field(DESC,"spectrometer intesity i579") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i580")
+{
+	field(DESC,"spectrometer intesity i580") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i581")
+{
+	field(DESC,"spectrometer intesity i581") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i582")
+{
+	field(DESC,"spectrometer intesity i582") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i583")
+{
+	field(DESC,"spectrometer intesity i583") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i584")
+{
+	field(DESC,"spectrometer intesity i584") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i585")
+{
+	field(DESC,"spectrometer intesity i585") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i586")
+{
+	field(DESC,"spectrometer intesity i586") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i587")
+{
+	field(DESC,"spectrometer intesity i587") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i588")
+{
+	field(DESC,"spectrometer intesity i588") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i589")
+{
+	field(DESC,"spectrometer intesity i589") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i590")
+{
+	field(DESC,"spectrometer intesity i590") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i591")
+{
+	field(DESC,"spectrometer intesity i591") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i592")
+{
+	field(DESC,"spectrometer intesity i592") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i593")
+{
+	field(DESC,"spectrometer intesity i593") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i594")
+{
+	field(DESC,"spectrometer intesity i594") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i595")
+{
+	field(DESC,"spectrometer intesity i595") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i596")
+{
+	field(DESC,"spectrometer intesity i596") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i597")
+{
+	field(DESC,"spectrometer intesity i597") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i598")
+{
+	field(DESC,"spectrometer intesity i598") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i599")
+{
+	field(DESC,"spectrometer intesity i599") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i600")
+{
+	field(DESC,"spectrometer intesity i600") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i601")
+{
+	field(DESC,"spectrometer intesity i601") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i602")
+{
+	field(DESC,"spectrometer intesity i602") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i603")
+{
+	field(DESC,"spectrometer intesity i603") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i604")
+{
+	field(DESC,"spectrometer intesity i604") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i605")
+{
+	field(DESC,"spectrometer intesity i605") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i606")
+{
+	field(DESC,"spectrometer intesity i606") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i607")
+{
+	field(DESC,"spectrometer intesity i607") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i608")
+{
+	field(DESC,"spectrometer intesity i608") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i609")
+{
+	field(DESC,"spectrometer intesity i609") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i610")
+{
+	field(DESC,"spectrometer intesity i610") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i611")
+{
+	field(DESC,"spectrometer intesity i611") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i612")
+{
+	field(DESC,"spectrometer intesity i612") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i613")
+{
+	field(DESC,"spectrometer intesity i613") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i614")
+{
+	field(DESC,"spectrometer intesity i614") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i615")
+{
+	field(DESC,"spectrometer intesity i615") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i616")
+{
+	field(DESC,"spectrometer intesity i616") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i617")
+{
+	field(DESC,"spectrometer intesity i617") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i618")
+{
+	field(DESC,"spectrometer intesity i618") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i619")
+{
+	field(DESC,"spectrometer intesity i619") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i620")
+{
+	field(DESC,"spectrometer intesity i620") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i621")
+{
+	field(DESC,"spectrometer intesity i621") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i622")
+{
+	field(DESC,"spectrometer intesity i622") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i623")
+{
+	field(DESC,"spectrometer intesity i623") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i624")
+{
+	field(DESC,"spectrometer intesity i624") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i625")
+{
+	field(DESC,"spectrometer intesity i625") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i626")
+{
+	field(DESC,"spectrometer intesity i626") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i627")
+{
+	field(DESC,"spectrometer intesity i627") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i628")
+{
+	field(DESC,"spectrometer intesity i628") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i629")
+{
+	field(DESC,"spectrometer intesity i629") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i630")
+{
+	field(DESC,"spectrometer intesity i630") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i631")
+{
+	field(DESC,"spectrometer intesity i631") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i632")
+{
+	field(DESC,"spectrometer intesity i632") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i633")
+{
+	field(DESC,"spectrometer intesity i633") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i634")
+{
+	field(DESC,"spectrometer intesity i634") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i635")
+{
+	field(DESC,"spectrometer intesity i635") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i636")
+{
+	field(DESC,"spectrometer intesity i636") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i637")
+{
+	field(DESC,"spectrometer intesity i637") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i638")
+{
+	field(DESC,"spectrometer intesity i638") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i639")
+{
+	field(DESC,"spectrometer intesity i639") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i640")
+{
+	field(DESC,"spectrometer intesity i640") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i641")
+{
+	field(DESC,"spectrometer intesity i641") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i642")
+{
+	field(DESC,"spectrometer intesity i642") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i643")
+{
+	field(DESC,"spectrometer intesity i643") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i644")
+{
+	field(DESC,"spectrometer intesity i644") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i645")
+{
+	field(DESC,"spectrometer intesity i645") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i646")
+{
+	field(DESC,"spectrometer intesity i646") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i647")
+{
+	field(DESC,"spectrometer intesity i647") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i648")
+{
+	field(DESC,"spectrometer intesity i648") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i649")
+{
+	field(DESC,"spectrometer intesity i649") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i650")
+{
+	field(DESC,"spectrometer intesity i650") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i651")
+{
+	field(DESC,"spectrometer intesity i651") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i652")
+{
+	field(DESC,"spectrometer intesity i652") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i653")
+{
+	field(DESC,"spectrometer intesity i653") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i654")
+{
+	field(DESC,"spectrometer intesity i654") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i655")
+{
+	field(DESC,"spectrometer intesity i655") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i656")
+{
+	field(DESC,"spectrometer intesity i656") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i657")
+{
+	field(DESC,"spectrometer intesity i657") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i658")
+{
+	field(DESC,"spectrometer intesity i658") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i659")
+{
+	field(DESC,"spectrometer intesity i659") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i660")
+{
+	field(DESC,"spectrometer intesity i660") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i661")
+{
+	field(DESC,"spectrometer intesity i661") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i662")
+{
+	field(DESC,"spectrometer intesity i662") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i663")
+{
+	field(DESC,"spectrometer intesity i663") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i664")
+{
+	field(DESC,"spectrometer intesity i664") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i665")
+{
+	field(DESC,"spectrometer intesity i665") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i666")
+{
+	field(DESC,"spectrometer intesity i666") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i667")
+{
+	field(DESC,"spectrometer intesity i667") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i668")
+{
+	field(DESC,"spectrometer intesity i668") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i669")
+{
+	field(DESC,"spectrometer intesity i669") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i670")
+{
+	field(DESC,"spectrometer intesity i670") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i671")
+{
+	field(DESC,"spectrometer intesity i671") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i672")
+{
+	field(DESC,"spectrometer intesity i672") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i673")
+{
+	field(DESC,"spectrometer intesity i673") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i674")
+{
+	field(DESC,"spectrometer intesity i674") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i675")
+{
+	field(DESC,"spectrometer intesity i675") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i676")
+{
+	field(DESC,"spectrometer intesity i676") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i677")
+{
+	field(DESC,"spectrometer intesity i677") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i678")
+{
+	field(DESC,"spectrometer intesity i678") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i679")
+{
+	field(DESC,"spectrometer intesity i679") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i680")
+{
+	field(DESC,"spectrometer intesity i680") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i681")
+{
+	field(DESC,"spectrometer intesity i681") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i682")
+{
+	field(DESC,"spectrometer intesity i682") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i683")
+{
+	field(DESC,"spectrometer intesity i683") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i684")
+{
+	field(DESC,"spectrometer intesity i684") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i685")
+{
+	field(DESC,"spectrometer intesity i685") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i686")
+{
+	field(DESC,"spectrometer intesity i686") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i687")
+{
+	field(DESC,"spectrometer intesity i687") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i688")
+{
+	field(DESC,"spectrometer intesity i688") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i689")
+{
+	field(DESC,"spectrometer intesity i689") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i690")
+{
+	field(DESC,"spectrometer intesity i690") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i691")
+{
+	field(DESC,"spectrometer intesity i691") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i692")
+{
+	field(DESC,"spectrometer intesity i692") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i693")
+{
+	field(DESC,"spectrometer intesity i693") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i694")
+{
+	field(DESC,"spectrometer intesity i694") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i695")
+{
+	field(DESC,"spectrometer intesity i695") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i696")
+{
+	field(DESC,"spectrometer intesity i696") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i697")
+{
+	field(DESC,"spectrometer intesity i697") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i698")
+{
+	field(DESC,"spectrometer intesity i698") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i699")
+{
+	field(DESC,"spectrometer intesity i699") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i700")
+{
+	field(DESC,"spectrometer intesity i700") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i701")
+{
+	field(DESC,"spectrometer intesity i701") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i702")
+{
+	field(DESC,"spectrometer intesity i702") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i703")
+{
+	field(DESC,"spectrometer intesity i703") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i704")
+{
+	field(DESC,"spectrometer intesity i704") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i705")
+{
+	field(DESC,"spectrometer intesity i705") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i706")
+{
+	field(DESC,"spectrometer intesity i706") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i707")
+{
+	field(DESC,"spectrometer intesity i707") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i708")
+{
+	field(DESC,"spectrometer intesity i708") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i709")
+{
+	field(DESC,"spectrometer intesity i709") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i710")
+{
+	field(DESC,"spectrometer intesity i710") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i711")
+{
+	field(DESC,"spectrometer intesity i711") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i712")
+{
+	field(DESC,"spectrometer intesity i712") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i713")
+{
+	field(DESC,"spectrometer intesity i713") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i714")
+{
+	field(DESC,"spectrometer intesity i714") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i715")
+{
+	field(DESC,"spectrometer intesity i715") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i716")
+{
+	field(DESC,"spectrometer intesity i716") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i717")
+{
+	field(DESC,"spectrometer intesity i717") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i718")
+{
+	field(DESC,"spectrometer intesity i718") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i719")
+{
+	field(DESC,"spectrometer intesity i719") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i720")
+{
+	field(DESC,"spectrometer intesity i720") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i721")
+{
+	field(DESC,"spectrometer intesity i721") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i722")
+{
+	field(DESC,"spectrometer intesity i722") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i723")
+{
+	field(DESC,"spectrometer intesity i723") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i724")
+{
+	field(DESC,"spectrometer intesity i724") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i725")
+{
+	field(DESC,"spectrometer intesity i725") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i726")
+{
+	field(DESC,"spectrometer intesity i726") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i727")
+{
+	field(DESC,"spectrometer intesity i727") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i728")
+{
+	field(DESC,"spectrometer intesity i728") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i729")
+{
+	field(DESC,"spectrometer intesity i729") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i730")
+{
+	field(DESC,"spectrometer intesity i730") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i731")
+{
+	field(DESC,"spectrometer intesity i731") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i732")
+{
+	field(DESC,"spectrometer intesity i732") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i733")
+{
+	field(DESC,"spectrometer intesity i733") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i734")
+{
+	field(DESC,"spectrometer intesity i734") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i735")
+{
+	field(DESC,"spectrometer intesity i735") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i736")
+{
+	field(DESC,"spectrometer intesity i736") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i737")
+{
+	field(DESC,"spectrometer intesity i737") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i738")
+{
+	field(DESC,"spectrometer intesity i738") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i739")
+{
+	field(DESC,"spectrometer intesity i739") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i740")
+{
+	field(DESC,"spectrometer intesity i740") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i741")
+{
+	field(DESC,"spectrometer intesity i741") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i742")
+{
+	field(DESC,"spectrometer intesity i742") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i743")
+{
+	field(DESC,"spectrometer intesity i743") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i744")
+{
+	field(DESC,"spectrometer intesity i744") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i745")
+{
+	field(DESC,"spectrometer intesity i745") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i746")
+{
+	field(DESC,"spectrometer intesity i746") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i747")
+{
+	field(DESC,"spectrometer intesity i747") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i748")
+{
+	field(DESC,"spectrometer intesity i748") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i749")
+{
+	field(DESC,"spectrometer intesity i749") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i750")
+{
+	field(DESC,"spectrometer intesity i750") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i751")
+{
+	field(DESC,"spectrometer intesity i751") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i752")
+{
+	field(DESC,"spectrometer intesity i752") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i753")
+{
+	field(DESC,"spectrometer intesity i753") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i754")
+{
+	field(DESC,"spectrometer intesity i754") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i755")
+{
+	field(DESC,"spectrometer intesity i755") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i756")
+{
+	field(DESC,"spectrometer intesity i756") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i757")
+{
+	field(DESC,"spectrometer intesity i757") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i758")
+{
+	field(DESC,"spectrometer intesity i758") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i759")
+{
+	field(DESC,"spectrometer intesity i759") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i760")
+{
+	field(DESC,"spectrometer intesity i760") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i761")
+{
+	field(DESC,"spectrometer intesity i761") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i762")
+{
+	field(DESC,"spectrometer intesity i762") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i763")
+{
+	field(DESC,"spectrometer intesity i763") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i764")
+{
+	field(DESC,"spectrometer intesity i764") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i765")
+{
+	field(DESC,"spectrometer intesity i765") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i766")
+{
+	field(DESC,"spectrometer intesity i766") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i767")
+{
+	field(DESC,"spectrometer intesity i767") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i768")
+{
+	field(DESC,"spectrometer intesity i768") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i769")
+{
+	field(DESC,"spectrometer intesity i769") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i770")
+{
+	field(DESC,"spectrometer intesity i770") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i771")
+{
+	field(DESC,"spectrometer intesity i771") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i772")
+{
+	field(DESC,"spectrometer intesity i772") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i773")
+{
+	field(DESC,"spectrometer intesity i773") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i774")
+{
+	field(DESC,"spectrometer intesity i774") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i775")
+{
+	field(DESC,"spectrometer intesity i775") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i776")
+{
+	field(DESC,"spectrometer intesity i776") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i777")
+{
+	field(DESC,"spectrometer intesity i777") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i778")
+{
+	field(DESC,"spectrometer intesity i778") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i779")
+{
+	field(DESC,"spectrometer intesity i779") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i780")
+{
+	field(DESC,"spectrometer intesity i780") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i781")
+{
+	field(DESC,"spectrometer intesity i781") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i782")
+{
+	field(DESC,"spectrometer intesity i782") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i783")
+{
+	field(DESC,"spectrometer intesity i783") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i784")
+{
+	field(DESC,"spectrometer intesity i784") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i785")
+{
+	field(DESC,"spectrometer intesity i785") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i786")
+{
+	field(DESC,"spectrometer intesity i786") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i787")
+{
+	field(DESC,"spectrometer intesity i787") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i788")
+{
+	field(DESC,"spectrometer intesity i788") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i789")
+{
+	field(DESC,"spectrometer intesity i789") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i790")
+{
+	field(DESC,"spectrometer intesity i790") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i791")
+{
+	field(DESC,"spectrometer intesity i791") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i792")
+{
+	field(DESC,"spectrometer intesity i792") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i793")
+{
+	field(DESC,"spectrometer intesity i793") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i794")
+{
+	field(DESC,"spectrometer intesity i794") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i795")
+{
+	field(DESC,"spectrometer intesity i795") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i796")
+{
+	field(DESC,"spectrometer intesity i796") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i797")
+{
+	field(DESC,"spectrometer intesity i797") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i798")
+{
+	field(DESC,"spectrometer intesity i798") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i799")
+{
+	field(DESC,"spectrometer intesity i799") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i800")
+{
+	field(DESC,"spectrometer intesity i800") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i801")
+{
+	field(DESC,"spectrometer intesity i801") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i802")
+{
+	field(DESC,"spectrometer intesity i802") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i803")
+{
+	field(DESC,"spectrometer intesity i803") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i804")
+{
+	field(DESC,"spectrometer intesity i804") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i805")
+{
+	field(DESC,"spectrometer intesity i805") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i806")
+{
+	field(DESC,"spectrometer intesity i806") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i807")
+{
+	field(DESC,"spectrometer intesity i807") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i808")
+{
+	field(DESC,"spectrometer intesity i808") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i809")
+{
+	field(DESC,"spectrometer intesity i809") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i810")
+{
+	field(DESC,"spectrometer intesity i810") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i811")
+{
+	field(DESC,"spectrometer intesity i811") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i812")
+{
+	field(DESC,"spectrometer intesity i812") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i813")
+{
+	field(DESC,"spectrometer intesity i813") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i814")
+{
+	field(DESC,"spectrometer intesity i814") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i815")
+{
+	field(DESC,"spectrometer intesity i815") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i816")
+{
+	field(DESC,"spectrometer intesity i816") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i817")
+{
+	field(DESC,"spectrometer intesity i817") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i818")
+{
+	field(DESC,"spectrometer intesity i818") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i819")
+{
+	field(DESC,"spectrometer intesity i819") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i820")
+{
+	field(DESC,"spectrometer intesity i820") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i821")
+{
+	field(DESC,"spectrometer intesity i821") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i822")
+{
+	field(DESC,"spectrometer intesity i822") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i823")
+{
+	field(DESC,"spectrometer intesity i823") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i824")
+{
+	field(DESC,"spectrometer intesity i824") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i825")
+{
+	field(DESC,"spectrometer intesity i825") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i826")
+{
+	field(DESC,"spectrometer intesity i826") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i827")
+{
+	field(DESC,"spectrometer intesity i827") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i828")
+{
+	field(DESC,"spectrometer intesity i828") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i829")
+{
+	field(DESC,"spectrometer intesity i829") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i830")
+{
+	field(DESC,"spectrometer intesity i830") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i831")
+{
+	field(DESC,"spectrometer intesity i831") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i832")
+{
+	field(DESC,"spectrometer intesity i832") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i833")
+{
+	field(DESC,"spectrometer intesity i833") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i834")
+{
+	field(DESC,"spectrometer intesity i834") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i835")
+{
+	field(DESC,"spectrometer intesity i835") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i836")
+{
+	field(DESC,"spectrometer intesity i836") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i837")
+{
+	field(DESC,"spectrometer intesity i837") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i838")
+{
+	field(DESC,"spectrometer intesity i838") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i839")
+{
+	field(DESC,"spectrometer intesity i839") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i840")
+{
+	field(DESC,"spectrometer intesity i840") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i841")
+{
+	field(DESC,"spectrometer intesity i841") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i842")
+{
+	field(DESC,"spectrometer intesity i842") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i843")
+{
+	field(DESC,"spectrometer intesity i843") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i844")
+{
+	field(DESC,"spectrometer intesity i844") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i845")
+{
+	field(DESC,"spectrometer intesity i845") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i846")
+{
+	field(DESC,"spectrometer intesity i846") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i847")
+{
+	field(DESC,"spectrometer intesity i847") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i848")
+{
+	field(DESC,"spectrometer intesity i848") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i849")
+{
+	field(DESC,"spectrometer intesity i849") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i850")
+{
+	field(DESC,"spectrometer intesity i850") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i851")
+{
+	field(DESC,"spectrometer intesity i851") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i852")
+{
+	field(DESC,"spectrometer intesity i852") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i853")
+{
+	field(DESC,"spectrometer intesity i853") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i854")
+{
+	field(DESC,"spectrometer intesity i854") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i855")
+{
+	field(DESC,"spectrometer intesity i855") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i856")
+{
+	field(DESC,"spectrometer intesity i856") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i857")
+{
+	field(DESC,"spectrometer intesity i857") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i858")
+{
+	field(DESC,"spectrometer intesity i858") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i859")
+{
+	field(DESC,"spectrometer intesity i859") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i860")
+{
+	field(DESC,"spectrometer intesity i860") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i861")
+{
+	field(DESC,"spectrometer intesity i861") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i862")
+{
+	field(DESC,"spectrometer intesity i862") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i863")
+{
+	field(DESC,"spectrometer intesity i863") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i864")
+{
+	field(DESC,"spectrometer intesity i864") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i865")
+{
+	field(DESC,"spectrometer intesity i865") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i866")
+{
+	field(DESC,"spectrometer intesity i866") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i867")
+{
+	field(DESC,"spectrometer intesity i867") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i868")
+{
+	field(DESC,"spectrometer intesity i868") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i869")
+{
+	field(DESC,"spectrometer intesity i869") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i870")
+{
+	field(DESC,"spectrometer intesity i870") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i871")
+{
+	field(DESC,"spectrometer intesity i871") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i872")
+{
+	field(DESC,"spectrometer intesity i872") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i873")
+{
+	field(DESC,"spectrometer intesity i873") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i874")
+{
+	field(DESC,"spectrometer intesity i874") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i875")
+{
+	field(DESC,"spectrometer intesity i875") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i876")
+{
+	field(DESC,"spectrometer intesity i876") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i877")
+{
+	field(DESC,"spectrometer intesity i877") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i878")
+{
+	field(DESC,"spectrometer intesity i878") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i879")
+{
+	field(DESC,"spectrometer intesity i879") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i880")
+{
+	field(DESC,"spectrometer intesity i880") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i881")
+{
+	field(DESC,"spectrometer intesity i881") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i882")
+{
+	field(DESC,"spectrometer intesity i882") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i883")
+{
+	field(DESC,"spectrometer intesity i883") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i884")
+{
+	field(DESC,"spectrometer intesity i884") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i885")
+{
+	field(DESC,"spectrometer intesity i885") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i886")
+{
+	field(DESC,"spectrometer intesity i886") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i887")
+{
+	field(DESC,"spectrometer intesity i887") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i888")
+{
+	field(DESC,"spectrometer intesity i888") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i889")
+{
+	field(DESC,"spectrometer intesity i889") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i890")
+{
+	field(DESC,"spectrometer intesity i890") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i891")
+{
+	field(DESC,"spectrometer intesity i891") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i892")
+{
+	field(DESC,"spectrometer intesity i892") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i893")
+{
+	field(DESC,"spectrometer intesity i893") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i894")
+{
+	field(DESC,"spectrometer intesity i894") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i895")
+{
+	field(DESC,"spectrometer intesity i895") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i896")
+{
+	field(DESC,"spectrometer intesity i896") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i897")
+{
+	field(DESC,"spectrometer intesity i897") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i898")
+{
+	field(DESC,"spectrometer intesity i898") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i899")
+{
+	field(DESC,"spectrometer intesity i899") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i900")
+{
+	field(DESC,"spectrometer intesity i900") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i901")
+{
+	field(DESC,"spectrometer intesity i901") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i902")
+{
+	field(DESC,"spectrometer intesity i902") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i903")
+{
+	field(DESC,"spectrometer intesity i903") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i904")
+{
+	field(DESC,"spectrometer intesity i904") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i905")
+{
+	field(DESC,"spectrometer intesity i905") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i906")
+{
+	field(DESC,"spectrometer intesity i906") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i907")
+{
+	field(DESC,"spectrometer intesity i907") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i908")
+{
+	field(DESC,"spectrometer intesity i908") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i909")
+{
+	field(DESC,"spectrometer intesity i909") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i910")
+{
+	field(DESC,"spectrometer intesity i910") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i911")
+{
+	field(DESC,"spectrometer intesity i911") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i912")
+{
+	field(DESC,"spectrometer intesity i912") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i913")
+{
+	field(DESC,"spectrometer intesity i913") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i914")
+{
+	field(DESC,"spectrometer intesity i914") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i915")
+{
+	field(DESC,"spectrometer intesity i915") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i916")
+{
+	field(DESC,"spectrometer intesity i916") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i917")
+{
+	field(DESC,"spectrometer intesity i917") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i918")
+{
+	field(DESC,"spectrometer intesity i918") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i919")
+{
+	field(DESC,"spectrometer intesity i919") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i920")
+{
+	field(DESC,"spectrometer intesity i920") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i921")
+{
+	field(DESC,"spectrometer intesity i921") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i922")
+{
+	field(DESC,"spectrometer intesity i922") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i923")
+{
+	field(DESC,"spectrometer intesity i923") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i924")
+{
+	field(DESC,"spectrometer intesity i924") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i925")
+{
+	field(DESC,"spectrometer intesity i925") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i926")
+{
+	field(DESC,"spectrometer intesity i926") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i927")
+{
+	field(DESC,"spectrometer intesity i927") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i928")
+{
+	field(DESC,"spectrometer intesity i928") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i929")
+{
+	field(DESC,"spectrometer intesity i929") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i930")
+{
+	field(DESC,"spectrometer intesity i930") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i931")
+{
+	field(DESC,"spectrometer intesity i931") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i932")
+{
+	field(DESC,"spectrometer intesity i932") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i933")
+{
+	field(DESC,"spectrometer intesity i933") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i934")
+{
+	field(DESC,"spectrometer intesity i934") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i935")
+{
+	field(DESC,"spectrometer intesity i935") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i936")
+{
+	field(DESC,"spectrometer intesity i936") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i937")
+{
+	field(DESC,"spectrometer intesity i937") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i938")
+{
+	field(DESC,"spectrometer intesity i938") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i939")
+{
+	field(DESC,"spectrometer intesity i939") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i940")
+{
+	field(DESC,"spectrometer intesity i940") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i941")
+{
+	field(DESC,"spectrometer intesity i941") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i942")
+{
+	field(DESC,"spectrometer intesity i942") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i943")
+{
+	field(DESC,"spectrometer intesity i943") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i944")
+{
+	field(DESC,"spectrometer intesity i944") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i945")
+{
+	field(DESC,"spectrometer intesity i945") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i946")
+{
+	field(DESC,"spectrometer intesity i946") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i947")
+{
+	field(DESC,"spectrometer intesity i947") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i948")
+{
+	field(DESC,"spectrometer intesity i948") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i949")
+{
+	field(DESC,"spectrometer intesity i949") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i950")
+{
+	field(DESC,"spectrometer intesity i950") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i951")
+{
+	field(DESC,"spectrometer intesity i951") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i952")
+{
+	field(DESC,"spectrometer intesity i952") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i953")
+{
+	field(DESC,"spectrometer intesity i953") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i954")
+{
+	field(DESC,"spectrometer intesity i954") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i955")
+{
+	field(DESC,"spectrometer intesity i955") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i956")
+{
+	field(DESC,"spectrometer intesity i956") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i957")
+{
+	field(DESC,"spectrometer intesity i957") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i958")
+{
+	field(DESC,"spectrometer intesity i958") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i959")
+{
+	field(DESC,"spectrometer intesity i959") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i960")
+{
+	field(DESC,"spectrometer intesity i960") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i961")
+{
+	field(DESC,"spectrometer intesity i961") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i962")
+{
+	field(DESC,"spectrometer intesity i962") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i963")
+{
+	field(DESC,"spectrometer intesity i963") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i964")
+{
+	field(DESC,"spectrometer intesity i964") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i965")
+{
+	field(DESC,"spectrometer intesity i965") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i966")
+{
+	field(DESC,"spectrometer intesity i966") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i967")
+{
+	field(DESC,"spectrometer intesity i967") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i968")
+{
+	field(DESC,"spectrometer intesity i968") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i969")
+{
+	field(DESC,"spectrometer intesity i969") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i970")
+{
+	field(DESC,"spectrometer intesity i970") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i971")
+{
+	field(DESC,"spectrometer intesity i971") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i972")
+{
+	field(DESC,"spectrometer intesity i972") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i973")
+{
+	field(DESC,"spectrometer intesity i973") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i974")
+{
+	field(DESC,"spectrometer intesity i974") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i975")
+{
+	field(DESC,"spectrometer intesity i975") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i976")
+{
+	field(DESC,"spectrometer intesity i976") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i977")
+{
+	field(DESC,"spectrometer intesity i977") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i978")
+{
+	field(DESC,"spectrometer intesity i978") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i979")
+{
+	field(DESC,"spectrometer intesity i979") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i980")
+{
+	field(DESC,"spectrometer intesity i980") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i981")
+{
+	field(DESC,"spectrometer intesity i981") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i982")
+{
+	field(DESC,"spectrometer intesity i982") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i983")
+{
+	field(DESC,"spectrometer intesity i983") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i984")
+{
+	field(DESC,"spectrometer intesity i984") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i985")
+{
+	field(DESC,"spectrometer intesity i985") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i986")
+{
+	field(DESC,"spectrometer intesity i986") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i987")
+{
+	field(DESC,"spectrometer intesity i987") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i988")
+{
+	field(DESC,"spectrometer intesity i988") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i989")
+{
+	field(DESC,"spectrometer intesity i989") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i990")
+{
+	field(DESC,"spectrometer intesity i990") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i991")
+{
+	field(DESC,"spectrometer intesity i991") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i992")
+{
+	field(DESC,"spectrometer intesity i992") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i993")
+{
+	field(DESC,"spectrometer intesity i993") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i994")
+{
+	field(DESC,"spectrometer intesity i994") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i995")
+{
+	field(DESC,"spectrometer intesity i995") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i996")
+{
+	field(DESC,"spectrometer intesity i996") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i997")
+{
+	field(DESC,"spectrometer intesity i997") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i998")
+{
+	field(DESC,"spectrometer intesity i998") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i999")
+{
+	field(DESC,"spectrometer intesity i999") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i1000")
+{
+	field(DESC,"spectrometer intesity i1000") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i1001")
+{
+	field(DESC,"spectrometer intesity i1001") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i1002")
+{
+	field(DESC,"spectrometer intesity i1002") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i1003")
+{
+	field(DESC,"spectrometer intesity i1003") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i1004")
+{
+	field(DESC,"spectrometer intesity i1004") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i1005")
+{
+	field(DESC,"spectrometer intesity i1005") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i1006")
+{
+	field(DESC,"spectrometer intesity i1006") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i1007")
+{
+	field(DESC,"spectrometer intesity i1007") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i1008")
+{
+	field(DESC,"spectrometer intesity i1008") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i1009")
+{
+	field(DESC,"spectrometer intesity i1009") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i1010")
+{
+	field(DESC,"spectrometer intesity i1010") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i1011")
+{
+	field(DESC,"spectrometer intesity i1011") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i1012")
+{
+	field(DESC,"spectrometer intesity i1012") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i1013")
+{
+	field(DESC,"spectrometer intesity i1013") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i1014")
+{
+	field(DESC,"spectrometer intesity i1014") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i1015")
+{
+	field(DESC,"spectrometer intesity i1015") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i1016")
+{
+	field(DESC,"spectrometer intesity i1016") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i1017")
+{
+	field(DESC,"spectrometer intesity i1017") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i1018")
+{
+	field(DESC,"spectrometer intesity i1018") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i1019")
+{
+	field(DESC,"spectrometer intesity i1019") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i1020")
+{
+	field(DESC,"spectrometer intesity i1020") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i1021")
+{
+	field(DESC,"spectrometer intesity i1021") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i1022")
+{
+	field(DESC,"spectrometer intesity i1022") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i1023")
+{
+	field(DESC,"spectrometer intesity i1023") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i1024")
+{
+	field(DESC,"spectrometer intesity i1024") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i1025")
+{
+	field(DESC,"spectrometer intesity i1025") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i1026")
+{
+	field(DESC,"spectrometer intesity i1026") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i1027")
+{
+	field(DESC,"spectrometer intesity i1027") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i1028")
+{
+	field(DESC,"spectrometer intesity i1028") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i1029")
+{
+	field(DESC,"spectrometer intesity i1029") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i1030")
+{
+	field(DESC,"spectrometer intesity i1030") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i1031")
+{
+	field(DESC,"spectrometer intesity i1031") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i1032")
+{
+	field(DESC,"spectrometer intesity i1032") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i1033")
+{
+	field(DESC,"spectrometer intesity i1033") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i1034")
+{
+	field(DESC,"spectrometer intesity i1034") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i1035")
+{
+	field(DESC,"spectrometer intesity i1035") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i1036")
+{
+	field(DESC,"spectrometer intesity i1036") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i1037")
+{
+	field(DESC,"spectrometer intesity i1037") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i1038")
+{
+	field(DESC,"spectrometer intesity i1038") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i1039")
+{
+	field(DESC,"spectrometer intesity i1039") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i1040")
+{
+	field(DESC,"spectrometer intesity i1040") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i1041")
+{
+	field(DESC,"spectrometer intesity i1041") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i1042")
+{
+	field(DESC,"spectrometer intesity i1042") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:i1043")
+{
+	field(DESC,"spectrometer intesity i1043") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:tec_t_c")
+{
+	field(DESC,"spectrometer tec temperature celsius") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "spectrometer:num_samples")
+{
+	field(DESC,"spectrometer number of samples") #description
+	field(EGU, "mg") #engineering units
+}

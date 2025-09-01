@@ -1,0 +1,29 @@
+record(ai, "gps:latitude"){
+	field(DESC,"gps latitude") #description
+	field(EGU, "degrees") #engineering units
+}
+
+record(ai, "gps:longitude"){
+	field(DESC,"gps longitude") #description
+	field(EGU, "Enter units") #engineering units # TODO: Enter units
+}
+
+record(ai, "gps:altitude"){
+	field(DESC,"gps altitude") #description
+	field(EGU, "mm to sml") #engineering units # TODO: Enter units
+}
+
+record(ai, "gps:num_samples")
+{
+	field(DESC,"number of measures") #description
+	field(EGU, "mdps") #engineering units
+}
+
+#record(ai, "gps:accuracy"){
+#	field(DESC,"gps accuracy") #description
+#	field(EGU, "Enter units") #engineering units
+#}
+
+#record(stringout, "gps:time"){
+#	field(DESC,"gps time") #description
+#}

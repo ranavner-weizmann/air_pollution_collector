@@ -1,0 +1,86 @@
+record(bi, "rtk_arduino:enable")
+{
+	field(DESC, "enable or disable rtk measurment")
+}
+
+record(bi, "rtk_arduino:status")
+{
+	field(DESC, "enable or disable rtk measurment")
+}
+
+record(bi, "rtk_arduino:FusionMode")
+{
+	field(DESC,"measure rtk speed") #description
+}
+
+record(ai, "rtk_arduino:GroundSpeed")
+{
+	field(DESC,"measure rtk ground speed") #description
+	field(EGU, "mm/s") #engineering units
+}
+
+record(ai, "rtk_arduino:Lat")
+{
+	field(DESC,"measure Latitude") #description
+	field(EGU, "Degrees") #engineering units
+}
+
+record(ai, "rtk_arduino:Long")
+{
+	field(DESC,"measure rtk speed") #description
+	field(EGU, "Degrees") #engineering units
+}
+
+record(ai, "rtk_arduino:xAngRate")
+{
+	field(DESC,"measure rtk direction") #description
+	field(EGU, "Degrees") #engineering units
+}
+
+record(ai, "rtk_arduino:yAngRate")
+{
+	field(DESC,"measure rtk direction") #description
+	field(EGU, "Degrees") #engineering units
+}
+
+record(ai, "rtk_arduino:zAngRate")
+{
+	field(DESC,"measure rtk direction") #description
+	field(EGU, "Degree") #engineering units
+}
+
+record(ai, "rtk_arduino:xAccel")
+{
+	field(DESC,"measure temperature") #description
+	field(EGU, "mm/s^2") #engineering units
+}
+
+record(ai, "rtk_arduino:yAccel")
+{
+	field(DESC,"measure temperature") #description
+	field(EGU, "mm/s^2") #engineering units
+}
+
+record(ai, "rtk_arduino:zAccel")
+{
+	field(DESC,"measure temperature") #description
+	field(EGU, "mm/s^2") #engineering units
+}
+
+record(ai, "rtk_arduino:roll")
+{
+	field(DESC,"measure temperature") #description
+	field(EGU, "Degrees 10^-5") #engineering units
+}
+
+record(ai, "rtk_arduino:pitch")
+{
+	field(DESC,"measure temperature") #description
+	field(EGU, "Degrees 10^-5") #engineering units
+}
+
+record(ai, "rtk_arduino:heading")
+{
+	field(DESC,"measure temperature") #description
+	field(EGU, "Degrees 10^-5") #engineering units
+}

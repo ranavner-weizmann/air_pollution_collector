@@ -1,0 +1,16 @@
+Logging in:
+From Linux:
+ifconfig (to find local wi-fi / ethernet device name, dongle name can be wlx7cc2c607df12)
+arp -i wlx7cc2c607df12 (to find the pi's ip address)
+ssh pi@(address, usually 192.168.0.101)
+pwd: 123
+
+router:
+192.168.0.1
+abc123
+to find connected devices: DHCP -> DHCP Client List
+To connect the Pi through ethernet: sudo dhclient eth0 -v
+
+Debugging a Process Variable (PV):
+softIoc -d <name of db file.db> (this runs the PV server)
+debug the PV's service

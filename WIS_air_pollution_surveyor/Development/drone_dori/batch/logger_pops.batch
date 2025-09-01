@@ -1,0 +1,8 @@
+#!/bin/bash
+#SBATCH --job-name=pops_logger
+#SBATCH --nodelist=node01
+#SBATCH --partition=drone_queue
+#SBATCH --oversubscribe
+
+cd ../logger
+srun python logger_pops_service.py

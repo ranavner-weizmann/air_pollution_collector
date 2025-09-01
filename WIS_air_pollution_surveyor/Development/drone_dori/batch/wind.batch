@@ -1,0 +1,8 @@
+#!/bin/bash
+#SBATCH --job-name=wind
+#SBATCH --nodelist=node01
+#SBATCH --partition=drone_queue
+#SBATCH --oversubscribe
+
+cd ../wind
+srun python wind_service.py

@@ -1,0 +1,47 @@
+record(ai, "logger_wind:save_interval")
+{
+	field(DESC,"saving to file interval") #description
+	field(EGU, "s") #engineering units
+	field(INP, "4")
+	field(PREC, "1")
+	field(LOPR, "2")
+	field(HOPR, "100")
+}
+
+#record(lso, "logger_wind:file_name")
+#record(lso, "logger_wind:folder_name")
+#record(lso, "logger_wind:project_name")
+
+record(waveform, "logger_wind:file_name")
+{
+	field(DESC, "file_name")
+	field(NELM, "256")
+	field(FTVL, "CHAR")
+}
+
+record(waveform, "logger_wind:folder_name")
+{
+	field(DESC, "folder_name")
+	field(NELM, "256")
+	field(FTVL, "CHAR")
+}
+
+record(waveform, "logger_wind:project_name")
+{
+	field(DESC, "project_name")
+	field(NELM, "256")
+	field(FTVL, "CHAR")
+}
+
+# control commands
+record(bi, "logger_wind:enable")
+{
+	field(DESC, "enable or disable wind")
+}
+
+record(ai, "logger_wind:no_records_saved_wind")
+{
+	field(EGU, "records")
+}
+
+record(bi, "logger_wind:save_wind")

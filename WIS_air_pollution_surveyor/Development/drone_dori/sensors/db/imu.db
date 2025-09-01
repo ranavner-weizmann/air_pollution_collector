@@ -1,0 +1,52 @@
+record(ai, "imu:acc_direction_x")
+{
+	field(DESC,"measure imu accelaration x") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "imu:acc_direction_y")
+{
+	field(DESC,"measure imu accelaration y") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "imu:acc_direction_z")
+{
+	field(DESC,"measure imu accelaration z") #description
+	field(EGU, "mg") #engineering units
+}
+
+
+record(ai, "imu:gyro_rotation_x")
+{
+	field(DESC,"measure gyro rotation x") #description
+	field(EGU, "mdps") #engineering units
+}
+
+record(ai, "imu:gyro_rotation_y")
+{
+	field(DESC,"measure gyro rotation y") #description
+	field(EGU, "mdps") #engineering units
+}
+
+record(ai, "imu:gyro_rotation_z")
+{
+	field(DESC,"measure gyro rotation z") #description
+	field(EGU, "mdps") #engineering units
+}
+
+record(ai, "imu:num_samples")
+{
+	field(DESC,"number of measures") #description
+	field(EGU, "mdps") #engineering units
+}
+
+
+
+
+
+
+
+
+
+

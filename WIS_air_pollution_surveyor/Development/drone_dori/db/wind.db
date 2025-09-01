@@ -1,0 +1,22 @@
+record(bi, "wind:enable")
+{
+	field(DESC, "enable or disable wind measurment")
+}
+
+record(ai, "wind:speed")
+{
+	field(DESC,"measure wind speed") #description
+	field(EGU, "m/s") #engineering units
+}
+
+record(ai, "wind:direction")
+{
+	field(DESC,"measure wind direction") #description
+	field(EGU, "Degree") #engineering units
+}
+
+record(ai, "wind:temperature")
+{
+	field(DESC,"measure temperature") #description
+	field(EGU, "Celsius") #engineering units
+}

@@ -1,0 +1,16 @@
+record(bi, "qepro:enable")
+{
+    field(DESC, "enable or disable qepro activity")
+}
+
+record(ai, "qepro:integration_time")
+{
+	field(DESC,"integration time") #description
+	field(EGU, "ms") #engineering units
+}
+
+record(ai, "qepro:trigger_mode")
+{
+	field(DESC,"trigger mode") #description
+	field(EGU, "None") #engineering units
+}

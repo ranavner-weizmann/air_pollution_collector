@@ -1,0 +1,29 @@
+record(ai, "mceasPressure:p")
+{
+	field(DESC,"measure mCEAS pressure before formula") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "mceasPressure:fp")
+{
+	field(DESC,"measure mCEAS pressure after formula") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "mceasPressure:humidity")
+{
+	field(DESC,"measure mCEAS pressure after formula") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "mceasPressure:temperatures")
+{
+	field(DESC,"measure mCEAS pressure after formula") #description
+	field(EGU, "mg") #engineering units
+}
+
+record(ai, "mceasPressure:num_samples")
+{
+	field(DESC,"number of measures") #description
+	field(EGU, "mdps") #engineering units
+}

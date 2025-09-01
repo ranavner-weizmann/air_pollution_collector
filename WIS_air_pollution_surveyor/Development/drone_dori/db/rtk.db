@@ -1,0 +1,133 @@
+record(bi, "rtk:enable")
+{
+	field(DESC, "enable or disable rtk measurment")
+}
+
+record(ai, "rtk:xAcc")
+{
+	field(DESC,"measure rtk speed") #description
+	field(EGU, "m/s") #engineering units
+}
+
+record(ai, "rtk:yAcc")
+{
+	field(DESC,"measure rtk speed") #description
+	field(EGU, "m/s") #engineering units
+}
+
+record(ai, "rtk:zAcc")
+{
+	field(DESC,"measure rtk speed") #description
+	field(EGU, "m/s") #engineering units
+}
+
+record(ai, "rtk:xAng")
+{
+	field(DESC,"measure rtk direction") #description
+	field(EGU, "Degree") #engineering units
+}
+
+record(ai, "rtk:yAng")
+{
+	field(DESC,"measure rtk direction") #description
+	field(EGU, "Degree") #engineering units
+}
+
+record(ai, "rtk:zAng")
+{
+	field(DESC,"measure rtk direction") #description
+	field(EGU, "Degree") #engineering units
+}
+
+record(ai, "rtk:longitude")
+{
+	field(DESC,"measure temperature") #description
+	field(EGU, "Celsius") #engineering units
+}
+
+record(ai, "rtk:latitude")
+{
+	field(DESC,"measure temperature") #description
+	field(EGU, "Celsius") #engineering units
+}
+
+record(ai, "rtk:height")
+{
+	field(DESC,"measure temperature") #description
+	field(EGU, "Celsius") #engineering units
+}
+
+record(ai, "rtk:hMSL")
+{
+	field(DESC,"measure temperature") #description
+	field(EGU, "Celsius") #engineering units
+}
+
+record(ai, "rtk:velN")
+{
+	field(DESC,"measure temperature") #description
+	field(EGU, "Celsius") #engineering units
+}
+
+record(ai, "rtk:velE")
+{
+	field(DESC,"measure temperature") #description
+	field(EGU, "Celsius") #engineering units
+}
+
+record(ai, "rtk:velD")
+{
+	field(DESC,"measure temperature") #description
+	field(EGU, "Celsius") #engineering units
+}
+
+record(ai, "rtk:headMot")
+{
+	field(DESC,"measure temperature") #description
+	field(EGU, "Celsius") #engineering units
+}
+
+record(ai, "rtk:numSV")
+{
+	field(DESC,"measure temperature") #description
+	field(EGU, "Celsius") #engineering units
+}
+
+record(ai, "rtk:roll")
+{
+	field(DESC,"measure temperature") #description
+	field(EGU, "Celsius") #engineering units
+}
+
+record(ai, "rtk:pitch")
+{
+	field(DESC,"measure temperature") #description
+	field(EGU, "Celsius") #engineering units
+}
+
+record(ai, "rtk:heading")
+{
+	field(DESC,"measure temperature") #description
+	field(EGU, "Celsius") #engineering units
+}
+
+record(ai, "rtk:accRoll")
+{
+	field(DESC,"measure temperature") #description
+	field(EGU, "Celsius") #engineering units
+}
+
+record(ai, "rtk:accPitch")
+{
+	field(DESC,"measure temperature") #description
+	field(EGU, "Celsius") #engineering units
+}
+
+record(ai, "rtk:accHeading")
+{
+	field(DESC,"measure temperature") #description
+	field(EGU, "Celsius") #engineering units
+}
+
+
+

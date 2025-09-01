@@ -1,0 +1,54 @@
+record(bi, "mCEAS:enable")
+{
+	field(DESC, "enable or disable")
+}
+
+record(ai, "mCEAS:NO2")
+{
+	field(DESC,"NO2 concentration") #description
+	field(EGU, "ppb") #engineering units
+}
+
+record(ai, "mCEAS:LED_intensity")
+{
+	field(DESC,"LED intensity") #description
+	field(EGU, "counts") #engineering units
+}
+
+record(ai, "mCEAS:LED_T")
+{
+	field(DESC,"LED temperature") #description
+	field(EGU, "degrees C") #engineering units
+}
+
+record(ai, "mCEAS:peltier_T")
+{
+	field(DESC,"Peltier plate temperature") #description
+	field(EGU, "degrees C") #engineering units
+}
+
+record(ai, "mCEAS:P")
+{
+	field(DESC,"Sample static pressure") #description
+	field(EGU, "mBar") #engineering units
+}
+
+record(ai, "mCEAS:P_volts")
+{
+	field(DESC,"Sample static pressure reading") #description
+	field(EGU, "Volts") #engineering units
+}
+
+record(ai, "mCEAS:flow")
+{
+	field(DESC,"Sample flow rate") #description
+	field(EGU, "liters per meter") #engineering units
+}
+
+record(ai, "mCEAS:pump")
+{
+	field(DESC,"Pump control analog signal") #description
+	field(EGU, "bits") #engineering units
+}
+
+

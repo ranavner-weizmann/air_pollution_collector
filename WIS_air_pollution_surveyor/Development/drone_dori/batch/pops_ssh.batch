@@ -1,0 +1,11 @@
+#!/bin/bash
+#SBATCH --job-name=pops_ssh
+#SBATCH --nodelist=node01
+#SBATCH --partition=drone_queue
+#SBATCH --oversubscribe
+
+ssh root@10.11.97.50 "sudo date -s @$(date -u +"%s"); sudo hwclock -w -f /dev/rtc1; sudo hwclock
+-w -f /dev/rtc;"
+
+sudo date -s @$(date -u +"%s"); sudo hwclock -w -f /dev/rtc1; sudo hwclock
+-w -f /dev/rtc

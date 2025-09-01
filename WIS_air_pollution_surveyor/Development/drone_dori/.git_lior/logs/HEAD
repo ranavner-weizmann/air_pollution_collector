@@ -1,0 +1,50 @@
+0000000000000000000000000000000000000000 5f83d99a5147214be41374cb80c8760bff9ea0c0 Lior_Segev <lior.segev@weizmann.ac.il> 1597492961 +0300	clone: from https://github.com/liorse/drone_dori.git
+5f83d99a5147214be41374cb80c8760bff9ea0c0 3321f3edec13d561a96a68300a15044fc16e3225 Lior_Segev <lior.segev@weizmann.ac.il> 1597493058 +0300	commit: opc files
+3321f3edec13d561a96a68300a15044fc16e3225 f51c5b663b3c2a473651211ace74be78e6edaf4b Lior_Segev <lior.segev@weizmann.ac.il> 1597495545 +0300	commit: add statechart begining docs
+f51c5b663b3c2a473651211ace74be78e6edaf4b c48f915e86c93c582c2137a7db05452168564eb9 Lior_Segev <lior.segev@weizmann.ac.il> 1598349500 +0300	commit: current
+c48f915e86c93c582c2137a7db05452168564eb9 282b504ba5195a8a7a6875f8aa37e043a0c4e317 Lior_Segev <lior.segev@weizmann.ac.il> 1598350032 +0300	pull: Fast-forward
+282b504ba5195a8a7a6875f8aa37e043a0c4e317 a664778ec671acd7ee2b2da3285d800ec47f1d40 Lior_Segev <lior.segev@weizmann.ac.il> 1598602215 +0300	commit: updated GUI
+a664778ec671acd7ee2b2da3285d800ec47f1d40 09a0b0a536b153315638388d997489744bd41363 Lior_Segev <lior.segev@weizmann.ac.il> 1598764824 +0300	pull: Fast-forward
+09a0b0a536b153315638388d997489744bd41363 2dd069e4552268efc4dbc61777f66cb9b4bc3c44 Lior_Segev <lior.segev@weizmann.ac.il> 1599138029 +0300	pull: Fast-forward
+2dd069e4552268efc4dbc61777f66cb9b4bc3c44 8721dc60aa0ffa6d13d1709163daaf6e5aecc98d Lior_Segev <lior.segev@weizmann.ac.il> 1599747723 +0300	commit: opc working with function style
+8721dc60aa0ffa6d13d1709163daaf6e5aecc98d 8c8a725ec65eb8c5a31f784c5292d90c61b72f52 Lior_Segev <lior.segev@weizmann.ac.il> 1599970816 +0300	commit: added fan control to opc class
+8c8a725ec65eb8c5a31f784c5292d90c61b72f52 416965347134011e91506322dd5e0a9dc0cebbe8 Lior_Segev <lior.segev@weizmann.ac.il> 1599971605 +0300	commit: add laser control to opc class
+416965347134011e91506322dd5e0a9dc0cebbe8 6543e26f72ed6123b17b51e482d80136d9a33294 Lior_Segev <lior.segev@weizmann.ac.il> 1600183818 +0300	commit: added read all data from opc to class
+6543e26f72ed6123b17b51e482d80136d9a33294 01bc96826569a8e1f658cfc32e3cf5abc7d0fafe Lior_Segev <lior.segev@weizmann.ac.il> 1600694594 +0300	pull: Fast-forward
+01bc96826569a8e1f658cfc32e3cf5abc7d0fafe e656c7a954eb28e22b1f53002c2a8afedc2f3b52 Lior_Segev <lior.segev@weizmann.ac.il> 1603371632 +0300	commit: changed opc_class to deal with non real data dictionaries
+e656c7a954eb28e22b1f53002c2a8afedc2f3b52 8e97aa72039f65d1eabecd88263d31f96ef20245 Lior_Segev <lior.segev@weizmann.ac.il> 1603372815 +0300	pull: Fast-forward
+8e97aa72039f65d1eabecd88263d31f96ef20245 47ebb31786645cdc4200908467373e4b60bf91bf Lior_Segev <lior.segev@weizmann.ac.il> 1604418272 +0200	commit: opc is almost perfect
+47ebb31786645cdc4200908467373e4b60bf91bf 37d0ff5b4ce9064a44cd9ba8e09c4804243db20f Lior_Segev <lior.segev@weizmann.ac.il> 1604418352 +0200	pull: Fast-forward
+37d0ff5b4ce9064a44cd9ba8e09c4804243db20f 4b7ed2c71cea9d523ba2a386f4b5358a4e8ae198 Lior_Segev <lior.segev@weizmann.ac.il> 1604588991 +0200	commit: aeth driver is written
+4b7ed2c71cea9d523ba2a386f4b5358a4e8ae198 4b7ed2c71cea9d523ba2a386f4b5358a4e8ae198 Lior_Segev <lior.segev@weizmann.ac.il> 1604589050 +0200	reset: moving to HEAD
+4b7ed2c71cea9d523ba2a386f4b5358a4e8ae198 e333b046e7a06b3080e5852d622e1fab9c5857fb Lior_Segev <lior.segev@weizmann.ac.il> 1604851206 +0200	commit: added aeth bone statechart
+e333b046e7a06b3080e5852d622e1fab9c5857fb 4d74ed2a8b4a337d06b3fc9d6d1f11d31b343190 Lior_Segev <lior.segev@weizmann.ac.il> 1604938073 +0200	commit: inserting AETH data into EPICS
+4d74ed2a8b4a337d06b3fc9d6d1f11d31b343190 f1842d39f026a10ea583699ae9e7d38b6152b522 Lior_Segev <lior.segev@weizmann.ac.il> 1605022313 +0200	commit: microaeth statechart and UI are in place
+f1842d39f026a10ea583699ae9e7d38b6152b522 c1e5b18a7a611e8f9c8b539a7d89a7d75588f496 Lior_Segev <lior.segev@weizmann.ac.il> 1605097994 +0200	commit: fixed bug of post_fifo by clearing the queue
+c1e5b18a7a611e8f9c8b539a7d89a7d75588f496 2691b24d8e2a8cb5277a03c5888c85f0b839c0c0 Lior_Segev <lior.segev@weizmann.ac.il> 1605191669 +0200	commit: added sniffer statechart and communication
+2691b24d8e2a8cb5277a03c5888c85f0b839c0c0 7dfa12536d50e6a274518cfbd813028add62cf79 Lior_Segev <lior.segev@weizmann.ac.il> 1605775672 +0200	commit: code for dummy sniffer is in place
+7dfa12536d50e6a274518cfbd813028add62cf79 ebbf4209b21beaeb6a81e1363c6d016597942e06 Lior_Segev <lior.segev@weizmann.ac.il> 1606137103 +0200	commit: added and updated all PVs into MariaDB database
+ebbf4209b21beaeb6a81e1363c6d016597942e06 e5178537cbc8426c44d3673f6c24243ec190475c Lior_Segev <lior.segev@weizmann.ac.il> 1606312587 +0200	commit: logger skeleton is place
+e5178537cbc8426c44d3673f6c24243ec190475c 77787a97687a313b0030fe550e6f7af4a9ec99e9 Lior_Segev <lior.segev@weizmann.ac.il> 1606323935 +0200	commit: fixed 0 time interval saving option
+77787a97687a313b0030fe550e6f7af4a9ec99e9 03706c4f6bb22b87bc2822cca1c35ef83ecdac7c Lior_Segev <lior.segev@weizmann.ac.il> 1606635231 +0200	pull: Fast-forward
+03706c4f6bb22b87bc2822cca1c35ef83ecdac7c 1583886a25a9a2c085201352eb3cf2b85ff40dcb Lior_Segev <lior.segev@weizmann.ac.il> 1606652600 +0200	commit: add mariadb service to slurm
+1583886a25a9a2c085201352eb3cf2b85ff40dcb 788999fc937951a1c5fbfe982eba4dd613a48ce5 Lior_Segev <lior.segev@weizmann.ac.il> 1606722952 +0200	commit: requirements for pip and config.yaml
+788999fc937951a1c5fbfe982eba4dd613a48ce5 f9630934391a2535d691802d32f1122fb71691fe Lior_Segev <lior.segev@weizmann.ac.il> 1607260137 +0200	commit: added aeth and OPC to the logger
+f9630934391a2535d691802d32f1122fb71691fe 790492bde69ce8513f78e9d19a870237f4324ebe Lior_Segev <lior.segev@weizmann.ac.il> 1607261621 +0200	commit: optional save for the aeth and opc
+790492bde69ce8513f78e9d19a870237f4324ebe 2d2c05262e3c8f304b789982d4ed2dfa34e4b762 Lior_Segev <lior.segev@weizmann.ac.il> 1607264106 +0200	commit: added sniffer to the logger
+2d2c05262e3c8f304b789982d4ed2dfa34e4b762 1b0e8e741b50aa56982d93eba1678e8aad44ffb7 Lior_Segev <lior.segev@weizmann.ac.il> 1607268984 +0200	commit: fixed utcTime to show in sniffer log
+1b0e8e741b50aa56982d93eba1678e8aad44ffb7 44032bd539f2cf2d2aeb93d92ea408579d8e80a7 Lior_Segev <lior.segev@weizmann.ac.il> 1607273225 +0200	commit: added aeth logging with the time attribute
+44032bd539f2cf2d2aeb93d92ea408579d8e80a7 d84390a47384aa0825e199e863c2e0185a77fe70 Lior_Segev <lior.segev@weizmann.ac.il> 1607327251 +0200	commit: reading the date and time of the last read record from sniffer and aeth and logging that value in to file
+d84390a47384aa0825e199e863c2e0185a77fe70 149ab71cd50a82038fd9fbe969fbceb2a2c3abd6 Lior_Segev <lior.segev@weizmann.ac.il> 1607341356 +0200	commit: updated GUI to support all configuration features in logger service module
+149ab71cd50a82038fd9fbe969fbceb2a2c3abd6 06c52abfc311f61e68d060352269735e516373e7 Lior_Segev <lior.segev@weizmann.ac.il> 1607346743 +0200	commit: logger is now working properly for all three intruments
+06c52abfc311f61e68d060352269735e516373e7 272a5bf178b91b07664bb3c0f06c5d33bdeb4189 Lior_Segev <lior.segev@weizmann.ac.il> 1607346857 +0200	commit: removed miros folder from opc folder
+272a5bf178b91b07664bb3c0f06c5d33bdeb4189 b343efddc9b848b887e54c87e8bd7977f7be822c Lior_Segev <lior.segev@weizmann.ac.il> 1607357815 +0200	commit: configured serial ports automatically
+b343efddc9b848b887e54c87e8bd7977f7be822c 260bea2632481ee3ae8a4263cf9351978be93738 Lior_Segev <lior.segev@weizmann.ac.il> 1608190956 +0200	pull: Fast-forward
+260bea2632481ee3ae8a4263cf9351978be93738 dcec3370097b9807d1d50c5a600d783dbc3e3d8f Lior_Segev <lior.segev@weizmann.ac.il> 1608195411 +0200	commit: added controls on starting and stopping wifi
+dcec3370097b9807d1d50c5a600d783dbc3e3d8f dcec3370097b9807d1d50c5a600d783dbc3e3d8f Lior_Segev <lior.segev@weizmann.ac.il> 1608205361 +0200	reset: moving to HEAD
+dcec3370097b9807d1d50c5a600d783dbc3e3d8f db69ecaee88fc7f61937e6d5b95116843a69b6ff Lior_Segev <lior.segev@weizmann.ac.il> 1608205439 +0200	pull: Fast-forward
+db69ecaee88fc7f61937e6d5b95116843a69b6ff db69ecaee88fc7f61937e6d5b95116843a69b6ff Lior_Segev <lior.segev@weizmann.ac.il> 1608303308 +0200	checkout: moving from master to interpreter
+db69ecaee88fc7f61937e6d5b95116843a69b6ff db69ecaee88fc7f61937e6d5b95116843a69b6ff Lior_Segev <lior.segev@weizmann.ac.il> 1608303313 +0200	checkout: moving from interpreter to master
+db69ecaee88fc7f61937e6d5b95116843a69b6ff db69ecaee88fc7f61937e6d5b95116843a69b6ff Lior_Segev <lior.segev@weizmann.ac.il> 1608454123 +0200	checkout: moving from master to interpreter
+db69ecaee88fc7f61937e6d5b95116843a69b6ff db69ecaee88fc7f61937e6d5b95116843a69b6ff Lior_Segev <lior.segev@weizmann.ac.il> 1608454129 +0200	checkout: moving from interpreter to master
+db69ecaee88fc7f61937e6d5b95116843a69b6ff db69ecaee88fc7f61937e6d5b95116843a69b6ff Lior_Segev <lior.segev@weizmann.ac.il> 1671473561 +0200	checkout: moving from master to development

@@ -1,0 +1,8 @@
+#!/bin/bash
+#SBATCH --job-name=rtk_logger
+#SBATCH --nodelist=node01
+#SBATCH --partition=drone_queue
+#SBATCH --oversubscribe
+
+cd ../logger
+srun python logger_rtk_service.py

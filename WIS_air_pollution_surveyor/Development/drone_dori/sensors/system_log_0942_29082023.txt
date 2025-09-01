@@ -1,0 +1,1104 @@
+[    0.000000] Booting Linux on physical CPU 0x0
+[    0.000000] Linux version 5.10.103-v7l+ (dom@buildbot) (arm-linux-gnueabihf-gcc-8 (Ubuntu/Linaro 8.4.0-3ubuntu1) 8.4.0, GNU ld (GNU Binutils for Ubuntu) 2.34) #1529 SMP Tue Mar 8 12:24:00 GMT 2022
+[    0.000000] CPU: ARMv7 Processor [410fd083] revision 3 (ARMv7), cr=30c5383d
+[    0.000000] CPU: div instructions available: patching division code
+[    0.000000] CPU: PIPT / VIPT nonaliasing data cache, PIPT instruction cache
+[    0.000000] OF: fdt: Machine model: Raspberry Pi 4 Model B Rev 1.4
+[    0.000000] random: fast init done
+[    0.000000] Memory policy: Data cache writealloc
+[    0.000000] Reserved memory: created CMA memory pool at 0x000000001ac00000, size 320 MiB
+[    0.000000] OF: reserved mem: initialized node linux,cma, compatible id shared-dma-pool
+[    0.000000] Zone ranges:
+[    0.000000]   DMA      [mem 0x0000000000000000-0x000000002fffffff]
+[    0.000000]   Normal   empty
+[    0.000000]   HighMem  [mem 0x0000000030000000-0x000000007fffffff]
+[    0.000000] Movable zone start for each node
+[    0.000000] Early memory node ranges
+[    0.000000]   node   0: [mem 0x0000000000000000-0x0000000037ffffff]
+[    0.000000]   node   0: [mem 0x0000000040000000-0x000000007fffffff]
+[    0.000000] Initmem setup node 0 [mem 0x0000000000000000-0x000000007fffffff]
+[    0.000000] On node 0 totalpages: 491520
+[    0.000000]   DMA zone: 1728 pages used for memmap
+[    0.000000]   DMA zone: 0 pages reserved
+[    0.000000]   DMA zone: 196608 pages, LIFO batch:63
+[    0.000000]   HighMem zone: 294912 pages, LIFO batch:63
+[    0.000000] percpu: Embedded 20 pages/cpu s50828 r8192 d22900 u81920
+[    0.000000] pcpu-alloc: s50828 r8192 d22900 u81920 alloc=20*4096
+[    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+[    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 489792
+[    0.000000] Kernel command line: coherent_pool=1M 8250.nr_uarts=1 snd_bcm2835.enable_compat_alsa=0 snd_bcm2835.enable_hdmi=1  smsc95xx.macaddr=E4:5F:01:7E:DD:A3 vc_mem.mem_base=0x3ec00000 vc_mem.mem_size=0x40000000  console=tty1 console=ttyS0,115200 root=PARTUUID=e63b5086-02 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait quiet splash plymouth.ignore-serial-consoles
+[    0.000000] Kernel parameter elevator= does not have any effect anymore.
+               Please use sysfs to set IO scheduler for individual devices.
+[    0.000000] Dentry cache hash table entries: 131072 (order: 7, 524288 bytes, linear)
+[    0.000000] Inode-cache hash table entries: 65536 (order: 6, 262144 bytes, linear)
+[    0.000000] mem auto-init: stack:off, heap alloc:off, heap free:off
+[    0.000000] software IO TLB: mapped [mem 0x0000000015a00000-0x0000000019a00000] (64MB)
+[    0.000000] Memory: 1534600K/1966080K available (10240K kernel code, 1366K rwdata, 3196K rodata, 2048K init, 882K bss, 103800K reserved, 327680K cma-reserved, 1179648K highmem)
+[    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+[    0.000000] ftrace: allocating 34355 entries in 101 pages
+[    0.000000] ftrace: allocated 101 pages with 4 groups
+[    0.000000] rcu: Hierarchical RCU implementation.
+[    0.000000] 	Rude variant of Tasks RCU enabled.
+[    0.000000] 	Tracing variant of Tasks RCU enabled.
+[    0.000000] rcu: RCU calculated value of scheduler-enlistment delay is 10 jiffies.
+[    0.000000] NR_IRQS: 16, nr_irqs: 16, preallocated irqs: 16
+[    0.000000] GIC: Using split EOI/Deactivate mode
+[    0.000000] random: get_random_bytes called from start_kernel+0x3c8/0x59c with crng_init=1
+[    0.000008] sched_clock: 32 bits at 1000kHz, resolution 1000ns, wraps every 2147483647500ns
+[    0.000027] clocksource: timer: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1911260446275 ns
+[    0.000085] bcm2835: system timer (irq = 25)
+[    0.000733] arch_timer: cp15 timer(s) running at 54.00MHz (phys).
+[    0.000751] clocksource: arch_sys_counter: mask: 0xffffffffffffff max_cycles: 0xc743ce346, max_idle_ns: 440795203123 ns
+[    0.000770] sched_clock: 56 bits at 54MHz, resolution 18ns, wraps every 4398046511102ns
+[    0.000784] Switching to timer-based delay loop, resolution 18ns
+[    0.001038] Console: colour dummy device 80x30
+[    0.001105] printk: console [tty1] enabled
+[    0.001162] Calibrating delay loop (skipped), value calculated using timer frequency.. 108.00 BogoMIPS (lpj=540000)
+[    0.001194] pid_max: default: 32768 minimum: 301
+[    0.001358] LSM: Security Framework initializing
+[    0.001543] Mount-cache hash table entries: 2048 (order: 1, 8192 bytes, linear)
+[    0.001568] Mountpoint-cache hash table entries: 2048 (order: 1, 8192 bytes, linear)
+[    0.003030] cgroup: Disabling memory control group subsystem
+[    0.003260] CPU: Testing write buffer coherency: ok
+[    0.003712] CPU0: thread -1, cpu 0, socket 0, mpidr 80000000
+[    0.004908] Setting up static identity map for 0x200000 - 0x20003c
+[    0.005103] rcu: Hierarchical SRCU implementation.
+[    0.006010] smp: Bringing up secondary CPUs ...
+[    0.007187] CPU1: thread -1, cpu 1, socket 0, mpidr 80000001
+[    0.008523] CPU2: thread -1, cpu 2, socket 0, mpidr 80000002
+[    0.009787] CPU3: thread -1, cpu 3, socket 0, mpidr 80000003
+[    0.009945] smp: Brought up 1 node, 4 CPUs
+[    0.009965] SMP: Total of 4 processors activated (432.00 BogoMIPS).
+[    0.009980] CPU: All CPU(s) started in HYP mode.
+[    0.009994] CPU: Virtualization extensions available.
+[    0.010915] devtmpfs: initialized
+[    0.025096] VFP support v0.3: implementor 41 architecture 3 part 40 variant 8 rev 0
+[    0.025318] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+[    0.025347] futex hash table entries: 1024 (order: 4, 65536 bytes, linear)
+[    0.033544] pinctrl core: initialized pinctrl subsystem
+[    0.034592] NET: Registered protocol family 16
+[    0.038444] DMA: preallocated 1024 KiB pool for atomic coherent allocations
+[    0.039212] audit: initializing netlink subsys (disabled)
+[    0.039475] audit: type=2000 audit(0.030:1): state=initialized audit_enabled=0 res=1
+[    0.040028] thermal_sys: Registered thermal governor 'step_wise'
+[    0.040849] hw-breakpoint: found 5 (+1 reserved) breakpoint and 4 watchpoint registers.
+[    0.040866] hw-breakpoint: maximum watchpoint size is 8 bytes.
+[    0.041278] Serial: AMBA PL011 UART driver
+[    0.076638] bcm2835-mbox fe00b880.mailbox: mailbox enabled
+[    0.090835] raspberrypi-firmware soc:firmware: Attached to firmware from 2021-12-01T15:02:46, variant start_x
+[    0.100850] raspberrypi-firmware soc:firmware: Firmware hash is 71bd3109023a0c8575585ba87cbb374d2eeb038f
+[    0.142031] Kprobes globally optimized
+[    0.147405] bcm2835-dma fe007000.dma: DMA legacy API manager, dmachans=0x1
+[    0.151644] vgaarb: loaded
+[    0.152084] SCSI subsystem initialized
+[    0.152311] usbcore: registered new interface driver usbfs
+[    0.152371] usbcore: registered new interface driver hub
+[    0.152452] usbcore: registered new device driver usb
+[    0.152806] usb_phy_generic phy: supply vcc not found, using dummy regulator
+[    0.154776] clocksource: Switched to clocksource arch_sys_counter
+[    1.100619] VFS: Disk quotas dquot_6.6.0
+[    1.100710] VFS: Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+[    1.100870] FS-Cache: Loaded
+[    1.101072] CacheFiles: Loaded
+[    1.111616] NET: Registered protocol family 2
+[    1.111843] IP idents hash table entries: 16384 (order: 5, 131072 bytes, linear)
+[    1.113365] tcp_listen_portaddr_hash hash table entries: 512 (order: 0, 6144 bytes, linear)
+[    1.113406] TCP established hash table entries: 8192 (order: 3, 32768 bytes, linear)
+[    1.113470] TCP bind hash table entries: 8192 (order: 4, 65536 bytes, linear)
+[    1.113537] TCP: Hash tables configured (established 8192 bind 8192)
+[    1.113692] UDP hash table entries: 512 (order: 2, 16384 bytes, linear)
+[    1.113727] UDP-Lite hash table entries: 512 (order: 2, 16384 bytes, linear)
+[    1.113953] NET: Registered protocol family 1
+[    1.115403] RPC: Registered named UNIX socket transport module.
+[    1.115420] RPC: Registered udp transport module.
+[    1.115435] RPC: Registered tcp transport module.
+[    1.115450] RPC: Registered tcp NFSv4.1 backchannel transport module.
+[    1.115480] PCI: CLS 0 bytes, default 64
+[    1.118568] Initialise system trusted keyrings
+[    1.118802] workingset: timestamp_bits=14 max_order=19 bucket_order=5
+[    1.127131] zbud: loaded
+[    1.128890] FS-Cache: Netfs 'nfs' registered for caching
+[    1.129654] NFS: Registering the id_resolver key type
+[    1.129711] Key type id_resolver registered
+[    1.129727] Key type id_legacy registered
+[    1.129861] nfs4filelayout_init: NFSv4 File Layout Driver Registering...
+[    1.129877] nfs4flexfilelayout_init: NFSv4 Flexfile Layout Driver Registering...
+[    1.130889] Key type asymmetric registered
+[    1.130906] Asymmetric key parser 'x509' registered
+[    1.131097] bounce: pool size: 64 pages
+[    1.131140] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 249)
+[    1.131357] io scheduler mq-deadline registered
+[    1.131373] io scheduler kyber registered
+[    1.135825] brcm-pcie fd500000.pcie: host bridge /scb/pcie@7d500000 ranges:
+[    1.135856] brcm-pcie fd500000.pcie:   No bus range found for /scb/pcie@7d500000, using [bus 00-ff]
+[    1.135937] brcm-pcie fd500000.pcie:      MEM 0x0600000000..0x063fffffff -> 0x00c0000000
+[    1.136027] brcm-pcie fd500000.pcie:   IB MEM 0x0000000000..0x007fffffff -> 0x0400000000
+[    1.196882] brcm-pcie fd500000.pcie: link up, 5.0 GT/s PCIe x1 (SSC)
+[    1.197247] brcm-pcie fd500000.pcie: PCI host bridge to bus 0000:00
+[    1.197267] pci_bus 0000:00: root bus resource [bus 00-ff]
+[    1.197289] pci_bus 0000:00: root bus resource [mem 0x600000000-0x63fffffff] (bus address [0xc0000000-0xffffffff])
+[    1.197378] pci 0000:00:00.0: [14e4:2711] type 01 class 0x060400
+[    1.197620] pci 0000:00:00.0: PME# supported from D0 D3hot
+[    1.201129] PCI: bus0: Fast back to back transfers disabled
+[    1.201509] pci 0000:01:00.0: [1106:3483] type 00 class 0x0c0330
+[    1.201638] pci 0000:01:00.0: reg 0x10: [mem 0x00000000-0x00000fff 64bit]
+[    1.202071] pci 0000:01:00.0: PME# supported from D0 D3hot
+[    1.205580] PCI: bus1: Fast back to back transfers disabled
+[    1.205642] pci 0000:00:00.0: BAR 8: assigned [mem 0x600000000-0x6000fffff]
+[    1.205666] pci 0000:01:00.0: BAR 0: assigned [mem 0x600000000-0x600000fff 64bit]
+[    1.205750] pci 0000:00:00.0: PCI bridge to [bus 01]
+[    1.205776] pci 0000:00:00.0:   bridge window [mem 0x600000000-0x6000fffff]
+[    1.206192] pcieport 0000:00:00.0: enabling device (0140 -> 0142)
+[    1.206408] pcieport 0000:00:00.0: PME: Signaling with IRQ 66
+[    1.212454] Serial: 8250/16550 driver, 1 ports, IRQ sharing enabled
+[    1.213357] bcm2835-aux-uart fe215040.serial: there is not valid maps for state default
+[    1.215910] iproc-rng200 fe104000.rng: hwrng registered
+[    1.216222] vc-mem: phys_addr:0x00000000 mem_base=0x3ec00000 mem_size:0x40000000(1024 MiB)
+[    1.217103] gpiomem-bcm2835 fe200000.gpiomem: Initialised: Registers at 0xfe200000
+[    1.229206] brd: module loaded
+[    1.241344] loop: module loaded
+[    1.243101] Loading iSCSI transport class v2.0-870.
+[    1.248037] bcmgenet fd580000.ethernet: GENET 5.0 EPHY: 0x0000
+[    1.364923] unimac-mdio unimac-mdio.-19: Broadcom UniMAC MDIO bus
+[    1.366092] usbcore: registered new interface driver r8152
+[    1.366172] usbcore: registered new interface driver lan78xx
+[    1.366233] usbcore: registered new interface driver smsc95xx
+[    1.412331] xhci_hcd 0000:01:00.0: xHCI Host Controller
+[    1.412367] xhci_hcd 0000:01:00.0: new USB bus registered, assigned bus number 1
+[    1.415572] xhci_hcd 0000:01:00.0: hcc params 0x002841eb hci version 0x100 quirks 0x0000060000000890
+[    1.416886] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.10
+[    1.416905] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    1.416922] usb usb1: Product: xHCI Host Controller
+[    1.416939] usb usb1: Manufacturer: Linux 5.10.103-v7l+ xhci-hcd
+[    1.416955] usb usb1: SerialNumber: 0000:01:00.0
+[    1.417704] hub 1-0:1.0: USB hub found
+[    1.417807] hub 1-0:1.0: 1 port detected
+[    1.418484] xhci_hcd 0000:01:00.0: xHCI Host Controller
+[    1.418523] xhci_hcd 0000:01:00.0: new USB bus registered, assigned bus number 2
+[    1.418549] xhci_hcd 0000:01:00.0: Host supports USB 3.0 SuperSpeed
+[    1.419048] usb usb2: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 5.10
+[    1.419066] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    1.419083] usb usb2: Product: xHCI Host Controller
+[    1.419099] usb usb2: Manufacturer: Linux 5.10.103-v7l+ xhci-hcd
+[    1.419115] usb usb2: SerialNumber: 0000:01:00.0
+[    1.419820] hub 2-0:1.0: USB hub found
+[    1.419894] hub 2-0:1.0: 4 ports detected
+[    1.421573] dwc_otg: version 3.00a 10-AUG-2012 (platform bus)
+[    1.421901] dwc_otg: FIQ enabled
+[    1.421915] dwc_otg: NAK holdoff enabled
+[    1.421929] dwc_otg: FIQ split-transaction FSM enabled
+[    1.421946] Module dwc_common_port init
+[    1.422419] usbcore: registered new interface driver uas
+[    1.422526] usbcore: registered new interface driver usb-storage
+[    1.422733] mousedev: PS/2 mouse device common for all mice
+[    1.424421] bcm2835-wdt bcm2835-wdt: Broadcom BCM2835 watchdog timer
+[    1.427772] sdhci: Secure Digital Host Controller Interface driver
+[    1.427787] sdhci: Copyright(c) Pierre Ossman
+[    1.428499] mmc-bcm2835 fe300000.mmcnr: could not get clk, deferring probe
+[    1.429145] sdhci-pltfm: SDHCI platform and OF driver helper
+[    1.433239] ledtrig-cpu: registered to indicate activity on CPUs
+[    1.433583] hid: raw HID events driver (C) Jiri Kosina
+[    1.433794] usbcore: registered new interface driver usbhid
+[    1.433809] usbhid: USB HID core driver
+[    1.439229] Initializing XFRM netlink socket
+[    1.439272] NET: Registered protocol family 17
+[    1.439417] Key type dns_resolver registered
+[    1.439865] Registering SWP/SWPB emulation handler
+[    1.440051] registered taskstats version 1
+[    1.440080] Loading compiled-in X.509 certificates
+[    1.440996] Key type ._fscrypt registered
+[    1.441013] Key type .fscrypt registered
+[    1.441028] Key type fscrypt-provisioning registered
+[    1.452668] uart-pl011 fe201000.serial: there is not valid maps for state default
+[    1.452982] uart-pl011 fe201000.serial: cts_event_workaround enabled
+[    1.453054] fe201000.serial: ttyAMA0 at MMIO 0xfe201000 (irq = 36, base_baud = 0) is a PL011 rev2
+[    1.459495] bcm2835-aux-uart fe215040.serial: there is not valid maps for state default
+[    1.460280] printk: console [ttyS0] disabled
+[    1.460405] fe215040.serial: ttyS0 at MMIO 0xfe215040 (irq = 38, base_baud = 62500000) is a 16550
+[    1.460599] printk: console [ttyS0] enabled
+[    1.461589] bcm2835-power bcm2835-power: Broadcom BCM2835 power domains driver
+[    1.462643] mmc-bcm2835 fe300000.mmcnr: mmc_debug:0 mmc_debug2:0
+[    1.462661] mmc-bcm2835 fe300000.mmcnr: DMA channel allocated
+[    1.492211] of_cfs_init
+[    1.492475] of_cfs_init: OK
+[    1.513843] mmc1: queuing unknown CIS tuple 0x80 (2 bytes)
+[    1.515672] mmc1: queuing unknown CIS tuple 0x80 (3 bytes)
+[    1.517357] mmc1: queuing unknown CIS tuple 0x80 (3 bytes)
+[    1.520373] mmc1: queuing unknown CIS tuple 0x80 (7 bytes)
+[    1.522058] mmc1: queuing unknown CIS tuple 0x80 (3 bytes)
+[    1.527531] mmc0: SDHCI controller on fe340000.mmc [fe340000.mmc] using ADMA
+[    1.528185] Waiting for root device PARTUUID=e63b5086-02...
+[    1.603855] mmc1: new high speed SDIO card at address 0001
+[    1.637234] mmc0: new ultra high speed DDR50 SDHC card at address aaaa
+[    1.638108] mmcblk0: mmc0:aaaa SC32G 29.7 GiB
+[    1.640820]  mmcblk0: p1 p2
+[    1.652173] EXT4-fs (mmcblk0p2): INFO: recovery required on readonly filesystem
+[    1.652192] EXT4-fs (mmcblk0p2): write access will be enabled during recovery
+[    1.704827] usb 1-1: new high-speed USB device number 2 using xhci_hcd
+[    1.805413] EXT4-fs (mmcblk0p2): orphan cleanup on readonly fs
+[    1.805808] EXT4-fs (mmcblk0p2): 4 orphan inodes deleted
+[    1.805825] EXT4-fs (mmcblk0p2): recovery complete
+[    1.820639] EXT4-fs (mmcblk0p2): mounted filesystem with ordered data mode. Opts: (null)
+[    1.820718] VFS: Mounted root (ext4 filesystem) readonly on device 179:2.
+[    1.826594] devtmpfs: mounted
+[    1.836686] Freeing unused kernel memory: 2048K
+[    1.855102] Run /sbin/init as init process
+[    1.855117]   with arguments:
+[    1.855131]     /sbin/init
+[    1.855145]     splash
+[    1.855159]   with environment:
+[    1.855174]     HOME=/
+[    1.855187]     TERM=linux
+[    1.887442] usb 1-1: New USB device found, idVendor=2109, idProduct=3431, bcdDevice= 4.21
+[    1.887463] usb 1-1: New USB device strings: Mfr=0, Product=1, SerialNumber=0
+[    1.887481] usb 1-1: Product: USB2.0 Hub
+[    1.889375] hub 1-1:1.0: USB hub found
+[    1.889690] hub 1-1:1.0: 4 ports detected
+[    2.224846] usb 1-1.3: new high-speed USB device number 3 using xhci_hcd
+[    2.356567] usb 1-1.3: New USB device found, idVendor=05e3, idProduct=0608, bcdDevice=85.38
+[    2.356592] usb 1-1.3: New USB device strings: Mfr=0, Product=1, SerialNumber=0
+[    2.356618] usb 1-1.3: Product: USB2.0 Hub
+[    2.358729] hub 1-1.3:1.0: USB hub found
+[    2.359099] hub 1-1.3:1.0: 4 ports detected
+[    2.454859] usb 1-1.4: new high-speed USB device number 4 using xhci_hcd
+[    2.587081] usb 1-1.4: New USB device found, idVendor=05e3, idProduct=0608, bcdDevice=85.38
+[    2.587103] usb 1-1.4: New USB device strings: Mfr=0, Product=1, SerialNumber=0
+[    2.587121] usb 1-1.4: Product: USB2.0 Hub
+[    2.589313] hub 1-1.4:1.0: USB hub found
+[    2.589688] hub 1-1.4:1.0: 4 ports detected
+[    2.684914] usb 1-1.3.1: new full-speed USB device number 5 using xhci_hcd
+[    2.824390] usb 1-1.3.1: New USB device found, idVendor=2457, idProduct=4004, bcdDevice= 0.67
+[    2.824413] usb 1-1.3.1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[    2.824431] usb 1-1.3.1: Product: QE-PRO
+[    2.824449] usb 1-1.3.1: Manufacturer: Ocean Optics
+[    2.824465] usb 1-1.3.1: SerialNumber: QEP03372
+[    2.914922] usb 1-1.4.2: new full-speed USB device number 6 using xhci_hcd
+[    3.063293] usb 1-1.4.2: New USB device found, idVendor=0403, idProduct=6015, bcdDevice=10.00
+[    3.063315] usb 1-1.4.2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[    3.063333] usb 1-1.4.2: Product: FT230X Basic UART
+[    3.063350] usb 1-1.4.2: Manufacturer: FTDI
+[    3.063366] usb 1-1.4.2: SerialNumber: DN05BKPD
+[    3.144848] usb 1-1.3.2: new full-speed USB device number 7 using xhci_hcd
+[    3.297324] usb 1-1.3.2: New USB device found, idVendor=0403, idProduct=6015, bcdDevice=10.00
+[    3.297347] usb 1-1.3.2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[    3.297365] usb 1-1.3.2: Product: FT230X Basic UART
+[    3.297382] usb 1-1.3.2: Manufacturer: FTDI
+[    3.297398] usb 1-1.3.2: SerialNumber: DK0FPPD7
+[    3.374849] usb 1-1.4.3: new full-speed USB device number 8 using xhci_hcd
+[    3.509608] usb 1-1.4.3: New USB device found, idVendor=1546, idProduct=01a9, bcdDevice= 1.00
+[    3.509631] usb 1-1.4.3: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[    3.509649] usb 1-1.4.3: Product: u-blox GNSS receiver
+[    3.509665] usb 1-1.4.3: Manufacturer: u-blox AG - www.u-blox.com
+[    3.516535] usbcore: registered new interface driver usbserial_generic
+[    3.516608] usbserial: USB Serial support registered for generic
+[    3.528913] usbcore: registered new interface driver ftdi_sio
+[    3.529018] usbserial: USB Serial support registered for FTDI USB Serial Device
+[    3.529356] ftdi_sio 1-1.4.2:1.0: FTDI USB Serial Device converter detected
+[    3.529515] usb 1-1.4.2: Detected FT-X
+[    3.538448] usb 1-1.4.2: FTDI USB Serial Device converter now attached to ttyUSB0
+[    3.538945] ftdi_sio 1-1.3.2:1.0: FTDI USB Serial Device converter detected
+[    3.539107] usb 1-1.3.2: Detected FT-X
+[    3.544342] usb 1-1.3.2: FTDI USB Serial Device converter now attached to ttyUSB1
+[    3.604872] usb 1-1.3.3: new full-speed USB device number 9 using xhci_hcd
+[    3.620553] cdc_acm 1-1.4.3:1.0: ttyACM0: USB ACM device
+[    3.623509] usbcore: registered new interface driver cdc_acm
+[    3.623528] cdc_acm: USB Abstract Control Model driver for USB modems and ISDN adapters
+[    3.745030] usb 1-1.3.3: New USB device found, idVendor=2341, idProduct=8036, bcdDevice= 1.00
+[    3.745054] usb 1-1.3.3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[    3.745072] usb 1-1.3.3: Product: Arduino Leonardo
+[    3.745089] usb 1-1.3.3: Manufacturer: Arduino LLC
+[    3.751903] cdc_acm 1-1.3.3:1.0: ttyACM1: USB ACM device
+[    3.834893] usb 1-1.4.4: new full-speed USB device number 10 using xhci_hcd
+[    3.972682] usb 1-1.4.4: New USB device found, idVendor=2341, idProduct=0058, bcdDevice= 1.00
+[    3.972705] usb 1-1.4.4: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[    3.972723] usb 1-1.4.4: Product: Arduino Nano Every
+[    3.972740] usb 1-1.4.4: Manufacturer: Arduino LLC
+[    3.972756] usb 1-1.4.4: SerialNumber: 301B53D4514E4650414B2020FF0E3952
+[    3.978877] cdc_acm 1-1.4.4:1.0: ttyACM2: USB ACM device
+[    4.064864] usb 1-1.3.4: new full-speed USB device number 11 using xhci_hcd
+[    4.139783] Driver for 1-wire Dallas network protocol.
+[    4.145823] gpio-4 (onewire@0): enforced open drain please flag it properly in DT/ACPI DSDT/board file
+[    4.172800] rpivid-mem feb00000.hevc-decoder: rpivid-hevcmem initialised: Registers at 0xfeb00000 length 0x00010000
+[    4.173402] rpivid-mem feb10000.rpivid-local-intc: rpivid-intcmem initialised: Registers at 0xfeb10000 length 0x00001000
+[    4.175483] rpivid-mem feb20000.h264-decoder: rpivid-h264mem initialised: Registers at 0xfeb20000 length 0x00010000
+[    4.176121] rpivid-mem feb30000.vp9-decoder: rpivid-vp9mem initialised: Registers at 0xfeb30000 length 0x00010000
+[    4.218509] usb 1-1.3.4: New USB device found, idVendor=04d8, idProduct=000a, bcdDevice= 1.00
+[    4.218542] usb 1-1.3.4: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[    4.218561] usb 1-1.3.4: Product: CDC RS-232 Emulation Demo
+[    4.218578] usb 1-1.3.4: Manufacturer: Microchip Technology Inc.
+[    4.227113] cdc_acm 1-1.3.4:1.0: ttyACM3: USB ACM device
+[    4.248248] systemd-udevd[274]: Using default interface naming scheme 'v240'.
+[    4.289046] systemd-udevd[274]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+[    4.334363] vc_sm_cma: module is from the staging directory, the quality is unknown, you have been warned.
+[    4.336644] bcm2835_vc_sm_cma_probe: Videocore shared memory driver
+[    4.336668] [vc_sm_connected_init]: start
+[    4.340133] [vc_sm_connected_init]: installed successfully
+[    4.352820] snd_bcm2835: module is from the staging directory, the quality is unknown, you have been warned.
+[    4.358979] bcm2835_audio bcm2835_audio: card created with 8 channels
+[    4.371914] mc: Linux media interface: v0.10
+[    4.397555] videodev: Linux video capture interface: v2.00
+[    4.460917] bcm2835_mmal_vchiq: module is from the staging directory, the quality is unknown, you have been warned.
+[    4.460925] bcm2835_mmal_vchiq: module is from the staging directory, the quality is unknown, you have been warned.
+[    4.472284] bcm2835_mmal_vchiq: module is from the staging directory, the quality is unknown, you have been warned.
+[    4.485488] bcm2835_v4l2: module is from the staging directory, the quality is unknown, you have been warned.
+[    4.502162] bcm2835_isp: module is from the staging directory, the quality is unknown, you have been warned.
+[    4.506064] bcm2835_codec: module is from the staging directory, the quality is unknown, you have been warned.
+[    4.655501] [drm] No displays found. Consider forcing hotplug if HDMI is attached
+[    4.655628] vc4-drm gpu: bound fe600000.firmwarekms (ops vc4_fkms_ops [vc4])
+[    4.656071] [drm] Initialized vc4 0.0.0 20140616 for gpu on minor 0
+[    4.843188] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[    4.892594] cfg80211: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+[    4.976321] brcmfmac: F1 signature read @0x18000000=0x15264345
+[    5.001012] brcmfmac: brcmf_fw_alloc_request: using brcm/brcmfmac43455-sdio for chip BCM4345/6
+[    5.023823] usbcore: registered new interface driver brcmfmac
+[    5.045626] [drm] Initialized v3d 1.0.0 20180419 for fec00000.v3d on minor 1
+[    5.096845] systemd-udevd[302]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+[    5.125795] bcm2835-isp bcm2835-isp: Device node output[0] registered as /dev/video13
+[    5.126280] bcm2835-codec bcm2835-codec: Device registered as /dev/video10
+[    5.126324] bcm2835-codec bcm2835-codec: Loaded V4L2 decode
+[    5.126608] bcm2835-isp bcm2835-isp: Device node capture[0] registered as /dev/video14
+[    5.127032] bcm2835-isp bcm2835-isp: Device node capture[1] registered as /dev/video15
+[    5.130162] bcm2835-codec bcm2835-codec: Device registered as /dev/video11
+[    5.130225] bcm2835-codec bcm2835-codec: Loaded V4L2 encode
+[    5.130625] bcm2835-isp bcm2835-isp: Device node stats[2] registered as /dev/video16
+[    5.130653] bcm2835-isp bcm2835-isp: Register output node 0 with media controller
+[    5.130677] bcm2835-isp bcm2835-isp: Register capture node 1 with media controller
+[    5.130699] bcm2835-isp bcm2835-isp: Register capture node 2 with media controller
+[    5.130722] bcm2835-isp bcm2835-isp: Register capture node 3 with media controller
+[    5.130956] bcm2835-isp bcm2835-isp: Loaded V4L2 bcm2835-isp
+[    5.167383] bcm2835-codec bcm2835-codec: Device registered as /dev/video12
+[    5.167428] bcm2835-codec bcm2835-codec: Loaded V4L2 isp
+[    5.173129] bcm2835-codec bcm2835-codec: Device registered as /dev/video18
+[    5.173174] bcm2835-codec bcm2835-codec: Loaded V4L2 image_fx
+[    5.283746] brcmfmac: brcmf_fw_alloc_request: using brcm/brcmfmac43455-sdio for chip BCM4345/6
+[    5.292850] brcmfmac: brcmf_fw_alloc_request: using brcm/brcmfmac43455-sdio for chip BCM4345/6
+[    5.317166] brcmfmac: brcmf_c_preinit_dcmds: Firmware: BCM4345/6 wl0: Jan  4 2021 19:56:29 version 7.45.229 (617f1f5 CY) FWID 01-2dbd9d2e
+[    5.494004] systemd-udevd[274]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+[    6.880317] w1_master_driver w1_bus_master1: w1_search: max_slave_count 64 reached, will continue next search.
+[    6.937041] EXT4-fs (mmcblk0p2): re-mounted. Opts: (null)
+[    7.130304] EXT4-fs (mmcblk0p2): re-mounted. Opts: (null)
+[    8.750201] i2c /dev entries driver
+[   10.773200] random: dd: uninitialized urandom read (512 bytes read)
+[   11.223487] bcmgenet fd580000.ethernet: configuring instance for external RGMII (RX delay)
+[   11.223977] bcmgenet fd580000.ethernet eth0: Link is Down
+[   13.389233] random: mktemp: uninitialized urandom read (10 bytes read)
+[   13.421928] random: mktemp: uninitialized urandom read (10 bytes read)
+[   13.486008] random: apache2: uninitialized urandom read (8 bytes read)
+[   13.679218] NET: Registered protocol family 10
+[   13.680013] Segment Routing with IPv6
+[   14.568614] Bluetooth: Core ver 2.22
+[   14.568676] NET: Registered protocol family 31
+[   14.568683] Bluetooth: HCI device and connection manager initialized
+[   14.568699] Bluetooth: HCI socket layer initialized
+[   14.568710] Bluetooth: L2CAP socket layer initialized
+[   14.568726] Bluetooth: SCO socket layer initialized
+[   14.604712] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+[   14.604721] Bluetooth: BNEP filters: protocol multicast
+[   14.604735] Bluetooth: BNEP socket layer initialized
+[   14.774790] Adding 102396k swap on /var/swap.  Priority:-2 extents:1 across:102396k SSFS
+[   17.254824] random: crng init done
+[   17.254833] random: 6 urandom warning(s) missed due to ratelimiting
+[   57.679931] w1_master_driver w1_bus_master1: Attaching one wire slave 00.800000000000 crc 8c
+[   57.687413] w1_master_driver w1_bus_master1: Family 0 for 00.800000000000.8c is not registered.
+[   61.115704] bcmgenet fd580000.ethernet eth0: Link is Up - 10Mbps/Full - flow control off
+[   61.115765] IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+[   62.155579] bcmgenet fd580000.ethernet eth0: Link is Down
+[   65.275738] bcmgenet fd580000.ethernet eth0: Link is Up - 1Gbps/Full - flow control off
+[  121.320777] w1_master_driver w1_bus_master1: Attaching one wire slave 00.400000000000 crc 46
+[  121.328732] w1_master_driver w1_bus_master1: Family 0 for 00.400000000000.46 is not registered.
+[  156.867600] usb 1-1.3.1: reset full-speed USB device number 5 using xhci_hcd
+[  172.041422] w1_master_driver w1_bus_master1: Attaching one wire slave 00.c00000000000 crc ca
+[  172.049401] w1_master_driver w1_bus_master1: Family 0 for 00.c00000000000.ca is not registered.
+[  248.492355] w1_master_driver w1_bus_master1: Attaching one wire slave 00.200000000000 crc 23
+[  248.499806] w1_master_driver w1_bus_master1: Family 0 for 00.200000000000.23 is not registered.
+[  312.083043] w1_master_driver w1_bus_master1: Attaching one wire slave 00.a00000000000 crc af
+[  312.090623] w1_master_driver w1_bus_master1: Family 0 for 00.a00000000000.af is not registered.
+[  350.003998] w1_master_driver w1_bus_master1: Attaching one wire slave 00.600000000000 crc 65
+[  350.013839] w1_master_driver w1_bus_master1: Family 0 for 00.600000000000.65 is not registered.
+[  390.493964] w1_master_driver w1_bus_master1: Attaching one wire slave 00.e00000000000 crc e9
+[  390.501343] w1_master_driver w1_bus_master1: Family 0 for 00.e00000000000.e9 is not registered.
+[  453.514815] w1_master_driver w1_bus_master1: Attaching one wire slave 00.100000000000 crc 9d
+[  453.522957] w1_master_driver w1_bus_master1: Family 0 for 00.100000000000.9d is not registered.
+[  464.640375] bcmgenet fd580000.ethernet eth0: Link is Down
+[  492.605403] w1_master_driver w1_bus_master1: Attaching one wire slave 00.900000000000 crc 11
+[  492.613507] w1_master_driver w1_bus_master1: Family 0 for 00.900000000000.11 is not registered.
+[  567.846198] w1_master_driver w1_bus_master1: Attaching one wire slave 00.500000000000 crc db
+[  567.854257] w1_master_driver w1_bus_master1: Family 0 for 00.500000000000.db is not registered.
+[  619.816833] w1_master_driver w1_bus_master1: Attaching one wire slave 00.d00000000000 crc 57
+[  619.825051] w1_master_driver w1_bus_master1: Family 0 for 00.d00000000000.57 is not registered.
+[  646.257170] w1_master_driver w1_bus_master1: Attaching one wire slave 00.300000000000 crc be
+[  646.265274] w1_master_driver w1_bus_master1: Family 0 for 00.300000000000.be is not registered.
+[  695.648499] w1_master_driver w1_bus_master1: Attaching one wire slave 00.b00000000000 crc 32
+[  695.656654] w1_master_driver w1_bus_master1: Family 0 for 00.b00000000000.32 is not registered.
+[  734.928031] w1_master_driver w1_bus_master1: Attaching one wire slave 00.700000000000 crc f8
+[  734.933266] w1_master_driver w1_bus_master1: Family 0 for 00.700000000000.f8 is not registered.
+[  786.909030] w1_master_driver w1_bus_master1: Attaching one wire slave 00.f00000000000 crc 74
+[  786.917184] w1_master_driver w1_bus_master1: Family 0 for 00.f00000000000.74 is not registered.
+[  849.369623] w1_master_driver w1_bus_master1: Attaching one wire slave 00.080000000000 crc c2
+[  849.377389] w1_master_driver w1_bus_master1: Family 0 for 00.080000000000.c2 is not registered.
+[  902.620274] w1_master_driver w1_bus_master1: Attaching one wire slave 00.880000000000 crc 4e
+[  902.628347] w1_master_driver w1_bus_master1: Family 0 for 00.880000000000.4e is not registered.
+[  940.450674] w1_master_driver w1_bus_master1: Attaching one wire slave 00.480000000000 crc 84
+[  940.457999] w1_master_driver w1_bus_master1: Family 0 for 00.480000000000.84 is not registered.
+[  991.131312] w1_master_driver w1_bus_master1: Attaching one wire slave 00.c80000000000 crc 08
+[  991.140356] w1_master_driver w1_bus_master1: Family 0 for 00.c80000000000.08 is not registered.
+[ 1067.822312] w1_master_driver w1_bus_master1: Attaching one wire slave 00.280000000000 crc e1
+[ 1067.829998] w1_master_driver w1_bus_master1: Family 0 for 00.280000000000.e1 is not registered.
+[ 1131.353053] w1_master_driver w1_bus_master1: Attaching one wire slave 00.a80000000000 crc 6d
+[ 1131.361204] w1_master_driver w1_bus_master1: Family 0 for 00.a80000000000.6d is not registered.
+[ 1194.853827] w1_master_driver w1_bus_master1: Attaching one wire slave 00.680000000000 crc a7
+[ 1194.862016] w1_master_driver w1_bus_master1: Family 0 for 00.680000000000.a7 is not registered.
+[ 1235.254043] w1_master_driver w1_bus_master1: Attaching one wire slave 00.e80000000000 crc 2b
+[ 1235.259154] w1_master_driver w1_bus_master1: Family 0 for 00.e80000000000.2b is not registered.
+[ 1298.414801] w1_master_driver w1_bus_master1: Attaching one wire slave 00.180000000000 crc 5f
+[ 1298.419964] w1_master_driver w1_bus_master1: Family 0 for 00.180000000000.5f is not registered.
+[ 1337.655570] w1_master_driver w1_bus_master1: Attaching one wire slave 00.980000000000 crc d3
+[ 1337.663672] w1_master_driver w1_bus_master1: Family 0 for 00.980000000000.d3 is not registered.
+[ 1350.731420] bcmgenet fd580000.ethernet eth0: Link is Up - 10Mbps/Full - flow control off
+[ 1351.771291] bcmgenet fd580000.ethernet eth0: Link is Down
+[ 1354.891377] bcmgenet fd580000.ethernet eth0: Link is Up - 1Gbps/Full - flow control off
+[ 1386.936106] w1_master_driver w1_bus_master1: Attaching one wire slave 00.580000000000 crc 19
+[ 1386.943558] w1_master_driver w1_bus_master1: Family 0 for 00.580000000000.19 is not registered.
+[ 1438.976780] w1_master_driver w1_bus_master1: Attaching one wire slave 00.d80000000000 crc 95
+[ 1438.984870] w1_master_driver w1_bus_master1: Family 0 for 00.d80000000000.95 is not registered.
+[ 1465.537039] w1_master_driver w1_bus_master1: Attaching one wire slave 00.380000000000 crc 7c
+[ 1465.544908] w1_master_driver w1_bus_master1: Family 0 for 00.380000000000.7c is not registered.
+[ 1514.987636] w1_master_driver w1_bus_master1: Attaching one wire slave 00.b80000000000 crc f0
+[ 1514.995025] w1_master_driver w1_bus_master1: Family 0 for 00.b80000000000.f0 is not registered.
+[ 1579.708248] w1_master_driver w1_bus_master1: Attaching one wire slave 00.780000000000 crc 3a
+[ 1579.713415] w1_master_driver w1_bus_master1: Family 0 for 00.780000000000.3a is not registered.
+[ 1631.739140] w1_master_driver w1_bus_master1: Attaching one wire slave 00.f80000000000 crc b6
+[ 1631.747333] w1_master_driver w1_bus_master1: Family 0 for 00.f80000000000.b6 is not registered.
+[ 1694.380054] w1_master_driver w1_bus_master1: Attaching one wire slave 00.040000000000 crc 61
+[ 1694.388570] w1_master_driver w1_bus_master1: Family 0 for 00.040000000000.61 is not registered.
+[ 1747.730268] w1_master_driver w1_bus_master1: Attaching one wire slave 00.840000000000 crc ed
+[ 1747.735412] w1_master_driver w1_bus_master1: Family 0 for 00.840000000000.ed is not registered.
+[ 1811.171329] w1_master_driver w1_bus_master1: Attaching one wire slave 00.440000000000 crc 27
+[ 1811.179402] w1_master_driver w1_bus_master1: Family 0 for 00.440000000000.27 is not registered.
+[ 1861.901938] w1_master_driver w1_bus_master1: Attaching one wire slave 00.c40000000000 crc ab
+[ 1861.910026] w1_master_driver w1_bus_master1: Family 0 for 00.c40000000000.ab is not registered.
+[ 1886.822275] w1_master_driver w1_bus_master1: Attaching one wire slave 00.240000000000 crc 42
+[ 1886.830436] w1_master_driver w1_bus_master1: Family 0 for 00.240000000000.42 is not registered.
+[ 1950.422994] w1_master_driver w1_bus_master1: Attaching one wire slave 00.a40000000000 crc ce
+[ 1950.430358] w1_master_driver w1_bus_master1: Family 0 for 00.a40000000000.ce is not registered.
+[ 1977.923287] w1_master_driver w1_bus_master1: Attaching one wire slave 00.640000000000 crc 04
+[ 1977.930640] w1_master_driver w1_bus_master1: Family 0 for 00.640000000000.04 is not registered.
+[ 2028.703904] w1_master_driver w1_bus_master1: Attaching one wire slave 00.e40000000000 crc 88
+[ 2028.711357] w1_master_driver w1_bus_master1: Family 0 for 00.e40000000000.88 is not registered.
+[ 2092.144766] w1_master_driver w1_bus_master1: Attaching one wire slave 00.140000000000 crc fc
+[ 2092.152850] w1_master_driver w1_bus_master1: Family 0 for 00.140000000000.fc is not registered.
+[ 2131.275215] w1_master_driver w1_bus_master1: Attaching one wire slave 00.940000000000 crc 70
+[ 2131.283361] w1_master_driver w1_bus_master1: Family 0 for 00.940000000000.70 is not registered.
+[ 2206.346050] w1_master_driver w1_bus_master1: Attaching one wire slave 00.540000000000 crc ba
+[ 2206.353393] w1_master_driver w1_bus_master1: Family 0 for 00.540000000000.ba is not registered.
+[ 2258.316901] w1_master_driver w1_bus_master1: Attaching one wire slave 00.d40000000000 crc 36
+[ 2258.325041] w1_master_driver w1_bus_master1: Family 0 for 00.d40000000000.36 is not registered.
+[ 2335.957620] w1_master_driver w1_bus_master1: Attaching one wire slave 00.340000000000 crc df
+[ 2335.964932] w1_master_driver w1_bus_master1: Family 0 for 00.340000000000.df is not registered.
+[ 2385.348307] w1_master_driver w1_bus_master1: Attaching one wire slave 00.b40000000000 crc 53
+[ 2385.356545] w1_master_driver w1_bus_master1: Family 0 for 00.b40000000000.53 is not registered.
+[ 2424.468912] w1_master_driver w1_bus_master1: Attaching one wire slave 00.740000000000 crc 99
+[ 2424.476212] w1_master_driver w1_bus_master1: Family 0 for 00.740000000000.99 is not registered.
+[ 2476.439410] w1_master_driver w1_bus_master1: Attaching one wire slave 00.f40000000000 crc 15
+[ 2476.447505] w1_master_driver w1_bus_master1: Family 0 for 00.f40000000000.15 is not registered.
+[ 2539.230355] w1_master_driver w1_bus_master1: Attaching one wire slave 00.0c0000000000 crc a3
+[ 2539.237633] w1_master_driver w1_bus_master1: Family 0 for 00.0c0000000000.a3 is not registered.
+[ 2592.500752] w1_master_driver w1_bus_master1: Attaching one wire slave 00.8c0000000000 crc 2f
+[ 2592.508101] w1_master_driver w1_bus_master1: Family 0 for 00.8c0000000000.2f is not registered.
+[ 2630.502008] w1_master_driver w1_bus_master1: Attaching one wire slave 00.4c0000000000 crc e5
+[ 2630.510664] w1_master_driver w1_bus_master1: Family 0 for 00.4c0000000000.e5 is not registered.
+[ 2681.171881] w1_master_driver w1_bus_master1: Attaching one wire slave 00.cc0000000000 crc 69
+[ 2681.179168] w1_master_driver w1_bus_master1: Family 0 for 00.cc0000000000.69 is not registered.
+[ 2705.992220] w1_master_driver w1_bus_master1: Attaching one wire slave 00.2c0000000000 crc 80
+[ 2706.000487] w1_master_driver w1_bus_master1: Family 0 for 00.2c0000000000.80 is not registered.
+[ 2769.512894] w1_master_driver w1_bus_master1: Attaching one wire slave 00.ac0000000000 crc 0c
+[ 2769.520279] w1_master_driver w1_bus_master1: Family 0 for 00.ac0000000000.0c is not registered.
+[ 2822.933835] w1_master_driver w1_bus_master1: Attaching one wire slave 00.6c0000000000 crc c6
+[ 2822.941154] w1_master_driver w1_bus_master1: Family 0 for 00.6c0000000000.c6 is not registered.
+[ 2873.613955] w1_master_driver w1_bus_master1: Attaching one wire slave 00.ec0000000000 crc 4a
+[ 2873.619096] w1_master_driver w1_bus_master1: Family 0 for 00.ec0000000000.4a is not registered.
+[ 2936.924729] w1_master_driver w1_bus_master1: Attaching one wire slave 00.1c0000000000 crc 3e
+[ 2936.929930] w1_master_driver w1_bus_master1: Family 0 for 00.1c0000000000.3e is not registered.
+[ 2976.125475] w1_master_driver w1_bus_master1: Attaching one wire slave 00.9c0000000000 crc b2
+[ 2976.132943] w1_master_driver w1_bus_master1: Family 0 for 00.9c0000000000.b2 is not registered.
+[ 3025.606085] w1_master_driver w1_bus_master1: Attaching one wire slave 00.5c0000000000 crc 78
+[ 3025.613272] w1_master_driver w1_bus_master1: Family 0 for 00.5c0000000000.78 is not registered.
+[ 3077.636718] w1_master_driver w1_bus_master1: Attaching one wire slave 00.dc0000000000 crc f4
+[ 3077.644917] w1_master_driver w1_bus_master1: Family 0 for 00.dc0000000000.f4 is not registered.
+[ 3155.037681] w1_master_driver w1_bus_master1: Attaching one wire slave 00.3c0000000000 crc 1d
+[ 3155.045149] w1_master_driver w1_bus_master1: Family 0 for 00.3c0000000000.1d is not registered.
+[ 3204.518478] w1_master_driver w1_bus_master1: Attaching one wire slave 00.bc0000000000 crc 91
+[ 3204.527795] w1_master_driver w1_bus_master1: Family 0 for 00.bc0000000000.91 is not registered.
+[ 3269.398977] w1_master_driver w1_bus_master1: Attaching one wire slave 00.7c0000000000 crc 5b
+[ 3269.406381] w1_master_driver w1_bus_master1: Family 0 for 00.7c0000000000.5b is not registered.
+[ 3321.449685] w1_master_driver w1_bus_master1: Attaching one wire slave 00.fc0000000000 crc d7
+[ 3321.457782] w1_master_driver w1_bus_master1: Family 0 for 00.fc0000000000.d7 is not registered.
+[ 3345.279976] w1_master_driver w1_bus_master1: Attaching one wire slave 00.020000000000 crc bc
+[ 3345.288032] w1_master_driver w1_bus_master1: Family 0 for 00.020000000000.bc is not registered.
+[ 3384.402336] w1_master_driver w1_bus_master1: Attaching one wire slave 00.820000000000 crc 30
+[ 3384.412049] w1_master_driver w1_bus_master1: Family 0 for 00.820000000000.30 is not registered.
+[ 3449.391243] w1_master_driver w1_bus_master1: Attaching one wire slave 00.420000000000 crc fa
+[ 3449.399272] w1_master_driver w1_bus_master1: Family 0 for 00.420000000000.fa is not registered.
+[ 3501.321863] w1_master_driver w1_bus_master1: Attaching one wire slave 00.c20000000000 crc 76
+[ 3501.329957] w1_master_driver w1_bus_master1: Family 0 for 00.c20000000000.76 is not registered.
+[ 3589.102853] w1_master_driver w1_bus_master1: Attaching one wire slave 00.220000000000 crc 9f
+[ 3589.110350] w1_master_driver w1_bus_master1: Family 0 for 00.220000000000.9f is not registered.
+[ 3628.233848] w1_master_driver w1_bus_master1: Attaching one wire slave 00.a20000000000 crc 13
+[ 3628.243673] w1_master_driver w1_bus_master1: Family 0 for 00.a20000000000.13 is not registered.
+[ 3667.533824] w1_master_driver w1_bus_master1: Attaching one wire slave 00.620000000000 crc d9
+[ 3667.541276] w1_master_driver w1_bus_master1: Family 0 for 00.620000000000.d9 is not registered.
+[ 3729.724631] w1_master_driver w1_bus_master1: Attaching one wire slave 00.e20000000000 crc 55
+[ 3729.732480] w1_master_driver w1_bus_master1: Family 0 for 00.e20000000000.55 is not registered.
+[ 3769.295109] w1_master_driver w1_bus_master1: Attaching one wire slave 00.120000000000 crc 21
+[ 3769.303217] w1_master_driver w1_bus_master1: Family 0 for 00.120000000000.21 is not registered.
+[ 3832.905826] w1_master_driver w1_bus_master1: Attaching one wire slave 00.920000000000 crc ad
+[ 3832.914713] w1_master_driver w1_bus_master1: Family 0 for 00.920000000000.ad is not registered.
+[ 3896.496612] w1_master_driver w1_bus_master1: Attaching one wire slave 00.520000000000 crc 67
+[ 3896.504743] w1_master_driver w1_bus_master1: Family 0 for 00.520000000000.67 is not registered.
+[ 3947.247376] w1_master_driver w1_bus_master1: Attaching one wire slave 00.d20000000000 crc eb
+[ 3947.255488] w1_master_driver w1_bus_master1: Family 0 for 00.d20000000000.eb is not registered.
+[ 3961.737396] w1_master_driver w1_bus_master1: Attaching one wire slave 00.320000000000 crc 02
+[ 3961.744710] w1_master_driver w1_bus_master1: Family 0 for 00.320000000000.02 is not registered.
+[ 4025.328203] w1_master_driver w1_bus_master1: Attaching one wire slave 00.b20000000000 crc 8e
+[ 4025.336189] w1_master_driver w1_bus_master1: Family 0 for 00.b20000000000.8e is not registered.
+[ 4063.248712] w1_master_driver w1_bus_master1: Attaching one wire slave 00.720000000000 crc 44
+[ 4063.256110] w1_master_driver w1_bus_master1: Family 0 for 00.720000000000.44 is not registered.
+[ 4114.009356] w1_master_driver w1_bus_master1: Attaching one wire slave 00.f20000000000 crc c8
+[ 4114.017455] w1_master_driver w1_bus_master1: Family 0 for 00.f20000000000.c8 is not registered.
+[ 4190.230306] w1_master_driver w1_bus_master1: Attaching one wire slave 00.0a0000000000 crc 7e
+[ 4190.238316] w1_master_driver w1_bus_master1: Family 0 for 00.0a0000000000.7e is not registered.
+[ 4229.410659] w1_master_driver w1_bus_master1: Attaching one wire slave 00.8a0000000000 crc f2
+[ 4229.417934] w1_master_driver w1_bus_master1: Family 0 for 00.8a0000000000.f2 is not registered.
+[ 4268.481397] w1_master_driver w1_bus_master1: Attaching one wire slave 00.4a0000000000 crc 38
+[ 4268.489500] w1_master_driver w1_bus_master1: Family 0 for 00.4a0000000000.38 is not registered.
+[ 4320.541745] w1_master_driver w1_bus_master1: Attaching one wire slave 00.ca0000000000 crc b4
+[ 4320.549159] w1_master_driver w1_bus_master1: Family 0 for 00.ca0000000000.b4 is not registered.
+[ 4408.332827] w1_master_driver w1_bus_master1: Attaching one wire slave 00.2a0000000000 crc 5d
+[ 4408.340204] w1_master_driver w1_bus_master1: Family 0 for 00.2a0000000000.5d is not registered.
+[ 4447.553369] w1_master_driver w1_bus_master1: Attaching one wire slave 00.aa0000000000 crc d1
+[ 4447.561392] w1_master_driver w1_bus_master1: Family 0 for 00.aa0000000000.d1 is not registered.
+[ 4512.284079] w1_master_driver w1_bus_master1: Attaching one wire slave 00.6a0000000000 crc 1b
+[ 4512.291457] w1_master_driver w1_bus_master1: Family 0 for 00.6a0000000000.1b is not registered.
+[ 4574.586640] w1_master_driver w1_bus_master1: Attaching one wire slave 00.ea0000000000 crc 97
+[ 4574.594042] w1_master_driver w1_bus_master1: Family 0 for 00.ea0000000000.97 is not registered.
+[ 4614.295406] w1_master_driver w1_bus_master1: Attaching one wire slave 00.1a0000000000 crc e3
+[ 4614.303581] w1_master_driver w1_bus_master1: Family 0 for 00.1a0000000000.e3 is not registered.
+[ 4677.815891] w1_master_driver w1_bus_master1: Attaching one wire slave 00.9a0000000000 crc 6f
+[ 4677.821023] w1_master_driver w1_bus_master1: Family 0 for 00.9a0000000000.6f is not registered.
+[ 4715.656558] w1_master_driver w1_bus_master1: Attaching one wire slave 00.5a0000000000 crc a5
+[ 4715.663979] w1_master_driver w1_bus_master1: Family 0 for 00.5a0000000000.a5 is not registered.
+[ 4766.337295] w1_master_driver w1_bus_master1: Attaching one wire slave 00.da0000000000 crc 29
+[ 4766.345364] w1_master_driver w1_bus_master1: Family 0 for 00.da0000000000.29 is not registered.
+[ 4781.077435] w1_master_driver w1_bus_master1: Attaching one wire slave 00.3a0000000000 crc c0
+[ 4781.085478] w1_master_driver w1_bus_master1: Family 0 for 00.3a0000000000.c0 is not registered.
+[ 4844.578128] w1_master_driver w1_bus_master1: Attaching one wire slave 00.ba0000000000 crc 4c
+[ 4844.585411] w1_master_driver w1_bus_master1: Family 0 for 00.ba0000000000.4c is not registered.
+[ 4908.118899] w1_master_driver w1_bus_master1: Attaching one wire slave 00.7a0000000000 crc 86
+[ 4908.126226] w1_master_driver w1_bus_master1: Family 0 for 00.7a0000000000.86 is not registered.
+[ 4958.779531] w1_master_driver w1_bus_master1: Attaching one wire slave 00.fa0000000000 crc 0a
+[ 4958.786977] w1_master_driver w1_bus_master1: Family 0 for 00.fa0000000000.0a is not registered.
+[ 5034.980601] w1_master_driver w1_bus_master1: Attaching one wire slave 00.060000000000 crc dd
+[ 5034.988583] w1_master_driver w1_bus_master1: Family 0 for 00.060000000000.dd is not registered.
+[ 5074.111004] w1_master_driver w1_bus_master1: Attaching one wire slave 00.860000000000 crc 51
+[ 5074.118500] w1_master_driver w1_bus_master1: Family 0 for 00.860000000000.51 is not registered.
+[ 5138.931801] w1_master_driver w1_bus_master1: Attaching one wire slave 00.460000000000 crc 9b
+[ 5138.939815] w1_master_driver w1_bus_master1: Family 0 for 00.460000000000.9b is not registered.
+[ 5190.902333] w1_master_driver w1_bus_master1: Attaching one wire slave 00.c60000000000 crc 17
+[ 5190.909780] w1_master_driver w1_bus_master1: Family 0 for 00.c60000000000.17 is not registered.
+[ 5227.752779] w1_master_driver w1_bus_master1: Attaching one wire slave 00.260000000000 crc fe
+[ 5227.760180] w1_master_driver w1_bus_master1: Family 0 for 00.260000000000.fe is not registered.
+[ 5266.883341] w1_master_driver w1_bus_master1: Attaching one wire slave 00.a60000000000 crc 72
+[ 5266.891486] w1_master_driver w1_bus_master1: Family 0 for 00.a60000000000.72 is not registered.
+[ 5306.003730] w1_master_driver w1_bus_master1: Attaching one wire slave 00.660000000000 crc b8
+[ 5306.011134] w1_master_driver w1_bus_master1: Family 0 for 00.660000000000.b8 is not registered.
+[ 5368.244522] w1_master_driver w1_bus_master1: Attaching one wire slave 00.e60000000000 crc 34
+[ 5368.252602] w1_master_driver w1_bus_master1: Family 0 for 00.e60000000000.34 is not registered.
+[ 5407.665124] w1_master_driver w1_bus_master1: Attaching one wire slave 00.160000000000 crc 40
+[ 5407.672397] w1_master_driver w1_bus_master1: Family 0 for 00.160000000000.40 is not registered.
+[ 5471.245826] w1_master_driver w1_bus_master1: Attaching one wire slave 00.960000000000 crc cc
+[ 5471.253897] w1_master_driver w1_bus_master1: Family 0 for 00.960000000000.cc is not registered.
+[ 5534.676748] w1_master_driver w1_bus_master1: Attaching one wire slave 00.560000000000 crc 06
+[ 5534.683995] w1_master_driver w1_bus_master1: Family 0 for 00.560000000000.06 is not registered.
+[ 5585.427159] w1_master_driver w1_bus_master1: Attaching one wire slave 00.d60000000000 crc 8a
+[ 5585.435248] w1_master_driver w1_bus_master1: Family 0 for 00.d60000000000.8a is not registered.
+[ 5651.758022] w1_master_driver w1_bus_master1: Attaching one wire slave 00.360000000000 crc 63
+[ 5651.766301] w1_master_driver w1_bus_master1: Family 0 for 00.360000000000.63 is not registered.
+[ 5715.388711] w1_master_driver w1_bus_master1: Attaching one wire slave 00.b60000000000 crc ef
+[ 5715.396092] w1_master_driver w1_bus_master1: Family 0 for 00.b60000000000.ef is not registered.
+[ 5753.129250] w1_master_driver w1_bus_master1: Attaching one wire slave 00.760000000000 crc 25
+[ 5753.137134] w1_master_driver w1_bus_master1: Family 0 for 00.760000000000.25 is not registered.
+[ 5803.900173] w1_master_driver w1_bus_master1: Attaching one wire slave 00.f60000000000 crc a9
+[ 5803.908292] w1_master_driver w1_bus_master1: Family 0 for 00.f60000000000.a9 is not registered.
+[ 5879.750715] w1_master_driver w1_bus_master1: Attaching one wire slave 00.0e0000000000 crc 1f
+[ 5879.758084] w1_master_driver w1_bus_master1: Family 0 for 00.0e0000000000.1f is not registered.
+[ 5918.951315] w1_master_driver w1_bus_master1: Attaching one wire slave 00.8e0000000000 crc 93
+[ 5918.958712] w1_master_driver w1_bus_master1: Family 0 for 00.8e0000000000.93 is not registered.
+[ 5958.161771] w1_master_driver w1_bus_master1: Attaching one wire slave 00.4e0000000000 crc 59
+[ 5958.169504] w1_master_driver w1_bus_master1: Family 0 for 00.4e0000000000.59 is not registered.
+[ 6020.472759] w1_master_driver w1_bus_master1: Attaching one wire slave 00.ce0000000000 crc d5
+[ 6020.481688] w1_master_driver w1_bus_master1: Family 0 for 00.ce0000000000.d5 is not registered.
+[ 6046.842805] w1_master_driver w1_bus_master1: Attaching one wire slave 00.2e0000000000 crc 3c
+[ 6046.850148] w1_master_driver w1_bus_master1: Family 0 for 00.2e0000000000.3c is not registered.
+[ 6086.043224] w1_master_driver w1_bus_master1: Attaching one wire slave 00.ae0000000000 crc b0
+[ 6086.050643] w1_master_driver w1_bus_master1: Family 0 for 00.ae0000000000.b0 is not registered.
+[ 6150.944346] w1_master_driver w1_bus_master1: Attaching one wire slave 00.6e0000000000 crc 7a
+[ 6150.954408] w1_master_driver w1_bus_master1: Family 0 for 00.6e0000000000.7a is not registered.
+[ 6213.254562] w1_master_driver w1_bus_master1: Attaching one wire slave 00.ee0000000000 crc f6
+[ 6213.259709] w1_master_driver w1_bus_master1: Family 0 for 00.ee0000000000.f6 is not registered.
+[ 6252.495304] w1_master_driver w1_bus_master1: Attaching one wire slave 00.1e0000000000 crc 82
+[ 6252.502914] w1_master_driver w1_bus_master1: Family 0 for 00.1e0000000000.82 is not registered.
+[ 6315.996234] w1_master_driver w1_bus_master1: Attaching one wire slave 00.9e0000000000 crc 0e
+[ 6316.003573] w1_master_driver w1_bus_master1: Family 0 for 00.9e0000000000.0e is not registered.
+[ 6354.006490] w1_master_driver w1_bus_master1: Attaching one wire slave 00.5e0000000000 crc c4
+[ 6354.013815] w1_master_driver w1_bus_master1: Family 0 for 00.5e0000000000.c4 is not registered.
+[ 6404.687084] w1_master_driver w1_bus_master1: Attaching one wire slave 00.de0000000000 crc 48
+[ 6404.694402] w1_master_driver w1_bus_master1: Family 0 for 00.de0000000000.48 is not registered.
+[ 6470.937981] w1_master_driver w1_bus_master1: Attaching one wire slave 00.3e0000000000 crc a1
+[ 6470.945998] w1_master_driver w1_bus_master1: Family 0 for 00.3e0000000000.a1 is not registered.
+[ 6534.458878] w1_master_driver w1_bus_master1: Attaching one wire slave 00.be0000000000 crc 2d
+[ 6534.466223] w1_master_driver w1_bus_master1: Family 0 for 00.be0000000000.2d is not registered.
+[ 6598.169442] w1_master_driver w1_bus_master1: Attaching one wire slave 00.7e0000000000 crc e7
+[ 6598.176898] w1_master_driver w1_bus_master1: Family 0 for 00.7e0000000000.e7 is not registered.
+[ 6648.830141] w1_master_driver w1_bus_master1: Attaching one wire slave 00.fe0000000000 crc 6b
+[ 6648.838242] w1_master_driver w1_bus_master1: Family 0 for 00.fe0000000000.6b is not registered.
+[ 6686.200616] w1_master_driver w1_bus_master1: Attaching one wire slave 00.010000000000 crc 5e
+[ 6686.208688] w1_master_driver w1_bus_master1: Family 0 for 00.010000000000.5e is not registered.
+[ 6725.400995] w1_master_driver w1_bus_master1: Attaching one wire slave 00.810000000000 crc d2
+[ 6725.408389] w1_master_driver w1_bus_master1: Family 0 for 00.810000000000.d2 is not registered.
+[ 6764.501272] w1_master_driver w1_bus_master1: Attaching one wire slave 00.410000000000 crc 18
+[ 6764.506521] w1_master_driver w1_bus_master1: Family 0 for 00.410000000000.18 is not registered.
+[ 6816.502101] w1_master_driver w1_bus_master1: Attaching one wire slave 00.c10000000000 crc 94
+[ 6824.074480] w1_master_driver w1_bus_master1: Family 0 for 00.c10000000000.94 is not registered.
+[ 6912.333474] w1_master_driver w1_bus_master1: Attaching one wire slave 00.210000000000 crc 7d
+[ 6912.342481] w1_master_driver w1_bus_master1: Family 0 for 00.210000000000.7d is not registered.
+[ 6951.543825] w1_master_driver w1_bus_master1: Attaching one wire slave 00.a10000000000 crc f1
+[ 6951.551961] w1_master_driver w1_bus_master1: Family 0 for 00.a10000000000.f1 is not registered.
+[ 7016.254533] w1_master_driver w1_bus_master1: Attaching one wire slave 00.610000000000 crc 3b
+[ 7016.261979] w1_master_driver w1_bus_master1: Family 0 for 00.610000000000.3b is not registered.
+[ 7078.565371] w1_master_driver w1_bus_master1: Attaching one wire slave 00.e10000000000 crc b7
+[ 7078.573383] w1_master_driver w1_bus_master1: Family 0 for 00.e10000000000.b7 is not registered.
+[ 7117.975869] w1_master_driver w1_bus_master1: Attaching one wire slave 00.110000000000 crc c3
+[ 7117.983621] w1_master_driver w1_bus_master1: Family 0 for 00.110000000000.c3 is not registered.
+[ 7181.486532] w1_master_driver w1_bus_master1: Attaching one wire slave 00.910000000000 crc 4f
+[ 7181.493855] w1_master_driver w1_bus_master1: Family 0 for 00.910000000000.4f is not registered.
+[ 7219.337063] w1_master_driver w1_bus_master1: Attaching one wire slave 00.510000000000 crc 85
+[ 7219.344509] w1_master_driver w1_bus_master1: Family 0 for 00.510000000000.85 is not registered.
+[ 7270.027800] w1_master_driver w1_bus_master1: Attaching one wire slave 00.d10000000000 crc 09
+[ 7270.036194] w1_master_driver w1_bus_master1: Family 0 for 00.d10000000000.09 is not registered.
+[ 7285.077806] w1_master_driver w1_bus_master1: Attaching one wire slave 00.310000000000 crc e0
+[ 7285.085171] w1_master_driver w1_bus_master1: Family 0 for 00.310000000000.e0 is not registered.
+[ 7348.608566] w1_master_driver w1_bus_master1: Attaching one wire slave 00.b10000000000 crc 6c
+[ 7348.615955] w1_master_driver w1_bus_master1: Family 0 for 00.b10000000000.6c is not registered.
+[ 7412.109361] w1_master_driver w1_bus_master1: Attaching one wire slave 00.710000000000 crc a6
+[ 7412.116747] w1_master_driver w1_bus_master1: Family 0 for 00.710000000000.a6 is not registered.
+[ 7462.770049] w1_master_driver w1_bus_master1: Attaching one wire slave 00.f10000000000 crc 2a
+[ 7462.777877] w1_master_driver w1_bus_master1: Family 0 for 00.f10000000000.2a is not registered.
+[ 7513.050698] w1_master_driver w1_bus_master1: Attaching one wire slave 00.090000000000 crc 9c
+[ 7513.058120] w1_master_driver w1_bus_master1: Family 0 for 00.090000000000.9c is not registered.
+[ 7552.171170] w1_master_driver w1_bus_master1: Attaching one wire slave 00.890000000000 crc 10
+[ 7552.179223] w1_master_driver w1_bus_master1: Family 0 for 00.890000000000.10 is not registered.
+[ 7617.131887] w1_master_driver w1_bus_master1: Attaching one wire slave 00.490000000000 crc da
+[ 7617.139268] w1_master_driver w1_bus_master1: Family 0 for 00.490000000000.da is not registered.
+[ 7679.375816] w1_master_driver w1_bus_master1: Attaching one wire slave 00.c90000000000 crc 56
+[ 7679.386100] w1_master_driver w1_bus_master1: Family 0 for 00.c90000000000.56 is not registered.
+[ 7757.183574] w1_master_driver w1_bus_master1: Attaching one wire slave 00.290000000000 crc bf
+[ 7757.190990] w1_master_driver w1_bus_master1: Family 0 for 00.290000000000.bf is not registered.
+[ 7796.324106] w1_master_driver w1_bus_master1: Attaching one wire slave 00.a90000000000 crc 33
+[ 7796.331538] w1_master_driver w1_bus_master1: Family 0 for 00.a90000000000.33 is not registered.
+[ 7845.874701] w1_master_driver w1_bus_master1: Attaching one wire slave 00.690000000000 crc f9
+[ 7845.882789] w1_master_driver w1_bus_master1: Family 0 for 00.690000000000.f9 is not registered.
+[ 7897.815331] w1_master_driver w1_bus_master1: Attaching one wire slave 00.e90000000000 crc 75
+[ 7897.823460] w1_master_driver w1_bus_master1: Family 0 for 00.e90000000000.75 is not registered.
+[ 7937.075617] w1_master_driver w1_bus_master1: Attaching one wire slave 00.190000000000 crc 01
+[ 7937.080910] w1_master_driver w1_bus_master1: Family 0 for 00.190000000000.01 is not registered.
+[ 8000.666494] w1_master_driver w1_bus_master1: Attaching one wire slave 00.990000000000 crc 8d
+[ 8000.673847] w1_master_driver w1_bus_master1: Family 0 for 00.990000000000.8d is not registered.
+[ 8064.277105] w1_master_driver w1_bus_master1: Attaching one wire slave 00.590000000000 crc 47
+[ 8064.282301] w1_master_driver w1_bus_master1: Family 0 for 00.590000000000.47 is not registered.
+[ 8115.027971] w1_master_driver w1_bus_master1: Attaching one wire slave 00.d90000000000 crc cb
+[ 8115.036065] w1_master_driver w1_bus_master1: Family 0 for 00.d90000000000.cb is not registered.
+[ 8129.838063] w1_master_driver w1_bus_master1: Attaching one wire slave 00.390000000000 crc 22
+[ 8129.845449] w1_master_driver w1_bus_master1: Family 0 for 00.390000000000.22 is not registered.
+[ 8193.438925] w1_master_driver w1_bus_master1: Attaching one wire slave 00.b90000000000 crc ae
+[ 8193.446901] w1_master_driver w1_bus_master1: Family 0 for 00.b90000000000.ae is not registered.
+[ 8231.379489] w1_master_driver w1_bus_master1: Attaching one wire slave 00.790000000000 crc 64
+[ 8231.388309] w1_master_driver w1_bus_master1: Family 0 for 00.790000000000.64 is not registered.
+[ 8282.100222] w1_master_driver w1_bus_master1: Attaching one wire slave 00.f90000000000 crc e8
+[ 8282.108099] w1_master_driver w1_bus_master1: Family 0 for 00.f90000000000.e8 is not registered.
+[ 8383.751187] w1_master_driver w1_bus_master1: Attaching one wire slave 00.050000000000 crc 3f
+[ 8383.758470] w1_master_driver w1_bus_master1: Family 0 for 00.050000000000.3f is not registered.
+[ 8422.941717] w1_master_driver w1_bus_master1: Attaching one wire slave 00.850000000000 crc b3
+[ 8422.949833] w1_master_driver w1_bus_master1: Family 0 for 00.850000000000.b3 is not registered.
+[ 8462.152174] w1_master_driver w1_bus_master1: Attaching one wire slave 00.450000000000 crc 79
+[ 8462.160577] w1_master_driver w1_bus_master1: Family 0 for 00.450000000000.79 is not registered.
+[ 8524.462908] w1_master_driver w1_bus_master1: Attaching one wire slave 00.c50000000000 crc f5
+[ 8524.470319] w1_master_driver w1_bus_master1: Family 0 for 00.c50000000000.f5 is not registered.
+[ 8550.503251] w1_master_driver w1_bus_master1: Attaching one wire slave 00.250000000000 crc 1c
+[ 8550.510589] w1_master_driver w1_bus_master1: Family 0 for 00.250000000000.1c is not registered.
+[ 8589.723662] w1_master_driver w1_bus_master1: Attaching one wire slave 00.a50000000000 crc 90
+[ 8589.730927] w1_master_driver w1_bus_master1: Family 0 for 00.a50000000000.90 is not registered.
+[ 8654.584530] w1_master_driver w1_bus_master1: Attaching one wire slave 00.650000000000 crc 5a
+[ 8654.592670] w1_master_driver w1_bus_master1: Family 0 for 00.650000000000.5a is not registered.
+[ 8716.915201] w1_master_driver w1_bus_master1: Attaching one wire slave 00.e50000000000 crc d6
+[ 8716.922583] w1_master_driver w1_bus_master1: Family 0 for 00.e50000000000.d6 is not registered.
+[ 8756.485901] w1_master_driver w1_bus_master1: Attaching one wire slave 00.150000000000 crc a2
+[ 8756.493289] w1_master_driver w1_bus_master1: Family 0 for 00.150000000000.a2 is not registered.
+[ 8788.901803] bcmgenet fd580000.ethernet eth0: Link is Down
+[ 8820.006462] w1_master_driver w1_bus_master1: Attaching one wire slave 00.950000000000 crc 2e
+[ 8820.013822] w1_master_driver w1_bus_master1: Family 0 for 00.950000000000.2e is not registered.
+[ 8857.986923] w1_master_driver w1_bus_master1: Attaching one wire slave 00.550000000000 crc e4
+[ 8857.994313] w1_master_driver w1_bus_master1: Family 0 for 00.550000000000.e4 is not registered.
+[ 8908.667656] w1_master_driver w1_bus_master1: Attaching one wire slave 00.d50000000000 crc 68
+[ 8908.675692] w1_master_driver w1_bus_master1: Family 0 for 00.d50000000000.68 is not registered.
+[ 8974.598581] w1_master_driver w1_bus_master1: Attaching one wire slave 00.350000000000 crc 81
+[ 8974.606778] w1_master_driver w1_bus_master1: Family 0 for 00.350000000000.81 is not registered.
+[ 9038.119109] w1_master_driver w1_bus_master1: Attaching one wire slave 00.b50000000000 crc 0d
+[ 9038.126439] w1_master_driver w1_bus_master1: Family 0 for 00.b50000000000.0d is not registered.
+[ 9101.789890] w1_master_driver w1_bus_master1: Attaching one wire slave 00.750000000000 crc c7
+[ 9101.797968] w1_master_driver w1_bus_master1: Family 0 for 00.750000000000.c7 is not registered.
+[ 9152.470504] w1_master_driver w1_bus_master1: Attaching one wire slave 00.f50000000000 crc 4b
+[ 9152.477781] w1_master_driver w1_bus_master1: Family 0 for 00.f50000000000.4b is not registered.
+[ 9203.081226] w1_master_driver w1_bus_master1: Attaching one wire slave 00.0d0000000000 crc fd
+[ 9203.089896] w1_master_driver w1_bus_master1: Family 0 for 00.0d0000000000.fd is not registered.
+[ 9242.221696] w1_master_driver w1_bus_master1: Attaching one wire slave 00.8d0000000000 crc 71
+[ 9242.229833] w1_master_driver w1_bus_master1: Family 0 for 00.8d0000000000.71 is not registered.
+[ 9306.992466] w1_master_driver w1_bus_master1: Attaching one wire slave 00.4d0000000000 crc bb
+[ 9307.000489] w1_master_driver w1_bus_master1: Family 0 for 00.4d0000000000.bb is not registered.
+[ 9369.233220] w1_master_driver w1_bus_master1: Attaching one wire slave 00.cd0000000000 crc 37
+[ 9369.241334] w1_master_driver w1_bus_master1: Family 0 for 00.cd0000000000.37 is not registered.
+[ 9395.513483] w1_master_driver w1_bus_master1: Attaching one wire slave 00.2d0000000000 crc de
+[ 9395.520931] w1_master_driver w1_bus_master1: Family 0 for 00.2d0000000000.de is not registered.
+[ 9434.633949] w1_master_driver w1_bus_master1: Attaching one wire slave 00.ad0000000000 crc 52
+[ 9434.641300] w1_master_driver w1_bus_master1: Family 0 for 00.ad0000000000.52 is not registered.
+[ 9473.754420] w1_master_driver w1_bus_master1: Attaching one wire slave 00.6d0000000000 crc 98
+[ 9473.761748] w1_master_driver w1_bus_master1: Family 0 for 00.6d0000000000.98 is not registered.
+[ 9535.995169] w1_master_driver w1_bus_master1: Attaching one wire slave 00.ed0000000000 crc 14
+[ 9536.002524] w1_master_driver w1_bus_master1: Family 0 for 00.ed0000000000.14 is not registered.
+[ 9575.715816] w1_master_driver w1_bus_master1: Attaching one wire slave 00.1d0000000000 crc 60
+[ 9575.723930] w1_master_driver w1_bus_master1: Family 0 for 00.1d0000000000.60 is not registered.
+[ 9639.316520] w1_master_driver w1_bus_master1: Attaching one wire slave 00.9d0000000000 crc ec
+[ 9639.324565] w1_master_driver w1_bus_master1: Family 0 for 00.9d0000000000.ec is not registered.
+[ 9651.072140] bcmgenet fd580000.ethernet eth0: Link is Up - 10Mbps/Full - flow control off
+[ 9652.112107] bcmgenet fd580000.ethernet eth0: Link is Down
+[ 9654.192301] bcmgenet fd580000.ethernet eth0: Link is Up - 1Gbps/Full - flow control off
+[ 9702.757218] w1_master_driver w1_bus_master1: Attaching one wire slave 00.5d0000000000 crc 26
+[ 9702.764516] w1_master_driver w1_bus_master1: Family 0 for 00.5d0000000000.26 is not registered.
+[ 9753.527891] w1_master_driver w1_bus_master1: Attaching one wire slave 00.dd0000000000 crc aa
+[ 9753.535917] w1_master_driver w1_bus_master1: Family 0 for 00.dd0000000000.aa is not registered.
+[ 9829.799202] w1_master_driver w1_bus_master1: Attaching one wire slave 00.3d0000000000 crc 43
+[ 9829.810954] w1_master_driver w1_bus_master1: Family 0 for 00.3d0000000000.43 is not registered.
+[ 9883.139467] w1_master_driver w1_bus_master1: Attaching one wire slave 00.bd0000000000 crc cf
+[ 9883.147526] w1_master_driver w1_bus_master1: Family 0 for 00.bd0000000000.cf is not registered.
+[ 9920.899928] w1_master_driver w1_bus_master1: Attaching one wire slave 00.7d0000000000 crc 05
+[ 9920.907989] w1_master_driver w1_bus_master1: Family 0 for 00.7d0000000000.05 is not registered.
+[ 9971.650473] w1_master_driver w1_bus_master1: Attaching one wire slave 00.fd0000000000 crc 89
+[ 9971.657797] w1_master_driver w1_bus_master1: Family 0 for 00.fd0000000000.89 is not registered.
+[10009.760920] w1_master_driver w1_bus_master1: Attaching one wire slave 00.030000000000 crc e2
+[10009.766016] w1_master_driver w1_bus_master1: Family 0 for 00.030000000000.e2 is not registered.
+[10011.956561] bcmgenet fd580000.ethernet eth0: Link is Down
+[10015.076672] bcmgenet fd580000.ethernet eth0: Link is Up - 1Gbps/Full - flow control off
+[10073.281696] w1_master_driver w1_bus_master1: Attaching one wire slave 00.830000000000 crc 6e
+[10073.289134] w1_master_driver w1_bus_master1: Family 0 for 00.830000000000.6e is not registered.
+[10100.842112] w1_master_driver w1_bus_master1: Attaching one wire slave 00.430000000000 crc a4
+[10100.849500] w1_master_driver w1_bus_master1: Family 0 for 00.430000000000.a4 is not registered.
+[10116.077018] ftdi_sio ttyUSB1: usb_serial_generic_read_bulk_callback - urb stopped: -32
+[10116.077630] ftdi_sio ttyUSB1: usb_serial_generic_read_bulk_callback - urb stopped: -32
+[10116.078303] ftdi_sio ttyUSB1: failed to get modem status: -32
+[10116.103257] usb 1-1.3.2: USB disconnect, device number 7
+[10116.103642] ftdi_sio ttyUSB1: error from flowcontrol urb
+[10116.107932] ftdi_sio ttyUSB1: FTDI USB Serial Device converter now disconnected from ttyUSB1
+[10116.108021] ftdi_sio 1-1.3.2:1.0: device disconnected
+[10151.532736] w1_master_driver w1_bus_master1: Attaching one wire slave 00.c30000000000 crc 28
+[10151.540717] w1_master_driver w1_bus_master1: Family 0 for 00.c30000000000.28 is not registered.
+[10227.893574] w1_master_driver w1_bus_master1: Attaching one wire slave 00.230000000000 crc c1
+[10227.900890] w1_master_driver w1_bus_master1: Family 0 for 00.230000000000.c1 is not registered.
+[10291.424171] w1_master_driver w1_bus_master1: Attaching one wire slave 00.a30000000000 crc 4d
+[10291.429323] w1_master_driver w1_bus_master1: Family 0 for 00.a30000000000.4d is not registered.
+[10354.925275] w1_master_driver w1_bus_master1: Attaching one wire slave 00.630000000000 crc 87
+[10354.933320] w1_master_driver w1_bus_master1: Family 0 for 00.630000000000.87 is not registered.
+[10395.345674] w1_master_driver w1_bus_master1: Attaching one wire slave 00.e30000000000 crc 0b
+[10395.353052] w1_master_driver w1_bus_master1: Family 0 for 00.e30000000000.0b is not registered.
+[10458.826500] w1_master_driver w1_bus_master1: Attaching one wire slave 00.130000000000 crc 7f
+[10458.834562] w1_master_driver w1_bus_master1: Family 0 for 00.130000000000.7f is not registered.
+[10508.286982] w1_master_driver w1_bus_master1: Attaching one wire slave 00.930000000000 crc f3
+[10508.294378] w1_master_driver w1_bus_master1: Family 0 for 00.930000000000.f3 is not registered.
+[10547.327495] w1_master_driver w1_bus_master1: Attaching one wire slave 00.530000000000 crc 39
+[10547.334915] w1_master_driver w1_bus_master1: Family 0 for 00.530000000000.39 is not registered.
+[10599.388265] w1_master_driver w1_bus_master1: Attaching one wire slave 00.d30000000000 crc b5
+[10599.396455] w1_master_driver w1_bus_master1: Family 0 for 00.d30000000000.b5 is not registered.
+[10625.578551] w1_master_driver w1_bus_master1: Attaching one wire slave 00.330000000000 crc 5c
+[10625.586612] w1_master_driver w1_bus_master1: Family 0 for 00.330000000000.5c is not registered.
+[10654.084189] usb 1-1.3.2: new full-speed USB device number 12 using xhci_hcd
+[10654.231802] usb 1-1.3.2: New USB device found, idVendor=0403, idProduct=6015, bcdDevice=10.00
+[10654.231825] usb 1-1.3.2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[10654.231844] usb 1-1.3.2: Product: FT230X Basic UART
+[10654.231861] usb 1-1.3.2: Manufacturer: FTDI
+[10654.231878] usb 1-1.3.2: SerialNumber: DK0FPPD7
+[10654.241538] ftdi_sio 1-1.3.2:1.0: FTDI USB Serial Device converter detected
+[10654.241723] usb 1-1.3.2: Detected FT-X
+[10654.246616] usb 1-1.3.2: FTDI USB Serial Device converter now attached to ttyUSB2
+[10675.049099] w1_master_driver w1_bus_master1: Attaching one wire slave 00.b30000000000 crc d0
+[10675.056849] w1_master_driver w1_bus_master1: Family 0 for 00.b30000000000.d0 is not registered.
+[10686.924757] bcmgenet fd580000.ethernet eth0: Link is Down
+[10708.765128] bcmgenet fd580000.ethernet eth0: Link is Up - 100Mbps/Full - flow control off
+[10739.769886] w1_master_driver w1_bus_master1: Attaching one wire slave 00.730000000000 crc 1a
+[10739.777935] w1_master_driver w1_bus_master1: Family 0 for 00.730000000000.1a is not registered.
+[10791.830269] w1_master_driver w1_bus_master1: Attaching one wire slave 00.f30000000000 crc 96
+[10791.835432] w1_master_driver w1_bus_master1: Family 0 for 00.f30000000000.96 is not registered.
+[10828.860965] w1_master_driver w1_bus_master1: Attaching one wire slave 00.0b0000000000 crc 20
+[10828.868416] w1_master_driver w1_bus_master1: Family 0 for 00.0b0000000000.20 is not registered.
+[10892.476718] w1_master_driver w1_bus_master1: Attaching one wire slave 00.8b0000000000 crc ac
+[10892.484740] w1_master_driver w1_bus_master1: Family 0 for 00.8b0000000000.ac is not registered.
+[10917.537883] usb 1-1.3.1: reset full-speed USB device number 5 using xhci_hcd
+[10945.822121] w1_master_driver w1_bus_master1: Attaching one wire slave 00.4b0000000000 crc 66
+[10945.827210] w1_master_driver w1_bus_master1: Family 0 for 00.4b0000000000.66 is not registered.
+[10996.553023] w1_master_driver w1_bus_master1: Attaching one wire slave 00.cb0000000000 crc ea
+[10996.561073] w1_master_driver w1_bus_master1: Family 0 for 00.cb0000000000.ea is not registered.
+[11072.653967] w1_master_driver w1_bus_master1: Attaching one wire slave 00.2b0000000000 crc 03
+[11072.661183] w1_master_driver w1_bus_master1: Family 0 for 00.2b0000000000.03 is not registered.
+[11107.200417] usb 1-1.3.1: reset full-speed USB device number 5 using xhci_hcd
+[11136.264712] w1_master_driver w1_bus_master1: Attaching one wire slave 00.ab0000000000 crc 8f
+[11136.272779] w1_master_driver w1_bus_master1: Family 0 for 00.ab0000000000.8f is not registered.
+[11174.175121] w1_master_driver w1_bus_master1: Attaching one wire slave 00.6b0000000000 crc 45
+[11174.182611] w1_master_driver w1_bus_master1: Family 0 for 00.6b0000000000.45 is not registered.
+[11214.675824] w1_master_driver w1_bus_master1: Attaching one wire slave 00.eb0000000000 crc c9
+[11214.683996] w1_master_driver w1_bus_master1: Family 0 for 00.eb0000000000.c9 is not registered.
+[11277.996422] w1_master_driver w1_bus_master1: Attaching one wire slave 00.1b0000000000 crc bd
+[11278.003825] w1_master_driver w1_bus_master1: Family 0 for 00.1b0000000000.bd is not registered.
+[11317.127013] w1_master_driver w1_bus_master1: Attaching one wire slave 00.9b0000000000 crc 31
+[11317.134710] w1_master_driver w1_bus_master1: Family 0 for 00.9b0000000000.31 is not registered.
+[11392.367848] w1_master_driver w1_bus_master1: Attaching one wire slave 00.5b0000000000 crc fb
+[11392.375681] w1_master_driver w1_bus_master1: Family 0 for 00.5b0000000000.fb is not registered.
+[11444.318370] w1_master_driver w1_bus_master1: Attaching one wire slave 00.db0000000000 crc 77
+[11444.325736] w1_master_driver w1_bus_master1: Family 0 for 00.db0000000000.77 is not registered.
+[11470.428790] w1_master_driver w1_bus_master1: Attaching one wire slave 00.3b0000000000 crc 9e
+[11470.436925] w1_master_driver w1_bus_master1: Family 0 for 00.3b0000000000.9e is not registered.
+[11519.819086] w1_master_driver w1_bus_master1: Attaching one wire slave 00.bb0000000000 crc 12
+[11519.824304] w1_master_driver w1_bus_master1: Family 0 for 00.bb0000000000.12 is not registered.
+[11559.119564] w1_master_driver w1_bus_master1: Attaching one wire slave 00.7b0000000000 crc d8
+[11559.124683] w1_master_driver w1_bus_master1: Family 0 for 00.7b0000000000.d8 is not registered.
+[11611.060479] w1_master_driver w1_bus_master1: Attaching one wire slave 00.fb0000000000 crc 54
+[11611.068573] w1_master_driver w1_bus_master1: Family 0 for 00.fb0000000000.54 is not registered.
+[11699.311589] w1_master_driver w1_bus_master1: Attaching one wire slave 00.070000000000 crc 83
+[11699.319640] w1_master_driver w1_bus_master1: Family 0 for 00.070000000000.83 is not registered.
+[11762.822325] w1_master_driver w1_bus_master1: Attaching one wire slave 00.870000000000 crc 0f
+[11762.830423] w1_master_driver w1_bus_master1: Family 0 for 00.870000000000.0f is not registered.
+[11790.542601] w1_master_driver w1_bus_master1: Attaching one wire slave 00.470000000000 crc c5
+[11790.550165] w1_master_driver w1_bus_master1: Family 0 for 00.470000000000.c5 is not registered.
+[11841.223187] w1_master_driver w1_bus_master1: Attaching one wire slave 00.c70000000000 crc 49
+[11841.230560] w1_master_driver w1_bus_master1: Family 0 for 00.c70000000000.49 is not registered.
+[11866.413585] w1_master_driver w1_bus_master1: Attaching one wire slave 00.270000000000 crc a0
+[11866.421689] w1_master_driver w1_bus_master1: Family 0 for 00.270000000000.a0 is not registered.
+[11929.904276] w1_master_driver w1_bus_master1: Attaching one wire slave 00.a70000000000 crc 2c
+[11929.911646] w1_master_driver w1_bus_master1: Family 0 for 00.a70000000000.2c is not registered.
+[11993.595138] w1_master_driver w1_bus_master1: Attaching one wire slave 00.670000000000 crc e6
+[11993.603259] w1_master_driver w1_bus_master1: Family 0 for 00.670000000000.e6 is not registered.
+[12044.265989] w1_master_driver w1_bus_master1: Attaching one wire slave 00.e70000000000 crc 6a
+[12044.274096] w1_master_driver w1_bus_master1: Family 0 for 00.e70000000000.6a is not registered.
+[12096.996401] w1_master_driver w1_bus_master1: Attaching one wire slave 00.170000000000 crc 1e
+[12097.004456] w1_master_driver w1_bus_master1: Family 0 for 00.170000000000.1e is not registered.
+[12136.186886] w1_master_driver w1_bus_master1: Attaching one wire slave 00.970000000000 crc 92
+[12136.194403] w1_master_driver w1_bus_master1: Family 0 for 00.970000000000.92 is not registered.
+[12185.667382] w1_master_driver w1_bus_master1: Attaching one wire slave 00.570000000000 crc 58
+[12185.674826] w1_master_driver w1_bus_master1: Family 0 for 00.570000000000.58 is not registered.
+[12237.708040] w1_master_driver w1_bus_master1: Attaching one wire slave 00.d70000000000 crc d4
+[12237.715599] w1_master_driver w1_bus_master1: Family 0 for 00.d70000000000.d4 is not registered.
+[12315.428972] w1_master_driver w1_bus_master1: Attaching one wire slave 00.370000000000 crc 3d
+[12315.436283] w1_master_driver w1_bus_master1: Family 0 for 00.370000000000.3d is not registered.
+[12364.929623] w1_master_driver w1_bus_master1: Attaching one wire slave 00.b70000000000 crc b1
+[12364.937650] w1_master_driver w1_bus_master1: Family 0 for 00.b70000000000.b1 is not registered.
+[12429.810430] w1_master_driver w1_bus_master1: Attaching one wire slave 00.770000000000 crc 7b
+[12429.818508] w1_master_driver w1_bus_master1: Family 0 for 00.770000000000.7b is not registered.
+[12481.860978] w1_master_driver w1_bus_master1: Attaching one wire slave 00.f70000000000 crc f7
+[12481.868341] w1_master_driver w1_bus_master1: Family 0 for 00.f70000000000.f7 is not registered.
+[12518.581541] w1_master_driver w1_bus_master1: Attaching one wire slave 00.0f0000000000 crc 41
+[12518.589577] w1_master_driver w1_bus_master1: Family 0 for 00.0f0000000000.41 is not registered.
+[12582.152288] w1_master_driver w1_bus_master1: Attaching one wire slave 00.8f0000000000 crc cd
+[12582.160361] w1_master_driver w1_bus_master1: Family 0 for 00.8f0000000000.cd is not registered.
+[12635.362933] w1_master_driver w1_bus_master1: Attaching one wire slave 00.4f0000000000 crc 07
+[12635.371009] w1_master_driver w1_bus_master1: Family 0 for 00.4f0000000000.07 is not registered.
+[12686.093552] w1_master_driver w1_bus_master1: Attaching one wire slave 00.cf0000000000 crc 8b
+[12686.101799] w1_master_driver w1_bus_master1: Family 0 for 00.cf0000000000.8b is not registered.
+[12711.320332] w1_master_driver w1_bus_master1: Attaching one wire slave 00.2f0000000000 crc 62
+[12711.328293] w1_master_driver w1_bus_master1: Family 0 for 00.2f0000000000.62 is not registered.
+[12774.934654] w1_master_driver w1_bus_master1: Attaching one wire slave 00.af0000000000 crc ee
+[12774.942512] w1_master_driver w1_bus_master1: Family 0 for 00.af0000000000.ee is not registered.
+[12812.675130] w1_master_driver w1_bus_master1: Attaching one wire slave 00.6f0000000000 crc 24
+[12812.683033] w1_master_driver w1_bus_master1: Family 0 for 00.6f0000000000.24 is not registered.
+[12863.445914] w1_master_driver w1_bus_master1: Attaching one wire slave 00.ef0000000000 crc a8
+[12863.455596] w1_master_driver w1_bus_master1: Family 0 for 00.ef0000000000.a8 is not registered.
+[12916.326352] w1_master_driver w1_bus_master1: Attaching one wire slave 00.1f0000000000 crc dc
+[12916.334351] w1_master_driver w1_bus_master1: Family 0 for 00.1f0000000000.dc is not registered.
+[12955.446825] w1_master_driver w1_bus_master1: Attaching one wire slave 00.9f0000000000 crc 50
+[12955.454860] w1_master_driver w1_bus_master1: Family 0 for 00.9f0000000000.50 is not registered.
+[13030.517660] w1_master_driver w1_bus_master1: Attaching one wire slave 00.5f0000000000 crc 9a
+[13030.525032] w1_master_driver w1_bus_master1: Family 0 for 00.5f0000000000.9a is not registered.
+[13082.528102] w1_master_driver w1_bus_master1: Attaching one wire slave 00.df0000000000 crc 16
+[13082.533215] w1_master_driver w1_bus_master1: Family 0 for 00.df0000000000.16 is not registered.
+[13170.719450] w1_master_driver w1_bus_master1: Attaching one wire slave 00.3f0000000000 crc ff
+[13170.727536] w1_master_driver w1_bus_master1: Family 0 for 00.3f0000000000.ff is not registered.
+[13209.861195] w1_master_driver w1_bus_master1: Attaching one wire slave 00.bf0000000000 crc 73
+[13209.869902] w1_master_driver w1_bus_master1: Family 0 for 00.bf0000000000.73 is not registered.
+[13248.970374] w1_master_driver w1_bus_master1: Attaching one wire slave 00.7f0000000000 crc b9
+[13248.978465] w1_master_driver w1_bus_master1: Family 0 for 00.7f0000000000.b9 is not registered.
+[13300.941023] w1_master_driver w1_bus_master1: Attaching one wire slave 00.ff0000000000 crc 35
+[13300.949200] w1_master_driver w1_bus_master1: Family 0 for 00.ff0000000000.35 is not registered.
+[13375.721888] w1_master_driver w1_bus_master1: Attaching one wire slave 00.008000000000 crc 2f
+[13375.729348] w1_master_driver w1_bus_master1: Family 0 for 00.008000000000.2f is not registered.
+[13414.932324] w1_master_driver w1_bus_master1: Attaching one wire slave 00.808000000000 crc a3
+[13414.939791] w1_master_driver w1_bus_master1: Family 0 for 00.808000000000.a3 is not registered.
+[13454.162680] w1_master_driver w1_bus_master1: Attaching one wire slave 00.408000000000 crc 69
+[13454.167805] w1_master_driver w1_bus_master1: Family 0 for 00.408000000000.69 is not registered.
+[13516.443609] w1_master_driver w1_bus_master1: Attaching one wire slave 00.c08000000000 crc e5
+[13516.451673] w1_master_driver w1_bus_master1: Family 0 for 00.c08000000000.e5 is not registered.
+[13542.503984] w1_master_driver w1_bus_master1: Attaching one wire slave 00.208000000000 crc 0c
+[13542.512172] w1_master_driver w1_bus_master1: Family 0 for 00.208000000000.0c is not registered.
+[13581.684355] w1_master_driver w1_bus_master1: Attaching one wire slave 00.a08000000000 crc 80
+[13581.691723] w1_master_driver w1_bus_master1: Family 0 for 00.a08000000000.80 is not registered.
+[13646.585228] w1_master_driver w1_bus_master1: Attaching one wire slave 00.608000000000 crc 4a
+[13646.593308] w1_master_driver w1_bus_master1: Family 0 for 00.608000000000.4a is not registered.
+[13708.885720] w1_master_driver w1_bus_master1: Attaching one wire slave 00.e08000000000 crc c6
+[13708.890906] w1_master_driver w1_bus_master1: Family 0 for 00.e08000000000.c6 is not registered.
+[13739.361856] bcmgenet fd580000.ethernet eth0: Link is Down
+[13749.116392] w1_master_driver w1_bus_master1: Attaching one wire slave 00.108000000000 crc b2
+[13749.123811] w1_master_driver w1_bus_master1: Family 0 for 00.108000000000.b2 is not registered.
+[13812.637303] w1_master_driver w1_bus_master1: Attaching one wire slave 00.908000000000 crc 3e
+[13812.645378] w1_master_driver w1_bus_master1: Family 0 for 00.908000000000.3e is not registered.
+[13850.617708] w1_master_driver w1_bus_master1: Attaching one wire slave 00.508000000000 crc f4
+[13850.625808] w1_master_driver w1_bus_master1: Family 0 for 00.508000000000.f4 is not registered.
+[13901.288347] w1_master_driver w1_bus_master1: Attaching one wire slave 00.d08000000000 crc 78
+[13901.296302] w1_master_driver w1_bus_master1: Family 0 for 00.d08000000000.78 is not registered.
+[13977.489165] w1_master_driver w1_bus_master1: Attaching one wire slave 00.308000000000 crc 91
+[13977.496567] w1_master_driver w1_bus_master1: Family 0 for 00.308000000000.91 is not registered.
+[14030.729813] w1_master_driver w1_bus_master1: Attaching one wire slave 00.b08000000000 crc 1d
+[14030.737233] w1_master_driver w1_bus_master1: Family 0 for 00.b08000000000.1d is not registered.
+[14094.410898] w1_master_driver w1_bus_master1: Attaching one wire slave 00.708000000000 crc d7
+[14094.418444] w1_master_driver w1_bus_master1: Family 0 for 00.708000000000.d7 is not registered.
+[14145.091213] w1_master_driver w1_bus_master1: Attaching one wire slave 00.f08000000000 crc 5b
+[14145.098571] w1_master_driver w1_bus_master1: Family 0 for 00.f08000000000.5b is not registered.
+[14195.051896] w1_master_driver w1_bus_master1: Attaching one wire slave 00.088000000000 crc ed
+[14195.060203] w1_master_driver w1_bus_master1: Family 0 for 00.088000000000.ed is not registered.
+[14234.182388] w1_master_driver w1_bus_master1: Attaching one wire slave 00.888000000000 crc 61
+[14234.190446] w1_master_driver w1_bus_master1: Family 0 for 00.888000000000.61 is not registered.
+[14298.973263] w1_master_driver w1_bus_master1: Attaching one wire slave 00.488000000000 crc ab
+[14298.981388] w1_master_driver w1_bus_master1: Family 0 for 00.488000000000.ab is not registered.
+[14361.213952] w1_master_driver w1_bus_master1: Attaching one wire slave 00.c88000000000 crc 27
+[14361.222688] w1_master_driver w1_bus_master1: Family 0 for 00.c88000000000.27 is not registered.
+[14387.504154] w1_master_driver w1_bus_master1: Attaching one wire slave 00.288000000000 crc ce
+[14387.511551] w1_master_driver w1_bus_master1: Family 0 for 00.288000000000.ce is not registered.
+[14426.614624] w1_master_driver w1_bus_master1: Attaching one wire slave 00.a88000000000 crc 42
+[14426.621996] w1_master_driver w1_bus_master1: Family 0 for 00.a88000000000.42 is not registered.
+[14465.735125] w1_master_driver w1_bus_master1: Attaching one wire slave 00.688000000000 crc 88
+[14465.742522] w1_master_driver w1_bus_master1: Family 0 for 00.688000000000.88 is not registered.
+[14527.975856] w1_master_driver w1_bus_master1: Attaching one wire slave 00.e88000000000 crc 04
+[14527.983220] w1_master_driver w1_bus_master1: Family 0 for 00.e88000000000.04 is not registered.
+[14568.336416] w1_master_driver w1_bus_master1: Attaching one wire slave 00.188000000000 crc 70
+[14568.344518] w1_master_driver w1_bus_master1: Family 0 for 00.188000000000.70 is not registered.
+[14631.947207] w1_master_driver w1_bus_master1: Attaching one wire slave 00.988000000000 crc fc
+[14631.955288] w1_master_driver w1_bus_master1: Family 0 for 00.988000000000.fc is not registered.
+[14695.378129] w1_master_driver w1_bus_master1: Attaching one wire slave 00.588000000000 crc 36
+[14695.385516] w1_master_driver w1_bus_master1: Family 0 for 00.588000000000.36 is not registered.
+[14698.253635] bcmgenet fd580000.ethernet eth0: Link is Up - 10Mbps/Full - flow control off
+[14699.293535] bcmgenet fd580000.ethernet eth0: Link is Down
+[14702.413687] bcmgenet fd580000.ethernet eth0: Link is Up - 1Gbps/Full - flow control off
+[14746.138507] w1_master_driver w1_bus_master1: Attaching one wire slave 00.d88000000000 crc ba
+[14746.145795] w1_master_driver w1_bus_master1: Family 0 for 00.d88000000000.ba is not registered.
+[14822.429535] w1_master_driver w1_bus_master1: Attaching one wire slave 00.388000000000 crc 53
+[14822.437426] w1_master_driver w1_bus_master1: Family 0 for 00.388000000000.53 is not registered.
+[14886.020132] w1_master_driver w1_bus_master1: Attaching one wire slave 00.b88000000000 crc df
+[14886.025344] w1_master_driver w1_bus_master1: Family 0 for 00.b88000000000.df is not registered.
+[14913.520638] w1_master_driver w1_bus_master1: Attaching one wire slave 00.788000000000 crc 15
+[14913.528651] w1_master_driver w1_bus_master1: Family 0 for 00.788000000000.15 is not registered.
+[14964.271245] w1_master_driver w1_bus_master1: Attaching one wire slave 00.f88000000000 crc 99
+[14964.279381] w1_master_driver w1_bus_master1: Family 0 for 00.f88000000000.99 is not registered.
+[15014.061793] w1_master_driver w1_bus_master1: Attaching one wire slave 00.048000000000 crc 4e
+[15014.069093] w1_master_driver w1_bus_master1: Family 0 for 00.048000000000.4e is not registered.
+[15053.272330] w1_master_driver w1_bus_master1: Attaching one wire slave 00.848000000000 crc c2
+[15053.280347] w1_master_driver w1_bus_master1: Family 0 for 00.848000000000.c2 is not registered.
+[15092.312807] w1_master_driver w1_bus_master1: Attaching one wire slave 00.448000000000 crc 08
+[15092.320855] w1_master_driver w1_bus_master1: Family 0 for 00.448000000000.08 is not registered.
+[15144.373152] w1_master_driver w1_bus_master1: Attaching one wire slave 00.c48000000000 crc 84
+[15144.378348] w1_master_driver w1_bus_master1: Family 0 for 00.c48000000000.84 is not registered.
+[15232.514435] w1_master_driver w1_bus_master1: Attaching one wire slave 00.248000000000 crc 6d
+[15232.521902] w1_master_driver w1_bus_master1: Family 0 for 00.248000000000.6d is not registered.
+[15271.705038] w1_master_driver w1_bus_master1: Attaching one wire slave 00.a48000000000 crc e1
+[15271.713038] w1_master_driver w1_bus_master1: Family 0 for 00.a48000000000.e1 is not registered.
+[15346.705999] w1_master_driver w1_bus_master1: Attaching one wire slave 00.648000000000 crc 2b
+[15346.714983] w1_master_driver w1_bus_master1: Family 0 for 00.648000000000.2b is not registered.
+[15398.756467] w1_master_driver w1_bus_master1: Attaching one wire slave 00.e48000000000 crc a7
+[15398.763688] w1_master_driver w1_bus_master1: Family 0 for 00.e48000000000.a7 is not registered.
+[15449.067492] w1_master_driver w1_bus_master1: Attaching one wire slave 00.148000000000 crc d3
+[15449.079448] w1_master_driver w1_bus_master1: Family 0 for 00.148000000000.d3 is not registered.
+[15461.933368] usb 1-1.3.1: reset full-speed USB device number 5 using xhci_hcd
+[15502.347509] w1_master_driver w1_bus_master1: Attaching one wire slave 00.948000000000 crc 5f
+[15502.352638] w1_master_driver w1_bus_master1: Family 0 for 00.948000000000.5f is not registered.
+[15540.160032] w1_master_driver w1_bus_master1: Attaching one wire slave 00.548000000000 crc 95
+[15540.169203] w1_master_driver w1_bus_master1: Family 0 for 00.548000000000.95 is not registered.
+[15590.828920] w1_master_driver w1_bus_master1: Attaching one wire slave 00.d48000000000 crc 19
+[15590.837005] w1_master_driver w1_bus_master1: Family 0 for 00.d48000000000.19 is not registered.
+[15616.149098] w1_master_driver w1_bus_master1: Attaching one wire slave 00.348000000000 crc f0
+[15616.156478] w1_master_driver w1_bus_master1: Family 0 for 00.348000000000.f0 is not registered.
+[15672.745386] bcmgenet fd580000.ethernet eth0: Link is Down
+[15675.865548] bcmgenet fd580000.ethernet eth0: Link is Up - 1Gbps/Full - flow control off
+[15679.670034] w1_master_driver w1_bus_master1: Attaching one wire slave 00.b48000000000 crc 7c
+[15679.677647] w1_master_driver w1_bus_master1: Family 0 for 00.b48000000000.7c is not registered.
+[15732.910510] w1_master_driver w1_bus_master1: Attaching one wire slave 00.748000000000 crc b6
+[15732.917914] w1_master_driver w1_bus_master1: Family 0 for 00.748000000000.b6 is not registered.
+[15783.591215] w1_master_driver w1_bus_master1: Attaching one wire slave 00.f48000000000 crc 3a
+[15783.599379] w1_master_driver w1_bus_master1: Family 0 for 00.f48000000000.3a is not registered.
+[15833.241904] w1_master_driver w1_bus_master1: Attaching one wire slave 00.0c8000000000 crc 8c
+[15833.250076] w1_master_driver w1_bus_master1: Family 0 for 00.0c8000000000.8c is not registered.
+[15872.352299] w1_master_driver w1_bus_master1: Attaching one wire slave 00.8c8000000000 crc 00
+[15872.360406] w1_master_driver w1_bus_master1: Family 0 for 00.8c8000000000.00 is not registered.
+[15937.313054] w1_master_driver w1_bus_master1: Attaching one wire slave 00.4c8000000000 crc ca
+[15937.320536] w1_master_driver w1_bus_master1: Family 0 for 00.4c8000000000.ca is not registered.
+[15999.554125] w1_master_driver w1_bus_master1: Attaching one wire slave 00.cc8000000000 crc 46
+[15999.561508] w1_master_driver w1_bus_master1: Family 0 for 00.cc8000000000.46 is not registered.
+[16066.910151] bcmgenet fd580000.ethernet eth0: Link is Down
+[16077.354700] w1_master_driver w1_bus_master1: Attaching one wire slave 00.2c8000000000 crc af
+[16077.362061] w1_master_driver w1_bus_master1: Family 0 for 00.2c8000000000.af is not registered.
+[16116.485288] w1_master_driver w1_bus_master1: Attaching one wire slave 00.ac8000000000 crc 23
+[16116.493089] w1_master_driver w1_bus_master1: Family 0 for 00.ac8000000000.23 is not registered.
+[16166.035861] w1_master_driver w1_bus_master1: Attaching one wire slave 00.6c8000000000 crc e9
+[16166.043993] w1_master_driver w1_bus_master1: Family 0 for 00.6c8000000000.e9 is not registered.
+[16217.996407] w1_master_driver w1_bus_master1: Attaching one wire slave 00.ec8000000000 crc 65
+[16218.003769] w1_master_driver w1_bus_master1: Family 0 for 00.ec8000000000.65 is not registered.
+[16257.916695] w1_master_driver w1_bus_master1: Attaching one wire slave 00.1c8000000000 crc 11
+[16257.921895] w1_master_driver w1_bus_master1: Family 0 for 00.1c8000000000.11 is not registered.
+[16321.507669] w1_master_driver w1_bus_master1: Attaching one wire slave 00.9c8000000000 crc 9d
+[16321.514985] w1_master_driver w1_bus_master1: Family 0 for 00.9c8000000000.9d is not registered.
+[16385.078561] w1_master_driver w1_bus_master1: Attaching one wire slave 00.5c8000000000 crc 57
+[16385.086716] w1_master_driver w1_bus_master1: Family 0 for 00.5c8000000000.57 is not registered.
+[16435.859143] w1_master_driver w1_bus_master1: Attaching one wire slave 00.dc8000000000 crc db
+[16435.867280] w1_master_driver w1_bus_master1: Family 0 for 00.dc8000000000.db is not registered.
+[16460.919197] w1_master_driver w1_bus_master1: Attaching one wire slave 00.3c8000000000 crc 32
+[16460.924372] w1_master_driver w1_bus_master1: Family 0 for 00.3c8000000000.32 is not registered.
+[16524.520349] w1_master_driver w1_bus_master1: Attaching one wire slave 00.bc8000000000 crc be
+[16524.528382] w1_master_driver w1_bus_master1: Family 0 for 00.bc8000000000.be is not registered.
+[16552.180552] w1_master_driver w1_bus_master1: Attaching one wire slave 00.7c8000000000 crc 74
+[16552.188513] w1_master_driver w1_bus_master1: Family 0 for 00.7c8000000000.74 is not registered.
+[16602.921096] w1_master_driver w1_bus_master1: Attaching one wire slave 00.fc8000000000 crc f8
+[16602.928449] w1_master_driver w1_bus_master1: Family 0 for 00.fc8000000000.f8 is not registered.
+[16691.922253] w1_master_driver w1_bus_master1: Attaching one wire slave 00.028000000000 crc 93
+[16691.930380] w1_master_driver w1_bus_master1: Family 0 for 00.028000000000.93 is not registered.
+[16706.518048] bcmgenet fd580000.ethernet eth0: Link is Up - 10Mbps/Full - flow control off
+[16707.557948] bcmgenet fd580000.ethernet eth0: Link is Down
+[16710.678138] bcmgenet fd580000.ethernet eth0: Link is Up - 1Gbps/Full - flow control off
+[16723.158228] bcmgenet fd580000.ethernet eth0: Link is Down
+[16727.318306] bcmgenet fd580000.ethernet eth0: Link is Up - 1Gbps/Full - flow control off
+[16730.438181] bcmgenet fd580000.ethernet eth0: Link is Down
+[16733.558382] bcmgenet fd580000.ethernet eth0: Link is Up - 1Gbps/Full - flow control off
+[16736.678306] bcmgenet fd580000.ethernet eth0: Link is Down
+[16739.798446] bcmgenet fd580000.ethernet eth0: Link is Up - 1Gbps/Full - flow control off
+[16751.238478] bcmgenet fd580000.ethernet eth0: Link is Down
+[16754.358636] bcmgenet fd580000.ethernet eth0: Link is Up - 1Gbps/Full - flow control off
+[16755.443029] w1_master_driver w1_bus_master1: Attaching one wire slave 00.828000000000 crc 1f
+[16755.451145] w1_master_driver w1_bus_master1: Family 0 for 00.828000000000.1f is not registered.
+[16793.443473] w1_master_driver w1_bus_master1: Attaching one wire slave 00.428000000000 crc d5
+[16793.450807] w1_master_driver w1_bus_master1: Family 0 for 00.428000000000.d5 is not registered.
+[16810.519203] bcmgenet fd580000.ethernet eth0: Link is Down
+[16813.639379] bcmgenet fd580000.ethernet eth0: Link is Up - 1Gbps/Full - flow control off
+[16833.893897] w1_master_driver w1_bus_master1: Attaching one wire slave 00.c28000000000 crc 59
+[16833.901260] w1_master_driver w1_bus_master1: Family 0 for 00.c28000000000.59 is not registered.
+[16859.024397] w1_master_driver w1_bus_master1: Attaching one wire slave 00.228000000000 crc b0
+[16859.033359] w1_master_driver w1_bus_master1: Family 0 for 00.228000000000.b0 is not registered.

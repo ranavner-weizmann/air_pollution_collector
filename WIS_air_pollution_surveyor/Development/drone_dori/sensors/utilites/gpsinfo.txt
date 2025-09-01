@@ -1,0 +1,10 @@
+Serial configuration for the gps:
+baudrate: 38400
+Databits: 8
+Stopbits: 1
+Parity: None
+Bit Order: LSB first
+
+Device Information
+Vedor ID: 0x1546
+Product ID: 0x01A9

@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "activateVirtualEnv",
+            "type": "shell",
+            "command": "source",
+            "args": ["/home/pi/evia/venv/bin/activate"],
+            "options": {
+                "cwd": "/home/pi/evia/venv/bin/",
+                "env": {
+                    "SHELL": "/bin/bash" 
+                }
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

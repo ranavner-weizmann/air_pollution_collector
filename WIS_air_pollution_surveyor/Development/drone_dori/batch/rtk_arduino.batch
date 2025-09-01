@@ -1,0 +1,8 @@
+#!/bin/bash
+#SBATCH --job-name=rtk_arduino
+#SBATCH --nodelist=node01
+#SBATCH --partition=drone_queue
+#SBATCH --oversubscribe
+
+cd ../rtk_arduino
+srun python rtk_arduino_service.py

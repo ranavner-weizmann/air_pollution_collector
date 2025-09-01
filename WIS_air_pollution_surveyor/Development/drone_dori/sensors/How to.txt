@@ -1,0 +1,20 @@
+
+***************** Run everything from sensors folder ****************
+
+cd /home/pi/Documents/drone/WIS_air_pollution_surveyor/Development/drone_dori/sensors/
+
+*********************************************************************
+
+To run the system with all thd devices connected -- See list of devices in the devices_variables.py DEVICES variable
+
+just run ./runall
+
+If you want to run with specific devices run with
+
+./runall --devices ...devices names...
+
+
+
+
+
+

@@ -1,0 +1,154 @@
+logger:
+    opc_PVs: ['pm1', 'pm2dot5', 'pm10', 'temperature', 'humidity', 'Flowrate', 'period', 'laser_status', 'gain_high_ON']
+    opc_array_PV: 'bins'
+    aeth_PVs: ['accel_x', 'accel_y', 'accel_z', 'battery', 'blue_ATN1', 'blue_ATN2', 'blue_BC1', 'blue_BC2',
+               'blue_BCc', 'blue_K', 'blue_ref', 'blue_sen1', 'blue_sen2',  'datum_id',
+               'flow1', 'flow2', 'flow_setpoint', 'flow_total', 'gps_lat', 'gps_long', 'gps_speed',
+               'green_ATN1', 'green_ATN2', 'green_BC1', 'green_BC2', 'green_BCc', 'green_K', 'green_ref',
+               'green_sen1', 'green_sen2', 'int_pressure', 'int_temp', 'IR_ATN1', 'IR_ATN2','IR_BC1',
+               'IR_BC2', 'IR_BCc', 'IR_K', 'IR_ref', 'IR_sen1', 'IR_sen2', 'red_ATN1',
+               'red_ATN2', 'red_BC1', 'red_BC2', 'red_BCc', 'red_K', 'red_ref', 'red_sen1', 'red_sen2',
+               'sample_dewpoint', 'sample_RH', 'sample_temp', 'status','tape_pos', 'timebase', 'timezone_offset',
+               'UV_ATN1', 'UV_ATN2', 'UV_BC1', 'UV_BC2', 'UV_BCc', 'UV_K', 'UV_ref', 'UV_sen1', 'UV_sen2', 'date_time_GMT'] #'date_time_GMT',
+    sniffer_PVs: ['altitude', 'CO', 'hdop', 'humidity', 'latitude', 'longitude', 'NO2', 'Ox', 'PM1', 'PM10',
+                  'PM2dot5', 'pressure', 'sateNum', 'sequence', 'SO2', 'utcTime', 'temperature']#, 'utcTime']
+    project_name: 'Project_name'
+    save_opc_bool: True # save opc data to file
+    save_aeth_bool: True # save MICROAETH data to file   
+    save_sniffer_bool: True # save sniffer data to file
+    save_wind_bool: True # save sniffer data to file
+    save_folder: '/home/pi/data'
+    interval_between_save_s: 5 # time in seconds to gather and mean results
+logger_wind:
+    wind_PVs: ['speed','direction','temperature']
+    project_name: 'Project_wind_name'
+    save_folder: '/home/pi/data'
+logger_pom:
+    pom_PVs: ['ozone','cell_temp','cell_pressure','photo_volt','power_supply','latitude','longitude','altitude'] 
+    project_name: 'Project_pom_name'
+    save_folder: '/home/pi/data'
+logger_rtk:
+    rtk_PVs: ['xAcc','yAcc','zAcc','xAng','yAng','zAng','longitude','latitude','height','hMSL','velN','velD','numSV','pitch','roll','heading','accRoll','accPitch','accHeading'] 
+    project_name: 'Project_rtk_name'
+    save_folder: '/home/pi/data'
+logger_rtk_arduino:
+    rtk_PVs: ['FusionMode','GroundSpeed','Lat','Long','xAngRate','yAngRate','zAngRate','xAccel','yAccel','zAccel','pitch','roll','status'] 
+    project_name: 'Project_rtk_arduino_name'
+    save_folder: '/home/pi/data'
+    interval_between_save_s: 5
+logger_hum:
+    hum_PVs: ['pressure','temp','rel_hum',
+        'hum_temp','longitude','latitude','altitude','sat']
+    project_name: 'Project_hum_name'
+    save_folder: '/home/pi/data'
+logger_pops:
+        pops_PVs: ['TimeSSM', 'Status', 'DataStatus', 'PartCt', 'HistSum',
+            'PartCon', 'BL', 'BLTH', 'STD', 'MaxSTD', 'P', 'TofP', 
+            'PumpLife_hrs', 'WidthSTD', 'AveWidth', 'POPS_Flow',
+            'LDTemp', 'LaserFB', 'LD_Mon', 'Temp', 'BatV',
+            'Flow_Set', 'BL_Start', 'TH_Mult','nbins', 'logmin', 'logmax',
+            'MinPeakPts', 'MaxPeakPts', 'RawPts', 'b0', 'b1', 'b2', 'b3', 'b4',
+            'b5', 'b6', 'b7', 'b8', 'b9', 'b10', 'b11', 'b12', 'b13', 'b14',
+            'b15']
+        project_name: 'Project_pops_name'
+        save_folder: '/home/pi/data'
+        interval_between_save_s: 5 
+opc:
+    demo: True # is this a demo mode or an instrument is connected?
+    port: "/dev/opc" #"/dev/ttyACM0"
+    auto_start: False
+sniffer:
+    demo: True # is this a demo mode or an instrument is connected?
+    port: "/dev/sniffer"#"/dev/ttyUSB1"
+    auto_start: False
+aeth:
+    demo: False
+    port: "/dev/aeth"
+    auto_start: False
+wind:
+    demo: True
+    port: "/dev/wind"
+    auto_start: False
+pom:
+    demo: False
+    port: "/dev/ttyACM0"
+    auto_start: False 
+humidity:
+    demo: False
+    port: "/dev/ttyUSB0"
+    auto_start: False
+xbee:
+    port: "/dev/ttyUSB0"
+    xbee_PVs: ['longitude','latitude','height','pitch','roll','heading']
+    targets: [{'id':1,'longitude':31.923727,'latitude':31.923727,'height':0.05},
+              {'id':2,'longitude':31.923727,'latitude':31.923727,'height':0.05},
+              {'id':3,'longitude':31.923727,'latitude':31.923727,'height':0.05},
+              {'id':4,'longitude':31.923727,'latitude':31.923727,'height':0.05},
+              {'id':5,'longitude':31.923727,'latitude':31.923727,'height':0.05},
+              {'id':6,'longitude':31.923727,'latitude':31.923727,'height':0.05},
+              {'id':7,'longitude':31.923727,'latitude':31.923727,'height':0.05},
+              {'id':8,'longitude':31.923727,'latitude':31.923727,'height':0.05},
+              {'id':9,'longitude':31.923727,'latitude':31.923727,'height':0.05},
+              {'id':10,'longitude':31.923727,'latitude':31.923727,'height':0.05},
+              {'id':11,'longitude':31.923727,'latitude':31.923727,'height':0.05},
+              {'id':12,'longitude':31.923727,'latitude':31.923727,'height':0.05},
+              {'id':13,'longitude':31.923727,'latitude':31.923727,'height':0.05},
+              {'id':14,'longitude':31.923727,'latitude':31.923727,'height':0.05},
+              {'id':15,'longitude':31.923727,'latitude':31.923727,'height':0.05},
+              {'id':16,'longitude':31.923727,'latitude':31.923727,'height':0.05},
+              {'id':17,'longitude':31.923727,'latitude':31.923727,'height':0.05},
+              {'id':18,'longitude':31.923727,'latitude':31.923727,'height':0.05},
+              {'id':19,'longitude':31.923727,'latitude':31.923727,'height':0.05},
+              {'id':20,'longitude':31.923727,'latitude':31.923727,'height':0.05}]
+spectrometer:
+    integration_time: 100000  # in usec (100000 = 0.1 sec)
+    is_demo_mode: True
+    spectrometer_ID: "QEP03372"
+    update_rate: 1 # in Hz
+    is_PV: True
+    name_PV: "spectrometer"
+    default_log_dir: "~/data/spectrometer"
+    to_log: True
+    add_time_to_filename: False
+
+mCEAS:
+    arduino_port: "/dev/ttyUSB0" # arduino port
+    is_demo_mode: True
+    update_rate: 1 # in Hz
+    default_log_dir: "~/data/mCEAS"
+    measured_gases_and_sigma_filenames: {"NO2_455":"../mCEAS/config/sigmas/sigma_455_NO2.csv"} #,"Glyoxal":...
+    atmospheric_gases_and_sigma_filenames: {"H2O_455":"../mCEAS/config/sigmas/sigma_455_H2O.csv"}
+    d_full: 15.94 #cm
+    d_purging: 15.94 #cm
+    name_PV: "mCEAS"
+    reflectivity_Ts1: [296.2,296.05,296,296]
+    reflectivity_Ts2: [296.03,295.95,296,295.95]
+    reflectivity_Ps1: [1013.25,1013.25,1013.25,1013.25]
+    reflectivity_Ps2: [1013.25,1013.25,1013.25,1013.25]
+    lab_reflectivity_Is1: [
+        "config/lab_reflectivity/N_1_QEP033721__0__14-59-21-464.txt",
+        "config/lab_reflectivity/N_2_QEP033721__0__15-59-04-830.txt",
+        "config/lab_reflectivity/N_3_QEP033721__0__16-18-10-822.txt",
+        "config/lab_reflectivity/N_4_QEP033721__0__16-39-49-812.txt",
+    ]
+    lab_reflectivity_Is2: [
+        "config/lab_reflectivity/He_1_QEP033721__0__15-11-46-851.txt",
+        "config/lab_reflectivity/He_2_QEP033721__0__16-05-52-827.txt",
+        "config/lab_reflectivity/He_3_QEP033721__0__16-29-06-817.txt",
+        "config/lab_reflectivity/He_4_QEP033721__0__16-59-39-803.txt",
+    ]
+    lab_reflectivity_names1: ["N2","N2","N2","N2"]
+    lab_reflectivity_names2: ["He","He","He","He"]
+    reflectivity_filename: "config/reflectivity.npy"
+    reflectivity_wavelengths_filename: "config/reflectivity_wavelengths.npy"
+    I0_filename: "config/NO2_QEP033721__0__18-22-35-729.txt"
+    T0: 295.95
+    P0: 1013.25
+    I0_NO2: 0.
+    measurement_gases: ["NO2"]
+    arduino_params: ["LED_intensity","LED_T","peltier_T","P","P_volts","flow","pump"]
+    to_log: True
+    log_filename: "NO2"
+
+    
+
