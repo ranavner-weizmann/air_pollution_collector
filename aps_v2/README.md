@@ -20,12 +20,13 @@ https://developer.dji.com/doc/payload-sdk-tutorial/en/quick-start/quick-guide/ra
     the pi will reboot
 
 10. find a image that is already created by other people and use it instead of doing steps 3 - 9. (hint: https://sdk-forum.dji.net/hc/zh-cn/articles/10232604141465-%E6%A0%91%E8%8E%93%E6%B4%BE4B%E9%85%8D%E7%BD%AEUSB-device-RNDIS-%E5%92%8C-BULK)
-11. find a way to sync the f time
-12. clone the psdk repo by running psdk_install.sh
-13. create an app in the psdk developer center (DJI)
-14. change the necessary files (with app id, name... usb configurations, etc.) (more info: https://developer.dji.com/doc/payload-sdk-tutorial/en/quick-start/E-Port%20Quick%20Start/raspberry-pi.html?utm_source=chatgpt.com)
-15. 
+11. change password! defult is 'rsp'
+12. find a way to sync the f time
+13. clone the psdk repo by running psdk_install.sh
+14. create an app in the psdk developer center (DJI)
+15. change the necessary files (with app id, name... usb configurations, etc.) (more info: https://developer.dji.com/doc/payload-sdk-tutorial/en/quick-start/E-Port%20Quick%20Start/raspberry-pi.html?utm_source=chatgpt.com)
 16. 
+17. 
 
 
 
