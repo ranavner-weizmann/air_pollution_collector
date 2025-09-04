@@ -121,7 +121,7 @@ class Sensor:
         handler = logging.StreamHandler()
         handler.setFormatter(formatter)
         log_path, format = None, None
-        with open("/Users/ranavner/MSc/air_pollution_collector/aps_v2/dev/sensors/main_log_path.txt", "r") as f:
+        with open("/home/rsp/air_pollution_collector/aps_v2/dev/sensors/main_log_path.txt", "r") as f:
             log_path = f.readline().strip()
             format = f.readline()
 
