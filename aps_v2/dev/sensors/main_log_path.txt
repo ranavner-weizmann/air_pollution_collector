@@ -1,2 +1,2 @@
-/home/rsp/air_pollution_collector/aps_v2/dev/logs/logs_09_04_2025_15_19_08/main_log_09_04_2025_15_19_08.txt
+/home/rsp/air_pollution_collector/aps_v2/dev/logs/logs_09_04_2025_15_57_54/main_log_09_04_2025_15_57_54.txt
 %(asctime)s %(filename)s: %(message)s
