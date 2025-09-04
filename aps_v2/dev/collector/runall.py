@@ -18,8 +18,6 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SENSORS_DIR = os.path.join(BASE_DIR, "sensors")
 sys.path.append(SENSORS_DIR)
 
-from pom import Pom
-
 RUNNING = True
 LOG_FORMAT = "%(asctime)s %(filename)s: %(message)s"
 
