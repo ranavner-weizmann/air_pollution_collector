@@ -2,4 +2,7 @@
     "cSpell.words": [
         "psdk"
     ]
+,
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+  "python.terminal.activateEnvironment": true
 }
