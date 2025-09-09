@@ -18,8 +18,6 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SENSORS_DIR = os.path.join(BASE_DIR, "sensors")
 sys.path.append(SENSORS_DIR)
 
-from pom import Pom
-
 RUNNING = True
 LOG_FORMAT = "%(asctime)s %(filename)s: %(message)s"
 
@@ -36,7 +34,7 @@ def main():
     parser.add_argument("--outdir", default="./logs", help="folder for CSV + log files")
     args = parser.parse_args()
 
-    # prepare logging folder
+    # prepare logging folder with run start timestamp
     os.makedirs(args.outdir, exist_ok=True)
     run_stamp = datetime.now().strftime("%m_%d_%Y_%H_%M_%S")
     logging_folder = os.path.realpath(os.path.join(args.outdir, f"logs_{run_stamp}"))
