@@ -29,4 +29,9 @@ https://developer.dji.com/doc/payload-sdk-tutorial/en/quick-start/quick-guide/ra
 17. 
 
 
+### Spectrometer SDK Installation: 
+1. Download the SDK from: https://www.oceanoptics.com/software/oceandirect/
+
+
+
 
