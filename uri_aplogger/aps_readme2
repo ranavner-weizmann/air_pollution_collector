@@ -1,0 +1,8 @@
+Uri here.
+I wrote the script for the iMet-XQ2, based on the earlier exisitng script used for previous measurements.
+The script uses two main libraries, serial for receiving the output from the sensor,
+and csv, for real-time writing into the output file. 
+The script writes into the relevant csv file once every second, appending the latest output to the end of the file.
+It receives the outputs from the sensor on port 57600.
+It resets the buffer so irrelevant backlog doesn't get mixed into the current data.
+Added: Data normalization for temperature and timezone fix for time.
