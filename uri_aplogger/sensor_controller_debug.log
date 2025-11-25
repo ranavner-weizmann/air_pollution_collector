@@ -1,0 +1,320 @@
+2025-11-25 13:12:02,171 - SensorController - INFO - Loaded configuration from sensor_config.json
+2025-11-25 13:12:02,171 - SensorController - INFO - Initialized sensor: iMet
+2025-11-25 13:12:02,172 - SensorController - INFO - Initialized sensor: POM
+2025-11-25 13:12:02,172 - SensorController - INFO - Initialized sensor: TriSonica
+2025-11-25 13:12:02,172 - SensorController - INFO - Initialized sensor: Spectrometer
+2025-11-25 13:12:02,172 - SensorController - INFO - Initialized data merger
+2025-11-25 13:12:02,172 - SensorController - INFO - Starting all sensor processes...
+2025-11-25 13:12:02,173 - SensorController - INFO - Testing iMet script directly...
+2025-11-25 13:12:02,674 - SensorController - INFO - iMet test return code: 1
+2025-11-25 13:12:02,675 - SensorController - ERROR - iMet test stderr:
+Traceback (most recent call last):
+  File "/home/rsp/work/uri/iMet_safe.py", line 307, in <module>
+    main()
+  File "/home/rsp/work/uri/iMet_safe.py", line 295, in main
+    output_dir = Path('output')
+NameError: name 'Path' is not defined
+
+2025-11-25 13:12:02,676 - SensorController - INFO - Testing TriSonica script directly...
+2025-11-25 13:12:03,202 - SensorController - INFO - TriSonica test return code: 1
+2025-11-25 13:12:03,203 - SensorController - ERROR - TriSonica test stderr:
+Traceback (most recent call last):
+  File "/home/rsp/work/uri/trisonica_safe.py", line 309, in <module>
+    main()
+  File "/home/rsp/work/uri/trisonica_safe.py", line 297, in main
+    output_dir = Path('output')
+NameError: name 'Path' is not defined
+
+2025-11-25 13:12:03,204 - SensorController - DEBUG - Starting iMet with script: /home/rsp/work/uri/iMet_safe.py
+2025-11-25 13:12:03,208 - SensorController - INFO - Started iMet (PID: 11314)
+2025-11-25 13:12:03,209 - SensorController - INFO - Waiting 5 seconds for iMet to initialize...
+2025-11-25 13:12:03,706 - SensorController - ERROR - iMet ERROR: Traceback (most recent call last):
+2025-11-25 13:21:20,526 - SensorController - INFO - Loaded configuration from sensor_config.json
+2025-11-25 13:21:20,527 - SensorController - INFO - Initialized sensor: iMet
+2025-11-25 13:21:20,527 - SensorController - INFO - Initialized sensor: POM
+2025-11-25 13:21:20,527 - SensorController - INFO - Initialized sensor: TriSonica
+2025-11-25 13:21:20,528 - SensorController - INFO - Initialized sensor: Spectrometer
+2025-11-25 13:21:20,528 - SensorController - INFO - Initialized data merger
+2025-11-25 13:21:20,528 - SensorController - INFO - Starting all sensor processes...
+2025-11-25 13:21:20,528 - SensorController - INFO - Testing iMet script directly...
+2025-11-25 13:21:21,035 - SensorController - INFO - iMet test return code: 1
+2025-11-25 13:21:21,035 - SensorController - ERROR - iMet test stderr:
+Traceback (most recent call last):
+  File "/home/rsp/work/uri/iMet_safe.py", line 307, in <module>
+    main()
+  File "/home/rsp/work/uri/iMet_safe.py", line 295, in main
+    output_dir = Path('output')
+NameError: name 'Path' is not defined
+
+2025-11-25 13:21:21,036 - SensorController - INFO - Testing TriSonica script directly...
+2025-11-25 13:21:21,555 - SensorController - INFO - TriSonica test return code: 1
+2025-11-25 13:21:21,555 - SensorController - ERROR - TriSonica test stderr:
+Traceback (most recent call last):
+  File "/home/rsp/work/uri/trisonica_safe.py", line 309, in <module>
+    main()
+  File "/home/rsp/work/uri/trisonica_safe.py", line 297, in main
+    output_dir = Path('output')
+NameError: name 'Path' is not defined
+
+2025-11-25 13:21:21,557 - SensorController - DEBUG - Starting iMet with script: /home/rsp/work/uri/iMet_safe.py
+2025-11-25 13:21:21,561 - SensorController - INFO - Started iMet (PID: 11569)
+2025-11-25 13:21:21,562 - SensorController - INFO - Waiting 5 seconds for iMet to initialize...
+2025-11-25 13:21:22,061 - SensorController - ERROR - iMet ERROR: Traceback (most recent call last):
+2025-11-25 13:24:21,006 - SensorController - INFO - Loaded configuration from sensor_config.json
+2025-11-25 13:24:21,007 - SensorController - INFO - Initialized sensor: iMet
+2025-11-25 13:24:21,007 - SensorController - INFO - Initialized sensor: POM
+2025-11-25 13:24:21,008 - SensorController - INFO - Initialized sensor: TriSonica
+2025-11-25 13:24:21,008 - SensorController - INFO - Initialized sensor: Spectrometer
+2025-11-25 13:24:21,008 - SensorController - INFO - Initialized data merger
+2025-11-25 13:24:21,009 - SensorController - INFO - Starting all sensor processes...
+2025-11-25 13:24:21,009 - SensorController - INFO - Testing iMet script directly...
+2025-11-25 13:24:31,022 - SensorController - INFO - iMet test timed out (might be running normally)
+2025-11-25 13:24:31,023 - SensorController - INFO - Testing TriSonica script directly...
+2025-11-25 13:24:31,526 - SensorController - INFO - TriSonica test return code: 1
+2025-11-25 13:24:31,527 - SensorController - ERROR - TriSonica test stderr:
+Traceback (most recent call last):
+  File "/home/rsp/work/uri/trisonica_safe.py", line 309, in <module>
+    main()
+  File "/home/rsp/work/uri/trisonica_safe.py", line 297, in main
+    output_dir = Path('output')
+NameError: name 'Path' is not defined
+
+2025-11-25 13:24:31,529 - SensorController - DEBUG - Starting iMet with script: /home/rsp/work/uri/iMet_safe.py
+2025-11-25 13:24:31,538 - SensorController - INFO - Started iMet (PID: 12221)
+2025-11-25 13:24:31,539 - SensorController - INFO - Waiting 5 seconds for iMet to initialize...
+2025-11-25 13:24:36,546 - SensorController - DEBUG - Starting POM with script: /home/rsp/work/uri/pom_safe.py
+2025-11-25 13:24:36,551 - SensorController - INFO - Started POM (PID: 12254)
+2025-11-25 13:24:36,552 - SensorController - INFO - Waiting 5 seconds for POM to initialize...
+2025-11-25 13:24:41,558 - SensorController - DEBUG - Starting TriSonica with script: /home/rsp/work/uri/trisonica_safe.py
+2025-11-25 13:24:41,562 - SensorController - INFO - Started TriSonica (PID: 12286)
+2025-11-25 13:24:41,564 - SensorController - INFO - Waiting 5 seconds for TriSonica to initialize...
+2025-11-25 13:24:42,145 - SensorController - ERROR - TriSonica ERROR: Traceback (most recent call last):
+2025-11-25 13:24:46,570 - SensorController - DEBUG - Starting Spectrometer with script: /home/rsp/work/uri/spectro.py
+2025-11-25 13:24:46,575 - SensorController - INFO - Started Spectrometer (PID: 12319)
+2025-11-25 13:24:46,576 - SensorController - INFO - Waiting 5 seconds for Spectrometer to initialize...
+2025-11-25 13:24:51,581 - SensorController - INFO - Waiting 15 seconds before starting merger...
+2025-11-25 13:25:06,584 - SensorController - DEBUG - Starting Merger with script: /home/rsp/work/uri/merger.py
+2025-11-25 13:25:06,595 - SensorController - INFO - Started Merger (PID: 12425)
+2025-11-25 13:25:06,597 - SensorController - INFO - Merger process started
+2025-11-25 13:25:06,598 - SensorController - INFO - All processes started
+2025-11-25 13:25:06,599 - SensorController - INFO - Sensor controller running. Press Ctrl+C to stop.
+2025-11-25 13:25:22,056 - SensorController - INFO - Received signal 2, shutting down...
+2025-11-25 13:25:22,057 - SensorController - INFO - Stopping all processes...
+2025-11-25 13:25:22,058 - SensorController - INFO - Stopping merger process...
+2025-11-25 13:25:22,066 - SensorController - INFO - Stopped Merger
+2025-11-25 13:25:22,067 - SensorController - INFO - Stopping iMet...
+2025-11-25 13:25:22,075 - SensorController - ERROR - iMet ERROR: 2025-11-25 13:24:32,025 iMet: Starting robust iMet data collection
+2025-11-25 13:25:22,084 - SensorController - INFO - Stopped iMet
+2025-11-25 13:25:22,085 - SensorController - INFO - Stopping POM...
+2025-11-25 13:25:22,092 - SensorController - ERROR - POM ERROR: 2025-11-25 13:24:37,060 POM: Starting robust POM data collection
+2025-11-25 13:25:22,094 - SensorController - INFO - Stopped POM
+2025-11-25 13:25:22,095 - SensorController - INFO - Stopping TriSonica...
+2025-11-25 13:25:22,096 - SensorController - INFO - Stopped TriSonica
+2025-11-25 13:25:22,096 - SensorController - INFO - Stopping Spectrometer...
+2025-11-25 13:25:22,107 - SensorController - ERROR - Spectrometer ERROR: 2025-11-25 13:24:48,602 OceanSR6: Found 1 devices: [<SeaBreezeDevice SR6:SR601166>]
+2025-11-25 13:25:22,113 - SensorController - INFO - Stopped Spectrometer
+2025-11-25 13:25:22,113 - SensorController - INFO - All processes stopped
+2025-11-25 13:25:22,114 - SensorController - INFO - Stopping all processes...
+2025-11-25 13:25:22,115 - SensorController - INFO - Stopping merger process...
+2025-11-25 13:25:22,115 - SensorController - INFO - Stopping iMet...
+2025-11-25 13:25:22,116 - SensorController - INFO - Stopping POM...
+2025-11-25 13:25:22,116 - SensorController - INFO - Stopping TriSonica...
+2025-11-25 13:25:22,117 - SensorController - INFO - Stopping Spectrometer...
+2025-11-25 13:25:22,118 - SensorController - INFO - All processes stopped
+2025-11-25 13:27:48,587 - SensorController - INFO - Loaded configuration from sensor_config.json
+2025-11-25 13:27:48,588 - SensorController - INFO - Initialized sensor: iMet
+2025-11-25 13:27:48,588 - SensorController - INFO - Initialized sensor: POM
+2025-11-25 13:27:48,589 - SensorController - INFO - Initialized sensor: TriSonica
+2025-11-25 13:27:48,589 - SensorController - INFO - Initialized sensor: Spectrometer
+2025-11-25 13:27:48,589 - SensorController - INFO - Initialized data merger
+2025-11-25 13:27:48,589 - SensorController - INFO - Starting all sensor processes...
+2025-11-25 13:27:48,589 - SensorController - INFO - Testing iMet script directly...
+2025-11-25 13:27:58,602 - SensorController - INFO - iMet test timed out (might be running normally)
+2025-11-25 13:27:58,602 - SensorController - INFO - Testing TriSonica script directly...
+2025-11-25 13:28:08,619 - SensorController - INFO - TriSonica test timed out (might be running normally)
+2025-11-25 13:28:08,623 - SensorController - DEBUG - Starting iMet with script: /home/rsp/work/uri/iMet_safe.py
+2025-11-25 13:28:08,633 - SensorController - INFO - Started iMet (PID: 12651)
+2025-11-25 13:28:08,634 - SensorController - INFO - Waiting 5 seconds for iMet to initialize...
+2025-11-25 13:28:13,641 - SensorController - DEBUG - Starting POM with script: /home/rsp/work/uri/pom_safe.py
+2025-11-25 13:28:13,645 - SensorController - INFO - Started POM (PID: 12679)
+2025-11-25 13:28:13,646 - SensorController - INFO - Waiting 5 seconds for POM to initialize...
+2025-11-25 13:28:18,652 - SensorController - DEBUG - Starting TriSonica with script: /home/rsp/work/uri/trisonica_safe.py
+2025-11-25 13:28:18,657 - SensorController - INFO - Started TriSonica (PID: 12711)
+2025-11-25 13:28:18,658 - SensorController - INFO - Waiting 5 seconds for TriSonica to initialize...
+2025-11-25 13:28:23,664 - SensorController - DEBUG - Starting Spectrometer with script: /home/rsp/work/uri/spectro.py
+2025-11-25 13:28:23,669 - SensorController - INFO - Started Spectrometer (PID: 12748)
+2025-11-25 13:28:23,670 - SensorController - INFO - Waiting 5 seconds for Spectrometer to initialize...
+2025-11-25 13:28:28,675 - SensorController - INFO - Waiting 15 seconds before starting merger...
+2025-11-25 13:28:43,685 - SensorController - DEBUG - Starting Merger with script: /home/rsp/work/uri/merger.py
+2025-11-25 13:28:43,695 - SensorController - INFO - Started Merger (PID: 12872)
+2025-11-25 13:28:43,697 - SensorController - INFO - Merger process started
+2025-11-25 13:28:43,698 - SensorController - INFO - All processes started
+2025-11-25 13:28:43,698 - SensorController - INFO - Sensor controller running. Press Ctrl+C to stop.
+2025-11-25 13:28:53,220 - SensorController - INFO - Received signal 2, shutting down...
+2025-11-25 13:28:53,221 - SensorController - INFO - Stopping all processes...
+2025-11-25 13:28:53,221 - SensorController - INFO - Stopping merger process...
+2025-11-25 13:28:53,225 - SensorController - INFO - Stopped Merger
+2025-11-25 13:28:53,225 - SensorController - INFO - Stopping iMet...
+2025-11-25 13:28:53,229 - SensorController - ERROR - iMet ERROR: 2025-11-25 13:28:09,141 iMet: Starting robust iMet data collection
+2025-11-25 13:28:53,233 - SensorController - INFO - Stopped iMet
+2025-11-25 13:28:53,234 - SensorController - INFO - Stopping POM...
+2025-11-25 13:28:53,238 - SensorController - ERROR - POM ERROR: 2025-11-25 13:28:14,153 POM: Starting robust POM data collection
+2025-11-25 13:28:53,242 - SensorController - INFO - Stopped POM
+2025-11-25 13:28:53,242 - SensorController - INFO - Stopping TriSonica...
+2025-11-25 13:28:53,246 - SensorController - ERROR - TriSonica ERROR: 2025-11-25 13:28:19,165 TriSonica: Starting robust TriSonica data collection
+2025-11-25 13:28:53,250 - SensorController - INFO - Stopped TriSonica
+2025-11-25 13:28:53,251 - SensorController - INFO - Stopping Spectrometer...
+2025-11-25 13:28:53,256 - SensorController - ERROR - Spectrometer ERROR: 2025-11-25 13:28:25,690 OceanSR6: Found 1 devices: [<SeaBreezeDevice SR6:SR601166>]
+2025-11-25 13:28:53,259 - SensorController - INFO - Stopped Spectrometer
+2025-11-25 13:28:53,259 - SensorController - INFO - All processes stopped
+2025-11-25 13:28:53,259 - SensorController - INFO - Stopping all processes...
+2025-11-25 13:28:53,260 - SensorController - INFO - Stopping merger process...
+2025-11-25 13:28:53,260 - SensorController - INFO - Stopping iMet...
+2025-11-25 13:28:53,260 - SensorController - INFO - Stopping POM...
+2025-11-25 13:28:53,260 - SensorController - INFO - Stopping TriSonica...
+2025-11-25 13:28:53,260 - SensorController - INFO - Stopping Spectrometer...
+2025-11-25 13:28:53,260 - SensorController - INFO - All processes stopped
+2025-11-25 13:53:39,549 - SensorController - INFO - Loaded configuration from sensor_config.json
+2025-11-25 13:53:39,549 - SensorController - INFO - Initialized sensor: iMet
+2025-11-25 13:53:39,550 - SensorController - INFO - Initialized sensor: POM
+2025-11-25 13:53:39,550 - SensorController - INFO - Initialized sensor: TriSonica
+2025-11-25 13:53:39,550 - SensorController - INFO - Initialized sensor: Spectrometer
+2025-11-25 13:53:39,550 - SensorController - INFO - Initialized data merger
+2025-11-25 13:53:39,551 - SensorController - INFO - Starting all sensor processes...
+2025-11-25 13:53:39,551 - SensorController - INFO - Testing iMet script directly...
+2025-11-25 13:53:49,563 - SensorController - INFO - iMet test timed out (might be running normally)
+2025-11-25 13:53:49,564 - SensorController - INFO - Testing TriSonica script directly...
+2025-11-25 13:53:59,576 - SensorController - INFO - TriSonica test timed out (might be running normally)
+2025-11-25 13:53:59,577 - SensorController - DEBUG - Starting iMet with script: /home/rsp/work/uri/iMet_safe.py
+2025-11-25 13:53:59,582 - SensorController - INFO - Started iMet (PID: 13217)
+2025-11-25 13:53:59,583 - SensorController - INFO - Waiting 5 seconds for iMet to initialize...
+2025-11-25 13:54:04,590 - SensorController - DEBUG - Starting POM with script: /home/rsp/work/uri/pom_safe.py
+2025-11-25 13:54:04,600 - SensorController - INFO - Started POM (PID: 13245)
+2025-11-25 13:54:04,602 - SensorController - INFO - Waiting 5 seconds for POM to initialize...
+2025-11-25 13:54:09,608 - SensorController - DEBUG - Starting TriSonica with script: /home/rsp/work/uri/trisonica_safe.py
+2025-11-25 13:54:09,613 - SensorController - INFO - Started TriSonica (PID: 13277)
+2025-11-25 13:54:09,613 - SensorController - INFO - Waiting 5 seconds for TriSonica to initialize...
+2025-11-25 13:54:14,620 - SensorController - DEBUG - Starting Spectrometer with script: /home/rsp/work/uri/spectro.py
+2025-11-25 13:54:14,625 - SensorController - INFO - Started Spectrometer (PID: 13314)
+2025-11-25 13:54:14,625 - SensorController - INFO - Waiting 5 seconds for Spectrometer to initialize...
+2025-11-25 13:54:19,631 - SensorController - INFO - Waiting 15 seconds before starting merger...
+2025-11-25 13:54:34,639 - SensorController - DEBUG - Starting Merger with script: /home/rsp/work/uri/merger.py
+2025-11-25 13:54:34,644 - SensorController - INFO - Started Merger (PID: 13432)
+2025-11-25 13:54:34,645 - SensorController - INFO - Merger process started
+2025-11-25 13:54:34,645 - SensorController - INFO - All processes started
+2025-11-25 13:54:34,645 - SensorController - INFO - Sensor controller running. Press Ctrl+C to stop.
+2025-11-25 13:54:47,900 - SensorController - INFO - Received signal 2, shutting down...
+2025-11-25 13:54:47,900 - SensorController - INFO - Stopping all processes...
+2025-11-25 13:54:47,901 - SensorController - INFO - Stopping merger process...
+2025-11-25 13:54:47,909 - SensorController - INFO - Stopped Merger
+2025-11-25 13:54:47,910 - SensorController - INFO - Stopping iMet...
+2025-11-25 13:54:47,916 - SensorController - ERROR - iMet ERROR: 2025-11-25 13:54:00,036 iMet: Starting robust iMet data collection
+2025-11-25 13:54:47,918 - SensorController - INFO - Stopped iMet
+2025-11-25 13:54:47,919 - SensorController - INFO - Stopping POM...
+2025-11-25 13:54:47,924 - SensorController - ERROR - POM ERROR: 2025-11-25 13:54:05,091 POM: Starting robust POM data collection
+2025-11-25 13:54:47,927 - SensorController - INFO - Stopped POM
+2025-11-25 13:54:47,928 - SensorController - INFO - Stopping TriSonica...
+2025-11-25 13:54:47,932 - SensorController - ERROR - TriSonica ERROR: 2025-11-25 13:54:10,124 TriSonica: Starting robust TriSonica data collection
+2025-11-25 13:54:47,932 - SensorController - INFO - Stopped TriSonica
+2025-11-25 13:54:47,933 - SensorController - INFO - Stopping Spectrometer...
+2025-11-25 13:54:47,940 - SensorController - ERROR - Spectrometer ERROR: 2025-11-25 13:54:16,644 OceanSR6: Found 1 devices: [<SeaBreezeDevice SR6:SR601166>]
+2025-11-25 13:54:47,942 - SensorController - INFO - Stopped Spectrometer
+2025-11-25 13:54:47,942 - SensorController - INFO - All processes stopped
+2025-11-25 13:54:47,943 - SensorController - INFO - Stopping all processes...
+2025-11-25 13:54:47,943 - SensorController - INFO - Stopping merger process...
+2025-11-25 13:54:47,943 - SensorController - INFO - Stopping iMet...
+2025-11-25 13:54:47,943 - SensorController - INFO - Stopping POM...
+2025-11-25 13:54:47,944 - SensorController - INFO - Stopping TriSonica...
+2025-11-25 13:54:47,944 - SensorController - INFO - Stopping Spectrometer...
+2025-11-25 13:54:47,944 - SensorController - INFO - All processes stopped
+2025-11-25 15:45:03,781 - SensorController - INFO - Loaded configuration from sensor_config.json
+2025-11-25 15:45:03,782 - SensorController - INFO - Initialized sensor: iMet
+2025-11-25 15:45:03,782 - SensorController - INFO - Initialized sensor: POM
+2025-11-25 15:45:03,782 - SensorController - INFO - Initialized sensor: TriSonica
+2025-11-25 15:45:03,782 - SensorController - INFO - Initialized sensor: Spectrometer
+2025-11-25 15:45:03,783 - SensorController - INFO - Initialized data merger
+2025-11-25 15:45:03,783 - SensorController - INFO - Starting all sensor processes...
+2025-11-25 15:45:03,783 - SensorController - INFO - Testing iMet script directly...
+2025-11-25 15:45:13,793 - SensorController - INFO - iMet test timed out (might be running normally)
+2025-11-25 15:45:13,794 - SensorController - INFO - Testing TriSonica script directly...
+2025-11-25 15:45:23,808 - SensorController - INFO - TriSonica test timed out (might be running normally)
+2025-11-25 15:45:23,812 - SensorController - DEBUG - Starting iMet with script: /home/rsp/work/uri/iMet_safe.py
+2025-11-25 15:45:23,821 - SensorController - INFO - Started iMet (PID: 16199)
+2025-11-25 15:45:23,823 - SensorController - INFO - Waiting 5 seconds for iMet to initialize...
+2025-11-25 15:45:28,830 - SensorController - DEBUG - Starting POM with script: /home/rsp/work/uri/pom_safe.py
+2025-11-25 15:45:28,834 - SensorController - INFO - Started POM (PID: 16231)
+2025-11-25 15:45:28,835 - SensorController - INFO - Waiting 5 seconds for POM to initialize...
+2025-11-25 15:45:33,841 - SensorController - DEBUG - Starting TriSonica with script: /home/rsp/work/uri/trisonica_safe.py
+2025-11-25 15:45:33,846 - SensorController - INFO - Started TriSonica (PID: 16270)
+2025-11-25 15:45:33,847 - SensorController - INFO - Waiting 5 seconds for TriSonica to initialize...
+2025-11-25 15:45:38,853 - SensorController - DEBUG - Starting Spectrometer with script: /home/rsp/work/uri/spectro.py
+2025-11-25 15:45:38,858 - SensorController - INFO - Started Spectrometer (PID: 16313)
+2025-11-25 15:45:38,859 - SensorController - INFO - Waiting 5 seconds for Spectrometer to initialize...
+2025-11-25 15:45:43,864 - SensorController - INFO - Waiting 15 seconds before starting merger...
+2025-11-25 15:45:58,881 - SensorController - DEBUG - Starting Merger with script: /home/rsp/work/uri/merger.py
+2025-11-25 15:45:58,885 - SensorController - INFO - Started Merger (PID: 16461)
+2025-11-25 15:45:58,886 - SensorController - INFO - Merger process started
+2025-11-25 15:45:58,887 - SensorController - INFO - All processes started
+2025-11-25 15:45:58,888 - SensorController - INFO - Sensor controller running. Press Ctrl+C to stop.
+2025-11-25 15:46:14,883 - SensorController - INFO - Merger: Monitoring directory: /home/rsp/work/uri/output
+2025-11-25 15:46:24,808 - SensorController - INFO - Received signal 2, shutting down...
+2025-11-25 15:46:24,809 - SensorController - INFO - Stopping all processes...
+2025-11-25 15:46:24,809 - SensorController - INFO - Stopping merger process...
+2025-11-25 15:46:24,816 - SensorController - INFO - Stopped Merger
+2025-11-25 15:46:24,817 - SensorController - INFO - Merger (final): None, None, None, None, None, None, None, 'XQ', '1010.22', '+2418', '3.83', '+2527', '2015/10/18', '01:54:23', '+0000000000', '+0000000000', '-00017000', None, None, None, None, None]
+2025-11-25 15:46:24,818 - SensorController - INFO - Stopping iMet...
+2025-11-25 15:46:24,828 - SensorController - ERROR - iMet ERROR: 2025-11-25 15:45:24,009 iMet: Starting robust iMet data collection
+2025-11-25 15:46:24,829 - SensorController - ERROR - iMet ERROR (final): Pa, Temp: 1010.15 °C
+2025-11-25 15:46:07,539 iMet: Raw data: XQ,+101017,+2414,+0382,+2529,2015/10/18,01:54:16,+0000000000,+0000000000,-00017000,00
+2025-11-25 15:46:07,540 iMet: Written: Pressure: XQ hPa, Temp: 1010.17 °C
+2025-11-25 15:46:08,570 iMet: Raw data: XQ,+101022,+2417,+0383,+2529,2015/10/18,01:54:17,+0000000000,+0000000000,-00017000,00
+2025-11-25 15:46:08,572 iMet: Written: Pressure: XQ hPa, Temp: 1010.22 °C
+2025-11-25 15:46:09,602 iMet: Raw data: XQ,+101013,+2414,+0383,+2527,2015/10/18,01:54:18,+0000000000,+0000000000,-00017000,00
+2025-11-25 15:46:09,609 iMet: Written: Pressure: XQ hPa, Temp: 1010.13 °C
+2025-11-25 15:46:10,640 iMet: Raw data: XQ,+101015,+2414,+0383,+2526,2015/10/18,01:54:19,+0000000000,+0000000000,-00017000,00
+2025-11-25 15:46:10,641 iMet: Written: Pressure: XQ hPa, Temp: 1010.15 °C
+2025-11-25 15:46:11,715 iMet: Raw data: XQ,+101011,+2417,+0382,+2526,2015/10/18,01:54:20,+0000000000,+0000000000,-00017000,00
+2025-11-25 15:46:11,716 iMet: Written: Pressure: XQ hPa, Temp: 1010.11 °C
+2025-11-25 15:46:12,748 iMet: Raw data: XQ,+101017,+2417,+0383,+2527,2015/10/18,01:54:21,+0000000000,+0000000000,-00017000,00
+2025-11-25 15:46:12,749 iMet: Written: Pressure: XQ hPa, Temp: 1010.17 °C
+2025-11-25 15:46:13,781 iMet: Raw data: XQ,+101018,+2416,+0383,+2529,2015/10/18,01:54:22,+0000000000,+0000000000,-00017000,00
+2025-11-25 15:46:13,782 iMet: Written: Pressure: XQ hPa, Temp: 1010.18 °C
+2025-11-25 15:46:14,812 iMet: Raw data: XQ,+101022,+2418,+0383,+2527,2015/10/18,01:54:23,+0000000000,+0000000000,-00017000,00
+2025-11-25 15:46:14,813 iMet: Written: Pressure: XQ hPa, Temp: 1010.22 °C
+2025-11-25 15:46:15,844 iMet: Raw data: XQ,+101017,+2416,+0382,+2526,2015/10/18,01:54:24,+0000000000,+0000000000,-00017000,00
+2025-11-25 15:46:15,845 iMet: Written: Pressure: XQ hPa, Temp: 1010.17 °C
+2025-11-25 15:46:16,922 iMet: Raw data: XQ,+101015,+2416,+0382,+2529,2015/10/18,01:54:25,+0000000000,+0000000000,-00017000,00
+2025-11-25 15:46:16,923 iMet: Written: Pressure: XQ hPa, Temp: 1010.15 °C
+2025-11-25 15:46:17,955 iMet: Raw data: XQ,+101012,+2416,+0383,+2527,2015/10/18,01:54:26,+0000000000,+0000000000,-00017000,00
+2025-11-25 15:46:17,956 iMet: Written: Pressure: XQ hPa, Temp: 1010.12 °C
+2025-11-25 15:46:18,987 iMet: Raw data: XQ,+101014,+2417,+0382,+2527,2015/10/18,01:54:27,+0000000000,+0000000000,-00017000,00
+2025-11-25 15:46:18,988 iMet: Written: Pressure: XQ hPa, Temp: 1010.14 °C
+2025-11-25 15:46:20,019 iMet: Raw data: XQ,+101019,+2418,+0382,+2527,2015/10/18,01:54:28,+0000000000,+0000000000,-00017000,00
+2025-11-25 15:46:20,019 iMet: Written: Pressure: XQ hPa, Temp: 1010.19 °C
+2025-11-25 15:46:21,050 iMet: Raw data: XQ,+101019,+2421,+0382,+2527,2015/10/18,01:54:29,+0000000000,+0000000000,-00017000,00
+2025-11-25 15:46:21,051 iMet: Written: Pressure: XQ hPa, Temp: 1010.19 °C
+2025-11-25 15:46:22,129 iMet: Raw data: XQ,+101014,+2418,+0382,+2526,2015/10/18,01:54:30,+0000000000,+0000000000,-00017000,00
+2025-11-25 15:46:22,130 iMet: Written: Pressure: XQ hPa, Temp: 1010.14 °C
+2025-11-25 15:46:23,160 iMet: Raw data: XQ,+101016,+2413,+0382,+2527,2015/10/18,01:54:31,+0000000000,+0000000000,-00017000,00
+2025-11-25 15:46:23,161 iMet: Written: Pressure: XQ hPa, Temp: 1010.16 °C
+2025-11-25 15:46:24,194 iMet: Raw data: XQ,+101012,+2409,+0382,+2527,2015/10/18,01:54:32,+0000000000,+0000000000,-00017000,00
+2025-11-25 15:46:24,195 iMet: Written: Pressure: XQ hPa, Temp: 1010.12 °C
+2025-11-25 15:46:24,808 iMet: Stopping iMet data collection...
+2025-11-25 15:46:24,829 - SensorController - INFO - Stopped iMet
+2025-11-25 15:46:24,833 - SensorController - INFO - Stopping POM...
+2025-11-25 15:46:24,839 - SensorController - ERROR - POM ERROR: 2025-11-25 15:45:29,013 POM: Starting robust POM data collection
+2025-11-25 15:46:24,840 - SensorController - INFO - Stopped POM
+2025-11-25 15:46:24,841 - SensorController - INFO - Stopping TriSonica...
+2025-11-25 15:46:24,845 - SensorController - ERROR - TriSonica ERROR: 2025-11-25 15:45:33,985 TriSonica: Starting robust TriSonica data collection
+2025-11-25 15:46:24,846 - SensorController - INFO - Stopped TriSonica
+2025-11-25 15:46:24,847 - SensorController - INFO - Stopping Spectrometer...
+2025-11-25 15:46:24,853 - SensorController - ERROR - Spectrometer ERROR: 2025-11-25 15:45:40,895 OceanSR6: Found 1 devices: [<SeaBreezeDevice SR6:SR601166>]
+2025-11-25 15:46:24,855 - SensorController - INFO - Stopped Spectrometer
+2025-11-25 15:46:24,856 - SensorController - INFO - All processes stopped
+2025-11-25 15:46:24,856 - SensorController - INFO - Stopping all processes...
+2025-11-25 15:46:24,857 - SensorController - INFO - Stopping merger process...
+2025-11-25 15:46:24,857 - SensorController - INFO - Stopping iMet...
+2025-11-25 15:46:24,857 - SensorController - INFO - Stopping POM...
+2025-11-25 15:46:24,858 - SensorController - INFO - Stopping TriSonica...
+2025-11-25 15:46:24,858 - SensorController - INFO - Stopping Spectrometer...
+2025-11-25 15:46:24,859 - SensorController - INFO - All processes stopped

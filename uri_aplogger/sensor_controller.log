@@ -1,0 +1,378 @@
+2025-11-25 12:34:48,672 - SensorController - INFO - Created default configuration file: sensor_config.json
+2025-11-25 12:34:48,672 - SensorController - INFO - Initialized sensor: iMet
+2025-11-25 12:34:48,672 - SensorController - INFO - Initialized sensor: POM
+2025-11-25 12:34:48,672 - SensorController - INFO - Initialized sensor: TriSonica
+2025-11-25 12:34:48,673 - SensorController - INFO - Initialized sensor: Spectrometer
+2025-11-25 12:34:48,673 - SensorController - INFO - Initialized data merger
+2025-11-25 12:34:48,673 - SensorController - INFO - Starting all sensor processes...
+2025-11-25 12:34:48,680 - SensorController - INFO - Started iMet (PID: 9719)
+2025-11-25 12:34:48,685 - SensorController - INFO - Started POM (PID: 9720)
+2025-11-25 12:34:48,691 - SensorController - INFO - Started TriSonica (PID: 9721)
+2025-11-25 12:34:48,696 - SensorController - INFO - Started Spectrometer (PID: 9722)
+2025-11-25 12:34:48,703 - SensorController - ERROR - Error running iMet: No module named 'serial'
+2025-11-25 12:34:48,711 - SensorController - ERROR - Error running POM: No module named 'serial'
+2025-11-25 12:34:48,727 - SensorController - ERROR - Error running TriSonica: No module named 'serial'
+2025-11-25 12:34:50,578 - root - INFO - Found 1 devices: [<SeaBreezeDevice SR6:SR601166>]
+2025-11-25 12:34:50,635 - root - INFO - Connected to: SR6
+2025-11-25 12:34:50,636 - root - INFO - Serial number: SR601166
+2025-11-25 12:34:50,737 - root - INFO - Integration time set to 100ms
+2025-11-25 12:34:50,738 - root - INFO - Data logging to: output/spectro_data.csv
+2025-11-25 12:34:50,738 - root - INFO - Starting continuous reading with failsafes. Press Ctrl+C to stop.
+2025-11-25 12:34:50,847 - root - INFO - Scan 1: Peak 627.2 nm, Intensity 2341
+2025-11-25 12:34:51,956 - root - INFO - Scan 2: Peak 627.2 nm, Intensity 2336
+2025-11-25 12:34:53,065 - root - INFO - Scan 3: Peak 627.2 nm, Intensity 2339
+2025-11-25 12:34:53,709 - SensorController - INFO - Started Merger (PID: 9757)
+2025-11-25 12:34:53,712 - SensorController - INFO - All processes started
+2025-11-25 12:34:53,713 - SensorController - INFO - Sensor controller running. Press Ctrl+C to stop.
+2025-11-25 12:34:54,174 - root - INFO - Scan 4: Peak 627.2 nm, Intensity 2340
+2025-11-25 12:34:55,282 - root - INFO - Scan 5: Peak 627.2 nm, Intensity 2333
+2025-11-25 12:34:56,391 - root - INFO - Scan 6: Peak 627.2 nm, Intensity 2343
+2025-11-25 12:34:57,500 - root - INFO - Scan 7: Peak 627.2 nm, Intensity 2335
+2025-11-25 12:34:58,608 - root - INFO - Scan 8: Peak 627.2 nm, Intensity 2358
+2025-11-25 12:34:59,719 - root - INFO - Scan 9: Peak 627.2 nm, Intensity 2330
+2025-11-25 12:35:00,232 - SensorController - INFO - Received signal 2, shutting down...
+2025-11-25 12:35:00,232 - root - INFO - Stopping OceanSR6 data collection...
+2025-11-25 12:35:00,233 - SensorController - INFO - Stopping all processes...
+2025-11-25 12:35:00,233 - SensorController - INFO - Received signal 15, shutting down...
+2025-11-25 12:35:00,234 - SensorController - INFO - Stopping all processes...
+2025-11-25 12:35:00,234 - SensorController - ERROR - Error stopping Merger: 'NoneType' object has no attribute 'terminate'
+2025-11-25 12:35:00,235 - SensorController - ERROR - Error running Merger: can only test a child process
+2025-11-25 12:35:00,255 - SensorController - INFO - Stopped Merger
+2025-11-25 12:35:00,256 - SensorController - INFO - Received signal 15, shutting down...
+2025-11-25 12:35:00,256 - SensorController - INFO - Stopping all processes...
+2025-11-25 12:35:00,256 - root - ERROR - Unexpected error in main loop: can only test a child process
+2025-11-25 12:35:00,436 - root - INFO - Spectrometer closed safely
+2025-11-25 12:35:00,621 - SensorController - INFO - Stopped Spectrometer
+2025-11-25 12:35:00,622 - SensorController - INFO - All processes stopped
+2025-11-25 12:35:00,622 - SensorController - INFO - Stopping all processes...
+2025-11-25 12:35:00,623 - SensorController - INFO - All processes stopped
+2025-11-25 12:37:48,816 - SensorController - INFO - Loaded configuration from sensor_config.json
+2025-11-25 12:37:48,817 - SensorController - INFO - Initialized sensor: iMet
+2025-11-25 12:37:48,817 - SensorController - INFO - Initialized sensor: POM
+2025-11-25 12:37:48,817 - SensorController - INFO - Initialized sensor: TriSonica
+2025-11-25 12:37:48,817 - SensorController - INFO - Initialized sensor: Spectrometer
+2025-11-25 12:37:48,818 - SensorController - INFO - Initialized data merger
+2025-11-25 12:37:48,818 - SensorController - INFO - Starting all sensor processes...
+2025-11-25 12:37:48,822 - SensorController - INFO - Started iMet (PID: 9890)
+2025-11-25 12:37:48,827 - SensorController - INFO - Started POM (PID: 9891)
+2025-11-25 12:37:48,832 - SensorController - INFO - Started TriSonica (PID: 9892)
+2025-11-25 12:37:48,838 - SensorController - INFO - Started Spectrometer (PID: 9893)
+2025-11-25 12:37:49,530 - SensorController - ERROR - Error running POM: No module named 'pyudev'
+2025-11-25 12:37:49,552 - SensorController - ERROR - Error running iMet: No module named 'pyudev'
+2025-11-25 12:37:49,609 - SensorController - ERROR - Error running TriSonica: No module named 'pyudev'
+2025-11-25 12:37:50,938 - root - INFO - Found 1 devices: [<SeaBreezeDevice SR6:SR601166>]
+2025-11-25 12:37:50,995 - root - INFO - Connected to: SR6
+2025-11-25 12:37:50,996 - root - INFO - Serial number: SR601166
+2025-11-25 12:37:51,097 - root - INFO - Integration time set to 100ms
+2025-11-25 12:37:51,098 - root - INFO - Data logging to: output/spectro_data.csv
+2025-11-25 12:37:51,098 - root - INFO - Starting continuous reading with failsafes. Press Ctrl+C to stop.
+2025-11-25 12:37:51,206 - root - INFO - Scan 1: Peak 627.2 nm, Intensity 2323
+2025-11-25 12:37:52,315 - root - INFO - Scan 2: Peak 627.2 nm, Intensity 2324
+2025-11-25 12:37:53,423 - root - INFO - Scan 3: Peak 627.2 nm, Intensity 2333
+2025-11-25 12:37:53,851 - SensorController - INFO - Started Merger (PID: 9943)
+2025-11-25 12:37:53,854 - SensorController - INFO - All processes started
+2025-11-25 12:37:53,855 - SensorController - INFO - Sensor controller running. Press Ctrl+C to stop.
+2025-11-25 12:37:54,534 - root - INFO - Scan 4: Peak 627.2 nm, Intensity 2351
+2025-11-25 12:37:55,645 - root - INFO - Scan 5: Peak 627.2 nm, Intensity 2338
+2025-11-25 12:37:56,112 - root - INFO - Stopping OceanSR6 data collection...
+2025-11-25 12:37:56,113 - SensorController - INFO - Received signal 2, shutting down...
+2025-11-25 12:37:56,114 - SensorController - INFO - Stopping all processes...
+2025-11-25 12:37:56,115 - SensorController - INFO - Received signal 15, shutting down...
+2025-11-25 12:37:56,116 - SensorController - INFO - Stopping all processes...
+2025-11-25 12:37:56,117 - SensorController - ERROR - Error stopping Merger: 'NoneType' object has no attribute 'terminate'
+2025-11-25 12:37:56,118 - SensorController - ERROR - Error running Merger: can only test a child process
+2025-11-25 12:37:56,146 - SensorController - INFO - Stopped Merger
+2025-11-25 12:37:56,147 - SensorController - INFO - Received signal 15, shutting down...
+2025-11-25 12:37:56,149 - SensorController - INFO - Stopping all processes...
+2025-11-25 12:37:56,150 - root - ERROR - Unexpected error in main loop: can only test a child process
+2025-11-25 12:37:56,332 - root - INFO - Spectrometer closed safely
+2025-11-25 12:37:56,526 - SensorController - INFO - Stopped Spectrometer
+2025-11-25 12:37:56,527 - SensorController - INFO - All processes stopped
+2025-11-25 12:37:56,528 - SensorController - INFO - Stopping all processes...
+2025-11-25 12:37:56,528 - SensorController - INFO - All processes stopped
+2025-11-25 12:38:20,312 - SensorController - INFO - Loaded configuration from sensor_config.json
+2025-11-25 12:38:20,313 - SensorController - INFO - Initialized sensor: iMet
+2025-11-25 12:38:20,313 - SensorController - INFO - Initialized sensor: POM
+2025-11-25 12:38:20,313 - SensorController - INFO - Initialized sensor: TriSonica
+2025-11-25 12:38:20,314 - SensorController - INFO - Initialized sensor: Spectrometer
+2025-11-25 12:38:20,314 - SensorController - INFO - Initialized data merger
+2025-11-25 12:38:20,314 - SensorController - INFO - Starting all sensor processes...
+2025-11-25 12:38:20,319 - SensorController - INFO - Started iMet (PID: 9991)
+2025-11-25 12:38:20,323 - SensorController - INFO - Started POM (PID: 9992)
+2025-11-25 12:38:20,329 - SensorController - INFO - Started TriSonica (PID: 9993)
+2025-11-25 12:38:20,335 - SensorController - INFO - Started Spectrometer (PID: 9994)
+2025-11-25 12:38:21,071 - iMet - INFO - Starting robust iMet data collection
+2025-11-25 12:38:21,072 - iMet - INFO - Searching for iMet device...
+2025-11-25 12:38:21,091 - TriSonica - INFO - Starting robust TriSonica data collection
+2025-11-25 12:38:21,093 - TriSonica - INFO - Searching for TriSonica device...
+2025-11-25 12:38:21,105 - POM - INFO - Starting robust POM data collection
+2025-11-25 12:38:21,106 - POM - INFO - Searching for POM device...
+2025-11-25 12:38:21,141 - iMet - WARNING - iMet device not found
+2025-11-25 12:38:21,142 - iMet - ERROR - Cannot find iMet device
+2025-11-25 12:38:21,143 - iMet - ERROR - Failed initial connection. Will retry...
+2025-11-25 12:38:21,143 - iMet - INFO - Attempting to reconnect...
+2025-11-25 12:38:21,143 - iMet - INFO - Searching for iMet device...
+2025-11-25 12:38:21,162 - TriSonica - WARNING - TriSonica device not found
+2025-11-25 12:38:21,163 - TriSonica - ERROR - Cannot find TriSonica device
+2025-11-25 12:38:21,164 - TriSonica - ERROR - Failed initial connection. Will retry...
+2025-11-25 12:38:21,165 - TriSonica - INFO - Attempting to reconnect...
+2025-11-25 12:38:21,165 - TriSonica - INFO - Searching for TriSonica device...
+2025-11-25 12:38:21,170 - POM - WARNING - POM device not found
+2025-11-25 12:38:21,172 - POM - ERROR - Cannot find POM device
+2025-11-25 12:38:21,172 - POM - ERROR - Failed initial connection. Will retry...
+2025-11-25 12:38:21,173 - POM - INFO - Attempting to reconnect...
+2025-11-25 12:38:21,173 - POM - INFO - Searching for POM device...
+2025-11-25 12:38:21,225 - TriSonica - WARNING - TriSonica device not found
+2025-11-25 12:38:21,227 - TriSonica - ERROR - Cannot find TriSonica device
+2025-11-25 12:38:21,228 - TriSonica - WARNING - Reconnection failed
+2025-11-25 12:38:21,242 - iMet - WARNING - iMet device not found
+2025-11-25 12:38:21,243 - iMet - ERROR - Cannot find iMet device
+2025-11-25 12:38:21,243 - iMet - WARNING - Reconnection failed
+2025-11-25 12:38:21,260 - POM - WARNING - POM device not found
+2025-11-25 12:38:21,261 - POM - ERROR - Cannot find POM device
+2025-11-25 12:38:21,262 - POM - WARNING - Reconnection failed
+2025-11-25 12:38:22,466 - root - INFO - Found 1 devices: [<SeaBreezeDevice SR6:SR601166>]
+2025-11-25 12:38:22,523 - root - INFO - Connected to: SR6
+2025-11-25 12:38:22,524 - root - INFO - Serial number: SR601166
+2025-11-25 12:38:22,625 - root - INFO - Integration time set to 100ms
+2025-11-25 12:38:22,626 - root - INFO - Data logging to: output/spectro_data.csv
+2025-11-25 12:38:22,626 - root - INFO - Starting continuous reading with failsafes. Press Ctrl+C to stop.
+2025-11-25 12:38:22,734 - root - INFO - Scan 1: Peak 627.2 nm, Intensity 2343
+2025-11-25 12:38:23,843 - root - INFO - Scan 2: Peak 627.2 nm, Intensity 2333
+2025-11-25 12:38:24,952 - root - INFO - Scan 3: Peak 627.2 nm, Intensity 2334
+2025-11-25 12:38:25,348 - SensorController - INFO - Started Merger (PID: 10047)
+2025-11-25 12:38:25,350 - SensorController - INFO - All processes started
+2025-11-25 12:38:25,351 - SensorController - INFO - Sensor controller running. Press Ctrl+C to stop.
+2025-11-25 12:38:26,062 - root - INFO - Scan 4: Peak 627.2 nm, Intensity 2360
+2025-11-25 12:38:26,151 - iMet - INFO - Attempting to reconnect...
+2025-11-25 12:38:26,152 - iMet - INFO - Searching for iMet device...
+2025-11-25 12:38:26,237 - TriSonica - INFO - Attempting to reconnect...
+2025-11-25 12:38:26,237 - TriSonica - INFO - Searching for TriSonica device...
+2025-11-25 12:38:26,257 - iMet - WARNING - iMet device not found
+2025-11-25 12:38:26,258 - iMet - ERROR - Cannot find iMet device
+2025-11-25 12:38:26,259 - iMet - WARNING - Reconnection failed
+2025-11-25 12:38:26,269 - POM - INFO - Attempting to reconnect...
+2025-11-25 12:38:26,270 - POM - INFO - Searching for POM device...
+2025-11-25 12:38:26,300 - TriSonica - WARNING - TriSonica device not found
+2025-11-25 12:38:26,301 - TriSonica - ERROR - Cannot find TriSonica device
+2025-11-25 12:38:26,302 - TriSonica - WARNING - Reconnection failed
+2025-11-25 12:38:26,325 - POM - WARNING - POM device not found
+2025-11-25 12:38:26,326 - POM - ERROR - Cannot find POM device
+2025-11-25 12:38:26,326 - POM - WARNING - Reconnection failed
+2025-11-25 12:38:27,171 - root - INFO - Scan 5: Peak 627.2 nm, Intensity 2339
+2025-11-25 12:38:28,280 - root - INFO - Scan 6: Peak 627.2 nm, Intensity 2345
+2025-11-25 12:38:29,388 - root - INFO - Scan 7: Peak 627.2 nm, Intensity 2342
+2025-11-25 12:38:30,497 - root - INFO - Scan 8: Peak 627.2 nm, Intensity 2351
+2025-11-25 12:38:31,166 - iMet - INFO - Attempting to reconnect...
+2025-11-25 12:38:31,166 - iMet - INFO - Searching for iMet device...
+2025-11-25 12:38:31,216 - iMet - WARNING - iMet device not found
+2025-11-25 12:38:31,217 - iMet - ERROR - Cannot find iMet device
+2025-11-25 12:38:31,218 - iMet - WARNING - Reconnection failed
+2025-11-25 12:38:31,311 - TriSonica - INFO - Attempting to reconnect...
+2025-11-25 12:38:31,312 - TriSonica - INFO - Searching for TriSonica device...
+2025-11-25 12:38:31,334 - POM - INFO - Attempting to reconnect...
+2025-11-25 12:38:31,335 - POM - INFO - Searching for POM device...
+2025-11-25 12:38:31,421 - TriSonica - WARNING - TriSonica device not found
+2025-11-25 12:38:31,423 - TriSonica - ERROR - Cannot find TriSonica device
+2025-11-25 12:38:31,424 - TriSonica - WARNING - Reconnection failed
+2025-11-25 12:38:31,437 - POM - WARNING - POM device not found
+2025-11-25 12:38:31,439 - POM - ERROR - Cannot find POM device
+2025-11-25 12:38:31,440 - POM - WARNING - Reconnection failed
+2025-11-25 12:38:31,606 - root - INFO - Scan 9: Peak 627.2 nm, Intensity 2326
+2025-11-25 12:38:32,715 - root - INFO - Scan 10: Peak 627.2 nm, Intensity 2348
+2025-11-25 12:38:33,824 - root - INFO - Scan 11: Peak 627.2 nm, Intensity 2308
+2025-11-25 12:38:34,431 - SensorController - INFO - Received signal 2, shutting down...
+2025-11-25 12:38:34,431 - root - INFO - Stopping OceanSR6 data collection...
+2025-11-25 12:38:34,431 - iMet - INFO - Stopping iMet data collection...
+2025-11-25 12:38:34,431 - POM - INFO - Stopping POM data collection...
+2025-11-25 12:38:34,432 - SensorController - INFO - Stopping all processes...
+2025-11-25 12:38:34,432 - TriSonica - INFO - Stopping TriSonica data collection...
+2025-11-25 12:38:34,433 - SensorController - INFO - Received signal 15, shutting down...
+2025-11-25 12:38:34,434 - SensorController - INFO - Stopping all processes...
+2025-11-25 12:38:34,434 - SensorController - ERROR - Error stopping Merger: 'NoneType' object has no attribute 'terminate'
+2025-11-25 12:38:34,435 - SensorController - ERROR - Error running Merger: can only test a child process
+2025-11-25 12:38:34,445 - POM - INFO - POM data collection stopped
+2025-11-25 12:38:34,451 - SensorController - INFO - Stopped Merger
+2025-11-25 12:38:34,451 - SensorController - INFO - Received signal 15, shutting down...
+2025-11-25 12:38:34,452 - SensorController - INFO - Stopping all processes...
+2025-11-25 12:38:34,452 - SensorController - ERROR - Error stopping iMet: 'NoneType' object has no attribute 'terminate'
+2025-11-25 12:38:34,453 - SensorController - INFO - All processes stopped
+2025-11-25 12:38:34,457 - SensorController - INFO - Stopped iMet
+2025-11-25 12:38:34,457 - SensorController - INFO - Received signal 15, shutting down...
+2025-11-25 12:38:34,458 - SensorController - INFO - Stopping all processes...
+2025-11-25 12:38:34,458 - TriSonica - ERROR - Unexpected error in main loop: can only test a child process
+2025-11-25 12:38:35,004 - root - INFO - Spectrometer closed safely
+2025-11-25 12:38:35,460 - TriSonica - INFO - TriSonica data collection stopped
+2025-11-25 12:38:35,464 - SensorController - INFO - Stopped TriSonica
+2025-11-25 12:38:35,465 - SensorController - INFO - All processes stopped
+2025-11-25 12:38:35,465 - SensorController - INFO - Stopping all processes...
+2025-11-25 12:38:35,466 - SensorController - INFO - All processes stopped
+2025-11-25 12:48:15,912 - SensorController - INFO - Loaded configuration from sensor_config.json
+2025-11-25 12:48:15,912 - SensorController - INFO - Initialized sensor: iMet
+2025-11-25 12:48:15,913 - SensorController - INFO - Initialized sensor: POM
+2025-11-25 12:48:15,913 - SensorController - INFO - Initialized sensor: TriSonica
+2025-11-25 12:48:15,914 - SensorController - INFO - Initialized sensor: Spectrometer
+2025-11-25 12:48:15,914 - SensorController - INFO - Initialized data merger
+2025-11-25 12:48:15,915 - SensorController - INFO - Starting all sensor processes...
+2025-11-25 12:48:15,920 - SensorController - INFO - Started POM (PID: 10276)
+2025-11-25 12:48:15,922 - SensorController - INFO - Waiting 2 seconds for POM to initialize...
+2025-11-25 12:48:17,929 - SensorController - INFO - Started Spectrometer (PID: 10301)
+2025-11-25 12:48:17,930 - SensorController - INFO - Waiting 2 seconds for Spectrometer to initialize...
+2025-11-25 12:48:19,941 - SensorController - INFO - Started iMet (PID: 10308)
+2025-11-25 12:48:19,942 - SensorController - INFO - Waiting 2 seconds for iMet to initialize...
+2025-11-25 12:48:21,950 - SensorController - INFO - Started TriSonica (PID: 10337)
+2025-11-25 12:48:21,951 - SensorController - INFO - Waiting 2 seconds for TriSonica to initialize...
+2025-11-25 12:48:23,954 - SensorController - INFO - Waiting for sensor data files to be created...
+2025-11-25 12:48:38,973 - SensorController - WARNING - Timeout waiting for iMet output file: output/iMet_data.csv
+2025-11-25 12:48:53,994 - SensorController - WARNING - Timeout waiting for TriSonica output file: output/trisonica_data.csv
+2025-11-25 12:48:53,995 - SensorController - INFO - Waiting 10 seconds before starting merger...
+2025-11-25 12:49:04,011 - SensorController - INFO - Started Merger (PID: 10475)
+2025-11-25 12:49:04,012 - SensorController - INFO - Merger process started
+2025-11-25 12:49:04,013 - SensorController - INFO - All processes started
+2025-11-25 12:49:04,013 - SensorController - INFO - Checking sensor output files...
+2025-11-25 12:49:04,014 - SensorController - WARNING - ⚠ iMet: output/iMet_data.csv has only headers
+2025-11-25 12:49:04,015 - SensorController - INFO - ✓ POM: output/pom_data.csv has 2 data rows
+2025-11-25 12:49:04,016 - SensorController - WARNING - ⚠ TriSonica: output/trisonica_data.csv has only headers
+2025-11-25 12:49:04,017 - SensorController - INFO - ✓ Spectrometer: output/spectro_data.csv has 40 data rows
+2025-11-25 12:49:04,018 - SensorController - INFO - Sensor controller running. Press Ctrl+C to stop.
+2025-11-25 12:49:41,632 - SensorController - INFO - Received signal 2, shutting down...
+2025-11-25 12:49:41,632 - SensorController - INFO - Stopping all processes...
+2025-11-25 12:49:41,633 - SensorController - INFO - Stopping merger process...
+2025-11-25 12:49:41,641 - SensorController - INFO - Stopped Merger
+2025-11-25 12:49:41,641 - SensorController - INFO - Stopping iMet...
+2025-11-25 12:49:41,645 - SensorController - ERROR - iMet ERROR: 2025-11-25 12:48:20,570 iMet: Starting robust iMet data collection
+2025-11-25 12:49:41,645 - SensorController - ERROR - iMet ERROR: 2025-11-25 12:48:20,573 iMet: Searching for iMet device...
+2025-11-25 12:49:41,646 - SensorController - ERROR - iMet ERROR: 2025-11-25 12:48:20,630 iMet: iMet device not found
+2025-11-25 12:49:41,646 - SensorController - INFO - Stopped iMet
+2025-11-25 12:49:41,647 - SensorController - INFO - Stopping POM...
+2025-11-25 12:49:41,652 - SensorController - ERROR - POM ERROR: 2025-11-25 12:48:16,565 POM: Starting robust POM data collection
+2025-11-25 12:49:41,656 - SensorController - INFO - Stopped POM
+2025-11-25 12:49:41,657 - SensorController - INFO - Stopping TriSonica...
+2025-11-25 12:49:41,661 - SensorController - ERROR - TriSonica ERROR: 2025-11-25 12:48:22,531 TriSonica: Starting robust TriSonica data collection
+2025-11-25 12:49:41,662 - SensorController - INFO - Stopped TriSonica
+2025-11-25 12:49:41,663 - SensorController - INFO - Stopping Spectrometer...
+2025-11-25 12:49:41,667 - SensorController - ERROR - Spectrometer ERROR: 2025-11-25 12:48:20,015 OceanSR6: Found 1 devices: [<SeaBreezeDevice SR6:SR601166>]
+2025-11-25 12:49:41,668 - SensorController - ERROR - Spectrometer ERROR: 2025-11-25 12:48:20,074 OceanSR6: Connected to: SR6
+2025-11-25 12:49:41,668 - SensorController - ERROR - Spectrometer ERROR: 2025-11-25 12:48:20,074 OceanSR6: Serial number: SR601166
+2025-11-25 12:49:41,668 - SensorController - ERROR - Spectrometer ERROR: 2025-11-25 12:48:20,176 OceanSR6: Integration time set to 100ms
+2025-11-25 12:49:41,671 - SensorController - INFO - Stopped Spectrometer
+2025-11-25 12:49:41,671 - SensorController - INFO - All processes stopped
+2025-11-25 12:49:41,672 - SensorController - INFO - Stopping all processes...
+2025-11-25 12:49:41,672 - SensorController - INFO - Stopping merger process...
+2025-11-25 12:49:41,672 - SensorController - INFO - Stopping iMet...
+2025-11-25 12:49:41,672 - SensorController - INFO - Stopping POM...
+2025-11-25 12:49:41,672 - SensorController - INFO - Stopping TriSonica...
+2025-11-25 12:49:41,672 - SensorController - INFO - Stopping Spectrometer...
+2025-11-25 12:49:41,672 - SensorController - INFO - All processes stopped
+2025-11-25 12:51:46,496 - SensorController - INFO - Loaded configuration from sensor_config.json
+2025-11-25 12:51:46,496 - SensorController - INFO - Initialized sensor: iMet
+2025-11-25 12:51:46,496 - SensorController - INFO - Initialized sensor: POM
+2025-11-25 12:51:46,497 - SensorController - INFO - Initialized sensor: TriSonica
+2025-11-25 12:51:46,497 - SensorController - INFO - Initialized sensor: Spectrometer
+2025-11-25 12:51:46,497 - SensorController - INFO - Initialized data merger
+2025-11-25 12:51:46,497 - SensorController - INFO - Starting all sensor processes...
+2025-11-25 12:51:46,502 - SensorController - INFO - Started POM (PID: 10611)
+2025-11-25 12:51:46,504 - SensorController - INFO - Waiting 2 seconds for POM to initialize...
+2025-11-25 12:51:48,513 - SensorController - INFO - Started Spectrometer (PID: 10636)
+2025-11-25 12:51:48,514 - SensorController - INFO - Waiting 2 seconds for Spectrometer to initialize...
+2025-11-25 12:51:50,522 - SensorController - INFO - Started iMet (PID: 10644)
+2025-11-25 12:51:50,523 - SensorController - INFO - Waiting 2 seconds for iMet to initialize...
+2025-11-25 12:51:51,026 - SensorController - ERROR - iMet ERROR: Traceback (most recent call last):
+2025-11-25 12:51:52,530 - SensorController - INFO - Started TriSonica (PID: 10668)
+2025-11-25 12:51:52,531 - SensorController - INFO - Waiting 2 seconds for TriSonica to initialize...
+2025-11-25 12:51:53,024 - SensorController - ERROR - TriSonica ERROR: Traceback (most recent call last):
+2025-11-25 12:51:54,534 - SensorController - INFO - Waiting for sensor data files to be created...
+2025-11-25 12:52:09,556 - SensorController - WARNING - Timeout waiting for iMet output file: output/iMet_data.csv
+2025-11-25 12:52:24,578 - SensorController - WARNING - Timeout waiting for TriSonica output file: output/trisonica_data.csv
+2025-11-25 12:52:24,579 - SensorController - INFO - Waiting 10 seconds before starting merger...
+2025-11-25 12:52:34,601 - SensorController - INFO - Started Merger (PID: 10779)
+2025-11-25 12:52:34,603 - SensorController - INFO - Merger process started
+2025-11-25 12:52:34,603 - SensorController - INFO - All processes started
+2025-11-25 12:52:34,604 - SensorController - INFO - Checking sensor output files...
+2025-11-25 12:52:34,605 - SensorController - WARNING - ⚠ iMet: output/iMet_data.csv has only headers
+2025-11-25 12:52:34,607 - SensorController - INFO - ✓ POM: output/pom_data.csv has 2 data rows
+2025-11-25 12:52:34,608 - SensorController - WARNING - ⚠ TriSonica: output/trisonica_data.csv has only headers
+2025-11-25 12:52:34,609 - SensorController - INFO - ✓ Spectrometer: output/spectro_data.csv has 40 data rows
+2025-11-25 12:52:34,610 - SensorController - INFO - Sensor controller running. Press Ctrl+C to stop.
+2025-11-25 12:53:04,642 - SensorController - WARNING - Sensor iMet is not running (exit code: 1)
+2025-11-25 12:53:04,642 - SensorController - INFO - Restarting iMet (restart #1)
+2025-11-25 12:53:04,643 - SensorController - INFO - Stopped iMet
+2025-11-25 12:53:05,104 - SensorController - INFO - Merger: Monitoring directory: /home/rsp/work/uri/output
+2025-11-25 12:53:07,651 - SensorController - INFO - Started iMet (PID: 10859)
+2025-11-25 12:53:07,652 - SensorController - WARNING - Sensor TriSonica is not running (exit code: 1)
+2025-11-25 12:53:07,652 - SensorController - INFO - Restarting TriSonica (restart #1)
+2025-11-25 12:53:07,653 - SensorController - INFO - Stopped TriSonica
+2025-11-25 12:53:08,229 - SensorController - ERROR - iMet ERROR: Traceback (most recent call last):
+2025-11-25 12:53:08,230 - SensorController - ERROR - iMet ERROR: File "/home/rsp/work/uri/iMet_safe.py", line 307, in <module>
+2025-11-25 12:53:08,230 - SensorController - ERROR - iMet ERROR: main()
+2025-11-25 12:53:08,230 - SensorController - ERROR - iMet ERROR: File "/home/rsp/work/uri/iMet_safe.py", line 295, in main
+2025-11-25 12:53:10,660 - SensorController - INFO - Started TriSonica (PID: 10866)
+2025-11-25 12:53:11,168 - SensorController - ERROR - TriSonica ERROR: Traceback (most recent call last):
+2025-11-25 12:53:34,685 - SensorController - WARNING - Sensor iMet is not running (exit code: 1)
+2025-11-25 12:53:34,686 - SensorController - INFO - Restarting iMet (restart #2)
+2025-11-25 12:53:34,686 - SensorController - INFO - Stopped iMet
+2025-11-25 12:53:37,691 - SensorController - INFO - Started iMet (PID: 10944)
+2025-11-25 12:53:37,692 - SensorController - WARNING - Sensor TriSonica is not running (exit code: 1)
+2025-11-25 12:53:37,693 - SensorController - INFO - Restarting TriSonica (restart #2)
+2025-11-25 12:53:37,693 - SensorController - INFO - Stopped TriSonica
+2025-11-25 12:53:38,259 - SensorController - ERROR - iMet ERROR: Traceback (most recent call last):
+2025-11-25 12:53:40,701 - SensorController - INFO - Started TriSonica (PID: 10950)
+2025-11-25 12:53:40,702 - SensorController - INFO - === Status Report ===
+2025-11-25 12:53:40,703 - SensorController - INFO -   iMet: STOPPED (Restarts: 2)
+2025-11-25 12:53:40,704 - SensorController - INFO -   POM: RUNNING (Restarts: 0)
+2025-11-25 12:53:40,705 - SensorController - INFO -   TriSonica: RUNNING (Restarts: 2)
+2025-11-25 12:53:40,706 - SensorController - INFO -   Spectrometer: RUNNING (Restarts: 0)
+2025-11-25 12:53:40,707 - SensorController - INFO -   Merger: RUNNING (Restarts: 0)
+2025-11-25 12:53:40,707 - SensorController - INFO - =====================
+2025-11-25 12:53:41,219 - SensorController - ERROR - TriSonica ERROR: Traceback (most recent call last):
+2025-11-25 12:54:04,733 - SensorController - WARNING - Sensor iMet is not running (exit code: 1)
+2025-11-25 12:54:04,733 - SensorController - INFO - Restarting iMet (restart #3)
+2025-11-25 12:54:04,733 - SensorController - INFO - Stopped iMet
+2025-11-25 12:54:07,742 - SensorController - INFO - Started iMet (PID: 11028)
+2025-11-25 12:54:07,743 - SensorController - WARNING - Sensor TriSonica is not running (exit code: 1)
+2025-11-25 12:54:07,743 - SensorController - INFO - Restarting TriSonica (restart #3)
+2025-11-25 12:54:07,744 - SensorController - INFO - Stopped TriSonica
+2025-11-25 12:54:08,246 - SensorController - ERROR - iMet ERROR: Traceback (most recent call last):
+2025-11-25 12:54:10,760 - SensorController - INFO - Started TriSonica (PID: 11033)
+2025-11-25 12:54:11,316 - SensorController - ERROR - TriSonica ERROR: Traceback (most recent call last):
+2025-11-25 12:54:34,787 - SensorController - WARNING - Sensor iMet is not running (exit code: 1)
+2025-11-25 12:54:34,788 - SensorController - INFO - Restarting iMet (restart #4)
+2025-11-25 12:54:34,788 - SensorController - INFO - Stopped iMet
+2025-11-25 12:54:37,796 - SensorController - INFO - Started iMet (PID: 11112)
+2025-11-25 12:54:37,797 - SensorController - WARNING - Sensor TriSonica is not running (exit code: 1)
+2025-11-25 12:54:37,798 - SensorController - INFO - Restarting TriSonica (restart #4)
+2025-11-25 12:54:37,798 - SensorController - INFO - Stopped TriSonica
+2025-11-25 12:54:38,294 - SensorController - ERROR - iMet ERROR: Traceback (most recent call last):
+2025-11-25 12:54:40,813 - SensorController - INFO - Started TriSonica (PID: 11117)
+2025-11-25 12:54:40,817 - SensorController - INFO - === Status Report ===
+2025-11-25 12:54:40,819 - SensorController - INFO -   iMet: STOPPED (Restarts: 4)
+2025-11-25 12:54:40,821 - SensorController - INFO -   POM: RUNNING (Restarts: 0)
+2025-11-25 12:54:40,825 - SensorController - INFO -   TriSonica: RUNNING (Restarts: 4)
+2025-11-25 12:54:40,829 - SensorController - INFO -   Spectrometer: RUNNING (Restarts: 0)
+2025-11-25 12:54:40,831 - SensorController - INFO -   Merger: RUNNING (Restarts: 0)
+2025-11-25 12:54:40,833 - SensorController - INFO - =====================
+2025-11-25 12:54:41,360 - SensorController - ERROR - TriSonica ERROR: Traceback (most recent call last):
+2025-11-25 12:55:02,990 - SensorController - INFO - Received signal 2, shutting down...
+2025-11-25 12:55:02,991 - SensorController - INFO - Stopping all processes...
+2025-11-25 12:55:02,992 - SensorController - INFO - Stopping merger process...
+2025-11-25 12:55:02,995 - SensorController - INFO - Merger: Output file: /home/rsp/work/uri/output/merged_sensors.csv
+2025-11-25 12:55:02,995 - SensorController - INFO - Merger: Discovered sensor: pom
+2025-11-25 12:55:02,996 - SensorController - INFO - Stopped Merger
+2025-11-25 12:55:02,997 - SensorController - INFO - Stopping iMet...
+2025-11-25 12:55:02,997 - SensorController - INFO - Stopped iMet
+2025-11-25 12:55:02,998 - SensorController - INFO - Stopping POM...
+2025-11-25 12:55:03,001 - SensorController - ERROR - POM ERROR: 2025-11-25 12:51:46,941 POM: Starting robust POM data collection
+2025-11-25 12:55:03,002 - SensorController - INFO - Stopped POM
+2025-11-25 12:55:03,002 - SensorController - INFO - Stopping TriSonica...
+2025-11-25 12:55:03,003 - SensorController - INFO - Stopped TriSonica
+2025-11-25 12:55:03,003 - SensorController - INFO - Stopping Spectrometer...
+2025-11-25 12:55:03,008 - SensorController - ERROR - Spectrometer ERROR: 2025-11-25 12:51:50,502 OceanSR6: Found 1 devices: [<SeaBreezeDevice SR6:SR601166>]
+2025-11-25 12:55:03,011 - SensorController - INFO - Stopped Spectrometer
+2025-11-25 12:55:03,012 - SensorController - INFO - All processes stopped
+2025-11-25 12:55:03,012 - SensorController - INFO - Stopping all processes...
+2025-11-25 12:55:03,012 - SensorController - INFO - Stopping merger process...
+2025-11-25 12:55:03,012 - SensorController - INFO - Stopping iMet...
+2025-11-25 12:55:03,013 - SensorController - INFO - Stopping POM...
+2025-11-25 12:55:03,013 - SensorController - INFO - Stopping TriSonica...
+2025-11-25 12:55:03,013 - SensorController - INFO - Stopping Spectrometer...
+2025-11-25 12:55:03,013 - SensorController - INFO - All processes stopped

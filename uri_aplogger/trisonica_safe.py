@@ -6,6 +6,7 @@ import time
 from datetime import datetime
 import pyudev
 import logging
+from pathlib import Path
 
 class RobustTriSonicaReader:
     IDENTIFIERS = {
@@ -293,6 +294,9 @@ class RobustTriSonicaReader:
         self.logger.info("TriSonica data collection stopped")
 
 def main():
+    # Ensure output directory exists
+    output_dir = Path('output')
+    output_dir.mkdir(exist_ok=True)
     try:
         import pyudev
     except ImportError:

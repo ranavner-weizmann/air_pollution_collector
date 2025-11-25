@@ -1,0 +1,28 @@
+{
+  "sensors": {
+    "iMet": {
+      "script": "iMet_safe.py",
+      "enabled": true,
+      "restart_delay": 5
+    },
+    "POM": {
+      "script": "pom_safe.py",
+      "enabled": true,
+      "restart_delay": 5
+    },
+    "TriSonica": {
+      "script": "trisonica_safe.py",
+      "enabled": true,
+      "restart_delay": 5
+    },
+    "Spectrometer": {
+      "script": "spectro.py",
+      "enabled": true,
+      "restart_delay": 5
+    }
+  },
+  "merger": {
+    "script": "merger.py",
+    "enabled": true
+  }
+}
