@@ -237,6 +237,10 @@ class RobustTriSonicaReader:
         """Main data collection loop with enhanced reconnection"""
         self.logger.info("Starting robust TriSonica data collection")
         
+        # Ensure output directory exists
+        output_dir = Path('output')
+        output_dir.mkdir(exist_ok=True)
+        
         with open('output/trisonica_data.csv', 'w', newline='') as csvfile:
             writer = csv.writer(csvfile)
             writer.writerow(self.PV_NAMES)
@@ -268,11 +272,12 @@ class RobustTriSonicaReader:
                             parsed_data = self.parse_trisonica_data(raw_data)
                             
                             if parsed_data:
+                                # Use system timestamp instead of device timestamp
                                 current_time_str = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
                                 parsed_data.append(current_time_str)
                                 writer.writerow(parsed_data)
                                 csvfile.flush()
-                                self.logger.info(f"Written: Wind Speed: {parsed_data[0]} m/s")
+                                self.logger.info(f"Written: Wind Speed: {parsed_data[0]} m/s, Time: {current_time_str}")
                                 self.consecutive_failures = 0
 
                     # Handle multiple failures

@@ -239,7 +239,7 @@ class RobustPOMReader:
         """Main data collection loop with enhanced reconnection"""
         self.logger.info("Starting robust POM data collection")
         
-        with open('pom_data.csv', 'w', newline='') as csvfile:
+        with open('output/pom_data.csv', 'w', newline='') as csvfile:
             writer = csv.writer(csvfile)
             writer.writerow(self.PV_NAMES)
             

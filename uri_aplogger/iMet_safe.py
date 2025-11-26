@@ -258,10 +258,14 @@ class RobustiMetReader:
                 current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
                 data_list.append(current_time)
                 
+                # Remove the first field (XQ)
+                data_list = data_list[1:]
+
                 return data_list
             else:
                 self.logger.warning(f"Unexpected data format: {len(data_list)} fields, data: {data}")
                 return None
+            
             
         except Exception as e:
             self.logger.error(f"Parse error: {e}, data: {data}")

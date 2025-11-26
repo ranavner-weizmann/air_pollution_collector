@@ -294,24 +294,24 @@ class SensorController:
         logger.info("Starting all sensor processes...")
         
         # Test problematic sensors first
-        if 'iMet' in self.sensors:
-            self.test_sensor_script('iMet')
+        #if 'iMet' in self.sensors:
+        #    self.test_sensor_script('iMet')
         
-        if 'TriSonica' in self.sensors:
-            self.test_sensor_script('TriSonica')
+        #if 'TriSonica' in self.sensors:
+        #    self.test_sensor_script('TriSonica')
         
         # Start sensors with longer delays for problematic ones
         for sensor_name, sensor in self.sensors.items():
             if not sensor.start():
                 logger.error(f"Failed to start {sensor.name}")
             else:
-                delay = sensor.config.get('startup_delay', 5)
+                delay = sensor.config.get('startup_delay', 2)
                 logger.info(f"Waiting {delay} seconds for {sensor.name} to initialize...")
                 time.sleep(delay)
         
         # Start merger
         if self.merger_process:
-            merger_delay = self.merger_process.config.get('startup_delay', 15)
+            merger_delay = self.merger_process.config.get('startup_delay', 5)
             logger.info(f"Waiting {merger_delay} seconds before starting merger...")
             time.sleep(merger_delay)
             

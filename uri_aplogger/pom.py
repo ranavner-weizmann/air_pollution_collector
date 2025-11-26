@@ -1,112 +1,152 @@
+# Updated pom_safe.py - Fixed version (only creates file when connected)
 import serial
 import csv
 import signal
 import sys
 import time
 from datetime import datetime
+import pyudev
+import logging
+from pathlib import Path
 
-headers = [
-    'Log_Number',           # Log number (if present)
-    'Ozone_ppb',           # Ozone concentration (ppb)
-    'Cell_Temperature_K',   # Cell temperature (K)
-    'Cell_Pressure_torr',   # Cell pressure (torr)
-    'Photodiode_Voltage_V', # Photodiode voltage (V)
-    'Power_Supply_V',       # Power supply voltage (V)
-    'Latitude',             # Latitude
-    'Longitude',            # Longitude
-    'Altitude_m',           # Altitude (meters)
-    'GPS_Quality',          # GPS quality indicator
-    'Date',                 # Date (DD/MM/YY)
-    'Time',                 # Time (HH:MM:SS)
-    'Timestamp'             # Merged timestamp (YYYY-MM-DD HH:MM:SS)
-]
-
-# Global variable to control the main loop
-running = True
-
-def signal_handler(sig, frame):
-    global running
-    print("\nStopping POM data collection...")
-    running = False
-
-
-signal.signal(signal.SIGINT, signal_handler)
-
-
-with open('output/pom_data.csv', 'w', newline='') as csvfile:
-    writer = csv.writer(csvfile)
-    writer.writerow(headers)
+class RobustPOMReader:
+    IDENTIFIERS = {
+        "ID_VENDOR_ID": "067b",
+        "ID_MODEL_ID": "23a3", 
+        "ID_VENDOR": "Prolific Technology, Inc.",
+        "ID_MODEL": "USB-Serial Controller"
+    }
     
-    # Configure serial connection for POM
-    ser = serial.Serial(
-        port='/dev/ttyACM0',  # Update to correct port
-        baudrate=19200,       
-        parity=serial.PARITY_NONE,
-        bytesize=serial.EIGHTBITS,
-        stopbits=serial.STOPBITS_ONE,
-        timeout=1
-    )
-    
-    # Clear any existing data in the serial buffer
-    ser.reset_input_buffer()
-    print("Starting Personal Ozone Monitor data collection. Press Ctrl+C to stop.")
-    print("Waiting for POM data...")
-    
-    # Skip initial header lines from POM
-    header_lines_skipped = 0
-    max_header_lines = 10  # Skip the first few lines which are headers
-    
-    try:
-        while running:
-            if ser.in_waiting > 0:
-                line = ser.readline()
-                try:
-                    decoded = line.decode('utf-8').strip()
-                    
-                    # Skip header lines and empty lines
-                    if not decoded or "Personal Ozone Monitor" in decoded or decoded.isdigit():
-                        header_lines_skipped += 1
-                        if header_lines_skipped <= max_header_lines:
-                            print(f"Skipping header line: {decoded}")
-                        continue
-                    
-                    print(f"POM Data: {decoded}")  # Print raw data to console
-                    
-                    # Parse the comma-separated data
-                    data_list = decoded.split(',')
-                    
-                    # Handle both real-time and logged data formats
-                    if len(data_list) == 11:
-                        # Real-time data (no log number) - add empty log number
-                        data_list = [''] + data_list
-                    elif len(data_list) == 12:
-                        # Logged data (with log number) - already correct format
-                        pass
+    PV_NAMES = [
+        'Log_Number', 'Ozone_ppb', 'Cell_Temperature_K', 'Cell_Pressure_torr',
+        'Photodiode_Voltage_V', 'Power_Supply_V', 'Latitude', 'Longitude',
+        'Altitude_m', 'GPS_Quality', 'Date', 'Time', 'Timestamp'
+    ]
+
+    def __init__(self):
+        self.running = True
+        self.serial = None
+        self.port = None
+        self.consecutive_failures = 0
+        self.max_failures = 5
+        self.reconnect_delay = 5
+        self.last_successful_read = None
+        self.health_check_interval = 30
+        self.header_lines_skipped = 0
+        self.max_header_lines = 10
+        self.csv_file = None
+        self.writer = None
+        self.setup_logging()
+        signal.signal(signal.SIGINT, self.signal_handler)
+
+    def setup_logging(self):
+        formatter = logging.Formatter(fmt=f"%(asctime)s POM: %(message)s")
+        handler = logging.StreamHandler()
+        handler.setFormatter(formatter)
+        self.logger = logging.getLogger('POM')
+        self.logger.addHandler(handler)
+        self.logger.setLevel(logging.INFO)
+
+    def signal_handler(self, sig, frame):
+        self.logger.info("Stopping POM data collection...")
+        self.running = False
+        self.close_files()
+
+    def close_files(self):
+        """Close CSV file if open"""
+        if self.csv_file:
+            self.csv_file.close()
+            self.csv_file = None
+            self.writer = None
+
+    def init_csv_file(self):
+        """Initialize CSV file only when we have a working connection"""
+        try:
+            output_dir = Path('output')
+            output_dir.mkdir(exist_ok=True)
+            
+            self.csv_file = open('output/pom_data.csv', 'w', newline='')
+            self.writer = csv.writer(self.csv_file)
+            self.writer.writerow(self.PV_NAMES)
+            self.csv_file.flush()
+            self.logger.info("CSV file initialized")
+            return True
+        except Exception as e:
+            self.logger.error(f"Failed to initialize CSV file: {e}")
+            return False
+
+    # ... (rest of the methods remain the same as your original pom_safe.py)
+
+    def run(self):
+        """Main data collection loop"""
+        self.logger.info("Starting robust POM data collection")
+        
+        if not self.init_serial():
+            self.logger.error("Failed initial connection. Will retry...")
+            self.close_files()
+
+        last_reconnect_attempt = 0
+        
+        while self.running:
+            try:
+                current_time = time.time()
+                
+                # Attempt reconnection if needed
+                if (self.serial is None and 
+                    current_time - last_reconnect_attempt >= self.reconnect_delay):
+                    self.logger.info("Attempting to reconnect...")
+                    if self.init_serial():
+                        self.logger.info("Reconnection successful!")
+                        # Reinitialize CSV file on successful reconnection
+                        if not self.csv_file:
+                            self.init_csv_file()
                     else:
-                        print(f"Unexpected data format: {len(data_list)} fields")
-                        continue
+                        self.logger.warning("Reconnection failed")
+                        self.close_files()  # Close file if reconnection fails
+                    last_reconnect_attempt = current_time
+
+                # Only try to read if we have an active connection
+                if self.serial and self.serial.is_open:
+                    raw_data = self.read_pom_data()
                     
-                    # Add current timestamp for merging
-                    current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-                    data_list.append(current_time)
-                    
-                    # Write to CSV
-                    writer.writerow(data_list)
-                    csvfile.flush()  # Ensure data is written immediately
-                    
-                    print(f"Written: Ozone: {data_list[1]} ppb, Temp: {data_list[2]} K")
+                    if raw_data:
+                        parsed_data = self.parse_pom_data(raw_data)
                         
-                except UnicodeDecodeError:
-                    print("Warning: Could not decode line from POM")
-                except Exception as e:
-                    print(f"Error processing POM data: {e}")
+                        if parsed_data and self.csv_file:
+                            self.writer.writerow(parsed_data)
+                            self.csv_file.flush()
+                            self.logger.info(f"Written: Ozone: {parsed_data[1]} ppb, Temp: {parsed_data[2]} K")
+                            self.consecutive_failures = 0
+
+                # Handle multiple failures
+                if self.consecutive_failures >= self.max_failures:
+                    self.logger.warning(f"Multiple failures, will attempt reconnection in {self.reconnect_delay}s")
+                    self.serial = None
+                    self.consecutive_failures = 0
+                    last_reconnect_attempt = current_time
+                    self.close_files()  # Close file on too many failures
                 
-            time.sleep(0.1)  # Small delay to prevent excessive CPU usage
+                time.sleep(0.1)
                 
-    except Exception as e:
-        print(f"Error: {e}")
-    finally:
-        # Properly close the serial connection
-        ser.close()
-        print("Serial connection closed.")
-        print("POM data saved to pom_data.csv")
+            except Exception as e:
+                self.logger.error(f"Unexpected error in main loop: {e}")
+                self.consecutive_failures += 1
+                time.sleep(1)
+        
+        if self.serial and self.serial.is_open:
+            self.serial.close()
+        self.close_files()
+        self.logger.info("POM data collection stopped")
+
+def main():
+    try:
+        import pyudev
+    except ImportError:
+        print("ERROR: pyudev not installed. Install with: pip install pyudev")
+        sys.exit(1)
+    
+    reader = RobustPOMReader()
+    reader.run()
+
+if __name__ == "__main__":
+    main()

@@ -1,3 +1,4 @@
+# Updated spectro.py - Fixed version
 import seabreeze
 seabreeze.use('pyseabreeze')
 import seabreeze.spectrometers as sb
@@ -13,8 +14,8 @@ class RobustOceanSR6Reader:
         self.spec = None
         self.running = True
         self.consecutive_failures = 0
-        self.max_failures = 5
-        self.reconnect_delay = 5
+        self.max_failures = 3  # Reduced to fail faster
+        self.reconnect_delay = 2  # Reduced reconnect delay
         self.last_successful_read = None
         self.setup_logging()
         signal.signal(signal.SIGINT, self.signal_handler)
@@ -36,15 +37,13 @@ class RobustOceanSR6Reader:
         """Connect to OceanSR6 with error handling"""
         try:
             devices = sb.list_devices()
-            self.logger.info(f"Found {len(devices)} devices: {devices}")
             
             if not devices:
-                self.logger.error("No spectrometers found!")
+                self.logger.warning("No spectrometers found!")
                 return False
             
             self.spec = sb.Spectrometer(devices[0])
             self.logger.info(f"Connected to: {self.spec.model}")
-            self.logger.info(f"Serial number: {self.spec.serial_number}")
             
             # Set reasonable integration time
             self.spec.integration_time_micros(100000)  # 100ms
@@ -55,15 +54,14 @@ class RobustOceanSR6Reader:
             return True
             
         except Exception as e:
-            self.logger.error(f"Connection failed: {e}")
+            self.logger.warning(f"Connection failed: {e}")
             self.consecutive_failures += 1
             return False
     
     def safe_get_spectrum(self):
         """Safely get spectrum with error recovery"""
         if not self.spec:
-            if not self.reconnect():
-                return None
+            return None
         
         try:
             wavelengths = self.spec.wavelengths()
@@ -91,7 +89,7 @@ class RobustOceanSR6Reader:
             }
             
         except Exception as e:
-            self.logger.error(f"Measurement failed: {e}")
+            self.logger.warning(f"Measurement failed: {e}")
             self.consecutive_failures += 1
             self.spec = None  # Mark as disconnected
             return None
@@ -99,35 +97,14 @@ class RobustOceanSR6Reader:
     def reconnect(self):
         """Attempt to reconnect to the spectrometer"""
         if self.consecutive_failures >= self.max_failures:
-            self.logger.warning(f"Too many failures ({self.consecutive_failures}), waiting before reconnect...")
+            self.logger.info(f"Too many failures, waiting {self.reconnect_delay}s before reconnect...")
             time.sleep(self.reconnect_delay)
         
         self.logger.info("Attempting to reconnect...")
-        if self.connect():
-            self.logger.info("Reconnection successful!")
-            return True
-        else:
-            self.logger.warning("Reconnection failed")
-            return False
-    
-    def health_check(self):
-        """Check if device is healthy"""
-        current_time = time.time()
-        
-        # Check if we haven't had successful reads for too long
-        if (self.last_successful_read and 
-            current_time - self.last_successful_read > 30):  # 30 seconds without data
-            self.logger.warning("No successful reads for 30 seconds, checking connection...")
-            return False
-        
-        return True
+        return self.connect()
     
     def continuous_reading(self, output_file=None):
         """Continuous data collection with full failsafes"""
-        if not self.connect():
-            self.logger.error("Failed initial connection")
-            return
-        
         # Setup CSV file
         csv_file = None
         if output_file:
@@ -140,25 +117,28 @@ class RobustOceanSR6Reader:
                 self.logger.error(f"Failed to create CSV file: {e}")
                 csv_file = None
         
-        self.logger.info("Starting continuous reading with failsafes. Press Ctrl+C to stop.")
+        self.logger.info("Starting continuous reading. Press Ctrl+C to stop.")
         
         measurement_count = 0
-        last_health_check = time.time()
+        last_connection_attempt = 0
+        connection_attempt_interval = 10  # Try to reconnect every 10 seconds if disconnected
         
         try:
             while self.running:
                 current_time = time.time()
                 
-                # Periodic health check
-                if current_time - last_health_check > 10:  # Every 10 seconds
-                    if not self.health_check():
-                        self.logger.warning("Health check failed, attempting recovery...")
-                        if not self.reconnect():
-                            self.logger.error("Recovery failed, pausing...")
-                            time.sleep(self.reconnect_delay)
-                    last_health_check = current_time
+                # If we don't have a connection, try to get one periodically
+                if not self.spec:
+                    if current_time - last_connection_attempt >= connection_attempt_interval:
+                        if self.connect():
+                            self.logger.info("Successfully reconnected to spectrometer")
+                        last_connection_attempt = current_time
+                    else:
+                        # If no connection, just sleep and continue
+                        time.sleep(1)
+                        continue
                 
-                # Get spectrum
+                # Get spectrum if we have a connection
                 spectrum = self.safe_get_spectrum()
                 
                 if spectrum:
@@ -181,31 +161,17 @@ class RobustOceanSR6Reader:
                                 len(spectrum['wavelengths']),
                                 'success'
                             ])
-                            csv_file.flush()  # Ensure data is written immediately
+                            csv_file.flush()
                         except Exception as e:
                             self.logger.error(f"CSV write failed: {e}")
                 
-                else:
-                    # Failed measurement
-                    if csv_file:
-                        try:
-                            writer = csv.writer(csv_file)
-                            writer.writerow([
-                                datetime.now().strftime("%Y-%m-%d %H:%M:%S.%f"),
-                                '', '', '', 'failed'
-                            ])
-                            csv_file.flush()
-                        except Exception as e:
-                            self.logger.error(f"CSV error write failed: {e}")
-                
-                # Handle too many consecutive failures
+                # If we have too many failures, disconnect and wait for reconnect
                 if self.consecutive_failures >= self.max_failures:
-                    self.logger.warning(f"Multiple consecutive failures, attempting recovery...")
-                    if not self.reconnect():
-                        self.logger.error("Recovery failed, waiting before retry...")
-                        time.sleep(self.reconnect_delay)
+                    self.logger.warning("Too many consecutive failures, will attempt recovery...")
+                    self.spec = None
+                    time.sleep(self.reconnect_delay)
                 
-                time.sleep(1)  # 1 second between measurements
+                time.sleep(0.5)  # Reduced sleep time for more responsive behavior
                 
         except KeyboardInterrupt:
             self.logger.info(f"Stopped by user after {measurement_count} measurements")
@@ -229,8 +195,6 @@ class RobustOceanSR6Reader:
 
 def main():
     reader = RobustOceanSR6Reader()
-    
-    # Run continuous reading with data logging and full failsafes
     reader.continuous_reading(output_file='output/spectro_data.csv')
 
 if __name__ == "__main__":
