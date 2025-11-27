@@ -6274,3 +6274,640 @@ Merging data for 2025-11-26 14:43:46: ['trisonica']
 2025-11-26 14:43:46,894 - SensorController - INFO - Stopping TriSonica...
 2025-11-26 14:43:46,894 - SensorController - INFO - Stopping Spectrometer...
 2025-11-26 14:43:46,894 - SensorController - INFO - All processes stopped
+2025-11-27 09:32:38,294 - SensorController - INFO - Loaded configuration from sensor_config.json
+2025-11-27 09:32:38,295 - SensorController - INFO - Initialized sensor: iMet
+2025-11-27 09:32:38,297 - SensorController - INFO - Initialized sensor: POM
+2025-11-27 09:32:38,303 - SensorController - INFO - Initialized sensor: TriSonica
+2025-11-27 09:32:38,304 - SensorController - INFO - Initialized sensor: Spectrometer
+2025-11-27 09:32:38,305 - SensorController - INFO - Initialized data merger
+2025-11-27 09:32:38,305 - SensorController - INFO - Starting all sensor processes...
+2025-11-27 09:32:38,306 - SensorController - DEBUG - Starting iMet with script: /home/rsp/air_pollution_collector/uri_aplogger/iMet_safe.py
+2025-11-27 09:32:38,319 - SensorController - INFO - Started iMet (PID: 50901)
+2025-11-27 09:32:38,323 - SensorController - INFO - Waiting 2 seconds for iMet to initialize...
+2025-11-27 09:32:40,326 - SensorController - DEBUG - Starting POM with script: /home/rsp/air_pollution_collector/uri_aplogger/pom_safe.py
+2025-11-27 09:32:40,332 - SensorController - INFO - Started POM (PID: 50931)
+2025-11-27 09:32:40,334 - SensorController - INFO - Waiting 2 seconds for POM to initialize...
+2025-11-27 09:32:42,338 - SensorController - DEBUG - Starting TriSonica with script: /home/rsp/air_pollution_collector/uri_aplogger/trisonica_safe.py
+2025-11-27 09:32:42,346 - SensorController - INFO - Started TriSonica (PID: 50946)
+2025-11-27 09:32:42,348 - SensorController - INFO - Waiting 2 seconds for TriSonica to initialize...
+2025-11-27 09:32:44,352 - SensorController - DEBUG - Starting Spectrometer with script: /home/rsp/air_pollution_collector/uri_aplogger/spectro.py
+2025-11-27 09:32:44,357 - SensorController - INFO - Started Spectrometer (PID: 50969)
+2025-11-27 09:32:44,358 - SensorController - INFO - Waiting 2 seconds for Spectrometer to initialize...
+2025-11-27 09:32:46,358 - SensorController - INFO - Waiting 5 seconds before starting merger...
+2025-11-27 09:32:51,362 - SensorController - DEBUG - Starting Merger with script: /home/rsp/air_pollution_collector/uri_aplogger/merger.py
+2025-11-27 09:32:51,367 - SensorController - INFO - Started Merger (PID: 51047)
+2025-11-27 09:32:51,368 - SensorController - INFO - Merger process started
+2025-11-27 09:32:51,369 - SensorController - INFO - All processes started
+2025-11-27 09:32:51,369 - SensorController - INFO - Sensor controller running. Press Ctrl+C to stop.
+2025-11-27 09:33:38,251 - SensorController - INFO - Received signal 2, shutting down...
+2025-11-27 09:33:38,252 - SensorController - INFO - Stopping all processes...
+2025-11-27 09:33:38,252 - SensorController - INFO - Stopping merger process...
+2025-11-27 09:33:38,257 - SensorController - INFO - Stopped Merger
+2025-11-27 09:33:38,258 - SensorController - INFO - Stopping iMet...
+2025-11-27 09:33:38,268 - SensorController - ERROR - iMet ERROR: 2025-11-27 09:32:38,644 iMet: Starting iMet data collection
+2025-11-27 09:33:38,270 - SensorController - ERROR - iMet ERROR (final): °C
+2025-11-27 09:33:22,905 iMet: Raw data: XQ,+100933,+2228,+0356,+2340,2015/10/18,00:21:59,+0000000000,+0000000000,-00017000,00
+2025-11-27 09:33:22,910 iMet: Written: P=1009.33 hPa, T=+2228 °C
+2025-11-27 09:33:23,914 iMet: Raw data: XQ,+100930,+2229,+0356,+2340,2015/10/18,00:22:00,+0000000000,+0000000000,-00017000,00
+2025-11-27 09:33:23,914 iMet: Written: P=1009.3 hPa, T=+2229 °C
+2025-11-27 09:33:24,918 iMet: Raw data: XQ,+100936,+2228,+0356,+2340,2015/10/18,00:22:01,+0000000000,+0000000000,-00017000,00
+2025-11-27 09:33:24,919 iMet: Written: P=1009.36 hPa, T=+2228 °C
+2025-11-27 09:33:25,922 iMet: Raw data: XQ,+100933,+2226,+0356,+2340,2015/10/18,00:22:02,+0000000000,+0000000000,-00017000,00
+2025-11-27 09:33:25,923 iMet: Written: P=1009.33 hPa, T=+2226 °C
+2025-11-27 09:33:26,927 iMet: Raw data: XQ,+100927,+2229,+0356,+2340,2015/10/18,00:22:03,+0000000000,+0000000000,-00017000,00
+2025-11-27 09:33:26,928 iMet: Written: P=1009.27 hPa, T=+2229 °C
+2025-11-27 09:33:27,932 iMet: Raw data: XQ,+100929,+2228,+0356,+2340,2015/10/18,00:22:04,+0000000000,+0000000000,-00017000,00
+2025-11-27 09:33:27,932 iMet: Written: P=1009.29 hPa, T=+2228 °C
+2025-11-27 09:33:28,936 iMet: Raw data: XQ,+100930,+2228,+0356,+2338,2015/10/18,00:22:05,+0000000000,+0000000000,-00017000,00
+2025-11-27 09:33:28,937 iMet: Written: P=1009.3 hPa, T=+2228 °C
+2025-11-27 09:33:29,941 iMet: Raw data: XQ,+100930,+2228,+0356,+2340,2015/10/18,00:22:06,+0000000000,+0000000000,-00017000,00
+2025-11-27 09:33:29,941 iMet: Written: P=1009.3 hPa, T=+2228 °C
+2025-11-27 09:33:30,945 iMet: Raw data: XQ,+100927,+2229,+0357,+2340,2015/10/18,00:22:07,+0000000000,+0000000000,-00017000,00
+2025-11-27 09:33:30,946 iMet: Written: P=1009.27 hPa, T=+2229 °C
+2025-11-27 09:33:31,950 iMet: Raw data: XQ,+100929,+2229,+0357,+2341,2015/10/18,00:22:08,+0000000000,+0000000000,-00017000,00
+2025-11-27 09:33:31,950 iMet: Written: P=1009.29 hPa, T=+2229 °C
+2025-11-27 09:33:32,953 iMet: Raw data: XQ,+100927,+2227,+0357,+2340,2015/10/18,00:22:09,+0000000000,+0000000000,-00017000,00
+2025-11-27 09:33:32,959 iMet: Written: P=1009.27 hPa, T=+2227 °C
+2025-11-27 09:33:33,963 iMet: Raw data: XQ,+100932,+2229,+0357,+2340,2015/10/18,00:22:10,+0000000000,+0000000000,-00017000,00
+2025-11-27 09:33:33,963 iMet: Written: P=1009.32 hPa, T=+2229 °C
+2025-11-27 09:33:34,968 iMet: Raw data: XQ,+100931,+2229,+0357,+2340,2015/10/18,00:22:11,+0000000000,+0000000000,-00017000,00
+2025-11-27 09:33:34,968 iMet: Written: P=1009.31 hPa, T=+2229 °C
+2025-11-27 09:33:35,975 iMet: Raw data: XQ,+100930,+2228,+0357,+2340,2015/10/18,00:22:12,+0000000000,+0000000000,-00017000,00
+2025-11-27 09:33:35,976 iMet: Written: P=1009.3 hPa, T=+2228 °C
+2025-11-27 09:33:36,985 iMet: Raw data: XQ,+100929,+2229,+0357,+2340,2015/10/18,00:22:13,+0000000000,+0000000000,-00017000,00
+2025-11-27 09:33:36,986 iMet: Written: P=1009.29 hPa, T=+2229 °C
+2025-11-27 09:33:37,993 iMet: Raw data: XQ,+100927,+2230,+0357,+2340,2015/10/18,00:22:14,+0000000000,+0000000000,-00017000,00
+2025-11-27 09:33:37,999 iMet: Written: P=1009.27 hPa, T=+2230 °C
+2025-11-27 09:33:38,252 iMet: Stopping iMet data collection...
+2025-11-27 09:33:38,274 - SensorController - INFO - Stopped iMet
+2025-11-27 09:33:38,275 - SensorController - INFO - Stopping POM...
+2025-11-27 09:33:38,284 - SensorController - ERROR - POM ERROR: 2025-11-27 09:32:40,517 POM: Starting POM data collection
+2025-11-27 09:33:38,285 - SensorController - INFO - Stopped POM
+2025-11-27 09:33:38,286 - SensorController - INFO - Stopping TriSonica...
+2025-11-27 09:33:38,290 - SensorController - ERROR - TriSonica ERROR: 2025-11-27 09:32:42,545 TriSonica: Starting robust TriSonica data collection
+2025-11-27 09:33:38,291 - SensorController - ERROR - TriSonica ERROR: 2025-11-27 09:32:42,546 TriSonica: Searching for TriSonica device...
+2025-11-27 09:33:38,291 - SensorController - INFO - Stopped TriSonica
+2025-11-27 09:33:38,292 - SensorController - INFO - Stopping Spectrometer...
+2025-11-27 09:33:38,301 - SensorController - ERROR - Spectrometer ERROR: 2025-11-27 09:32:44,766 OceanSR6: Data logging to: output/spectro_data.csv
+2025-11-27 09:33:38,303 - SensorController - INFO - Stopped Spectrometer
+2025-11-27 09:33:38,304 - SensorController - INFO - All processes stopped
+2025-11-27 09:33:38,306 - SensorController - INFO - Stopping all processes...
+2025-11-27 09:33:38,307 - SensorController - INFO - Stopping merger process...
+2025-11-27 09:33:38,307 - SensorController - INFO - Stopping iMet...
+2025-11-27 09:33:38,308 - SensorController - INFO - Stopping POM...
+2025-11-27 09:33:38,308 - SensorController - INFO - Stopping TriSonica...
+2025-11-27 09:33:38,309 - SensorController - INFO - Stopping Spectrometer...
+2025-11-27 09:33:38,309 - SensorController - INFO - All processes stopped
+2025-11-27 09:59:52,115 - SensorController - INFO - Loaded configuration from sensor_config.json
+2025-11-27 09:59:52,116 - SensorController - INFO - Initialized sensor: iMet
+2025-11-27 09:59:52,117 - SensorController - INFO - Initialized sensor: POM
+2025-11-27 09:59:52,117 - SensorController - INFO - Initialized sensor: TriSonica
+2025-11-27 09:59:52,118 - SensorController - INFO - Initialized sensor: Spectrometer
+2025-11-27 09:59:52,119 - SensorController - INFO - Initialized data merger
+2025-11-27 09:59:52,119 - SensorController - INFO - Starting all sensor processes...
+2025-11-27 09:59:52,121 - SensorController - DEBUG - Starting iMet with script: /home/rsp/air_pollution_collector/uri_aplogger/iMet_safe.py
+2025-11-27 09:59:52,126 - SensorController - INFO - Started iMet (PID: 52324)
+2025-11-27 09:59:52,127 - SensorController - INFO - Waiting 2 seconds for iMet to initialize...
+2025-11-27 09:59:54,131 - SensorController - DEBUG - Starting POM with script: /home/rsp/air_pollution_collector/uri_aplogger/pom_safe.py
+2025-11-27 09:59:54,136 - SensorController - INFO - Started POM (PID: 52352)
+2025-11-27 09:59:54,137 - SensorController - INFO - Waiting 2 seconds for POM to initialize...
+2025-11-27 09:59:56,141 - SensorController - DEBUG - Starting TriSonica with script: /home/rsp/air_pollution_collector/uri_aplogger/trisonica_safe.py
+2025-11-27 09:59:56,145 - SensorController - INFO - Started TriSonica (PID: 52380)
+2025-11-27 09:59:56,147 - SensorController - INFO - Waiting 2 seconds for TriSonica to initialize...
+2025-11-27 09:59:58,151 - SensorController - DEBUG - Starting Spectrometer with script: /home/rsp/air_pollution_collector/uri_aplogger/spectro.py
+2025-11-27 09:59:58,155 - SensorController - INFO - Started Spectrometer (PID: 52385)
+2025-11-27 09:59:58,157 - SensorController - INFO - Waiting 2 seconds for Spectrometer to initialize...
+2025-11-27 10:00:00,160 - SensorController - INFO - Waiting 5 seconds before starting merger...
+2025-11-27 10:00:05,163 - SensorController - DEBUG - Starting Merger with script: /home/rsp/air_pollution_collector/uri_aplogger/merger.py
+2025-11-27 10:00:05,169 - SensorController - INFO - Started Merger (PID: 52454)
+2025-11-27 10:00:05,170 - SensorController - INFO - Merger process started
+2025-11-27 10:00:05,171 - SensorController - INFO - All processes started
+2025-11-27 10:00:05,172 - SensorController - INFO - Sensor controller running. Press Ctrl+C to stop.
+2025-11-27 10:00:22,097 - SensorController - INFO - Merger: Monitoring directory: output
+2025-11-27 10:00:24,808 - SensorController - INFO - Received signal 2, shutting down...
+2025-11-27 10:00:24,809 - SensorController - INFO - Stopping all processes...
+2025-11-27 10:00:24,809 - SensorController - INFO - Stopping merger process...
+2025-11-27 10:00:24,812 - SensorController - INFO - Merger (final): 025-11-27 10:00:21: ['spectro']
+2025-11-27 10:00:24,813 - SensorController - INFO - Stopped Merger
+2025-11-27 10:00:24,814 - SensorController - INFO - Stopping iMet...
+2025-11-27 10:00:24,818 - SensorController - ERROR - iMet ERROR: 2025-11-27 09:59:52,303 iMet: Starting iMet data collection
+2025-11-27 10:00:24,822 - SensorController - INFO - Stopped iMet
+2025-11-27 10:00:24,822 - SensorController - INFO - Stopping POM...
+2025-11-27 10:00:24,825 - SensorController - ERROR - POM ERROR: 2025-11-27 09:59:54,266 POM: Starting POM data collection
+2025-11-27 10:00:24,827 - SensorController - INFO - Stopped POM
+2025-11-27 10:00:24,827 - SensorController - INFO - Stopping TriSonica...
+2025-11-27 10:00:25,295 - SensorController - ERROR - Spectrometer ERROR: 2025-11-27 09:59:58,439 OceanSR6: Starting continuous reading. Press Ctrl+C to stop.
+2025-11-27 10:00:28,189 - SensorController - ERROR - TriSonica ERROR: 2025-11-27 09:59:56,291 TriSonica: Starting TriSonica data collection
+2025-11-27 10:00:28,202 - SensorController - INFO - Stopped TriSonica
+2025-11-27 10:00:28,203 - SensorController - INFO - Stopping Spectrometer...
+2025-11-27 10:00:28,203 - SensorController - INFO - Stopped Spectrometer
+2025-11-27 10:00:28,203 - SensorController - INFO - All processes stopped
+2025-11-27 10:00:28,204 - SensorController - INFO - Stopping all processes...
+2025-11-27 10:00:28,204 - SensorController - INFO - Stopping merger process...
+2025-11-27 10:00:28,204 - SensorController - INFO - Stopping iMet...
+2025-11-27 10:00:28,204 - SensorController - INFO - Stopping POM...
+2025-11-27 10:00:28,205 - SensorController - INFO - Stopping TriSonica...
+2025-11-27 10:00:28,205 - SensorController - INFO - Stopping Spectrometer...
+2025-11-27 10:00:28,205 - SensorController - INFO - All processes stopped
+2025-11-27 11:03:34,570 - SensorController - INFO - Loaded configuration from sensor_config.json
+2025-11-27 11:03:34,571 - SensorController - INFO - Initialized sensor: iMet
+2025-11-27 11:03:34,572 - SensorController - INFO - Initialized sensor: POM
+2025-11-27 11:03:34,572 - SensorController - INFO - Initialized sensor: TriSonica
+2025-11-27 11:03:34,573 - SensorController - INFO - Initialized sensor: Spectrometer
+2025-11-27 11:03:34,573 - SensorController - INFO - Initialized data merger
+2025-11-27 11:03:34,573 - SensorController - INFO - Starting all sensor processes...
+2025-11-27 11:03:34,574 - SensorController - DEBUG - Starting iMet with script: /home/rsp/air_pollution_collector/uri_aplogger/iMet_safe.py
+2025-11-27 11:03:34,579 - SensorController - INFO - Started iMet (PID: 2074)
+2025-11-27 11:03:34,580 - SensorController - INFO - Waiting 2 seconds for iMet to initialize...
+2025-11-27 11:03:36,583 - SensorController - DEBUG - Starting POM with script: /home/rsp/air_pollution_collector/uri_aplogger/pom_safe.py
+2025-11-27 11:03:36,588 - SensorController - INFO - Started POM (PID: 2077)
+2025-11-27 11:03:36,588 - SensorController - INFO - Waiting 2 seconds for POM to initialize...
+2025-11-27 11:03:38,591 - SensorController - DEBUG - Starting TriSonica with script: /home/rsp/air_pollution_collector/uri_aplogger/trisonica_safe.py
+2025-11-27 11:03:38,596 - SensorController - INFO - Started TriSonica (PID: 2082)
+2025-11-27 11:03:38,597 - SensorController - INFO - Waiting 2 seconds for TriSonica to initialize...
+2025-11-27 11:03:40,600 - SensorController - DEBUG - Starting Spectrometer with script: /home/rsp/air_pollution_collector/uri_aplogger/spectro.py
+2025-11-27 11:03:40,604 - SensorController - INFO - Started Spectrometer (PID: 2088)
+2025-11-27 11:03:40,605 - SensorController - INFO - Waiting 2 seconds for Spectrometer to initialize...
+2025-11-27 11:03:42,608 - SensorController - INFO - Waiting 5 seconds before starting merger...
+2025-11-27 11:03:47,614 - SensorController - DEBUG - Starting Merger with script: /home/rsp/air_pollution_collector/uri_aplogger/merger.py
+2025-11-27 11:03:47,619 - SensorController - INFO - Started Merger (PID: 2111)
+2025-11-27 11:03:47,620 - SensorController - INFO - Merger process started
+2025-11-27 11:03:47,620 - SensorController - INFO - All processes started
+2025-11-27 11:03:47,621 - SensorController - INFO - Sensor controller running. Press Ctrl+C to stop.
+2025-11-27 11:03:51,281 - SensorController - INFO - Merger: Monitoring directory: output
+2025-11-27 11:04:02,630 - SensorController - INFO - Received signal 2, shutting down...
+2025-11-27 11:04:02,631 - SensorController - INFO - Stopping all processes...
+2025-11-27 11:04:02,631 - SensorController - INFO - Stopping merger process...
+2025-11-27 11:04:02,634 - SensorController - INFO - Merger (final): '43.19', '1007.95', '179.6', '-180.0', '285.0']
+Found new data for trisonica: ['0.09', '97.0', '-0.08', '0.01', '0.03', '23.55', '43.19', '1008.0', '179.5', '-180.0', '285.0']
+Found new data for trisonica: ['0.08', '101.0', '-0.07', '0.01', '0.02', '23.57', '43.16', '1008.01', '179.5', '180.0', '285.0']
+Found new data for trisonica: ['0.06', '97.0', '-0.05', '0.01', '0.03', '23.56', '43.15', '1007.98', '179.5', '-180.0', '288.0']
+Merging data for 2025-11-27 11:03:51: ['trisonica', 'spectro']
+  Set trisonica_Wind_Speed = 0.06
+  Set trisonica_Wind_Direction = 97.0
+  Set trisonica_U_Vector = -0.05
+  Set trisonica_V_Vector = 0.01
+  Set trisonica_W_Vector = 0.03
+  Set trisonica_Temperature = 23.56
+  Set trisonica_Relative_Humidity = 43.15
+  Set trisonica_Pressure = 1007.98
+  Set trisonica_Compass_Heading = 179.5
+  Set trisonica_Pitch = -180.0
+  Set trisonica_Roll = 288.0
+  Set spectro_timestamp = 627.2004
+  Set spectro_peak_wavelength = 2105.00
+  Set spectro_max_intensity = 2048
+Successfully merged data: ['2025-11-27 11:03:51', 'None', 'None', 'None', 'None']...
+Found new data for spectro: ['627.2004', '2115.00', '2048']
+Found new data for trisonica: ['0.04', '89.0', '-0.04', '-0.0', '0.02', '23.58', '43.1', '1007.98', '179.6', '-180.0', '285.0']
+Merging data for 2025-11-27 11:03:51: ['spectro', 'trisonica']
+  Set spectro_timestamp = 627.2004
+  Set spectro_peak_wavelength = 2115.00
+  Set spectro_max_intensity = 2048
+  Set trisonica_Wind_Speed = 0.04
+  Set trisonica_Wind_Direction = 89.0
+  Set trisonica_U_Vector = -0.04
+  Set trisonica_V_Vector = -0.0
+  Set trisonica_W_Vector = 0.02
+  Set trisonica_Temperature = 23.58
+  Set trisonica_Relative_Humidity = 43.1
+  Set trisonica_Pressure = 1007.98
+  Set trisonica_Compass_Heading = 179.6
+  Set trisonica_Pitch = -180.0
+  Set trisonica_Roll = 285.0
+Successfully merged data: ['2025-11-27 11:03:51', 'None', 'None', 'None', 'None']...
+Found new data for trisonica: ['0.05', '112.0', '-0.04', '0.02', '0.02', '23.59', '43.12', '1007.98', '179.6', '-180.0', '285.0']
+Found new data for trisonica: ['0.06', '109.0', '-0.05', '0.02', '0.02', '23.62', '43.08', '1008.0', '179.6', '180.0', '285.0']
+Found new data for spectro: ['627.2004', '2077.00', '2048']
+Found new data for trisonica: ['0.05', '139.0', '-0.02', '0.03', '0.03', '23.63', '43.12', '1007.98', '179.6', '-180.0', '284.0']
+Found new data for trisonica: ['0.05', '79.0', '-0.01', '-0.0', '0.05', '23.63', '43.04', '1007.98', '179.5', '180.0', '286.0']
+Merging data for 2025-11-27 11:03:52: ['trisonica', 'spectro']
+  Set trisonica_Wind_Speed = 0.05
+  Set trisonica_Wind_Direction = 79.0
+  Set trisonica_U_Vector = -0.01
+  Set trisonica_V_Vector = -0.0
+  Set trisonica_W_Vector = 0.05
+  Set trisonica_Temperature = 23.63
+  Set trisonica_Relative_Humidity = 43.04
+  Set trisonica_Pressure = 1007.98
+  Set trisonica_Compass_Heading = 179.5
+  Set trisonica_Pitch = 180.0
+  Set trisonica_Roll = 286.0
+  Set spectro_timestamp = 627.2004
+  Set spectro_peak_wavelength = 2077.00
+  Set spectro_max_intensity = 2048
+Successfully merged data: ['2025-11-27 11:03:52', 'None', 'None', 'None', 'None']...
+Found new data for spectro: ['627.2004', '2125.00', '2048']
+Found new data for trisonica: ['0.03', '175.0', '-0.0', '0.01', '0.03', '23.6', '43.03', '1008.01', '179.5', '180.0', '283.0']
+Found new data for trisonica: ['0.04', '101.0', '-0.03', '0.01', '0.02', '23.61', '43.01', '1007.98', '179.6', '-180.0', '287.0']
+Found new data for trisonica: ['0.05', '113.0', '-0.04', '0.02', '0.02', '23.61', '42.99', '1007.99', '179.5', '180.0', '286.0']
+Found new data for spectro: ['627.2004', '2129.00', '2048']
+Found new data for trisonica: ['0.04', '116.0', '-0.03', '0.02', '0.01', '23.61', '43.01', '1008.01', '179.5', '-180.0', '284.0']
+Merging data for 2025-11-27 11:03:53: ['spectro', 'trisonica']
+  Set spectro_timestamp = 627.2004
+  Set spectro_peak_wavelength = 2129.00
+  Set spectro_max_intensity = 2048
+  Set trisonica_Wind_Speed = 0.04
+  Set trisonica_Wind_Direction = 116.0
+  Set trisonica_U_Vector = -0.03
+  Set trisonica_V_Vector = 0.02
+  Set trisonica_W_Vector = 0.01
+  Set trisonica_Temperature = 23.61
+  Set trisonica_Relative_Humidity = 43.01
+  Set trisonica_Pressure = 1008.01
+  Set trisonica_Compass_Heading = 179.5
+  Set trisonica_Pitch = -180.0
+  Set trisonica_Roll = 284.0
+Successfully merged data: ['2025-11-27 11:03:53', 'None', 'None', 'None', 'None']...
+Found new data for trisonica: ['0.04', '114.0', '-0.03', '0.01', '0.02', '23.59', '42.95', '1007.99', '179.5', '-180.0', '285.0']
+Merging data for 2025-11-27 11:03:53: ['trisonica']
+  Set trisonica_Wind_Speed = 0.04
+  Set trisonica_Wind_Direction = 114.0
+  Set trisonica_U_Vector = -0.03
+  Set trisonica_V_Vector = 0.01
+  Set trisonica_W_Vector = 0.02
+  Set trisonica_Temperature = 23.59
+  Set trisonica_Relative_Humidity = 42.95
+  Set trisonica_Pressure = 1007.99
+  Set trisonica_Compass_Heading = 179.5
+  Set trisonica_Pitch = -180.0
+  Set trisonica_Roll = 285.0
+  Filled spectro_timestamp = 627.2004 (last known)
+  Filled spectro_peak_wavelength = 2129.00 (last known)
+  Filled spectro_max_intensity = 2048 (last known)
+Successfully merged data: ['2025-11-27 11:03:53', 'None', 'None', 'None', 'None']...
+Found new data for trisonica: ['0.03', '141.0', '-0.01', '0.01', '0.02', '23.57', '42.98', '1008.0', '179.6', '-179.9', '288.0']
+Found new data for spectro: ['627.2004', '2099.00', '2048']
+Found new data for trisonica: ['0.03', '117.0', '-0.03', '0.01', '0.01', '23.52', '42.93', '1008.0', '179.5', '180.0', '280.0']
+Found new data for trisonica: ['0.04', '114.0', '-0.04', '0.02', '0.01', '23.46', '42.96', '1007.98', '179.6', '-180.0', '283.0']
+Found new data for trisonica: ['0.06', '110.0', '-0.05', '0.02', '0.01', '23.44', '42.91', '1007.94', '179.5', '180.0', '283.0']
+Merging data for 2025-11-27 11:03:54: ['trisonica', 'spectro']
+  Set trisonica_Wind_Speed = 0.06
+  Set trisonica_Wind_Direction = 110.0
+  Set trisonica_U_Vector = -0.05
+  Set trisonica_V_Vector = 0.02
+  Set trisonica_W_Vector = 0.01
+  Set trisonica_Temperature = 23.44
+  Set trisonica_Relative_Humidity = 42.91
+  Set trisonica_Pressure = 1007.94
+  Set trisonica_Compass_Heading = 179.5
+  Set trisonica_Pitch = 180.0
+  Set trisonica_Roll = 283.0
+  Set spectro_timestamp = 627.2004
+  Set spectro_peak_wavelength = 2099.00
+  Set spectro_max_intensity = 2048
+Successfully merged data: ['2025-11-27 11:03:54', 'None', 'None', 'None', 'None']...
+Found new data for spectro: ['627.2004', '2140.00', '2048']
+Found new data for trisonica: ['0.05', '130.0', '-0.04', '0.03', '0.01', '23.45', '42.89', '1007.98', '179.6', '-180.0', '287.0']
+Merging data for 2025-11-27 11:03:54: ['spectro', 'trisonica']
+  Set spectro_timestamp = 627.2004
+  Set spectro_peak_wavelength = 2140.00
+  Set spectro_max_intensity = 2048
+  Set trisonica_Wind_Speed = 0.05
+  Set trisonica_Wind_Direction = 130.0
+  Set trisonica_U_Vector = -0.04
+  Set trisonica_V_Vector = 0.03
+  Set trisonica_W_Vector = 0.01
+  Set trisonica_Temperature = 23.45
+  Set trisonica_Relative_Humidity = 42.89
+  Set trisonica_Pressure = 1007.98
+  Set trisonica_Compass_Heading = 179.6
+  Set trisonica_Pitch = -180.0
+  Set trisonica_Roll = 287.0
+Successfully merged data: ['2025-11-27 11:03:54', 'None', 'None', 'None', 'None']...
+Found new data for trisonica: ['0.06', '109.0', '-0.05', '0.02', '0.02', '23.45', '42.86', '1007.98', '179.6', '-180.0', '285.0']
+Found new data for trisonica: ['0.05', '93.0', '-0.05', '0.0', '0.02', '23.52', '42.83', '1008.03', '179.6', '180.0', '289.0']
+Found new data for spectro: ['627.2004', '2148.00', '2048']
+Found new data for trisonica: ['0.07', '111.0', '-0.06', '0.03', '0.03', '23.52', '42.79', '1007.98', '179.6', '180.0', '290.0']
+Found new data for trisonica: ['0.08', '117.0', '-0.06', '0.03', '0.03', '23.5', '42.81', '1007.97', '179.5', '-180.0', '287.0']
+Merging data for 2025-11-27 11:03:55: ['trisonica', 'spectro']
+  Set trisonica_Wind_Speed = 0.08
+  Set trisonica_Wind_Direction = 117.0
+  Set trisonica_U_Vector = -0.06
+  Set trisonica_V_Vector = 0.03
+  Set trisonica_W_Vector = 0.03
+  Set trisonica_Temperature = 23.5
+  Set trisonica_Relative_Humidity = 42.81
+  Set trisonica_Pressure = 1007.97
+  Set trisonica_Compass_Heading = 179.5
+  Set trisonica_Pitch = -180.0
+  Set trisonica_Roll = 287.0
+  Set spectro_timestamp = 627.2004
+  Set spectro_peak_wavelength = 2148.00
+  Set spectro_max_intensity = 2048
+Successfully merged data: ['2025-11-27 11:03:55', 'None', 'None', 'None', 'None']...
+Found new data for trisonica: ['0.08', '111.0', '-0.07', '0.03', '0.02', '23.47', '42.79', '1008.0', '179.6', '-179.9', '283.0']
+Merging data for 2025-11-27 11:03:55: ['trisonica']
+  Set trisonica_Wind_Speed = 0.08
+  Set trisonica_Wind_Direction = 111.0
+  Set trisonica_U_Vector = -0.07
+  Set trisonica_V_Vector = 0.03
+  Set trisonica_W_Vector = 0.02
+  Set trisonica_Temperature = 23.47
+  Set trisonica_Relative_Humidity = 42.79
+  Set trisonica_Pressure = 1008.0
+  Set trisonica_Compass_Heading = 179.6
+  Set trisonica_Pitch = -179.9
+  Set trisonica_Roll = 283.0
+  Filled spectro_timestamp = 627.2004 (last known)
+  Filled spectro_peak_wavelength = 2148.00 (last known)
+  Filled spectro_max_intensity = 2048 (last known)
+Successfully merged data: ['2025-11-27 11:03:55', 'None', 'None', 'None', 'None']...
+Found new data for trisonica: ['0.08', '118.0', '-0.06', '0.03', '0.02', '23.46', '42.81', '1007.98', '179.6', '-180.0', '285.0']
+Found new data for spectro: ['627.2004', '2105.00', '2048']
+Found new data for trisonica: ['0.08', '118.0', '-0.06', '0.03', '0.03', '23.45', '42.77', '1007.99', '179.6', '-180.0', '283.0']
+Found new data for trisonica: ['0.06', '117.0', '-0.05', '0.02', '0.02', '23.42', '42.77', '1007.99', '179.6', '-180.0', '284.0']
+Found new data for trisonica: ['0.05', '132.0', '-0.04', '0.03', '0.02', '23.39', '42.73', '1007.97', '179.5', '-180.0', '289.0']
+Found new data for spectro: ['627.2004', '2132.00', '2048']
+Found new data for trisonica: ['0.06', '114.0', '-0.05', '0.02', '0.02', '23.36', '42.79', '1008.0', '179.6', '180.0', '286.0']
+Merging data for 2025-11-27 11:03:56: ['trisonica', 'spectro']
+  Set trisonica_Wind_Speed = 0.06
+  Set trisonica_Wind_Direction = 114.0
+  Set trisonica_U_Vector = -0.05
+  Set trisonica_V_Vector = 0.02
+  Set trisonica_W_Vector = 0.02
+  Set trisonica_Temperature = 23.36
+  Set trisonica_Relative_Humidity = 42.79
+  Set trisonica_Pressure = 1008.0
+  Set trisonica_Compass_Heading = 179.6
+  Set trisonica_Pitch = 180.0
+  Set trisonica_Roll = 286.0
+  Set spectro_timestamp = 627.2004
+  Set spectro_peak_wavelength = 2132.00
+  Set spectro_max_intensity = 2048
+Successfully merged data: ['2025-11-27 11:03:56', 'None', 'None', 'None', 'None']...
+Found new data for trisonica: ['0.06', '116.0', '-0.05', '0.03', '0.01', '23.36', '42.75', '1007.99', '179.5', '180.0', '287.0']
+Found new data for trisonica: ['0.08', '121.0', '-0.07', '0.04', '0.02', '23.37', '42.74', '1007.97', '179.6', '-180.0', '284.0']
+Found new data for spectro: ['627.2004', '2147.00', '2048']
+Found new data for trisonica: ['0.08', '132.0', '-0.06', '0.05', '0.03', '23.37', '42.7', '1008.02', '179.5', '-180.0', '283.0']
+Found new data for trisonica: ['0.07', '136.0', '-0.04', '0.04', '0.04', '23.39', '42.67', '1007.97', '179.5', '180.0', '289.0']
+Found new data for trisonica: ['0.07', '112.0', '-0.06', '0.02', '0.03', '23.41', '42.7', '1007.98', '179.6', '-180.0', '288.0']
+Merging data for 2025-11-27 11:03:57: ['trisonica', 'spectro']
+  Set trisonica_Wind_Speed = 0.07
+  Set trisonica_Wind_Direction = 112.0
+  Set trisonica_U_Vector = -0.06
+  Set trisonica_V_Vector = 0.02
+  Set trisonica_W_Vector = 0.03
+  Set trisonica_Temperature = 23.41
+  Set trisonica_Relative_Humidity = 42.7
+  Set trisonica_Pressure = 1007.98
+  Set trisonica_Compass_Heading = 179.6
+  Set trisonica_Pitch = -180.0
+  Set trisonica_Roll = 288.0
+  Set spectro_timestamp = 627.2004
+  Set spectro_peak_wavelength = 2147.00
+  Set spectro_max_intensity = 2048
+Successfully merged data: ['2025-11-27 11:03:57', 'None', 'None', 'None', 'None']...
+Found new data for spectro: ['627.2004', '2102.00', '2048']
+Merging data for 2025-11-27 11:03:57: ['spectro']
+  Set spectro_timestamp = 627.2004
+  Set spectro_peak_wavelength = 2102.00
+  Set spectro_max_intensity = 2048
+  Filled trisonica_Wind_Speed = 0.07 (last known)
+  Filled trisonica_Wind_Direction = 112.0 (last known)
+  Filled trisonica_U_Vector = -0.06 (last known)
+  Filled trisonica_V_Vector = 0.02 (last known)
+  Filled trisonica_W_Vector = 0.03 (last known)
+  Filled trisonica_Temperature = 23.41 (last known)
+  Filled trisonica_Relative_Humidity = 42.7 (last known)
+  Filled trisonica_Pressure = 1007.98 (last known)
+  Filled trisonica_Compass_Heading = 179.6 (last known)
+  Filled trisonica_Pitch = -180.0 (last known)
+  Filled trisonica_Roll = 288.0 (last known)
+Successfully merged data: ['2025-11-27 11:03:57', 'None', 'None', 'None', 'None']...
+Found new data for trisonica: ['0.07', '112.0', '-0.06', '0.02', '0.02', '23.44', '42.63', '1007.96', '179.5', '180.0', '286.0']
+Found new data for trisonica: ['0.08', '130.0', '-0.06', '0.05', '0.02', '23.47', '42.66', '1007.97', '179.5', '180.0', '286.0']
+Found new data for trisonica: ['0.07', '126.0', '-0.04', '0.03', '0.04', '23.48', '42.64', '1007.99', '179.6', '-180.0', '282.0']
+Found new data for spectro: ['627.2004', '2095.00', '2048']
+Found new data for trisonica: ['0.05', '138.0', '-0.03', '0.03', '0.03', '23.48', '42.65', '1007.99', '179.5', '180.0', '285.0']
+Found new data for trisonica: ['0.06', '135.0', '-0.03', '0.03', '0.03', '23.46', '42.62', '1007.98', '179.6', '180.0', '283.0']
+Merging data for 2025-11-27 11:03:58: ['trisonica', 'spectro']
+  Set trisonica_Wind_Speed = 0.06
+  Set trisonica_Wind_Direction = 135.0
+  Set trisonica_U_Vector = -0.03
+  Set trisonica_V_Vector = 0.03
+  Set trisonica_W_Vector = 0.03
+  Set trisonica_Temperature = 23.46
+  Set trisonica_Relative_Humidity = 42.62
+  Set trisonica_Pressure = 1007.98
+  Set trisonica_Compass_Heading = 179.6
+  Set trisonica_Pitch = 180.0
+  Set trisonica_Roll = 283.0
+  Set spectro_timestamp = 627.2004
+  Set spectro_peak_wavelength = 2095.00
+  Set spectro_max_intensity = 2048
+Successfully merged data: ['2025-11-27 11:03:58', 'None', 'None', 'None', 'None']...
+Found new data for trisonica: ['0.08', '119.0', '-0.06', '0.03', '0.03', '23.46', '42.63', '1008.0', '179.6', '-180.0', '287.0']
+Found new data for spectro: ['627.2004', '2133.00', '2048']
+Found new data for trisonica: ['0.06', '111.0', '-0.05', '0.02', '0.01', '23.45', '42.62', '1008.0', '179.6', '180.0', '283.0']
+Found new data for trisonica: ['0.07', '116.0', '-0.06', '0.03', '0.02', '23.43', '42.62', '1007.96', '179.5', '180.0', '285.0']
+Found new data for trisonica: ['0.06', '135.0', '-0.04', '0.04', '0.02', '23.44', '42.58', '1007.99', '179.6', '-180.0', '284.0']
+Found new data for spectro: ['627.2004', '2107.00', '2048']
+Found new data for trisonica: ['0.08', '132.0', '-0.05', '0.05', '0.02', '23.41', '42.55', '1007.98', '179.6', '-180.0', '285.0']
+Merging data for 2025-11-27 11:03:59: ['trisonica', 'spectro']
+  Set trisonica_Wind_Speed = 0.08
+  Set trisonica_Wind_Direction = 132.0
+  Set trisonica_U_Vector = -0.05
+  Set trisonica_V_Vector = 0.05
+  Set trisonica_W_Vector = 0.02
+  Set trisonica_Temperature = 23.41
+  Set trisonica_Relative_Humidity = 42.55
+  Set trisonica_Pressure = 1007.98
+  Set trisonica_Compass_Heading = 179.6
+  Set trisonica_Pitch = -180.0
+  Set trisonica_Roll = 285.0
+  Set spectro_timestamp = 627.2004
+  Set spectro_peak_wavelength = 2107.00
+  Set spectro_max_intensity = 2048
+Successfully merged data: ['2025-11-27 11:03:59', 'None', 'None', 'None', 'None']...
+Found new data for trisonica: ['0.09', '129.0', '-0.07', '0.06', '0.02', '23.39', '42.56', '1008.0', '179.5', '180.0', '286.0']
+Found new data for trisonica: ['0.09', '123.0', '-0.07', '0.04', '0.04', '23.38', '42.55', '1008.01', '179.5', '180.0', '286.0']
+Found new data for spectro: ['627.2004', '2105.00', '2048']
+Found new data for trisonica: ['0.08', '121.0', '-0.06', '0.04', '0.03', '23.4', '42.55', '1008.0', '179.5', '-180.0', '285.0']
+Found new data for trisonica: ['0.07', '134.0', '-0.05', '0.04', '0.02', '23.4', '42.49', '1007.97', '179.5', '-180.0', '285.0']
+Found new data for trisonica: ['0.07', '130.0', '-0.05', '0.04', '0.02', '23.4', '42.5', '1007.96', '179.5', '180.0', '285.0']
+Merging data for 2025-11-27 11:04:00: ['trisonica', 'spectro']
+  Set trisonica_Wind_Speed = 0.07
+  Set trisonica_Wind_Direction = 130.0
+2025-11-27 11:04:02,635 - SensorController - INFO - Stopped Merger
+2025-11-27 11:04:02,636 - SensorController - INFO - Stopping iMet...
+2025-11-27 11:04:02,639 - SensorController - ERROR - iMet ERROR: 2025-11-27 11:03:34,747 iMet: Starting iMet data collection
+2025-11-27 11:04:02,640 - SensorController - INFO - Stopped iMet
+2025-11-27 11:04:02,640 - SensorController - INFO - Stopping POM...
+2025-11-27 11:04:02,643 - SensorController - ERROR - POM ERROR: 2025-11-27 11:03:36,723 POM: Starting POM data collection
+2025-11-27 11:04:02,649 - SensorController - INFO - Stopped POM
+2025-11-27 11:04:02,649 - SensorController - INFO - Stopping TriSonica...
+2025-11-27 11:04:02,657 - SensorController - ERROR - TriSonica ERROR: 2025-11-27 11:03:38,797 TriSonica: Starting TriSonica data collection
+2025-11-27 11:04:02,659 - SensorController - ERROR - TriSonica ERROR (final): 2025-11-27 11:03:46,643 TriSonica: Raw data: S  00.05 D  109 U -00.04 V  00.01 W  00.03 T  23.52 H  43.65 P  1008.00 PI  179.6 RO -180.0 MD  288
+2025-11-27 11:03:46,644 TriSonica: Written: Wind Speed: 0.05 m/s
+2025-11-27 11:03:46,854 TriSonica: Raw data: S  00.05 D  140 U -00.03 V  00.04 W  00.02 T  23.51 H  43.62 P  1007.98 PI  179.5 RO  180.0 MD  286
+2025-11-27 11:03:46,855 TriSonica: Written: Wind Speed: 0.05 m/s
+2025-11-27 11:03:47,059 TriSonica: Raw data: S  00.07 D  138 U -00.05 V  00.05 W  00.03 T  23.50 H  43.63 P  1007.95 PI  179.5 RO -180.0 MD  283
+2025-11-27 11:03:47,059 TriSonica: Written: Wind Speed: 0.07 m/s
+2025-11-27 11:03:47,263 TriSonica: Raw data: S  00.07 D  134 U -00.04 V  00.04 W  00.03 T  23.54 H  43.57 P  1007.97 PI  179.6 RO  180.0 MD  288
+2025-11-27 11:03:47,264 TriSonica: Written: Wind Speed: 0.07 m/s
+2025-11-27 11:03:47,369 TriSonica: Raw data: S  00.06 D  145 U -00.03 V  00.04 W  00.02 T  23.59 H  43.56 P  1008.01 PI  179.6 RO  180.0 MD  286
+2025-11-27 11:03:47,370 TriSonica: Written: Wind Speed: 0.06 m/s
+2025-11-27 11:03:47,573 TriSonica: Raw data: S  00.06 D  144 U -00.03 V  00.05 W  00.01 T  23.62 H  43.55 P  1007.99 PI  179.6 RO  180.0 MD  285
+2025-11-27 11:03:47,574 TriSonica: Written: Wind Speed: 0.06 m/s
+2025-11-27 11:03:47,778 TriSonica: Raw data: S  00.07 D  137 U -00.04 V  00.05 W  00.01 T  23.66 H  43.49 P  1007.98 PI  179.6 RO -180.0 MD  284
+2025-11-27 11:03:47,778 TriSonica: Written: Wind Speed: 0.07 m/s
+2025-11-27 11:03:47,982 TriSonica: Raw data: S  00.05 D  137 U -00.03 V  00.04 W  00.02 T  23.66 H  43.53 P  1007.98 PI  179.6 RO -180.0 MD  288
+2025-11-27 11:03:47,983 TriSonica: Written: Wind Speed: 0.05 m/s
+2025-11-27 11:03:48,188 TriSonica: Raw data: S  00.05 D  121 U -00.04 V  00.02 W  00.03 T  23.64 H  43.48 P  1007.98 PI  179.6 RO  180.0 MD  284
+2025-11-27 11:03:48,189 TriSonica: Written: Wind Speed: 0.05 m/s
+2025-11-27 11:03:48,393 TriSonica: Raw data: S  00.07 D  123 U -00.06 V  00.04 W  00.01 T  23.61 H  43.50 P  1007.97 PI  179.6 RO  180.0 MD  286
+2025-11-27 11:03:48,393 TriSonica: Written: Wind Speed: 0.07 m/s
+2025-11-27 11:03:48,597 TriSonica: Raw data: S  00.07 D  125 U -00.06 V  00.04 W  00.01 T  23.58 H  43.45 P  1008.01 PI  179.5 RO  180.0 MD  282
+2025-11-27 11:03:48,598 TriSonica: Written: Wind Speed: 0.07 m/s
+2025-11-27 11:03:48,802 TriSonica: Raw data: S  00.06 D  115 U -00.06 V  00.03 W  00.00 T  23.58 H  43.43 P  1008.00 PI  179.6 RO  180.0 MD  286
+2025-11-27 11:03:48,803 TriSonica: Written: Wind Speed: 0.06 m/s
+2025-11-27 11:03:49,007 TriSonica: Raw data: S  00.07 D  106 U -00.06 V  00.02 W  00.02 T  23.55 H  43.36 P  1008.00 PI  179.5 RO -180.0 MD  281
+2025-11-27 11:03:49,007 TriSonica: Written: Wind Speed: 0.07 m/s
+2025-11-27 11:03:49,211 TriSonica: Raw data: S  00.08 D  118 U -00.06 V  00.03 W  00.03 T  23.48 H  43.41 P  1007.97 PI  179.6 RO  180.0 MD  285
+2025-11-27 11:03:49,212 TriSonica: Written: Wind Speed: 0.08 m/s
+2025-11-27 11:03:49,416 TriSonica: Raw data: S  00.07 D  118 U -00.06 V  00.03 W  00.01 T  23.44 H  43.35 P  1008.01 PI  179.5 RO -179.9 MD  284
+2025-11-27 11:03:49,416 TriSonica: Written: Wind Speed: 0.07 m/s
+2025-11-27 11:03:49,620 TriSonica: Raw data: S  00.07 D  106 U -00.07 V  00.02 W  00.03 T  23.44 H  43.34 P  1008.00 PI  179.5 RO -180.0 MD  282
+2025-11-27 11:03:49,620 TriSonica: Written: Wind Speed: 0.07 m/s
+2025-11-27 11:03:49,824 TriSonica: Raw data: S  00.08 D  090 U -00.07 V -00.00 W  00.03 T  23.44 H  43.37 P  1008.00 PI  179.5 RO -180.0 MD  286
+2025-11-27 11:03:49,824 TriSonica: Written: Wind Speed: 0.08 m/s
+2025-11-27 11:03:50,028 TriSonica: Raw data: S  00.08 D  077 U -00.08 V -00.02 W  00.01 T  23.45 H  43.29 P  1007.99 PI  179.5 RO  180.0 MD  286
+2025-11-27 11:03:50,028 TriSonica: Written: Wind Speed: 0.08 m/s
+2025-11-27 11:03:50,232 TriSonica: Raw data: S  00.08 D  080 U -00.08 V -00.01 W  00.02 T  23.48 H  43.31 P  1008.00 PI  179.5 RO -180.0 MD  285
+2025-11-27 11:03:50,232 TriSonica: Written: Wind Speed: 0.08 m/s
+2025-11-27 11:03:50,436 TriSonica: Raw data: S  00.09 D  077 U -00.08 V -00.02 W  00.02 T  23.51 H  43.27 P  1007.99 PI  179.6 RO -180.0 MD  285
+2025-11-27 11:03:50,437 TriSonica: Written: Wind Speed: 0.09 m/s
+2025-11-27 11:03:50,640 TriSonica: Raw data: S  00.10 D  082 U -00.09 V -00.01 W  00.03 T  23.51 H  43.26 P  1007.98 PI  179.5 RO -180.0 MD  284
+2025-11-27 11:03:50,641 TriSonica: Written: Wind Speed: 0.1 m/s
+2025-11-27 11:03:50,845 TriSonica: Raw data: S  00.08 D  079 U -00.07 V -00.01 W  00.02 T  23.51 H  43.21 P  1008.00 PI  179.6 RO  180.0 MD  285
+2025-11-27 11:03:50,845 TriSonica: Written: Wind Speed: 0.08 m/s
+2025-11-27 11:03:51,049 TriSonica: Raw data: S  00.05 D  085 U -00.05 V -00.00 W  00.02 T  23.50 H  43.22 P  1007.98 PI  179.6 RO -180.0 MD  283
+2025-11-27 11:03:51,050 TriSonica: Written: Wind Speed: 0.05 m/s
+2025-11-27 11:03:51,255 TriSonica: Raw data: S  00.06 D  093 U -00.06 V  00.00 W  00.01 T  23.52 H  43.19 P  1007.95 PI  179.6 RO -180.0 MD  285
+2025-11-27 11:03:51,255 TriSonica: Written: Wind Speed: 0.06 m/s
+2025-11-27 11:03:51,460 TriSonica: Raw data: S  00.09 D  097 U -00.08 V  00.01 W  00.03 T  23.55 H  43.19 P  1008.00 PI  179.5 RO -180.0 MD  285
+2025-11-27 11:03:51,461 TriSonica: Written: Wind Speed: 0.09 m/s
+2025-11-27 11:03:51,664 TriSonica: Raw data: S  00.08 D  101 U -00.07 V  00.01 W  00.02 T  23.57 H  43.16 P  1008.01 PI  179.5 RO  180.0 MD  285
+2025-11-27 11:03:51,665 TriSonica: Written: Wind Speed: 0.08 m/s
+2025-11-27 11:03:51,769 TriSonica: Raw data: S  00.06 D  097 U -00.05 V  00.01 W  00.03 T  23.56 H  43.15 P  1007.98 PI  179.5 RO -180.0 MD  288
+2025-11-27 11:03:51,769 TriSonica: Written: Wind Speed: 0.06 m/s
+2025-11-27 11:03:51,973 TriSonica: Raw data: S  00.04 D  089 U -00.04 V -00.00 W  00.02 T  23.58 H  43.10 P  1007.98 PI  179.6 RO -180.0 MD  285
+2025-11-27 11:03:51,974 TriSonica: Written: Wind Speed: 0.04 m/s
+2025-11-27 11:03:52,181 TriSonica: Raw data: S  00.05 D  112 U -00.04 V  00.02 W  00.02 T  23.59 H  43.12 P  1007.98 PI  179.6 RO -180.0 MD  285
+2025-11-27 11:03:52,182 TriSonica: Written: Wind Speed: 0.05 m/s
+2025-11-27 11:03:52,390 TriSonica: Raw data: S  00.06 D  109 U -00.05 V  00.02 W  00.02 T  23.62 H  43.08 P  1008.00 PI  179.6 RO  180.0 MD  285
+2025-11-27 11:03:52,391 TriSonica: Written: Wind Speed: 0.06 m/s
+2025-11-27 11:03:52,595 TriSonica: Raw data: S  00.05 D  139 U -00.02 V  00.03 W  00.03 T  23.63 H  43.12 P  1007.98 PI  179.6 RO -180.0 MD  284
+2025-11-27 11:03:52,595 TriSonica: Written: Wind Speed: 0.05 m/s
+2025-11-27 11:03:52,798 TriSonica: Raw data: S  00.05 D  079 U -00.01 V -00.00 W  00.05 T  23.63 H  43.04 P  1007.98 PI  179.5 RO  180.0 MD  286
+2025-11-27 11:03:52,799 TriSonica: Written: Wind Speed: 0.05 m/s
+2025-11-27 11:03:53,003 TriSonica: Raw data: S  00.03 D  175 U -00.00 V  00.01 W  00.03 T  23.60 H  43.03 P  1008.01 PI  179.5 RO  180.0 MD  283
+2025-11-27 11:03:53,004 TriSonica: Written: Wind Speed: 0.03 m/s
+2025-11-27 11:03:53,207 TriSonica: Raw data: S  00.04 D  101 U -00.03 V  00.01 W  00.02 T  23.61 H  43.01 P  1007.98 PI  179.6 RO -180.0 MD  287
+2025-11-27 11:03:53,208 TriSonica: Written: Wind Speed: 0.04 m/s
+2025-11-27 11:03:53,411 TriSonica: Raw data: S  00.05 D  113 U -00.04 V  00.02 W  00.02 T  23.61 H  42.99 P  1007.99 PI  179.5 RO  180.0 MD  286
+2025-11-27 11:03:53,412 TriSonica: Written: Wind Speed: 0.05 m/s
+2025-11-27 11:03:53,615 TriSonica: Raw data: S  00.04 D  116 U -00.03 V  00.02 W  00.01 T  23.61 H  43.01 P  1008.01 PI  179.5 RO -180.0 MD  284
+2025-11-27 11:03:53,616 TriSonica: Written: Wind Speed: 0.04 m/s
+2025-11-27 11:03:53,820 TriSonica: Raw data: S  00.04 D  114 U -00.03 V  00.01 W  00.02 T  23.59 H  42.95 P  1007.99 PI  179.5 RO -180.0 MD  285
+2025-11-27 11:03:53,821 TriSonica: Written: Wind Speed: 0.04 m/s
+2025-11-27 11:03:54,025 TriSonica: Raw data: S  00.03 D  141 U -00.01 V  00.01 W  00.02 T  23.57 H  42.98 P  1008.00 PI  179.6 RO -179.9 MD  288
+2025-11-27 11:03:54,025 TriSonica: Written: Wind Speed: 0.03 m/s
+2025-11-27 11:03:54,229 TriSonica: Raw data: S  00.03 D  117 U -00.03 V  00.01 W  00.01 T  23.52 H  42.93 P  1008.00 PI  179.5 RO  180.0 MD  280
+2025-11-27 11:03:54,229 TriSonica: Written: Wind Speed: 0.03 m/s
+2025-11-27 11:03:54,433 TriSonica: Raw data: S  00.04 D  114 U -00.04 V  00.02 W  00.01 T  23.46 H  42.96 P  1007.98 PI  179.6 RO -180.0 MD  283
+2025-11-27 11:03:54,433 TriSonica: Written: Wind Speed: 0.04 m/s
+2025-11-27 11:03:54,637 TriSonica: Raw data: S  00.06 D  110 U -00.05 V  00.02 W  00.01 T  23.44 H  42.91 P  1007.94 PI  179.5 RO  180.0 MD  283
+2025-11-27 11:03:54,638 TriSonica: Written: Wind Speed: 0.06 m/s
+2025-11-27 11:03:54,841 TriSonica: Raw data: S  00.05 D  130 U -00.04 V  00.03 W  00.01 T  23.45 H  42.89 P  1007.98 PI  179.6 RO -180.0 MD  287
+2025-11-27 11:03:54,842 TriSonica: Written: Wind Speed: 0.05 m/s
+2025-11-27 11:03:55,046 TriSonica: Raw data: S  00.06 D  109 U -00.05 V  00.02 W  00.02 T  23.45 H  42.86 P  1007.98 PI  179.6 RO -180.0 MD  285
+2025-11-27 11:03:55,046 TriSonica: Written: Wind Speed: 0.06 m/s
+2025-11-27 11:03:55,250 TriSonica: Raw data: S  00.05 D  093 U -00.05 V  00.00 W  00.02 T  23.52 H  42.83 P  1008.03 PI  179.6 RO  180.0 MD  289
+2025-11-27 11:03:55,251 TriSonica: Written: Wind Speed: 0.05 m/s
+2025-11-27 11:03:55,455 TriSonica: Raw data: S  00.07 D  111 U -00.06 V  00.03 W  00.03 T  23.52 H  42.79 P  1007.98 PI  179.6 RO  180.0 MD  290
+2025-11-27 11:03:55,455 TriSonica: Written: Wind Speed: 0.07 m/s
+2025-11-27 11:03:55,659 TriSonica: Raw data: S  00.08 D  117 U -00.06 V  00.03 W  00.03 T  23.50 H  42.81 P  1007.97 PI  179.5 RO -180.0 MD  287
+2025-11-27 11:03:55,659 TriSonica: Written: Wind Speed: 0.08 m/s
+2025-11-27 11:03:55,863 TriSonica: Raw data: S  00.08 D  111 U -00.07 V  00.03 W  00.02 T  23.47 H  42.79 P  1008.00 PI  179.6 RO -179.9 MD  283
+2025-11-27 11:03:55,864 TriSonica: Written: Wind Speed: 0.08 m/s
+2025-11-27 11:03:55,969 TriSonica: Raw data: S  00.08 D  118 U -00.06 V  00.03 W  00.02 T  23.46 H  42.81 P  1007.98 PI  179.6 RO -180.0 MD  285
+2025-11-27 11:03:55,970 TriSonica: Written: Wind Speed: 0.08 m/s
+2025-11-27 11:03:56,174 TriSonica: Raw data: S  00.08 D  118 U -00.06 V  00.03 W  00.03 T  23.45 H  42.77 P  1007.99 PI  179.6 RO -180.0 MD  283
+2025-11-27 11:03:56,174 TriSonica: Written: Wind Speed: 0.08 m/s
+2025-11-27 11:03:56,378 TriSonica: Raw data: S  00.06 D  117 U -00.05 V  00.02 W  00.02 T  23.42 H  42.77 P  1007.99 PI  179.6 RO -180.0 MD  284
+2025-11-27 11:03:56,378 TriSonica: Written: Wind Speed: 0.06 m/s
+2025-11-27 11:03:56,582 TriSonica: Raw data: S  00.05 D  132 U -00.04 V  00.03 W  00.02 T  23.39 H  42.73 P  1007.97 PI  179.5 RO -180.0 MD  289
+2025-11-27 11:03:56,582 TriSonica: Written: Wind Speed: 0.05 m/s
+2025-11-27 11:03:56,786 TriSonica: Raw data: S  00.06 D  114 U -00.05 V  00.02 W  00.02 T  23.36 H  42.79 P  1008.00 PI  179.6 RO  180.0 MD  286
+2025-11-27 11:03:56,787 TriSonica: Written: Wind Speed: 0.06 m/s
+2025-11-27 11:03:56,990 TriSonica: Raw data: S  00.06 D  116 U -00.05 V  00.03 W  00.01 T  23.36 H  42.75 P  1007.99 PI  179.5 RO  180.0 MD  287
+2025-11-27 11:03:56,991 TriSonica: Written: Wind Speed: 0.06 m/s
+2025-11-27 11:03:57,194 TriSonica: Raw data: S  00.08 D  121 U -00.07 V  00.04 W  00.02 T  23.37 H  42.74 P  1007.97 PI  179.6 RO -180.0 MD  284
+2025-11-27 11:03:57,195 TriSonica: Written: Wind Speed: 0.08 m/s
+2025-11-27 11:03:57,399 TriSonica: Raw data: S  00.08 D  132 U -00.06 V  00.05 W  00.03 T  23.37 H  42.70 P  1008.02 PI  179.5 RO -180.0 MD  283
+2025-11-27 11:03:57,400 TriSonica: Written: Wind Speed: 0.08 m/s
+2025-11-27 11:03:57,607 TriSonica: Raw data: S  00.07 D  136 U -00.04 V  00.04 W  00.04 T  23.39 H  42.67 P  1007.97 PI  179.5 RO  180.0 MD  289
+2025-11-27 11:03:57,608 TriSonica: Written: Wind Speed: 0.07 m/s
+2025-11-27 11:03:57,817 TriSonica: Raw data: S  00.07 D  112 U -00.06 V  00.02 W  00.03 T  23.41 H  42.70 P  1007.98 PI  179.6 RO -180.0 MD  288
+2025-11-27 11:03:57,819 TriSonica: Written: Wind Speed: 0.07 m/s
+2025-11-27 11:03:58,025 TriSonica: Raw data: S  00.07 D  112 U -00.06 V  00.02 W  00.02 T  23.44 H  42.63 P  1007.96 PI  179.5 RO  180.0 MD  286
+2025-11-27 11:03:58,026 TriSonica: Written: Wind Speed: 0.07 m/s
+2025-11-27 11:03:58,232 TriSonica: Raw data: S  00.08 D  130 U -00.06 V  00.05 W  00.02 T  23.47 H  42.66 P  1007.97 PI  179.5 RO  180.0 MD  286
+2025-11-27 11:03:58,233 TriSonica: Written: Wind Speed: 0.08 m/s
+2025-11-27 11:03:58,439 TriSonica: Raw data: S  00.07 D  126 U -00.04 V  00.03 W  00.04 T  23.48 H  42.64 P  1007.99 PI  179.6 RO -180.0 MD  282
+2025-11-27 11:03:58,440 TriSonica: Written: Wind Speed: 0.07 m/s
+2025-11-27 11:03:58,647 TriSonica: Raw data: S  00.05 D  138 U -00.03 V  00.03 W  00.03 T  23.48 H  42.65 P  1007.99 PI  179.5 RO  180.0 MD  285
+2025-11-27 11:03:58,648 TriSonica: Written: Wind Speed: 0.05 m/s
+2025-11-27 11:03:58,854 TriSonica: Raw data: S  00.06 D  135 U -00.03 V  00.03 W  00.03 T  23.46 H  42.62 P  1007.98 PI  179.6 RO  180.0 MD  283
+2025-11-27 11:03:58,855 TriSonica: Written: Wind Speed: 0.06 m/s
+2025-11-27 11:03:59,061 TriSonica: Raw data: S  00.08 D  119 U -00.06 V  00.03 W  00.03 T  23.46 H  42.63 P  1008.00 PI  179.6 RO -180.0 MD  287
+2025-11-27 11:03:59,062 TriSonica: Written: Wind Speed: 0.08 m/s
+2025-11-27 11:03:59,171 TriSonica: Raw data: S  00.06 D  111 U -00.05 V  00.02 W  00.01 T  23.45 H  42.62 P  1008.00 PI  179.6 RO  180.0 MD  283
+2025-11-27 11:03:59,172 TriSonica: Written: Wind Speed: 0.06 m/s
+2025-11-27 11:03:59,380 TriSonica: Raw data: S  00.07 D  116 U -00.06 V  00.03 W  00.02 T  23.43 H  42.62 P  1007.96 PI  179.5 RO  180.0 MD  285
+2025-11-27 11:03:59,381 TriSonica: Written: Wind Speed: 0.07 m/s
+2025-11-27 11:03:59,589 TriSonica: Raw data: S  00.06 D  135 U -00.04 V  00.04 W  00.02 T  23.44 H  42.58 P  1007.99 PI  179.6 RO -180.0 MD  284
+2025-11-27 11:03:59,590 TriSonica: Written: Wind Speed: 0.06 m/s
+2025-11-27 11:03:59,796 TriSonica: Raw data: S  00.08 D  132 U -00.05 V  00.05 W  00.02 T  23.41 H  42.55 P  1007.98 PI  179.6 RO -180.0 MD  285
+2025-11-27 11:03:59,797 TriSonica: Written: Wind Speed: 0.08 m/s
+2025-11-27 11:04:00,003 TriSonica: Raw data: S  00.09 D  129 U -00.07 V  00.06 W  00.02 T  23.39 H  42.56 P  1008.00 PI  179.5 RO  180.0 MD  286
+2025-11-27 11:04:00,004 TriSonica: Written: Wind Speed: 0.09 m/s
+2025-11-27 11:04:00,207 TriSonica: Raw data: S  00.09 D  123 U -00.07 V  00.04 W  00.04 T  23.38 H  42.55 P  1008.01 PI  179.5 RO  180.0 MD  286
+2025-11-27 11:04:00,208 TriSonica: Written: Wind Speed: 0.09 m/s
+2025-11-27 11:04:00,412 TriSonica: Raw data: S  00.08 D  121 U -00.06 V  00.04 W  00.03 T  23.40 H  42.55 P  1008.00 PI  179.5 RO -180.0 MD  285
+2025-11-27 11:04:00,412 TriSonica: Written: Wind Speed: 0.08 m/s
+2025-11-27 11:04:00,616 TriSonica: Raw data: S  00.07 D  134 U -00.05 V  00.04 W  00.02 T  23.40 H  42.49 P  1007.97 PI  179.5 RO -180.0 MD  285
+2025-11-27 11:04:00,617 TriSonica: Written: Wind Speed: 0.07 m/s
+2025-11-27 11:04:00,821 TriSonica: Raw data: S  00.07 D  130 U -00.05 V  00.04 W  00.02 T  23.40 H  42.50 P  1007.96 PI  179.5 RO  180.0 MD  285
+2025-11-27 11:04:00,821 TriSonica: Written: Wind Speed: 0.07 m/s
+2025-11-27 11:04:01,025 TriSonica: Raw data: S  00.07 D  118 U -00.06 V  00.03 W  00.02 T  23.39 H  42.51 P  1007.96 PI  179.5 RO  180.0 MD  286
+2025-11-27 11:04:01,025 TriSonica: Written: Wind Speed: 0.07 m/s
+2025-11-27 11:04:01,229 TriSonica: Raw data: S  00.08 D  120 U -00.07 V  00.04 W  00.02 T  23.41 H  42.49 P  1007.97 PI  179.5 RO -180.0 MD  285
+2025-11-27 11:04:01,229 TriSonica: Written: Wind Speed: 0.08 m/s
+2025-11-27 11:04:01,433 TriSonica: Raw data: S  00.07 D  105 U -00.06 V  00.02 W  00.03 T  23.44 H  42.47 P  1007.99 PI  179.6 RO -180.0 MD  287
+2025-11-27 11:04:01,433 TriSonica: Written: Wind Speed: 0.07 m/s
+2025-11-27 11:04:01,637 TriSonica: Raw data: S  00.06 D  120 U -00.05 V  00.03 W  00.02 T  23.43 H  42.44 P  1007.98 PI  179.6 RO  180.0 MD  283
+2025-11-27 11:04:01,637 TriSonica: Written: Wind Speed: 0.06 m/s
+2025-11-27 11:04:01,841 TriSonica: Raw data: S  00.04 D  117 U -00.03 V  00.02 W  00.01 T  23.44 H  42.48 P  1007.96 PI  179.6 RO -179.9 MD  287
+2025-11-27 11:04:01,841 TriSonica: Written: Wind Speed: 0.04 m/s
+2025-11-27 11:04:02,045 TriSonica: Raw data: S  00.05 D  138 U -00.04 V  00.04 W  00.01 T  23.46 H  42.44 P  1007.98 PI  179.5 RO -180.0 MD  286
+2025-11-27 11:04:02,045 TriSonica: Written: Wind Speed: 0.05 m/s
+2025-11-27 11:04:02,249 TriSonica: Raw data: S  00.05 D  131 U -00.04 V  00.03 W  00.02 T  23.48 H  42.43 P  1007.97 PI  179.5 RO -180.0 MD  282
+2025-11-27 11:04:02,250 TriSonica: Written: Wind Speed: 0.05 m/s
+2025-11-27 11:04:02,453 TriSonica: Raw data: S  00.05 D  113 U -00.04 V  00.02 W  00.02 T  23.49 H  42.43 P  1007.96 PI  179.6 RO -180.0 MD  287
+2025-11-27 11:04:02,454 TriSonica: Written: Wind Speed: 0.05 m/s
+2025-11-27 11:04:02,631 TriSonica: Stopping TriSonica data collection...
+2025-11-27 11:04:02,665 - SensorController - INFO - Stopped TriSonica
+2025-11-27 11:04:02,666 - SensorController - INFO - Stopping Spectrometer...
+2025-11-27 11:04:02,671 - SensorController - ERROR - Spectrometer ERROR: 2025-11-27 11:03:40,915 OceanSR6: Starting continuous reading. Press Ctrl+C to stop.
+2025-11-27 11:04:02,674 - SensorController - INFO - Stopped Spectrometer
+2025-11-27 11:04:02,674 - SensorController - INFO - All processes stopped
+2025-11-27 11:04:02,675 - SensorController - INFO - Stopping all processes...
+2025-11-27 11:04:02,675 - SensorController - INFO - Stopping merger process...
+2025-11-27 11:04:02,676 - SensorController - INFO - Stopping iMet...
+2025-11-27 11:04:02,676 - SensorController - INFO - Stopping POM...
+2025-11-27 11:04:02,676 - SensorController - INFO - Stopping TriSonica...
+2025-11-27 11:04:02,677 - SensorController - INFO - Stopping Spectrometer...
+2025-11-27 11:04:02,677 - SensorController - INFO - All processes stopped

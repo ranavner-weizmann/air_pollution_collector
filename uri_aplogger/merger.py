@@ -302,8 +302,8 @@ class SensorMerger:
         print("Sensor merger stopped.")
 
 def main():
-    INPUT_DIRECTORY = "/home/rsp/work/uri/output"
-    OUTPUT_FILE = "/home/rsp/work/uri/output/merged_sensors.csv"
+    INPUT_DIRECTORY = "output"
+    OUTPUT_FILE = "output/merged_sensors.csv"
     
     merger = SensorMerger(INPUT_DIRECTORY, OUTPUT_FILE)
     merger.run()
