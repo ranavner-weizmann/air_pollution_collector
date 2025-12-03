@@ -1,4 +1,4 @@
-# pom_safe.py - Optimized Version
+
 import serial
 import csv
 import signal

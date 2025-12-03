@@ -6911,3 +6911,1052 @@ Merging data for 2025-11-27 11:04:00: ['trisonica', 'spectro']
 2025-11-27 11:04:02,676 - SensorController - INFO - Stopping TriSonica...
 2025-11-27 11:04:02,677 - SensorController - INFO - Stopping Spectrometer...
 2025-11-27 11:04:02,677 - SensorController - INFO - All processes stopped
+2025-11-27 13:17:57,149 - SensorController - INFO - Loaded configuration from sensor_config.json
+2025-11-27 13:17:57,150 - SensorController - INFO - Initialized sensor: iMet
+2025-11-27 13:17:57,151 - SensorController - INFO - Initialized sensor: POM
+2025-11-27 13:17:57,151 - SensorController - INFO - Initialized sensor: TriSonica
+2025-11-27 13:17:57,152 - SensorController - INFO - Initialized sensor: Spectrometer
+2025-11-27 13:17:57,152 - SensorController - INFO - Initialized data merger
+2025-11-27 13:17:57,152 - SensorController - INFO - Starting all sensor processes...
+2025-11-27 13:17:57,153 - SensorController - DEBUG - Starting iMet with script: /home/rsp/air_pollution_collector/uri_aplogger/iMet_safe.py
+2025-11-27 13:17:57,158 - SensorController - INFO - Started iMet (PID: 24128)
+2025-11-27 13:17:57,159 - SensorController - INFO - Waiting 2 seconds for iMet to initialize...
+2025-11-27 13:17:59,162 - SensorController - DEBUG - Starting POM with script: /home/rsp/air_pollution_collector/uri_aplogger/pom_safe.py
+2025-11-27 13:17:59,167 - SensorController - INFO - Started POM (PID: 24156)
+2025-11-27 13:17:59,168 - SensorController - INFO - Waiting 2 seconds for POM to initialize...
+2025-11-27 13:18:01,171 - SensorController - DEBUG - Starting TriSonica with script: /home/rsp/air_pollution_collector/uri_aplogger/trisonica_safe.py
+2025-11-27 13:18:01,175 - SensorController - INFO - Started TriSonica (PID: 24181)
+2025-11-27 13:18:01,176 - SensorController - INFO - Waiting 2 seconds for TriSonica to initialize...
+2025-11-27 13:18:03,179 - SensorController - DEBUG - Starting Spectrometer with script: /home/rsp/air_pollution_collector/uri_aplogger/spectro.py
+2025-11-27 13:18:03,184 - SensorController - INFO - Started Spectrometer (PID: 24186)
+2025-11-27 13:18:03,185 - SensorController - INFO - Waiting 2 seconds for Spectrometer to initialize...
+2025-11-27 13:18:05,187 - SensorController - INFO - Waiting 5 seconds before starting merger...
+2025-11-27 13:18:10,193 - SensorController - DEBUG - Starting Merger with script: /home/rsp/air_pollution_collector/uri_aplogger/merger.py
+2025-11-27 13:18:10,198 - SensorController - INFO - Started Merger (PID: 24245)
+2025-11-27 13:18:10,199 - SensorController - INFO - Merger process started
+2025-11-27 13:18:10,199 - SensorController - INFO - All processes started
+2025-11-27 13:18:10,200 - SensorController - INFO - Sensor controller running. Press Ctrl+C to stop.
+2025-11-27 13:18:33,681 - SensorController - INFO - Received signal 2, shutting down...
+2025-11-27 13:18:33,682 - SensorController - INFO - Stopping all processes...
+2025-11-27 13:18:33,683 - SensorController - INFO - Stopping merger process...
+2025-11-27 13:18:33,686 - SensorController - ERROR - Merger ERROR: 2025-11-27 13:18:10,305 Merger: Starting sensor merger - Input: output, Output: output/merged_sensors.csv
+2025-11-27 13:18:33,688 - SensorController - INFO - Stopped Merger
+2025-11-27 13:18:33,689 - SensorController - INFO - Stopping iMet...
+2025-11-27 13:18:33,693 - SensorController - ERROR - iMet ERROR: 2025-11-27 13:17:57,297 iMet: Starting iMet data collection
+2025-11-27 13:18:33,694 - SensorController - INFO - Stopped iMet
+2025-11-27 13:18:33,694 - SensorController - INFO - Stopping POM...
+2025-11-27 13:18:33,697 - SensorController - ERROR - POM ERROR: 2025-11-27 13:17:59,295 POM: Starting POM data collection
+2025-11-27 13:18:33,702 - SensorController - INFO - Stopped POM
+2025-11-27 13:18:33,703 - SensorController - INFO - Stopping TriSonica...
+2025-11-27 13:18:33,710 - SensorController - ERROR - TriSonica ERROR: 2025-11-27 13:18:01,314 TriSonica: Starting TriSonica data collection
+2025-11-27 13:18:33,711 - SensorController - ERROR - TriSonica ERROR: 2025-11-27 13:18:01,342 TriSonica: Found TriSonica at: /dev/ttyUSB0
+2025-11-27 13:18:33,711 - SensorController - INFO - Stopped TriSonica
+2025-11-27 13:18:33,712 - SensorController - INFO - Stopping Spectrometer...
+2025-11-27 13:18:33,713 - SensorController - ERROR - TriSonica ERROR (final): P  1006.52 PI  179.6 RO  180.0 MD  284
+2025-11-27 13:18:08,400 TriSonica: Written: Wind Speed: 2025-11-27 13:18:08 m/s
+2025-11-27 13:18:08,603 TriSonica: Raw data: S  00.08 D  314 U  00.05 V -00.05 W  00.02 T  24.65 H  36.42 P  1006.51 PI  179.6 RO  179.9 MD  283
+2025-11-27 13:18:08,604 TriSonica: Written: Wind Speed: 2025-11-27 13:18:08 m/s
+2025-11-27 13:18:08,808 TriSonica: Raw data: S  00.11 D  309 U  00.08 V -00.06 W  00.03 T  24.84 H  36.47 P  1006.53 PI  179.6 RO  180.0 MD  287
+2025-11-27 13:18:08,808 TriSonica: Written: Wind Speed: 2025-11-27 13:18:08 m/s
+2025-11-27 13:18:09,012 TriSonica: Raw data: S  00.13 D  321 U  00.08 V -00.10 W  00.05 T  25.02 H  36.43 P  1006.55 PI  179.6 RO  180.0 MD  282
+2025-11-27 13:18:09,013 TriSonica: Written: Wind Speed: 2025-11-27 13:18:09 m/s
+2025-11-27 13:18:09,216 TriSonica: Raw data: S  00.12 D  306 U  00.09 V -00.07 W  00.05 T  25.03 H  36.47 P  1006.54 PI  179.6 RO  180.0 MD  285
+2025-11-27 13:18:09,217 TriSonica: Written: Wind Speed: 2025-11-27 13:18:09 m/s
+2025-11-27 13:18:09,420 TriSonica: Raw data: S  00.05 D  204 U  00.02 V  00.04 W  00.02 T  25.08 H  36.49 P  1006.56 PI  179.6 RO  180.0 MD  280
+2025-11-27 13:18:09,421 TriSonica: Written: Wind Speed: 2025-11-27 13:18:09 m/s
+2025-11-27 13:18:09,625 TriSonica: Raw data: S  00.06 D  152 U -00.02 V  00.05 W  00.02 T  24.87 H  36.47 P  1006.56 PI  179.6 RO  180.0 MD  282
+2025-11-27 13:18:09,626 TriSonica: Written: Wind Speed: 2025-11-27 13:18:09 m/s
+2025-11-27 13:18:09,829 TriSonica: Raw data: S  00.09 D  156 U -00.04 V  00.08 W -00.02 T  24.64 H  36.45 P  1006.56 PI  179.6 RO  179.9 MD  279
+2025-11-27 13:18:09,830 TriSonica: Written: Wind Speed: 2025-11-27 13:18:09 m/s
+2025-11-27 13:18:10,033 TriSonica: Raw data: S  00.09 D  115 U -00.08 V  00.04 W -00.03 T  24.65 H  36.50 P  1006.53 PI  179.6 RO  179.9 MD  281
+2025-11-27 13:18:10,034 TriSonica: Written: Wind Speed: 2025-11-27 13:18:10 m/s
+2025-11-27 13:18:10,239 TriSonica: Raw data: S  00.09 D  103 U -00.09 V  00.02 W  00.02 T  24.70 H  36.48 P  1006.52 PI  179.6 RO  180.0 MD  286
+2025-11-27 13:18:10,239 TriSonica: Written: Wind Speed: 2025-11-27 13:18:10 m/s
+2025-11-27 13:18:10,443 TriSonica: Raw data: S  00.16 D  116 U -00.14 V  00.07 W  00.02 T  24.70 H  36.47 P  1006.52 PI  179.6 RO  179.9 MD  283
+2025-11-27 13:18:10,443 TriSonica: Written: Wind Speed: 2025-11-27 13:18:10 m/s
+2025-11-27 13:18:10,647 TriSonica: Raw data: S  00.20 D  122 U -00.17 V  00.10 W  00.02 T  24.69 H  36.45 P  1006.50 PI  179.6 RO  180.0 MD  280
+2025-11-27 13:18:10,648 TriSonica: Written: Wind Speed: 2025-11-27 13:18:10 m/s
+2025-11-27 13:18:10,851 TriSonica: Raw data: S  00.18 D  122 U -00.15 V  00.10 W  00.04 T  24.79 H  36.49 P  1006.54 PI  179.6 RO  180.0 MD  282
+2025-11-27 13:18:10,852 TriSonica: Written: Wind Speed: 2025-11-27 13:18:10 m/s
+2025-11-27 13:18:11,055 TriSonica: Raw data: S  00.18 D  110 U -00.17 V  00.06 W  00.03 T  24.81 H  36.45 P  1006.54 PI  179.6 RO  180.0 MD  283
+2025-11-27 13:18:11,056 TriSonica: Written: Wind Speed: 2025-11-27 13:18:11 m/s
+2025-11-27 13:18:11,162 TriSonica: Raw data: S  00.20 D  102 U -00.20 V  00.04 W  00.02 T  24.77 H  36.49 P  1006.50 PI  179.6 RO  180.0 MD  284
+2025-11-27 13:18:11,162 TriSonica: Written: Wind Speed: 2025-11-27 13:18:11 m/s
+2025-11-27 13:18:11,366 TriSonica: Raw data: S  00.14 D  095 U -00.14 V  00.01 W  00.01 T  24.78 H  36.52 P  1006.53 PI  179.6 RO  180.0 MD  284
+2025-11-27 13:18:11,366 TriSonica: Written: Wind Speed: 2025-11-27 13:18:11 m/s
+2025-11-27 13:18:11,570 TriSonica: Raw data: S  00.13 D  104 U -00.12 V  00.03 W -00.01 T  24.71 H  36.53 P  1006.60 PI  179.6 RO -180.0 MD  283
+2025-11-27 13:18:11,570 TriSonica: Written: Wind Speed: 2025-11-27 13:18:11 m/s
+2025-11-27 13:18:11,774 TriSonica: Raw data: S  00.12 D  092 U -00.12 V  00.00 W  00.01 T  24.73 H  36.51 P  1006.53 PI  179.6 RO  180.0 MD  286
+2025-11-27 13:18:11,774 TriSonica: Written: Wind Speed: 2025-11-27 13:18:11 m/s
+2025-11-27 13:18:11,978 TriSonica: Raw data: S  00.09 D  086 U -00.08 V -00.01 W  00.02 T  24.80 H  36.48 P  1006.51 PI  179.6 RO  180.0 MD  281
+2025-11-27 13:18:11,979 TriSonica: Written: Wind Speed: 2025-11-27 13:18:11 m/s
+2025-11-27 13:18:12,183 TriSonica: Raw data: S  00.05 D  123 U -00.04 V  00.03 W  00.01 T  24.80 H  36.50 P  1006.53 PI  179.6 RO  180.0 MD  283
+2025-11-27 13:18:12,184 TriSonica: Written: Wind Speed: 2025-11-27 13:18:12 m/s
+2025-11-27 13:18:12,388 TriSonica: Raw data: S  00.14 D  098 U -00.14 V  00.02 W  00.02 T  24.78 H  36.53 P  1006.54 PI  179.6 RO  180.0 MD  283
+2025-11-27 13:18:12,388 TriSonica: Written: Wind Speed: 2025-11-27 13:18:12 m/s
+2025-11-27 13:18:12,598 TriSonica: Raw data: S  00.23 D  086 U -00.22 V -00.01 W  00.02 T  24.82 H  36.53 P  1006.56 PI  179.6 RO  180.0 MD  284
+2025-11-27 13:18:12,599 TriSonica: Written: Wind Speed: 2025-11-27 13:18:12 m/s
+2025-11-27 13:18:12,803 TriSonica: Raw data: S  00.19 D  085 U -00.19 V -00.02 W  00.01 T  24.89 H  36.49 P  1006.57 PI  179.6 RO  180.0 MD  279
+2025-11-27 13:18:12,804 TriSonica: Written: Wind Speed: 2025-11-27 13:18:12 m/s
+2025-11-27 13:18:13,007 TriSonica: Raw data: S  00.14 D  107 U -00.13 V  00.04 W -00.00 T  24.83 H  36.53 P  1006.53 PI  179.6 RO  180.0 MD  280
+2025-11-27 13:18:13,008 TriSonica: Written: Wind Speed: 2025-11-27 13:18:13 m/s
+2025-11-27 13:18:13,211 TriSonica: Raw data: S  00.12 D  106 U -00.11 V  00.03 W -00.02 T  24.94 H  36.54 P  1006.55 PI  179.6 RO  180.0 MD  281
+2025-11-27 13:18:13,212 TriSonica: Written: Wind Speed: 2025-11-27 13:18:13 m/s
+2025-11-27 13:18:13,415 TriSonica: Raw data: S  00.04 D  158 U -00.01 V  00.04 W  00.02 T  25.00 H  36.55 P  1006.55 PI  179.6 RO  180.0 MD  278
+2025-11-27 13:18:13,416 TriSonica: Written: Wind Speed: 2025-11-27 13:18:13 m/s
+2025-11-27 13:18:13,620 TriSonica: Raw data: S  00.11 D  236 U  00.09 V  00.06 W  00.03 T  24.84 H  36.54 P  1006.50 PI  179.6 RO  179.9 MD  279
+2025-11-27 13:18:13,620 TriSonica: Written: Wind Speed: 2025-11-27 13:18:13 m/s
+2025-11-27 13:18:13,824 TriSonica: Raw data: S  00.07 D  221 U  00.05 V  00.05 W  00.01 T  24.87 H  36.53 P  1006.53 PI  179.6 RO  179.9 MD  285
+2025-11-27 13:18:13,824 TriSonica: Written: Wind Speed: 2025-11-27 13:18:13 m/s
+2025-11-27 13:18:14,028 TriSonica: Raw data: S  00.13 D  130 U -00.10 V  00.09 W  00.01 T  24.85 H  36.53 P  1006.54 PI  179.6 RO  180.0 MD  286
+2025-11-27 13:18:14,028 TriSonica: Written: Wind Speed: 2025-11-27 13:18:14 m/s
+2025-11-27 13:18:14,232 TriSonica: Raw data: S  00.17 D  120 U -00.15 V  00.09 W  00.00 T  24.81 H  36.53 P  1006.55 PI  179.6 RO  180.0 MD  286
+2025-11-27 13:18:14,232 TriSonica: Written: Wind Speed: 2025-11-27 13:18:14 m/s
+2025-11-27 13:18:14,436 TriSonica: Raw data: S  00.15 D  101 U -00.15 V  00.03 W  00.01 T  24.93 H  36.53 P  1006.51 PI  179.6 RO  180.0 MD  281
+2025-11-27 13:18:14,441 TriSonica: Written: Wind Speed: 2025-11-27 13:18:14 m/s
+2025-11-27 13:18:14,644 TriSonica: Raw data: S  00.17 D  086 U -00.17 V -00.01 W  00.01 T  24.95 H  36.55 P  1006.54 PI  179.6 RO  180.0 MD  285
+2025-11-27 13:18:14,645 TriSonica: Written: Wind Speed: 2025-11-27 13:18:14 m/s
+2025-11-27 13:18:14,848 TriSonica: Raw data: S  00.17 D  067 U -00.15 V -00.06 W  00.04 T  24.76 H  36.53 P  1006.54 PI  179.6 RO  180.0 MD  283
+2025-11-27 13:18:14,849 TriSonica: Written: Wind Speed: 2025-11-27 13:18:14 m/s
+2025-11-27 13:18:15,053 TriSonica: Raw data: S  00.20 D  064 U -00.18 V -00.09 W  00.02 T  24.69 H  36.55 P  1006.55 PI  179.6 RO  180.0 MD  281
+2025-11-27 13:18:15,053 TriSonica: Written: Wind Speed: 2025-11-27 13:18:15 m/s
+2025-11-27 13:18:15,256 TriSonica: Raw data: S  00.19 D  063 U -00.17 V -00.09 W -00.02 T  24.78 H  36.54 P  1006.54 PI  179.6 RO  180.0 MD  287
+2025-11-27 13:18:15,257 TriSonica: Written: Wind Speed: 2025-11-27 13:18:15 m/s
+2025-11-27 13:18:15,362 TriSonica: Raw data: S  00.19 D  077 U -00.18 V -00.04 W  00.01 T  24.79 H  36.53 P  1006.55 PI  179.6 RO  179.9 MD  286
+2025-11-27 13:18:15,362 TriSonica: Written: Wind Speed: 2025-11-27 13:18:15 m/s
+2025-11-27 13:18:15,566 TriSonica: Raw data: S  00.18 D  046 U -00.13 V -00.12 W  00.01 T  24.60 H  36.55 P  1006.54 PI  179.6 RO  180.0 MD  281
+2025-11-27 13:18:15,567 TriSonica: Written: Wind Speed: 2025-11-27 13:18:15 m/s
+2025-11-27 13:18:15,770 TriSonica: Raw data: S  00.12 D  063 U -00.11 V -00.06 W  00.02 T  24.44 H  36.59 P  1006.53 PI  179.6 RO  180.0 MD  280
+2025-11-27 13:18:15,771 TriSonica: Written: Wind Speed: 2025-11-27 13:18:15 m/s
+2025-11-27 13:18:15,974 TriSonica: Raw data: S  00.18 D  079 U -00.17 V -00.03 W  00.01 T  24.36 H  36.53 P  1006.56 PI  179.6 RO  180.0 MD  286
+2025-11-27 13:18:15,975 TriSonica: Written: Wind Speed: 2025-11-27 13:18:15 m/s
+2025-11-27 13:18:16,178 TriSonica: Raw data: S  00.22 D  088 U -00.22 V -00.01 W -00.02 T  24.30 H  36.57 P  1006.52 PI  179.6 RO  180.0 MD  281
+2025-11-27 13:18:16,179 TriSonica: Written: Wind Speed: 2025-11-27 13:18:16 m/s
+2025-11-27 13:18:16,382 TriSonica: Raw data: S  00.25 D  089 U -00.25 V -00.00 W -00.02 T  24.29 H  36.57 P  1006.57 PI  179.6 RO  179.9 MD  285
+2025-11-27 13:18:16,382 TriSonica: Written: Wind Speed: 2025-11-27 13:18:16 m/s
+2025-11-27 13:18:16,586 TriSonica: Raw data: S  00.26 D  089 U -00.26 V -00.01 W -00.02 T  24.42 H  36.49 P  1006.57 PI  179.6 RO  180.0 MD  282
+2025-11-27 13:18:16,586 TriSonica: Written: Wind Speed: 2025-11-27 13:18:16 m/s
+2025-11-27 13:18:16,790 TriSonica: Raw data: S  00.21 D  093 U -00.21 V  00.01 W -00.00 T  24.47 H  36.53 P  1006.52 PI  179.6 RO  179.9 MD  279
+2025-11-27 13:18:16,790 TriSonica: Written: Wind Speed: 2025-11-27 13:18:16 m/s
+2025-11-27 13:18:16,994 TriSonica: Raw data: S  00.25 D  090 U -00.25 V -00.00 W -00.02 T  24.22 H  36.57 P  1006.56 PI  179.6 RO  180.0 MD  286
+2025-11-27 13:18:16,994 TriSonica: Written: Wind Speed: 2025-11-27 13:18:16 m/s
+2025-11-27 13:18:17,198 TriSonica: Raw data: S  00.27 D  085 U -00.27 V -00.02 W -00.03 T  24.37 H  36.53 P  1006.56 PI  179.6 RO  180.0 MD  284
+2025-11-27 13:18:17,198 TriSonica: Written: Wind Speed: 2025-11-27 13:18:17 m/s
+2025-11-27 13:18:17,402 TriSonica: Raw data: S  00.22 D  077 U -00.22 V -00.05 W  00.00 T  24.45 H  36.57 P  1006.56 PI  179.6 RO  179.9 MD  284
+2025-11-27 13:18:17,402 TriSonica: Written: Wind Speed: 2025-11-27 13:18:17 m/s
+2025-11-27 13:18:17,606 TriSonica: Raw data: S  00.20 D  076 U -00.20 V -00.05 W  00.01 T  24.48 H  36.53 P  1006.51 PI  179.6 RO  179.9 MD  281
+2025-11-27 13:18:17,606 TriSonica: Written: Wind Speed: 2025-11-27 13:18:17 m/s
+2025-11-27 13:18:17,810 TriSonica: Raw data: S  00.17 D  091 U -00.17 V  00.00 W  00.00 T  24.36 H  36.55 P  1006.55 PI  179.6 RO  180.0 MD  285
+2025-11-27 13:18:17,810 TriSonica: Written: Wind Speed: 2025-11-27 13:18:17 m/s
+2025-11-27 13:18:18,014 TriSonica: Raw data: S  00.19 D  095 U -00.19 V  00.02 W  00.00 T  24.29 H  36.54 P  1006.52 PI  179.6 RO  180.0 MD  283
+2025-11-27 13:18:18,014 TriSonica: Written: Wind Speed: 2025-11-27 13:18:18 m/s
+2025-11-27 13:18:18,218 TriSonica: Raw data: S  00.20 D  090 U -00.20 V  00.00 W -00.01 T  24.31 H  36.58 P  1006.54 PI  179.6 RO  180.0 MD  281
+2025-11-27 13:18:18,219 TriSonica: Written: Wind Speed: 2025-11-27 13:18:18 m/s
+2025-11-27 13:18:18,422 TriSonica: Raw data: S  00.20 D  100 U -00.20 V  00.04 W -00.02 T  24.42 H  36.52 P  1006.52 PI  179.6 RO  180.0 MD  285
+2025-11-27 13:18:18,423 TriSonica: Written: Wind Speed: 2025-11-27 13:18:18 m/s
+2025-11-27 13:18:18,626 TriSonica: Raw data: S  00.15 D  108 U -00.14 V  00.05 W  00.01 T  24.42 H  36.55 P  1006.55 PI  179.6 RO  180.0 MD  280
+2025-11-27 13:18:18,627 TriSonica: Written: Wind Speed: 2025-11-27 13:18:18 m/s
+2025-11-27 13:18:18,830 TriSonica: Raw data: S  00.10 D  083 U -00.10 V -00.01 W  00.01 T  24.44 H  36.55 P  1006.53 PI  179.6 RO  179.9 MD  282
+2025-11-27 13:18:18,831 TriSonica: Written: Wind Speed: 2025-11-27 13:18:18 m/s
+2025-11-27 13:18:19,034 TriSonica: Raw data: S  00.12 D  094 U -00.11 V  00.01 W  00.03 T  24.42 H  36.57 P  1006.55 PI  179.6 RO  180.0 MD  284
+2025-11-27 13:18:19,034 TriSonica: Written: Wind Speed: 2025-11-27 13:18:19 m/s
+2025-11-27 13:18:19,238 TriSonica: Raw data: S  00.11 D  084 U -00.11 V -00.01 W  00.01 T  24.48 H  36.54 P  1006.54 PI  179.6 RO  180.0 MD  283
+2025-11-27 13:18:19,238 TriSonica: Written: Wind Speed: 2025-11-27 13:18:19 m/s
+2025-11-27 13:18:19,442 TriSonica: Raw data: S  00.13 D  084 U -00.12 V -00.01 W  00.02 T  24.46 H  36.54 P  1006.54 PI  179.6 RO  180.0 MD  282
+2025-11-27 13:18:19,446 TriSonica: Written: Wind Speed: 2025-11-27 13:18:19 m/s
+2025-11-27 13:18:19,650 TriSonica: Raw data: S  00.13 D  094 U -00.13 V  00.01 W  00.02 T  24.49 H  36.55 P  1006.52 PI  179.6 RO  179.9 MD  279
+2025-11-27 13:18:19,650 TriSonica: Written: Wind Speed: 2025-11-27 13:18:19 m/s
+2025-11-27 13:18:19,854 TriSonica: Raw data: S  00.14 D  095 U -00.14 V  00.01 W  00.02 T  24.54 H  36.50 P  1006.55 PI  179.6 RO  180.0 MD  282
+2025-11-27 13:18:19,854 TriSonica: Written: Wind Speed: 2025-11-27 13:18:19 m/s
+2025-11-27 13:18:19,962 TriSonica: Raw data: S  00.14 D  081 U -00.13 V -00.02 W  00.03 T  24.55 H  36.57 P  1006.55 PI  179.6 RO  180.0 MD  279
+2025-11-27 13:18:19,962 TriSonica: Written: Wind Speed: 2025-11-27 13:18:19 m/s
+2025-11-27 13:18:20,166 TriSonica: Raw data: S  00.14 D  074 U -00.13 V -00.04 W  00.03 T  24.55 H  36.54 P  1006.52 PI  179.6 RO  180.0 MD  281
+2025-11-27 13:18:20,166 TriSonica: Written: Wind Speed: 2025-11-27 13:18:20 m/s
+2025-11-27 13:18:20,370 TriSonica: Raw data: S  00.17 D  066 U -00.15 V -00.07 W -00.01 T  24.59 H  36.54 P  1006.51 PI  179.6 RO  180.0 MD  283
+2025-11-27 13:18:20,370 TriSonica: Written: Wind Speed: 2025-11-27 13:18:20 m/s
+2025-11-27 13:18:20,574 TriSonica: Raw data: S  00.18 D  076 U -00.17 V -00.04 W  00.01 T  24.72 H  36.54 P  1006.55 PI  179.6 RO  180.0 MD  281
+2025-11-27 13:18:20,575 TriSonica: Written: Wind Speed: 2025-11-27 13:18:20 m/s
+2025-11-27 13:18:20,778 TriSonica: Raw data: S  00.16 D  071 U -00.15 V -00.05 W  00.01 T  24.66 H  36.55 P  1006.54 PI  179.6 RO  179.9 MD  281
+2025-11-27 13:18:20,778 TriSonica: Written: Wind Speed: 2025-11-27 13:18:20 m/s
+2025-11-27 13:18:20,982 TriSonica: Raw data: S  00.18 D  078 U -00.17 V -00.04 W  00.01 T  24.58 H  36.54 P  1006.53 PI  179.6 RO  179.9 MD  284
+2025-11-27 13:18:20,982 TriSonica: Written: Wind Speed: 2025-11-27 13:18:20 m/s
+2025-11-27 13:18:21,186 TriSonica: Raw data: S  00.15 D  084 U -00.15 V -00.02 W  00.01 T  24.57 H  36.52 P  1006.51 PI  179.6 RO  180.0 MD  283
+2025-11-27 13:18:21,186 TriSonica: Written: Wind Speed: 2025-11-27 13:18:21 m/s
+2025-11-27 13:18:21,390 TriSonica: Raw data: S  00.12 D  082 U -00.12 V -00.02 W -00.00 T  24.61 H  36.55 P  1006.54 PI  179.6 RO  179.9 MD  279
+2025-11-27 13:18:21,390 TriSonica: Written: Wind Speed: 2025-11-27 13:18:21 m/s
+2025-11-27 13:18:21,594 TriSonica: Raw data: S  00.12 D  074 U -00.12 V -00.03 W -00.00 T  24.58 H  36.57 P  1006.54 PI  179.6 RO  179.9 MD  279
+2025-11-27 13:18:21,594 TriSonica: Written: Wind Speed: 2025-11-27 13:18:21 m/s
+2025-11-27 13:18:21,798 TriSonica: Raw data: S  00.10 D  073 U -00.10 V -00.03 W  00.02 T  24.53 H  36.57 P  1006.52 PI  179.6 RO  180.0 MD  286
+2025-11-27 13:18:21,798 TriSonica: Written: Wind Speed: 2025-11-27 13:18:21 m/s
+2025-11-27 13:18:22,002 TriSonica: Raw data: S  00.10 D  083 U -00.10 V -00.01 W  00.02 T  24.43 H  36.53 P  1006.54 PI  179.6 RO  180.0 MD  281
+2025-11-27 13:18:22,002 TriSonica: Written: Wind Speed: 2025-11-27 13:18:22 m/s
+2025-11-27 13:18:22,206 TriSonica: Raw data: S  00.11 D  075 U -00.11 V -00.03 W -00.00 T  24.38 H  36.55 P  1006.54 PI  179.6 RO  180.0 MD  282
+2025-11-27 13:18:22,206 TriSonica: Written: Wind Speed: 2025-11-27 13:18:22 m/s
+2025-11-27 13:18:22,410 TriSonica: Raw data: S  00.10 D  080 U -00.10 V -00.02 W  00.00 T  24.41 H  36.58 P  1006.55 PI  179.6 RO  179.9 MD  280
+2025-11-27 13:18:22,410 TriSonica: Written: Wind Speed: 2025-11-27 13:18:22 m/s
+2025-11-27 13:18:22,614 TriSonica: Raw data: S  00.08 D  082 U -00.08 V -00.01 W  00.01 T  24.44 H  36.54 P  1006.50 PI  179.6 RO  179.9 MD  280
+2025-11-27 13:18:22,614 TriSonica: Written: Wind Speed: 2025-11-27 13:18:22 m/s
+2025-11-27 13:18:22,824 TriSonica: Raw data: S  00.07 D  093 U -00.07 V  00.00 W  00.01 T  24.41 H  36.57 P  1006.51 PI  179.6 RO  180.0 MD  284
+2025-11-27 13:18:22,828 TriSonica: Written: Wind Speed: 2025-11-27 13:18:22 m/s
+2025-11-27 13:18:23,032 TriSonica: Raw data: S  00.06 D  099 U -00.06 V  00.01 W -00.01 T  24.39 H  36.54 P  1006.52 PI  179.6 RO  180.0 MD  283
+2025-11-27 13:18:23,032 TriSonica: Written: Wind Speed: 2025-11-27 13:18:23 m/s
+2025-11-27 13:18:23,235 TriSonica: Raw data: S  00.06 D  102 U -00.06 V  00.01 W  00.01 T  24.39 H  36.59 P  1006.51 PI  179.6 RO  179.9 MD  281
+2025-11-27 13:18:23,236 TriSonica: Written: Wind Speed: 2025-11-27 13:18:23 m/s
+2025-11-27 13:18:23,440 TriSonica: Raw data: S  00.09 D  113 U -00.08 V  00.03 W  00.00 T  24.37 H  36.55 P  1006.57 PI  179.6 RO  180.0 MD  280
+2025-11-27 13:18:23,440 TriSonica: Written: Wind Speed: 2025-11-27 13:18:23 m/s
+2025-11-27 13:18:23,644 TriSonica: Raw data: S  00.09 D  111 U -00.09 V  00.03 W  00.00 T  24.36 H  36.62 P  1006.51 PI  179.6 RO  180.0 MD  280
+2025-11-27 13:18:23,644 TriSonica: Written: Wind Speed: 2025-11-27 13:18:23 m/s
+2025-11-27 13:18:23,848 TriSonica: Raw data: S  00.10 D  104 U -00.10 V  00.02 W -00.00 T  24.40 H  36.57 P  1006.51 PI  179.6 RO  180.0 MD  282
+2025-11-27 13:18:23,848 TriSonica: Written: Wind Speed: 2025-11-27 13:18:23 m/s
+2025-11-27 13:18:24,051 TriSonica: Raw data: S  00.08 D  088 U -00.08 V -00.00 W -00.00 T  24.36 H  36.55 P  1006.50 PI  179.6 RO  180.0 MD  283
+2025-11-27 13:18:24,052 TriSonica: Written: Wind Speed: 2025-11-27 13:18:24 m/s
+2025-11-27 13:18:24,256 TriSonica: Raw data: S  00.07 D  078 U -00.07 V -00.02 W  00.01 T  24.34 H  36.57 P  1006.56 PI  179.6 RO  179.9 MD  280
+2025-11-27 13:18:24,256 TriSonica: Written: Wind Speed: 2025-11-27 13:18:24 m/s
+2025-11-27 13:18:24,362 TriSonica: Raw data: S  00.08 D  087 U -00.07 V -00.00 W  00.01 T  24.34 H  36.58 P  1006.54 PI  179.6 RO  180.0 MD  283
+2025-11-27 13:18:24,362 TriSonica: Written: Wind Speed: 2025-11-27 13:18:24 m/s
+2025-11-27 13:18:24,566 TriSonica: Raw data: S  00.07 D  083 U -00.07 V -00.01 W  00.01 T  24.30 H  36.58 P  1006.54 PI  179.6 RO  180.0 MD  280
+2025-11-27 13:18:24,567 TriSonica: Written: Wind Speed: 2025-11-27 13:18:24 m/s
+2025-11-27 13:18:24,770 TriSonica: Raw data: S  00.07 D  088 U -00.07 V -00.00 W  00.00 T  24.29 H  36.57 P  1006.51 PI  179.6 RO  179.9 MD  282
+2025-11-27 13:18:24,771 TriSonica: Written: Wind Speed: 2025-11-27 13:18:24 m/s
+2025-11-27 13:18:24,974 TriSonica: Raw data: S  00.09 D  088 U -00.09 V -00.00 W  00.00 T  24.26 H  36.60 P  1006.54 PI  179.6 RO  179.9 MD  282
+2025-11-27 13:18:24,975 TriSonica: Written: Wind Speed: 2025-11-27 13:18:24 m/s
+2025-11-27 13:18:25,179 TriSonica: Raw data: S  00.11 D  093 U -00.11 V  00.01 W  00.01 T  24.22 H  36.59 P  1006.54 PI  179.6 RO  180.0 MD  283
+2025-11-27 13:18:25,179 TriSonica: Written: Wind Speed: 2025-11-27 13:18:25 m/s
+2025-11-27 13:18:25,383 TriSonica: Raw data: S  00.12 D  098 U -00.12 V  00.02 W  00.02 T  24.19 H  36.62 P  1006.54 PI  179.6 RO  179.9 MD  285
+2025-11-27 13:18:25,384 TriSonica: Written: Wind Speed: 2025-11-27 13:18:25 m/s
+2025-11-27 13:18:25,587 TriSonica: Raw data: S  00.09 D  101 U -00.09 V  00.02 W  00.01 T  24.24 H  36.55 P  1006.52 PI  179.6 RO  180.0 MD  284
+2025-11-27 13:18:25,588 TriSonica: Written: Wind Speed: 2025-11-27 13:18:25 m/s
+2025-11-27 13:18:25,791 TriSonica: Raw data: S  00.07 D  089 U -00.07 V -00.00 W  00.00 T  24.28 H  36.58 P  1006.55 PI  179.6 RO  180.0 MD  279
+2025-11-27 13:18:25,792 TriSonica: Written: Wind Speed: 2025-11-27 13:18:25 m/s
+2025-11-27 13:18:25,995 TriSonica: Raw data: S  00.09 D  084 U -00.09 V -00.01 W  00.00 T  24.32 H  36.59 P  1006.55 PI  179.6 RO  180.0 MD  285
+2025-11-27 13:18:25,996 TriSonica: Written: Wind Speed: 2025-11-27 13:18:25 m/s
+2025-11-27 13:18:26,200 TriSonica: Raw data: S  00.09 D  097 U -00.09 V  00.01 W  00.00 T  24.36 H  36.59 P  1006.52 PI  179.6 RO  180.0 MD  282
+2025-11-27 13:18:26,201 TriSonica: Written: Wind Speed: 2025-11-27 13:18:26 m/s
+2025-11-27 13:18:26,404 TriSonica: Raw data: S  00.09 D  090 U -00.09 V  00.00 W -00.00 T  24.35 H  36.60 P  1006.54 PI  179.6 RO  180.0 MD  285
+2025-11-27 13:18:26,405 TriSonica: Written: Wind Speed: 2025-11-27 13:18:26 m/s
+2025-11-27 13:18:26,608 TriSonica: Raw data: S  00.10 D  079 U -00.10 V -00.02 W  00.01 T  24.37 H  36.58 P  1006.53 PI  179.6 RO  179.9 MD  280
+2025-11-27 13:18:26,609 TriSonica: Written: Wind Speed: 2025-11-27 13:18:26 m/s
+2025-11-27 13:18:26,813 TriSonica: Raw data: S  00.10 D  078 U -00.10 V -00.02 W -00.00 T  24.38 H  36.57 P  1006.52 PI  179.6 RO  180.0 MD  278
+2025-11-27 13:18:26,813 TriSonica: Written: Wind Speed: 2025-11-27 13:18:26 m/s
+2025-11-27 13:18:27,017 TriSonica: Raw data: S  00.09 D  087 U -00.09 V -00.01 W  00.01 T  24.32 H  36.55 P  1006.52 PI  179.6 RO  180.0 MD  280
+2025-11-27 13:18:27,018 TriSonica: Written: Wind Speed: 2025-11-27 13:18:27 m/s
+2025-11-27 13:18:27,221 TriSonica: Raw data: S  00.08 D  100 U -00.08 V  00.02 W  00.01 T  24.33 H  36.59 P  1006.57 PI  179.6 RO  180.0 MD  282
+2025-11-27 13:18:27,222 TriSonica: Written: Wind Speed: 2025-11-27 13:18:27 m/s
+2025-11-27 13:18:27,425 TriSonica: Raw data: S  00.08 D  099 U -00.08 V  00.01 W  00.00 T  24.37 H  36.58 P  1006.53 PI  179.6 RO  180.0 MD  277
+2025-11-27 13:18:27,426 TriSonica: Written: Wind Speed: 2025-11-27 13:18:27 m/s
+2025-11-27 13:18:27,630 TriSonica: Raw data: S  00.09 D  105 U -00.08 V  00.02 W  00.01 T  24.38 H  36.60 P  1006.51 PI  179.6 RO  180.0 MD  279
+2025-11-27 13:18:27,631 TriSonica: Written: Wind Speed: 2025-11-27 13:18:27 m/s
+2025-11-27 13:18:27,834 TriSonica: Raw data: S  00.08 D  095 U -00.08 V  00.01 W  00.00 T  24.40 H  36.59 P  1006.56 PI  179.6 RO  179.9 MD  283
+2025-11-27 13:18:27,835 TriSonica: Written: Wind Speed: 2025-11-27 13:18:27 m/s
+2025-11-27 13:18:28,038 TriSonica: Raw data: S  00.09 D  060 U -00.08 V -00.04 W  00.01 T  24.41 H  36.57 P  1006.51 PI  179.6 RO  180.0 MD  287
+2025-11-27 13:18:28,039 TriSonica: Written: Wind Speed: 2025-11-27 13:18:28 m/s
+2025-11-27 13:18:28,243 TriSonica: Raw data: S  00.07 D  079 U -00.06 V -00.01 W  00.02 T  24.40 H  36.59 P  1006.55 PI  179.6 RO  180.0 MD  282
+2025-11-27 13:18:28,243 TriSonica: Written: Wind Speed: 2025-11-27 13:18:28 m/s
+2025-11-27 13:18:28,447 TriSonica: Raw data: S  00.06 D  074 U -00.06 V -00.02 W  00.01 T  24.39 H  36.62 P  1006.50 PI  179.6 RO  179.9 MD  280
+2025-11-27 13:18:28,448 TriSonica: Written: Wind Speed: 2025-11-27 13:18:28 m/s
+2025-11-27 13:18:28,651 TriSonica: Raw data: S  00.08 D  065 U -00.07 V -00.03 W  00.01 T  24.40 H  36.59 P  1006.54 PI  179.6 RO  179.9 MD  279
+2025-11-27 13:18:28,652 TriSonica: Written: Wind Speed: 2025-11-27 13:18:28 m/s
+2025-11-27 13:18:28,855 TriSonica: Raw data: S  00.07 D  070 U -00.06 V -00.02 W  00.02 T  24.41 H  36.59 P  1006.53 PI  179.6 RO  179.9 MD  284
+2025-11-27 13:18:28,856 TriSonica: Written: Wind Speed: 2025-11-27 13:18:28 m/s
+2025-11-27 13:18:28,962 TriSonica: Raw data: S  00.06 D  090 U -00.06 V -00.00 W  00.01 T  24.44 H  36.58 P  1006.52 PI  179.6 RO  179.9 MD  281
+2025-11-27 13:18:28,962 TriSonica: Written: Wind Speed: 2025-11-27 13:18:28 m/s
+2025-11-27 13:18:29,166 TriSonica: Raw data: S  00.07 D  091 U -00.07 V  00.00 W  00.00 T  24.45 H  36.61 P  1006.53 PI  179.6 RO  179.9 MD  288
+2025-11-27 13:18:29,166 TriSonica: Written: Wind Speed: 2025-11-27 13:18:29 m/s
+2025-11-27 13:18:29,370 TriSonica: Raw data: S  00.08 D  077 U -00.07 V -00.02 W  00.01 T  24.47 H  36.59 P  1006.53 PI  179.6 RO  180.0 MD  277
+2025-11-27 13:18:29,370 TriSonica: Written: Wind Speed: 2025-11-27 13:18:29 m/s
+2025-11-27 13:18:29,574 TriSonica: Raw data: S  00.06 D  067 U -00.06 V -00.02 W  00.01 T  24.48 H  36.60 P  1006.52 PI  179.6 RO  180.0 MD  283
+2025-11-27 13:18:29,574 TriSonica: Written: Wind Speed: 2025-11-27 13:18:29 m/s
+2025-11-27 13:18:29,778 TriSonica: Raw data: S  00.07 D  088 U -00.06 V -00.00 W  00.02 T  24.46 H  36.62 P  1006.52 PI  179.6 RO  179.9 MD  281
+2025-11-27 13:18:29,778 TriSonica: Written: Wind Speed: 2025-11-27 13:18:29 m/s
+2025-11-27 13:18:29,982 TriSonica: Raw data: S  00.08 D  072 U -00.07 V -00.02 W  00.01 T  24.47 H  36.57 P  1006.51 PI  179.6 RO  179.9 MD  280
+2025-11-27 13:18:29,982 TriSonica: Written: Wind Speed: 2025-11-27 13:18:29 m/s
+2025-11-27 13:18:30,186 TriSonica: Raw data: S  00.06 D  090 U -00.06 V  00.00 W  00.01 T  24.48 H  36.58 P  1006.51 PI  179.6 RO  179.9 MD  278
+2025-11-27 13:18:30,186 TriSonica: Written: Wind Speed: 2025-11-27 13:18:30 m/s
+2025-11-27 13:18:30,390 TriSonica: Raw data: S  00.08 D  080 U -00.08 V -00.01 W  00.01 T  24.48 H  36.64 P  1006.56 PI  179.6 RO  180.0 MD  285
+2025-11-27 13:18:30,390 TriSonica: Written: Wind Speed: 2025-11-27 13:18:30 m/s
+2025-11-27 13:18:30,594 TriSonica: Raw data: S  00.07 D  063 U -00.06 V -00.03 W  00.02 T  24.50 H  36.63 P  1006.53 PI  179.6 RO  180.0 MD  282
+2025-11-27 13:18:30,594 TriSonica: Written: Wind Speed: 2025-11-27 13:18:30 m/s
+2025-11-27 13:18:30,798 TriSonica: Raw data: S  00.07 D  060 U -00.06 V -00.03 W  00.01 T  24.49 H  36.62 P  1006.51 PI  179.6 RO  180.0 MD  281
+2025-11-27 13:18:30,798 TriSonica: Written: Wind Speed: 2025-11-27 13:18:30 m/s
+2025-11-27 13:18:31,002 TriSonica: Raw data: S  00.07 D  076 U -00.07 V -00.02 W  00.02 T  24.47 H  36.58 P  1006.54 PI  179.6 RO  180.0 MD  281
+2025-11-27 13:18:31,002 TriSonica: Written: Wind Speed: 2025-11-27 13:18:31 m/s
+2025-11-27 13:18:31,206 TriSonica: Raw data: S  00.07 D  070 U -00.07 V -00.02 W  00.01 T  24.45 H  36.66 P  1006.51 PI  179.6 RO  180.0 MD  280
+2025-11-27 13:18:31,207 TriSonica: Written: Wind Speed: 2025-11-27 13:18:31 m/s
+2025-11-27 13:18:31,410 TriSonica: Raw data: S  00.09 D  065 U -00.08 V -00.04 W  00.02 T  24.41 H  36.62 P  1006.56 PI  179.6 RO  180.0 MD  284
+2025-11-27 13:18:31,411 TriSonica: Written: Wind Speed: 2025-11-27 13:18:31 m/s
+2025-11-27 13:18:31,614 TriSonica: Raw data: S  00.07 D  068 U -00.07 V -00.03 W  00.02 T  24.40 H  36.59 P  1006.53 PI  179.6 RO  180.0 MD  285
+2025-11-27 13:18:31,615 TriSonica: Written: Wind Speed: 2025-11-27 13:18:31 m/s
+2025-11-27 13:18:31,819 TriSonica: Raw data: S  00.07 D  071 U -00.06 V -00.02 W  00.02 T  24.38 H  36.60 P  1006.52 PI  179.6 RO  180.0 MD  281
+2025-11-27 13:18:31,819 TriSonica: Written: Wind Speed: 2025-11-27 13:18:31 m/s
+2025-11-27 13:18:32,023 TriSonica: Raw data: S  00.07 D  067 U -00.06 V -00.03 W  00.01 T  24.36 H  36.60 P  1006.50 PI  179.6 RO  180.0 MD  280
+2025-11-27 13:18:32,024 TriSonica: Written: Wind Speed: 2025-11-27 13:18:32 m/s
+2025-11-27 13:18:32,227 TriSonica: Raw data: S  00.06 D  085 U -00.06 V -00.01 W  00.02 T  24.35 H  36.60 P  1006.53 PI  179.6 RO  180.0 MD  281
+2025-11-27 13:18:32,228 TriSonica: Written: Wind Speed: 2025-11-27 13:18:32 m/s
+2025-11-27 13:18:32,432 TriSonica: Raw data: S  00.08 D  074 U -00.07 V -00.02 W  00.03 T  24.36 H  36.59 P  1006.51 PI  179.6 RO  180.0 MD  278
+2025-11-27 13:18:32,432 TriSonica: Written: Wind Speed: 2025-11-27 13:18:32 m/s
+2025-11-27 13:18:32,636 TriSonica: Raw data: S  00.08 D  077 U -00.07 V -00.02 W  00.03 T  24.38 H  36.60 P  1006.51 PI  179.6 RO  180.0 MD  276
+2025-11-27 13:18:32,637 TriSonica: Written: Wind Speed: 2025-11-27 13:18:32 m/s
+2025-11-27 13:18:32,840 TriSonica: Raw data: S  00.08 D  077 U -00.07 V -00.02 W  00.02 T  24.38 H  36.62 P  1006.53 PI  179.6 RO  180.0 MD  283
+2025-11-27 13:18:32,841 TriSonica: Written: Wind Speed: 2025-11-27 13:18:32 m/s
+2025-11-27 13:18:33,052 TriSonica: Raw data: S  00.08 D  090 U -00.08 V  00.00 W  00.02 T  24.36 H  36.59 P  1006.52 PI  179.6 RO  180.0 MD  283
+2025-11-27 13:18:33,054 TriSonica: Written: Wind Speed: 2025-11-27 13:18:33 m/s
+2025-11-27 13:18:33,162 TriSonica: Raw data: S  00.08 D  077 U -00.08 V -00.02 W  00.02 T  24.35 H  36.59 P  1006.55 PI  179.6 RO  180.0 MD  282
+2025-11-27 13:18:33,162 TriSonica: Written: Wind Speed: 2025-11-27 13:18:33 m/s
+2025-11-27 13:18:33,366 TriSonica: Raw data: S  00.06 D  068 U -00.06 V -00.02 W  00.01 T  24.36 H  36.61 P  1006.51 PI  179.6 RO  180.0 MD  283
+2025-11-27 13:18:33,367 TriSonica: Written: Wind Speed: 2025-11-27 13:18:33 m/s
+2025-11-27 13:18:33,570 TriSonica: Raw data: S  00.05 D  080 U -00.05 V -00.01 W  00.00 T  24.39 H  36.58 P  1006.55 PI  179.6 RO  180.0 MD  281
+2025-11-27 13:18:33,571 TriSonica: Written: Wind Speed: 2025-11-27 13:18:33 m/s
+2025-11-27 13:18:33,682 TriSonica: Stopping TriSonica data collection...
+2025-11-27 13:18:33,877 - SensorController - INFO - Stopped Spectrometer
+2025-11-27 13:18:33,877 - SensorController - ERROR - Spectrometer ERROR: 2025-11-27 13:18:03,455 OceanSR6: Starting continuous reading. Press Ctrl+C to stop.
+2025-11-27 13:18:33,878 - SensorController - INFO - All processes stopped
+2025-11-27 13:18:33,878 - SensorController - INFO - Stopping all processes...
+2025-11-27 13:18:33,878 - SensorController - INFO - Stopping merger process...
+2025-11-27 13:18:33,879 - SensorController - INFO - Stopping iMet...
+2025-11-27 13:18:33,879 - SensorController - INFO - Stopping POM...
+2025-11-27 13:18:33,879 - SensorController - INFO - Stopping TriSonica...
+2025-11-27 13:18:33,879 - SensorController - INFO - Stopping Spectrometer...
+2025-11-27 13:18:33,879 - SensorController - INFO - All processes stopped
+2025-11-27 13:19:05,963 - SensorController - INFO - Loaded configuration from sensor_config.json
+2025-11-27 13:19:05,965 - SensorController - INFO - Initialized sensor: iMet
+2025-11-27 13:19:05,966 - SensorController - INFO - Initialized sensor: POM
+2025-11-27 13:19:05,967 - SensorController - INFO - Initialized sensor: TriSonica
+2025-11-27 13:19:05,967 - SensorController - INFO - Initialized sensor: Spectrometer
+2025-11-27 13:19:05,968 - SensorController - INFO - Initialized data merger
+2025-11-27 13:19:05,968 - SensorController - INFO - Starting all sensor processes...
+2025-11-27 13:19:05,969 - SensorController - DEBUG - Starting iMet with script: /home/rsp/air_pollution_collector/uri_aplogger/iMet_safe.py
+2025-11-27 13:19:05,975 - SensorController - INFO - Started iMet (PID: 24374)
+2025-11-27 13:19:05,976 - SensorController - INFO - Waiting 2 seconds for iMet to initialize...
+2025-11-27 13:19:07,979 - SensorController - DEBUG - Starting POM with script: /home/rsp/air_pollution_collector/uri_aplogger/pom_safe.py
+2025-11-27 13:19:07,984 - SensorController - INFO - Started POM (PID: 24401)
+2025-11-27 13:19:07,985 - SensorController - INFO - Waiting 2 seconds for POM to initialize...
+2025-11-27 13:19:09,988 - SensorController - DEBUG - Starting TriSonica with script: /home/rsp/air_pollution_collector/uri_aplogger/trisonica_safe.py
+2025-11-27 13:19:09,992 - SensorController - INFO - Started TriSonica (PID: 24405)
+2025-11-27 13:19:09,994 - SensorController - INFO - Waiting 2 seconds for TriSonica to initialize...
+2025-11-27 13:19:11,998 - SensorController - DEBUG - Starting Spectrometer with script: /home/rsp/air_pollution_collector/uri_aplogger/spectro.py
+2025-11-27 13:19:12,003 - SensorController - INFO - Started Spectrometer (PID: 24434)
+2025-11-27 13:19:12,004 - SensorController - INFO - Waiting 2 seconds for Spectrometer to initialize...
+2025-11-27 13:19:14,006 - SensorController - INFO - Waiting 5 seconds before starting merger...
+2025-11-27 13:19:19,012 - SensorController - DEBUG - Starting Merger with script: /home/rsp/air_pollution_collector/uri_aplogger/merger.py
+2025-11-27 13:19:19,017 - SensorController - INFO - Started Merger (PID: 24478)
+2025-11-27 13:19:19,018 - SensorController - INFO - Merger process started
+2025-11-27 13:19:19,018 - SensorController - INFO - All processes started
+2025-11-27 13:19:19,019 - SensorController - INFO - Sensor controller running. Press Ctrl+C to stop.
+2025-11-27 13:19:37,940 - SensorController - INFO - Received signal 2, shutting down...
+2025-11-27 13:19:37,941 - SensorController - INFO - Stopping all processes...
+2025-11-27 13:19:37,941 - SensorController - INFO - Stopping merger process...
+2025-11-27 13:19:37,943 - SensorController - ERROR - Merger ERROR: 2025-11-27 13:19:19,117 Merger: Starting sensor merger - Input: output, Output: output/merged_sensors.csv
+2025-11-27 13:19:37,945 - SensorController - INFO - Stopped Merger
+2025-11-27 13:19:37,945 - SensorController - INFO - Stopping iMet...
+2025-11-27 13:19:37,948 - SensorController - ERROR - iMet ERROR: 2025-11-27 13:19:06,120 iMet: Starting iMet data collection
+2025-11-27 13:19:37,949 - SensorController - INFO - Stopped iMet
+2025-11-27 13:19:37,949 - SensorController - INFO - Stopping POM...
+2025-11-27 13:19:37,952 - SensorController - ERROR - POM ERROR: 2025-11-27 13:19:08,111 POM: Starting POM data collection
+2025-11-27 13:19:37,953 - SensorController - INFO - Stopped POM
+2025-11-27 13:19:37,953 - SensorController - INFO - Stopping TriSonica...
+2025-11-27 13:19:37,962 - SensorController - ERROR - TriSonica ERROR: 2025-11-27 13:19:10,134 TriSonica: Starting TriSonica data collection
+2025-11-27 13:19:37,963 - SensorController - ERROR - TriSonica ERROR (final): P  1006.54 PI  179.6 RO  180.0 MD  280
+2025-11-27 13:19:17,431 TriSonica: Written: Wind Speed: 2025-11-27 13:19:17 m/s
+2025-11-27 13:19:17,634 TriSonica: Raw data: S  00.09 D  073 U -00.08 V -00.03 W  00.01 T  24.42 H  36.69 P  1006.52 PI  179.6 RO  179.9 MD  283
+2025-11-27 13:19:17,635 TriSonica: Written: Wind Speed: 2025-11-27 13:19:17 m/s
+2025-11-27 13:19:17,843 TriSonica: Raw data: S  00.10 D  075 U -00.09 V -00.02 W  00.00 T  24.44 H  36.68 P  1006.56 PI  179.6 RO  179.9 MD  283
+2025-11-27 13:19:17,844 TriSonica: Written: Wind Speed: 2025-11-27 13:19:17 m/s
+2025-11-27 13:19:18,054 TriSonica: Raw data: S  00.10 D  078 U -00.09 V -00.02 W  00.02 T  24.47 H  36.72 P  1006.54 PI  179.6 RO  179.9 MD  285
+2025-11-27 13:19:18,055 TriSonica: Written: Wind Speed: 2025-11-27 13:19:18 m/s
+2025-11-27 13:19:18,164 TriSonica: Raw data: S  00.10 D  076 U -00.09 V -00.02 W  00.02 T  24.49 H  36.75 P  1006.52 PI  179.6 RO  180.0 MD  279
+2025-11-27 13:19:18,164 TriSonica: Written: Wind Speed: 2025-11-27 13:19:18 m/s
+2025-11-27 13:19:18,370 TriSonica: Raw data: S  00.10 D  069 U -00.08 V -00.03 W  00.03 T  24.48 H  36.72 P  1006.53 PI  179.6 RO  180.0 MD  279
+2025-11-27 13:19:18,370 TriSonica: Written: Wind Speed: 2025-11-27 13:19:18 m/s
+2025-11-27 13:19:18,574 TriSonica: Raw data: S  00.09 D  075 U -00.09 V -00.02 W  00.01 T  24.47 H  36.70 P  1006.56 PI  179.6 RO  180.0 MD  282
+2025-11-27 13:19:18,574 TriSonica: Written: Wind Speed: 2025-11-27 13:19:18 m/s
+2025-11-27 13:19:18,778 TriSonica: Raw data: S  00.11 D  084 U -00.11 V -00.01 W -00.00 T  24.48 H  36.70 P  1006.54 PI  179.6 RO  179.9 MD  282
+2025-11-27 13:19:18,778 TriSonica: Written: Wind Speed: 2025-11-27 13:19:18 m/s
+2025-11-27 13:19:18,982 TriSonica: Raw data: S  00.12 D  074 U -00.11 V -00.03 W  00.02 T  24.45 H  36.71 P  1006.51 PI  179.6 RO  180.0 MD  283
+2025-11-27 13:19:18,982 TriSonica: Written: Wind Speed: 2025-11-27 13:19:18 m/s
+2025-11-27 13:19:19,186 TriSonica: Raw data: S  00.10 D  067 U -00.09 V -00.04 W  00.01 T  24.45 H  36.75 P  1006.56 PI  179.6 RO  179.9 MD  282
+2025-11-27 13:19:19,187 TriSonica: Written: Wind Speed: 2025-11-27 13:19:19 m/s
+2025-11-27 13:19:19,390 TriSonica: Raw data: S  00.10 D  064 U -00.09 V -00.04 W  00.02 T  24.46 H  36.70 P  1006.54 PI  179.6 RO  180.0 MD  286
+2025-11-27 13:19:19,391 TriSonica: Written: Wind Speed: 2025-11-27 13:19:19 m/s
+2025-11-27 13:19:19,594 TriSonica: Raw data: S  00.10 D  068 U -00.09 V -00.04 W  00.03 T  24.43 H  36.70 P  1006.53 PI  179.6 RO  180.0 MD  285
+2025-11-27 13:19:19,595 TriSonica: Written: Wind Speed: 2025-11-27 13:19:19 m/s
+2025-11-27 13:19:19,798 TriSonica: Raw data: S  00.12 D  068 U -00.11 V -00.04 W  00.02 T  24.42 H  36.71 P  1006.55 PI  179.6 RO  180.0 MD  282
+2025-11-27 13:19:19,799 TriSonica: Written: Wind Speed: 2025-11-27 13:19:19 m/s
+2025-11-27 13:19:20,002 TriSonica: Raw data: S  00.10 D  084 U -00.10 V -00.01 W  00.01 T  24.40 H  36.71 P  1006.54 PI  179.6 RO  180.0 MD  287
+2025-11-27 13:19:20,003 TriSonica: Written: Wind Speed: 2025-11-27 13:19:20 m/s
+2025-11-27 13:19:20,206 TriSonica: Raw data: S  00.10 D  073 U -00.09 V -00.03 W  00.03 T  24.40 H  36.71 P  1006.55 PI  179.6 RO  179.9 MD  285
+2025-11-27 13:19:20,207 TriSonica: Written: Wind Speed: 2025-11-27 13:19:20 m/s
+2025-11-27 13:19:20,410 TriSonica: Raw data: S  00.09 D  065 U -00.08 V -00.04 W  00.02 T  24.42 H  36.71 P  1006.55 PI  179.6 RO  179.9 MD  283
+2025-11-27 13:19:20,411 TriSonica: Written: Wind Speed: 2025-11-27 13:19:20 m/s
+2025-11-27 13:19:20,614 TriSonica: Raw data: S  00.10 D  073 U -00.10 V -00.03 W  00.03 T  24.47 H  36.71 P  1006.53 PI  179.6 RO  180.0 MD  288
+2025-11-27 13:19:20,615 TriSonica: Written: Wind Speed: 2025-11-27 13:19:20 m/s
+2025-11-27 13:19:20,818 TriSonica: Raw data: S  00.12 D  067 U -00.11 V -00.05 W  00.04 T  24.51 H  36.74 P  1006.52 PI  179.6 RO  180.0 MD  281
+2025-11-27 13:19:20,819 TriSonica: Written: Wind Speed: 2025-11-27 13:19:20 m/s
+2025-11-27 13:19:21,022 TriSonica: Raw data: S  00.11 D  060 U -00.10 V -00.06 W  00.02 T  24.53 H  36.72 P  1006.54 PI  179.6 RO  179.9 MD  280
+2025-11-27 13:19:21,023 TriSonica: Written: Wind Speed: 2025-11-27 13:19:21 m/s
+2025-11-27 13:19:21,226 TriSonica: Raw data: S  00.12 D  066 U -00.11 V -00.05 W  00.01 T  24.52 H  36.76 P  1006.53 PI  179.6 RO  180.0 MD  286
+2025-11-27 13:19:21,227 TriSonica: Written: Wind Speed: 2025-11-27 13:19:21 m/s
+2025-11-27 13:19:21,430 TriSonica: Raw data: S  00.12 D  063 U -00.11 V -00.05 W  00.01 T  24.48 H  36.72 P  1006.55 PI  179.6 RO  179.9 MD  283
+2025-11-27 13:19:21,431 TriSonica: Written: Wind Speed: 2025-11-27 13:19:21 m/s
+2025-11-27 13:19:21,634 TriSonica: Raw data: S  00.11 D  057 U -00.09 V -00.06 W  00.02 T  24.49 H  36.71 P  1006.56 PI  179.6 RO  180.0 MD  286
+2025-11-27 13:19:21,635 TriSonica: Written: Wind Speed: 2025-11-27 13:19:21 m/s
+2025-11-27 13:19:21,839 TriSonica: Raw data: S  00.11 D  061 U -00.10 V -00.05 W  00.01 T  24.50 H  36.71 P  1006.59 PI  179.6 RO  180.0 MD  286
+2025-11-27 13:19:21,840 TriSonica: Written: Wind Speed: 2025-11-27 13:19:21 m/s
+2025-11-27 13:19:22,043 TriSonica: Raw data: S  00.12 D  066 U -00.11 V -00.05 W  00.02 T  24.53 H  36.74 P  1006.59 PI  179.6 RO  179.9 MD  282
+2025-11-27 13:19:22,044 TriSonica: Written: Wind Speed: 2025-11-27 13:19:22 m/s
+2025-11-27 13:19:22,247 TriSonica: Raw data: S  00.11 D  075 U -00.11 V -00.03 W  00.01 T  24.56 H  36.75 P  1006.54 PI  179.6 RO  180.0 MD  286
+2025-11-27 13:19:22,248 TriSonica: Written: Wind Speed: 2025-11-27 13:19:22 m/s
+2025-11-27 13:19:22,451 TriSonica: Raw data: S  00.11 D  072 U -00.10 V -00.03 W  00.01 T  24.61 H  36.75 P  1006.54 PI  179.6 RO  180.0 MD  285
+2025-11-27 13:19:22,452 TriSonica: Written: Wind Speed: 2025-11-27 13:19:22 m/s
+2025-11-27 13:19:22,655 TriSonica: Raw data: S  00.11 D  061 U -00.09 V -00.05 W  00.02 T  24.56 H  36.71 P  1006.54 PI  179.6 RO  180.0 MD  283
+2025-11-27 13:19:22,656 TriSonica: Written: Wind Speed: 2025-11-27 13:19:22 m/s
+2025-11-27 13:19:22,762 TriSonica: Raw data: S  00.09 D  059 U -00.07 V -00.04 W  00.03 T  24.51 H  36.72 P  1006.58 PI  179.6 RO  180.0 MD  283
+2025-11-27 13:19:22,762 TriSonica: Written: Wind Speed: 2025-11-27 13:19:22 m/s
+2025-11-27 13:19:22,967 TriSonica: Raw data: S  00.08 D  060 U -00.06 V -00.04 W  00.02 T  24.50 H  36.74 P  1006.56 PI  179.6 RO  180.0 MD  281
+2025-11-27 13:19:22,967 TriSonica: Written: Wind Speed: 2025-11-27 13:19:22 m/s
+2025-11-27 13:19:23,171 TriSonica: Raw data: S  00.06 D  051 U -00.04 V -00.04 W  00.00 T  24.51 H  36.72 P  1006.53 PI  179.6 RO  180.0 MD  283
+2025-11-27 13:19:23,171 TriSonica: Written: Wind Speed: 2025-11-27 13:19:23 m/s
+2025-11-27 13:19:23,379 TriSonica: Raw data: S  00.06 D  048 U -00.04 V -00.04 W -00.00 T  24.52 H  36.72 P  1006.55 PI  179.6 RO  180.0 MD  280
+2025-11-27 13:19:23,379 TriSonica: Written: Wind Speed: 2025-11-27 13:19:23 m/s
+2025-11-27 13:19:23,588 TriSonica: Raw data: S  00.05 D  052 U -00.04 V -00.03 W -00.01 T  24.54 H  36.72 P  1006.56 PI  179.6 RO  180.0 MD  282
+2025-11-27 13:19:23,589 TriSonica: Written: Wind Speed: 2025-11-27 13:19:23 m/s
+2025-11-27 13:19:23,795 TriSonica: Raw data: S  00.06 D  077 U -00.06 V -00.01 W  00.00 T  24.57 H  36.72 P  1006.54 PI  179.6 RO  179.9 MD  283
+2025-11-27 13:19:23,796 TriSonica: Written: Wind Speed: 2025-11-27 13:19:23 m/s
+2025-11-27 13:19:24,004 TriSonica: Raw data: S  00.05 D  085 U -00.05 V -00.00 W -00.00 T  24.64 H  36.73 P  1006.54 PI  179.6 RO  180.0 MD  284
+2025-11-27 13:19:24,005 TriSonica: Written: Wind Speed: 2025-11-27 13:19:24 m/s
+2025-11-27 13:19:24,213 TriSonica: Raw data: S  00.07 D  064 U -00.06 V -00.03 W  00.02 T  24.68 H  36.75 P  1006.54 PI  179.6 RO  179.9 MD  284
+2025-11-27 13:19:24,214 TriSonica: Written: Wind Speed: 2025-11-27 13:19:24 m/s
+2025-11-27 13:19:24,423 TriSonica: Raw data: S  00.07 D  082 U -00.06 V -00.01 W  00.02 T  24.70 H  36.72 P  1006.57 PI  179.6 RO  180.0 MD  281
+2025-11-27 13:19:24,424 TriSonica: Written: Wind Speed: 2025-11-27 13:19:24 m/s
+2025-11-27 13:19:24,633 TriSonica: Raw data: S  00.06 D  082 U -00.05 V -00.01 W  00.02 T  24.67 H  36.71 P  1006.53 PI  179.6 RO  179.9 MD  283
+2025-11-27 13:19:24,633 TriSonica: Written: Wind Speed: 2025-11-27 13:19:24 m/s
+2025-11-27 13:19:24,840 TriSonica: Raw data: S  00.06 D  062 U -00.05 V -00.03 W  00.01 T  24.62 H  36.70 P  1006.56 PI  179.6 RO  180.0 MD  285
+2025-11-27 13:19:24,840 TriSonica: Written: Wind Speed: 2025-11-27 13:19:24 m/s
+2025-11-27 13:19:25,049 TriSonica: Raw data: S  00.06 D  077 U -00.06 V -00.01 W  00.02 T  24.57 H  36.72 P  1006.55 PI  179.6 RO  179.9 MD  286
+2025-11-27 13:19:25,049 TriSonica: Written: Wind Speed: 2025-11-27 13:19:25 m/s
+2025-11-27 13:19:25,258 TriSonica: Raw data: S  00.05 D  065 U -00.05 V -00.02 W  00.01 T  24.53 H  36.72 P  1006.55 PI  179.6 RO  180.0 MD  284
+2025-11-27 13:19:25,259 TriSonica: Written: Wind Speed: 2025-11-27 13:19:25 m/s
+2025-11-27 13:19:25,366 TriSonica: Raw data: S  00.06 D  087 U -00.06 V -00.00 W  00.00 T  24.51 H  36.72 P  1006.52 PI  179.6 RO  179.9 MD  282
+2025-11-27 13:19:25,367 TriSonica: Written: Wind Speed: 2025-11-27 13:19:25 m/s
+2025-11-27 13:19:25,574 TriSonica: Raw data: S  00.07 D  077 U -00.06 V -00.02 W  00.02 T  24.48 H  36.71 P  1006.53 PI  179.6 RO  180.0 MD  287
+2025-11-27 13:19:25,575 TriSonica: Written: Wind Speed: 2025-11-27 13:19:25 m/s
+2025-11-27 13:19:25,782 TriSonica: Raw data: S  00.06 D  052 U -00.05 V -00.04 W  00.01 T  24.44 H  36.70 P  1006.57 PI  179.6 RO  180.0 MD  281
+2025-11-27 13:19:25,783 TriSonica: Written: Wind Speed: 2025-11-27 13:19:25 m/s
+2025-11-27 13:19:25,993 TriSonica: Raw data: S  00.05 D  052 U -00.04 V -00.03 W  00.00 T  24.41 H  36.71 P  1006.56 PI  179.6 RO  180.0 MD  278
+2025-11-27 13:19:25,994 TriSonica: Written: Wind Speed: 2025-11-27 13:19:25 m/s
+2025-11-27 13:19:26,203 TriSonica: Raw data: S  00.05 D  054 U -00.04 V -00.03 W  00.01 T  24.39 H  36.74 P  1006.57 PI  179.6 RO  180.0 MD  283
+2025-11-27 13:19:26,203 TriSonica: Written: Wind Speed: 2025-11-27 13:19:26 m/s
+2025-11-27 13:19:26,412 TriSonica: Raw data: S  00.06 D  056 U -00.05 V -00.03 W  00.01 T  24.41 H  36.70 P  1006.50 PI  179.6 RO  180.0 MD  282
+2025-11-27 13:19:26,413 TriSonica: Written: Wind Speed: 2025-11-27 13:19:26 m/s
+2025-11-27 13:19:26,617 TriSonica: Raw data: S  00.07 D  054 U -00.05 V -00.04 W -00.00 T  24.46 H  36.71 P  1006.52 PI  179.6 RO  179.9 MD  286
+2025-11-27 13:19:26,618 TriSonica: Written: Wind Speed: 2025-11-27 13:19:26 m/s
+2025-11-27 13:19:26,822 TriSonica: Raw data: S  00.04 D  071 U -00.04 V -00.01 W  00.00 T  24.52 H  36.70 P  1006.54 PI  179.6 RO  180.0 MD  280
+2025-11-27 13:19:26,822 TriSonica: Written: Wind Speed: 2025-11-27 13:19:26 m/s
+2025-11-27 13:19:27,026 TriSonica: Raw data: S  00.05 D  061 U -00.04 V -00.02 W  00.01 T  24.55 H  36.67 P  1006.55 PI  179.6 RO  180.0 MD  285
+2025-11-27 13:19:27,027 TriSonica: Written: Wind Speed: 2025-11-27 13:19:27 m/s
+2025-11-27 13:19:27,230 TriSonica: Raw data: S  00.07 D  073 U -00.06 V -00.02 W  00.02 T  24.56 H  36.72 P  1006.55 PI  179.6 RO  180.0 MD  282
+2025-11-27 13:19:27,231 TriSonica: Written: Wind Speed: 2025-11-27 13:19:27 m/s
+2025-11-27 13:19:27,434 TriSonica: Raw data: S  00.04 D  088 U -00.04 V -00.00 W  00.01 T  24.54 H  36.71 P  1006.53 PI  179.6 RO  180.0 MD  286
+2025-11-27 13:19:27,435 TriSonica: Written: Wind Speed: 2025-11-27 13:19:27 m/s
+2025-11-27 13:19:27,638 TriSonica: Raw data: S  00.03 D  079 U -00.03 V -00.01 W  00.00 T  24.51 H  36.72 P  1006.53 PI  179.6 RO  180.0 MD  282
+2025-11-27 13:19:27,639 TriSonica: Written: Wind Speed: 2025-11-27 13:19:27 m/s
+2025-11-27 13:19:27,842 TriSonica: Raw data: S  00.06 D  088 U -00.06 V -00.00 W  00.01 T  24.46 H  36.71 P  1006.54 PI  179.6 RO  180.0 MD  284
+2025-11-27 13:19:27,843 TriSonica: Written: Wind Speed: 2025-11-27 13:19:27 m/s
+2025-11-27 13:19:28,046 TriSonica: Raw data: S  00.08 D  105 U -00.08 V  00.02 W  00.01 T  24.42 H  36.71 P  1006.57 PI  179.6 RO  180.0 MD  280
+2025-11-27 13:19:28,047 TriSonica: Written: Wind Speed: 2025-11-27 13:19:28 m/s
+2025-11-27 13:19:28,250 TriSonica: Raw data: S  00.06 D  111 U -00.06 V  00.02 W  00.01 T  24.42 H  36.74 P  1006.52 PI  179.6 RO  180.0 MD  285
+2025-11-27 13:19:28,250 TriSonica: Written: Wind Speed: 2025-11-27 13:19:28 m/s
+2025-11-27 13:19:28,454 TriSonica: Raw data: S  00.07 D  104 U -00.07 V  00.02 W  00.01 T  24.46 H  36.71 P  1006.53 PI  179.6 RO  180.0 MD  282
+2025-11-27 13:19:28,454 TriSonica: Written: Wind Speed: 2025-11-27 13:19:28 m/s
+2025-11-27 13:19:28,562 TriSonica: Raw data: S  00.08 D  094 U -00.08 V  00.01 W  00.00 T  24.55 H  36.70 P  1006.58 PI  179.6 RO  180.0 MD  285
+2025-11-27 13:19:28,562 TriSonica: Written: Wind Speed: 2025-11-27 13:19:28 m/s
+2025-11-27 13:19:28,766 TriSonica: Raw data: S  00.09 D  098 U -00.09 V  00.01 W  00.00 T  24.61 H  36.75 P  1006.54 PI  179.6 RO  180.0 MD  281
+2025-11-27 13:19:28,766 TriSonica: Written: Wind Speed: 2025-11-27 13:19:28 m/s
+2025-11-27 13:19:28,970 TriSonica: Raw data: S  00.10 D  091 U -00.10 V  00.00 W  00.01 T  24.58 H  36.72 P  1006.59 PI  179.6 RO  180.0 MD  283
+2025-11-27 13:19:28,970 TriSonica: Written: Wind Speed: 2025-11-27 13:19:28 m/s
+2025-11-27 13:19:29,174 TriSonica: Raw data: S  00.08 D  095 U -00.08 V  00.01 W  00.02 T  24.54 H  36.71 P  1006.54 PI  179.6 RO  180.0 MD  280
+2025-11-27 13:19:29,175 TriSonica: Written: Wind Speed: 2025-11-27 13:19:29 m/s
+2025-11-27 13:19:29,378 TriSonica: Raw data: S  00.07 D  118 U -00.06 V  00.03 W  00.00 T  24.54 H  36.71 P  1006.55 PI  179.6 RO  180.0 MD  279
+2025-11-27 13:19:29,379 TriSonica: Written: Wind Speed: 2025-11-27 13:19:29 m/s
+2025-11-27 13:19:29,583 TriSonica: Raw data: S  00.09 D  113 U -00.08 V  00.03 W  00.01 T  24.50 H  36.72 P  1006.54 PI  179.6 RO  179.9 MD  284
+2025-11-27 13:19:29,583 TriSonica: Written: Wind Speed: 2025-11-27 13:19:29 m/s
+2025-11-27 13:19:29,787 TriSonica: Raw data: S  00.09 D  109 U -00.08 V  00.03 W  00.01 T  24.44 H  36.72 P  1006.53 PI  179.6 RO  180.0 MD  289
+2025-11-27 13:19:29,787 TriSonica: Written: Wind Speed: 2025-11-27 13:19:29 m/s
+2025-11-27 13:19:29,991 TriSonica: Raw data: S  00.10 D  122 U -00.08 V  00.05 W  00.01 T  24.39 H  36.72 P  1006.55 PI  179.6 RO  179.9 MD  283
+2025-11-27 13:19:29,991 TriSonica: Written: Wind Speed: 2025-11-27 13:19:29 m/s
+2025-11-27 13:19:30,195 TriSonica: Raw data: S  00.10 D  130 U -00.08 V  00.06 W  00.01 T  24.33 H  36.75 P  1006.52 PI  179.6 RO  180.0 MD  283
+2025-11-27 13:19:30,195 TriSonica: Written: Wind Speed: 2025-11-27 13:19:30 m/s
+2025-11-27 13:19:30,399 TriSonica: Raw data: S  00.09 D  116 U -00.08 V  00.04 W  00.02 T  24.33 H  36.74 P  1006.55 PI  179.6 RO  179.9 MD  281
+2025-11-27 13:19:30,400 TriSonica: Written: Wind Speed: 2025-11-27 13:19:30 m/s
+2025-11-27 13:19:30,603 TriSonica: Raw data: S  00.09 D  110 U -00.09 V  00.03 W  00.02 T  24.33 H  36.73 P  1006.56 PI  179.6 RO  180.0 MD  280
+2025-11-27 13:19:30,604 TriSonica: Written: Wind Speed: 2025-11-27 13:19:30 m/s
+2025-11-27 13:19:30,807 TriSonica: Raw data: S  00.07 D  096 U -00.07 V  00.01 W  00.02 T  24.31 H  36.71 P  1006.54 PI  179.6 RO  179.9 MD  279
+2025-11-27 13:19:30,808 TriSonica: Written: Wind Speed: 2025-11-27 13:19:30 m/s
+2025-11-27 13:19:31,011 TriSonica: Raw data: S  00.06 D  115 U -00.05 V  00.02 W  00.02 T  24.31 H  36.68 P  1006.54 PI  179.6 RO  180.0 MD  286
+2025-11-27 13:19:31,012 TriSonica: Written: Wind Speed: 2025-11-27 13:19:31 m/s
+2025-11-27 13:19:31,215 TriSonica: Raw data: S  00.08 D  126 U -00.06 V  00.04 W  00.02 T  24.31 H  36.74 P  1006.55 PI  179.6 RO  180.0 MD  288
+2025-11-27 13:19:31,216 TriSonica: Written: Wind Speed: 2025-11-27 13:19:31 m/s
+2025-11-27 13:19:31,419 TriSonica: Raw data: S  00.09 D  131 U -00.06 V  00.05 W  00.03 T  24.36 H  36.73 P  1006.57 PI  179.6 RO  180.0 MD  281
+2025-11-27 13:19:31,420 TriSonica: Written: Wind Speed: 2025-11-27 13:19:31 m/s
+2025-11-27 13:19:31,623 TriSonica: Raw data: S  00.08 D  140 U -00.05 V  00.06 W  00.02 T  24.39 H  36.69 P  1006.55 PI  179.6 RO  179.9 MD  283
+2025-11-27 13:19:31,623 TriSonica: Written: Wind Speed: 2025-11-27 13:19:31 m/s
+2025-11-27 13:19:31,827 TriSonica: Raw data: S  00.07 D  140 U -00.04 V  00.05 W  00.04 T  24.42 H  36.70 P  1006.57 PI  179.6 RO  180.0 MD  279
+2025-11-27 13:19:31,828 TriSonica: Written: Wind Speed: 2025-11-27 13:19:31 m/s
+2025-11-27 13:19:32,031 TriSonica: Raw data: S  00.07 D  143 U -00.04 V  00.05 W  00.03 T  24.43 H  36.69 P  1006.55 PI  179.6 RO  180.0 MD  286
+2025-11-27 13:19:32,032 TriSonica: Written: Wind Speed: 2025-11-27 13:19:32 m/s
+2025-11-27 13:19:32,236 TriSonica: Raw data: S  00.06 D  138 U -00.03 V  00.03 W  00.04 T  24.42 H  36.74 P  1006.55 PI  179.6 RO  180.0 MD  287
+2025-11-27 13:19:32,237 TriSonica: Written: Wind Speed: 2025-11-27 13:19:32 m/s
+2025-11-27 13:19:32,441 TriSonica: Raw data: S  00.06 D  125 U -00.04 V  00.03 W  00.02 T  24.44 H  36.71 P  1006.55 PI  179.6 RO  179.9 MD  284
+2025-11-27 13:19:32,441 TriSonica: Written: Wind Speed: 2025-11-27 13:19:32 m/s
+2025-11-27 13:19:32,645 TriSonica: Raw data: S  00.05 D  126 U -00.04 V  00.03 W -00.00 T  24.42 H  36.74 P  1006.56 PI  179.6 RO  180.0 MD  282
+2025-11-27 13:19:32,646 TriSonica: Written: Wind Speed: 2025-11-27 13:19:32 m/s
+2025-11-27 13:19:32,849 TriSonica: Raw data: S  00.05 D  120 U -00.05 V  00.03 W -00.01 T  24.38 H  36.75 P  1006.56 PI  179.6 RO  180.0 MD  285
+2025-11-27 13:19:32,850 TriSonica: Written: Wind Speed: 2025-11-27 13:19:32 m/s
+2025-11-27 13:19:33,054 TriSonica: Raw data: S  00.07 D  108 U -00.06 V  00.02 W -00.01 T  24.38 H  36.71 P  1006.54 PI  179.6 RO  180.0 MD  280
+2025-11-27 13:19:33,054 TriSonica: Written: Wind Speed: 2025-11-27 13:19:33 m/s
+2025-11-27 13:19:33,162 TriSonica: Raw data: S  00.07 D  101 U -00.06 V  00.01 W -00.00 T  24.39 H  36.75 P  1006.55 PI  179.6 RO  180.0 MD  279
+2025-11-27 13:19:33,163 TriSonica: Written: Wind Speed: 2025-11-27 13:19:33 m/s
+2025-11-27 13:19:33,366 TriSonica: Raw data: S  00.06 D  126 U -00.05 V  00.03 W  00.01 T  24.41 H  36.75 P  1006.53 PI  179.6 RO  180.0 MD  285
+2025-11-27 13:19:33,367 TriSonica: Written: Wind Speed: 2025-11-27 13:19:33 m/s
+2025-11-27 13:19:33,570 TriSonica: Raw data: S  00.07 D  142 U -00.04 V  00.05 W  00.02 T  24.41 H  36.70 P  1006.55 PI  179.6 RO  180.0 MD  286
+2025-11-27 13:19:33,570 TriSonica: Written: Wind Speed: 2025-11-27 13:19:33 m/s
+2025-11-27 13:19:33,774 TriSonica: Raw data: S  00.07 D  113 U -00.06 V  00.03 W  00.01 T  24.39 H  36.71 P  1006.57 PI  179.6 RO -180.0 MD  283
+2025-11-27 13:19:33,774 TriSonica: Written: Wind Speed: 2025-11-27 13:19:33 m/s
+2025-11-27 13:19:33,978 TriSonica: Raw data: S  00.08 D  142 U -00.05 V  00.06 W  00.01 T  24.38 H  36.72 P  1006.55 PI  179.6 RO  180.0 MD  277
+2025-11-27 13:19:33,978 TriSonica: Written: Wind Speed: 2025-11-27 13:19:33 m/s
+2025-11-27 13:19:34,182 TriSonica: Raw data: S  00.08 D  136 U -00.05 V  00.05 W  00.02 T  24.36 H  36.71 P  1006.54 PI  179.6 RO  180.0 MD  279
+2025-11-27 13:19:34,182 TriSonica: Written: Wind Speed: 2025-11-27 13:19:34 m/s
+2025-11-27 13:19:34,386 TriSonica: Raw data: S  00.08 D  144 U -00.04 V  00.06 W  00.02 T  24.34 H  36.72 P  1006.53 PI  179.6 RO  180.0 MD  281
+2025-11-27 13:19:34,386 TriSonica: Written: Wind Speed: 2025-11-27 13:19:34 m/s
+2025-11-27 13:19:34,590 TriSonica: Raw data: S  00.09 D  150 U -00.04 V  00.07 W  00.03 T  24.29 H  36.72 P  1006.52 PI  179.6 RO  180.0 MD  284
+2025-11-27 13:19:34,590 TriSonica: Written: Wind Speed: 2025-11-27 13:19:34 m/s
+2025-11-27 13:19:34,794 TriSonica: Raw data: S  00.12 D  140 U -00.07 V  00.09 W  00.02 T  24.26 H  36.73 P  1006.58 PI  179.6 RO  179.9 MD  284
+2025-11-27 13:19:34,794 TriSonica: Written: Wind Speed: 2025-11-27 13:19:34 m/s
+2025-11-27 13:19:34,998 TriSonica: Raw data: S  00.14 D  130 U -00.11 V  00.09 W  00.00 T  24.25 H  36.69 P  1006.54 PI  179.6 RO  180.0 MD  280
+2025-11-27 13:19:34,998 TriSonica: Written: Wind Speed: 2025-11-27 13:19:34 m/s
+2025-11-27 13:19:35,202 TriSonica: Raw data: S  00.15 D  118 U -00.13 V  00.07 W  00.01 T  24.30 H  36.71 P  1006.55 PI  179.6 RO  179.9 MD  283
+2025-11-27 13:19:35,202 TriSonica: Written: Wind Speed: 2025-11-27 13:19:35 m/s
+2025-11-27 13:19:35,406 TriSonica: Raw data: S  00.14 D  117 U -00.12 V  00.06 W  00.03 T  24.36 H  36.69 P  1006.58 PI  179.6 RO  180.0 MD  281
+2025-11-27 13:19:35,406 TriSonica: Written: Wind Speed: 2025-11-27 13:19:35 m/s
+2025-11-27 13:19:35,610 TriSonica: Raw data: S  00.14 D  110 U -00.13 V  00.05 W  00.01 T  24.22 H  36.74 P  1006.54 PI  179.6 RO  180.0 MD  278
+2025-11-27 13:19:35,610 TriSonica: Written: Wind Speed: 2025-11-27 13:19:35 m/s
+2025-11-27 13:19:35,814 TriSonica: Raw data: S  00.14 D  084 U -00.14 V -00.01 W -00.01 T  24.19 H  36.75 P  1006.56 PI  179.6 RO  180.0 MD  285
+2025-11-27 13:19:35,815 TriSonica: Written: Wind Speed: 2025-11-27 13:19:35 m/s
+2025-11-27 13:19:36,018 TriSonica: Raw data: S  00.11 D  073 U -00.10 V -00.03 W -00.01 T  24.19 H  36.71 P  1006.56 PI  179.6 RO  180.0 MD  279
+2025-11-27 13:19:36,019 TriSonica: Written: Wind Speed: 2025-11-27 13:19:36 m/s
+2025-11-27 13:19:36,222 TriSonica: Raw data: S  00.15 D  074 U -00.15 V -00.04 W  00.00 T  24.37 H  36.74 P  1006.54 PI  179.6 RO  179.9 MD  278
+2025-11-27 13:19:36,223 TriSonica: Written: Wind Speed: 2025-11-27 13:19:36 m/s
+2025-11-27 13:19:36,427 TriSonica: Raw data: S  00.19 D  072 U -00.18 V -00.06 W  00.01 T  24.52 H  36.74 P  1006.53 PI  179.6 RO  179.9 MD  280
+2025-11-27 13:19:36,427 TriSonica: Written: Wind Speed: 2025-11-27 13:19:36 m/s
+2025-11-27 13:19:36,632 TriSonica: Raw data: S  00.20 D  081 U -00.19 V -00.03 W -00.00 T  24.56 H  36.74 P  1006.53 PI  179.6 RO  180.0 MD  282
+2025-11-27 13:19:36,633 TriSonica: Written: Wind Speed: 2025-11-27 13:19:36 m/s
+2025-11-27 13:19:36,836 TriSonica: Raw data: S  00.28 D  075 U -00.27 V -00.07 W  00.01 T  24.63 H  36.74 P  1006.53 PI  179.6 RO  180.0 MD  285
+2025-11-27 13:19:36,837 TriSonica: Written: Wind Speed: 2025-11-27 13:19:36 m/s
+2025-11-27 13:19:37,041 TriSonica: Raw data: S  00.25 D  058 U -00.21 V -00.13 W  00.04 T  24.72 H  36.75 P  1006.54 PI  179.6 RO  179.9 MD  278
+2025-11-27 13:19:37,041 TriSonica: Written: Wind Speed: 2025-11-27 13:19:37 m/s
+2025-11-27 13:19:37,245 TriSonica: Raw data: S  00.27 D  052 U -00.21 V -00.16 W  00.02 T  24.67 H  36.72 P  1006.52 PI  179.6 RO  179.9 MD  279
+2025-11-27 13:19:37,245 TriSonica: Written: Wind Speed: 2025-11-27 13:19:37 m/s
+2025-11-27 13:19:37,449 TriSonica: Raw data: S  00.31 D  060 U -00.27 V -00.16 W  00.03 T  24.71 H  36.76 P  1006.56 PI  179.6 RO  180.0 MD  282
+2025-11-27 13:19:37,449 TriSonica: Written: Wind Speed: 2025-11-27 13:19:37 m/s
+2025-11-27 13:19:37,653 TriSonica: Raw data: S  00.32 D  052 U -00.25 V -00.19 W  00.05 T  24.75 H  36.79 P  1006.54 PI  179.6 RO  179.9 MD  280
+2025-11-27 13:19:37,654 TriSonica: Written: Wind Speed: 2025-11-27 13:19:37 m/s
+2025-11-27 13:19:37,762 TriSonica: Raw data: S  00.24 D  042 U -00.16 V -00.18 W  00.05 T  24.76 H  36.76 P  1006.55 PI  179.6 RO -180.0 MD  282
+2025-11-27 13:19:37,762 TriSonica: Written: Wind Speed: 2025-11-27 13:19:37 m/s
+2025-11-27 13:19:37,941 TriSonica: Stopping TriSonica data collection...
+2025-11-27 13:19:37,969 - SensorController - INFO - Stopped TriSonica
+2025-11-27 13:19:37,970 - SensorController - INFO - Stopping Spectrometer...
+2025-11-27 13:19:37,975 - SensorController - ERROR - Spectrometer ERROR: 2025-11-27 13:19:12,273 OceanSR6: Starting continuous reading. Press Ctrl+C to stop.
+2025-11-27 13:19:37,978 - SensorController - INFO - Stopped Spectrometer
+2025-11-27 13:19:37,978 - SensorController - INFO - All processes stopped
+2025-11-27 13:19:37,978 - SensorController - INFO - Stopping all processes...
+2025-11-27 13:19:37,979 - SensorController - INFO - Stopping merger process...
+2025-11-27 13:19:37,979 - SensorController - INFO - Stopping iMet...
+2025-11-27 13:19:37,979 - SensorController - INFO - Stopping POM...
+2025-11-27 13:19:37,979 - SensorController - INFO - Stopping TriSonica...
+2025-11-27 13:19:37,980 - SensorController - INFO - Stopping Spectrometer...
+2025-11-27 13:19:37,980 - SensorController - INFO - All processes stopped
+2025-11-27 13:43:47,970 - SensorController - INFO - Loaded configuration from sensor_config.json
+2025-11-27 13:43:47,971 - SensorController - INFO - Initialized sensor: iMet
+2025-11-27 13:43:47,972 - SensorController - INFO - Initialized sensor: POM
+2025-11-27 13:43:47,972 - SensorController - INFO - Initialized sensor: TriSonica
+2025-11-27 13:43:47,973 - SensorController - INFO - Initialized sensor: Spectrometer
+2025-11-27 13:43:47,973 - SensorController - INFO - Initialized data merger
+2025-11-27 13:43:47,973 - SensorController - INFO - Starting all sensor processes...
+2025-11-27 13:43:47,974 - SensorController - DEBUG - Starting iMet with script: /home/rsp/air_pollution_collector/uri_aplogger/iMet_safe.py
+2025-11-27 13:43:47,979 - SensorController - INFO - Started iMet (PID: 24856)
+2025-11-27 13:43:47,980 - SensorController - INFO - Waiting 2 seconds for iMet to initialize...
+2025-11-27 13:43:49,983 - SensorController - DEBUG - Starting POM with script: /home/rsp/air_pollution_collector/uri_aplogger/pom_safe.py
+2025-11-27 13:43:49,988 - SensorController - INFO - Started POM (PID: 24884)
+2025-11-27 13:43:49,989 - SensorController - INFO - Waiting 2 seconds for POM to initialize...
+2025-11-27 13:43:51,992 - SensorController - DEBUG - Starting TriSonica with script: /home/rsp/air_pollution_collector/uri_aplogger/trisonica_safe.py
+2025-11-27 13:43:51,996 - SensorController - INFO - Started TriSonica (PID: 24903)
+2025-11-27 13:43:51,997 - SensorController - INFO - Waiting 2 seconds for TriSonica to initialize...
+2025-11-27 13:43:54,000 - SensorController - DEBUG - Starting Spectrometer with script: /home/rsp/air_pollution_collector/uri_aplogger/spectro.py
+2025-11-27 13:43:54,005 - SensorController - INFO - Started Spectrometer (PID: 24917)
+2025-11-27 13:43:54,006 - SensorController - INFO - Waiting 2 seconds for Spectrometer to initialize...
+2025-11-27 13:43:56,009 - SensorController - INFO - Waiting 5 seconds before starting merger...
+2025-11-27 13:44:01,015 - SensorController - DEBUG - Starting Merger with script: /home/rsp/air_pollution_collector/uri_aplogger/merger.py
+2025-11-27 13:44:01,022 - SensorController - INFO - Started Merger (PID: 24967)
+2025-11-27 13:44:01,022 - SensorController - INFO - Merger process started
+2025-11-27 13:44:01,023 - SensorController - INFO - All processes started
+2025-11-27 13:44:01,024 - SensorController - INFO - Sensor controller running. Press Ctrl+C to stop.
+2025-11-27 13:44:23,691 - SensorController - INFO - Received signal 2, shutting down...
+2025-11-27 13:44:23,691 - SensorController - INFO - Stopping all processes...
+2025-11-27 13:44:23,692 - SensorController - INFO - Stopping merger process...
+2025-11-27 13:44:23,694 - SensorController - ERROR - Merger ERROR: 2025-11-27 13:44:01,119 Merger: Starting sensor merger - Input: output, Output: output/merged_sensors.csv
+2025-11-27 13:44:23,696 - SensorController - INFO - Stopped Merger
+2025-11-27 13:44:23,696 - SensorController - INFO - Stopping iMet...
+2025-11-27 13:44:23,699 - SensorController - ERROR - iMet ERROR: 2025-11-27 13:43:48,114 iMet: Starting iMet data collection
+2025-11-27 13:44:23,700 - SensorController - INFO - Stopped iMet
+2025-11-27 13:44:23,700 - SensorController - INFO - Stopping POM...
+2025-11-27 13:44:23,703 - SensorController - ERROR - POM ERROR: 2025-11-27 13:43:50,111 POM: Starting POM data collection
+2025-11-27 13:44:23,704 - SensorController - INFO - Stopped POM
+2025-11-27 13:44:23,704 - SensorController - INFO - Stopping TriSonica...
+2025-11-27 13:44:23,712 - SensorController - ERROR - TriSonica ERROR: 2025-11-27 13:43:52,138 TriSonica: Starting TriSonica data collection
+2025-11-27 13:44:23,713 - SensorController - ERROR - TriSonica ERROR: 2025-11-27 13:43:52,166 TriSonica: Found TriSonica at: /dev/ttyUSB0
+2025-11-27 13:44:23,713 - SensorController - INFO - Stopped TriSonica
+2025-11-27 13:44:23,713 - SensorController - INFO - Stopping Spectrometer...
+2025-11-27 13:44:23,714 - SensorController - ERROR - TriSonica ERROR (final): P  1006.50 PI  179.6 RO  180.0 MD  281
+2025-11-27 13:43:59,459 TriSonica: Written: Wind Speed: 2025-11-27 13:43:59 m/s
+2025-11-27 13:43:59,568 TriSonica: Raw data: S  00.10 D  128 U -00.07 V  00.06 W  00.03 T  24.77 H  37.27 P  1006.49 PI  179.6 RO  180.0 MD  282
+2025-11-27 13:43:59,569 TriSonica: Written: Wind Speed: 2025-11-27 13:43:59 m/s
+2025-11-27 13:43:59,772 TriSonica: Raw data: S  00.09 D  141 U -00.05 V  00.06 W  00.02 T  24.81 H  37.25 P  1006.49 PI  179.6 RO  179.9 MD  284
+2025-11-27 13:43:59,773 TriSonica: Written: Wind Speed: 2025-11-27 13:43:59 m/s
+2025-11-27 13:43:59,977 TriSonica: Raw data: S  00.08 D  140 U -00.05 V  00.06 W  00.02 T  24.92 H  37.30 P  1006.50 PI  179.6 RO  180.0 MD  278
+2025-11-27 13:43:59,977 TriSonica: Written: Wind Speed: 2025-11-27 13:43:59 m/s
+2025-11-27 13:44:00,180 TriSonica: Raw data: S  00.06 D  132 U -00.03 V  00.03 W  00.03 T  24.99 H  37.26 P  1006.50 PI  179.6 RO  180.0 MD  283
+2025-11-27 13:44:00,181 TriSonica: Written: Wind Speed: 2025-11-27 13:44:00 m/s
+2025-11-27 13:44:00,384 TriSonica: Raw data: S  00.06 D  179 U -00.00 V  00.05 W  00.04 T  24.91 H  37.26 P  1006.49 PI  179.6 RO  179.9 MD  284
+2025-11-27 13:44:00,385 TriSonica: Written: Wind Speed: 2025-11-27 13:44:00 m/s
+2025-11-27 13:44:00,588 TriSonica: Raw data: S  00.06 D  175 U -00.00 V  00.05 W  00.04 T  24.79 H  37.31 P  1006.47 PI  179.6 RO  180.0 MD  279
+2025-11-27 13:44:00,589 TriSonica: Written: Wind Speed: 2025-11-27 13:44:00 m/s
+2025-11-27 13:44:00,792 TriSonica: Raw data: S  00.09 D  178 U -00.00 V  00.09 W  00.03 T  24.66 H  37.26 P  1006.53 PI  179.6 RO  180.0 MD  282
+2025-11-27 13:44:00,793 TriSonica: Written: Wind Speed: 2025-11-27 13:44:00 m/s
+2025-11-27 13:44:00,996 TriSonica: Raw data: S  00.08 D  176 U -00.00 V  00.07 W  00.02 T  24.60 H  37.26 P  1006.48 PI  179.6 RO  179.9 MD  282
+2025-11-27 13:44:00,997 TriSonica: Written: Wind Speed: 2025-11-27 13:44:00 m/s
+2025-11-27 13:44:01,200 TriSonica: Raw data: S  00.06 D  164 U -00.01 V  00.05 W  00.03 T  24.62 H  37.28 P  1006.50 PI  179.6 RO  179.9 MD  278
+2025-11-27 13:44:01,201 TriSonica: Written: Wind Speed: 2025-11-27 13:44:01 m/s
+2025-11-27 13:44:01,404 TriSonica: Raw data: S  00.04 D  168 U -00.01 V  00.04 W  00.01 T  24.67 H  37.26 P  1006.47 PI  179.6 RO  179.9 MD  281
+2025-11-27 13:44:01,405 TriSonica: Written: Wind Speed: 2025-11-27 13:44:01 m/s
+2025-11-27 13:44:01,609 TriSonica: Raw data: S  00.05 D  161 U -00.01 V  00.04 W  00.01 T  24.72 H  37.27 P  1006.50 PI  179.6 RO  180.0 MD  276
+2025-11-27 13:44:01,610 TriSonica: Written: Wind Speed: 2025-11-27 13:44:01 m/s
+2025-11-27 13:44:01,813 TriSonica: Raw data: S  00.05 D  156 U -00.02 V  00.04 W  00.02 T  24.78 H  37.27 P  1006.52 PI  179.6 RO  179.9 MD  282
+2025-11-27 13:44:01,814 TriSonica: Written: Wind Speed: 2025-11-27 13:44:01 m/s
+2025-11-27 13:44:02,018 TriSonica: Raw data: S  00.06 D  159 U -00.02 V  00.05 W  00.01 T  24.77 H  37.24 P  1006.47 PI  179.6 RO  179.9 MD  279
+2025-11-27 13:44:02,018 TriSonica: Written: Wind Speed: 2025-11-27 13:44:02 m/s
+2025-11-27 13:44:02,222 TriSonica: Raw data: S  00.06 D  144 U -00.03 V  00.04 W  00.02 T  24.73 H  37.23 P  1006.51 PI  179.6 RO  180.0 MD  277
+2025-11-27 13:44:02,222 TriSonica: Written: Wind Speed: 2025-11-27 13:44:02 m/s
+2025-11-27 13:44:02,426 TriSonica: Raw data: S  00.05 D  141 U -00.03 V  00.04 W  00.01 T  24.69 H  37.26 P  1006.49 PI  179.6 RO  179.9 MD  277
+2025-11-27 13:44:02,426 TriSonica: Written: Wind Speed: 2025-11-27 13:44:02 m/s
+2025-11-27 13:44:02,630 TriSonica: Raw data: S  00.05 D  103 U -00.05 V  00.01 W  00.01 T  24.71 H  37.26 P  1006.53 PI  179.6 RO  179.9 MD  281
+2025-11-27 13:44:02,630 TriSonica: Written: Wind Speed: 2025-11-27 13:44:02 m/s
+2025-11-27 13:44:02,834 TriSonica: Raw data: S  00.07 D  095 U -00.07 V  00.01 W  00.02 T  24.72 H  37.22 P  1006.50 PI  179.6 RO  180.0 MD  281
+2025-11-27 13:44:02,834 TriSonica: Written: Wind Speed: 2025-11-27 13:44:02 m/s
+2025-11-27 13:44:03,038 TriSonica: Raw data: S  00.08 D  142 U -00.04 V  00.06 W  00.03 T  24.69 H  37.26 P  1006.50 PI  179.6 RO  179.9 MD  280
+2025-11-27 13:44:03,038 TriSonica: Written: Wind Speed: 2025-11-27 13:44:03 m/s
+2025-11-27 13:44:03,242 TriSonica: Raw data: S  00.11 D  142 U -00.06 V  00.08 W  00.06 T  24.68 H  37.23 P  1006.51 PI  179.6 RO  180.0 MD  279
+2025-11-27 13:44:03,242 TriSonica: Written: Wind Speed: 2025-11-27 13:44:03 m/s
+2025-11-27 13:44:03,446 TriSonica: Raw data: S  00.08 D  132 U -00.05 V  00.05 W  00.02 T  24.70 H  37.23 P  1006.49 PI  179.6 RO  179.9 MD  276
+2025-11-27 13:44:03,446 TriSonica: Written: Wind Speed: 2025-11-27 13:44:03 m/s
+2025-11-27 13:44:03,650 TriSonica: Raw data: S  00.07 D  125 U -00.05 V  00.03 W  00.04 T  24.64 H  37.23 P  1006.51 PI  179.6 RO  179.9 MD  280
+2025-11-27 13:44:03,650 TriSonica: Written: Wind Speed: 2025-11-27 13:44:03 m/s
+2025-11-27 13:44:03,853 TriSonica: Raw data: S  00.04 D  120 U -00.03 V  00.02 W  00.02 T  24.63 H  37.22 P  1006.51 PI  179.6 RO  179.9 MD  279
+2025-11-27 13:44:03,854 TriSonica: Written: Wind Speed: 2025-11-27 13:44:03 m/s
+2025-11-27 13:44:04,057 TriSonica: Raw data: S  00.04 D  119 U -00.03 V  00.02 W  00.02 T  24.63 H  37.23 P  1006.51 PI  179.6 RO  180.0 MD  283
+2025-11-27 13:44:04,058 TriSonica: Written: Wind Speed: 2025-11-27 13:44:04 m/s
+2025-11-27 13:44:04,164 TriSonica: Raw data: S  00.05 D  124 U -00.03 V  00.02 W  00.02 T  24.62 H  37.22 P  1006.52 PI  179.6 RO  180.0 MD  280
+2025-11-27 13:44:04,164 TriSonica: Written: Wind Speed: 2025-11-27 13:44:04 m/s
+2025-11-27 13:44:04,368 TriSonica: Raw data: S  00.04 D  137 U -00.02 V  00.03 W  00.02 T  24.60 H  37.28 P  1006.51 PI  179.6 RO  180.0 MD  279
+2025-11-27 13:44:04,368 TriSonica: Written: Wind Speed: 2025-11-27 13:44:04 m/s
+2025-11-27 13:44:04,572 TriSonica: Raw data: S  00.04 D  140 U -00.02 V  00.03 W  00.03 T  24.56 H  37.26 P  1006.48 PI  179.6 RO  180.0 MD  281
+2025-11-27 13:44:04,572 TriSonica: Written: Wind Speed: 2025-11-27 13:44:04 m/s
+2025-11-27 13:44:04,782 TriSonica: Raw data: S  00.02 D  141 U -00.01 V  00.02 W  00.00 T  24.56 H  37.23 P  1006.50 PI  179.6 RO  179.9 MD  278
+2025-11-27 13:44:04,782 TriSonica: Written: Wind Speed: 2025-11-27 13:44:04 m/s
+2025-11-27 13:44:04,991 TriSonica: Raw data: S  00.04 D  104 U -00.03 V  00.01 W  00.02 T  24.57 H  37.23 P  1006.52 PI  179.6 RO  179.9 MD  278
+2025-11-27 13:44:04,991 TriSonica: Written: Wind Speed: 2025-11-27 13:44:04 m/s
+2025-11-27 13:44:05,200 TriSonica: Raw data: S  00.04 D  083 U -00.03 V -00.00 W  00.02 T  24.60 H  37.22 P  1006.53 PI  179.6 RO  180.0 MD  278
+2025-11-27 13:44:05,200 TriSonica: Written: Wind Speed: 2025-11-27 13:44:05 m/s
+2025-11-27 13:44:05,404 TriSonica: Raw data: S  00.04 D  052 U -00.03 V -00.02 W  00.01 T  24.63 H  37.19 P  1006.51 PI  179.6 RO  179.9 MD  280
+2025-11-27 13:44:05,405 TriSonica: Written: Wind Speed: 2025-11-27 13:44:05 m/s
+2025-11-27 13:44:05,608 TriSonica: Raw data: S  00.03 D  061 U -00.02 V -00.01 W  00.02 T  24.65 H  37.26 P  1006.47 PI  179.6 RO  180.0 MD  285
+2025-11-27 13:44:05,609 TriSonica: Written: Wind Speed: 2025-11-27 13:44:05 m/s
+2025-11-27 13:44:05,812 TriSonica: Raw data: S  00.03 D  069 U -00.01 V -00.00 W  00.03 T  24.65 H  37.23 P  1006.53 PI  179.6 RO  180.0 MD  281
+2025-11-27 13:44:05,813 TriSonica: Written: Wind Speed: 2025-11-27 13:44:05 m/s
+2025-11-27 13:44:06,016 TriSonica: Raw data: S  00.04 D  087 U -00.03 V -00.00 W  00.03 T  24.64 H  37.21 P  1006.50 PI  179.6 RO  179.9 MD  286
+2025-11-27 13:44:06,017 TriSonica: Written: Wind Speed: 2025-11-27 13:44:06 m/s
+2025-11-27 13:44:06,221 TriSonica: Raw data: S  00.04 D  084 U -00.04 V -00.00 W  00.02 T  24.64 H  37.25 P  1006.48 PI  179.6 RO  180.0 MD  283
+2025-11-27 13:44:06,221 TriSonica: Written: Wind Speed: 2025-11-27 13:44:06 m/s
+2025-11-27 13:44:06,425 TriSonica: Raw data: S  00.02 D  080 U -00.02 V -00.00 W  00.01 T  24.65 H  37.21 P  1006.54 PI  179.6 RO  180.0 MD  280
+2025-11-27 13:44:06,426 TriSonica: Written: Wind Speed: 2025-11-27 13:44:06 m/s
+2025-11-27 13:44:06,630 TriSonica: Raw data: S  00.03 D  069 U -00.03 V -00.01 W  00.02 T  24.68 H  37.22 P  1006.52 PI  179.6 RO  179.9 MD  281
+2025-11-27 13:44:06,630 TriSonica: Written: Wind Speed: 2025-11-27 13:44:06 m/s
+2025-11-27 13:44:06,834 TriSonica: Raw data: S  00.03 D  054 U -00.01 V -00.01 W  00.02 T  24.69 H  37.23 P  1006.48 PI  179.6 RO  180.0 MD  280
+2025-11-27 13:44:06,834 TriSonica: Written: Wind Speed: 2025-11-27 13:44:06 m/s
+2025-11-27 13:44:07,038 TriSonica: Raw data: S  00.01 D  344 U  00.00 V -00.01 W  00.01 T  24.73 H  37.25 P  1006.50 PI  179.6 RO  179.9 MD  284
+2025-11-27 13:44:07,038 TriSonica: Written: Wind Speed: 2025-11-27 13:44:07 m/s
+2025-11-27 13:44:07,242 TriSonica: Raw data: S  00.03 D  209 U  00.00 V  00.01 W  00.03 T  24.74 H  37.21 P  1006.50 PI  179.6 RO  179.9 MD  283
+2025-11-27 13:44:07,243 TriSonica: Written: Wind Speed: 2025-11-27 13:44:07 m/s
+2025-11-27 13:44:07,447 TriSonica: Raw data: S  00.02 D  340 U  00.00 V -00.01 W  00.02 T  24.71 H  37.25 P  1006.54 PI  179.6 RO  179.9 MD  282
+2025-11-27 13:44:07,448 TriSonica: Written: Wind Speed: 2025-11-27 13:44:07 m/s
+2025-11-27 13:44:07,651 TriSonica: Raw data: S  00.02 D  161 U -00.01 V  00.02 W  00.02 T  24.72 H  37.25 P  1006.52 PI  179.6 RO  180.0 MD  281
+2025-11-27 13:44:07,652 TriSonica: Written: Wind Speed: 2025-11-27 13:44:07 m/s
+2025-11-27 13:44:07,855 TriSonica: Raw data: S  00.03 D  022 U -00.00 V -00.01 W  00.03 T  24.73 H  37.27 P  1006.52 PI  179.6 RO  180.0 MD  282
+2025-11-27 13:44:07,856 TriSonica: Written: Wind Speed: 2025-11-27 13:44:07 m/s
+2025-11-27 13:44:08,059 TriSonica: Raw data: S  00.02 D  303 U  00.01 V -00.01 W  00.01 T  24.79 H  37.23 P  1006.53 PI  179.6 RO  180.0 MD  281
+2025-11-27 13:44:08,060 TriSonica: Written: Wind Speed: 2025-11-27 13:44:08 m/s
+2025-11-27 13:44:08,164 TriSonica: Raw data: S  00.02 D  012 U -00.00 V -00.02 W  00.01 T  24.82 H  37.19 P  1006.52 PI  179.6 RO  179.9 MD  283
+2025-11-27 13:44:08,164 TriSonica: Written: Wind Speed: 2025-11-27 13:44:08 m/s
+2025-11-27 13:44:08,369 TriSonica: Raw data: S  00.04 D  046 U -00.02 V -00.02 W  00.02 T  24.81 H  37.25 P  1006.53 PI  179.6 RO  180.0 MD  283
+2025-11-27 13:44:08,370 TriSonica: Written: Wind Speed: 2025-11-27 13:44:08 m/s
+2025-11-27 13:44:08,574 TriSonica: Raw data: S  00.03 D  068 U -00.03 V -00.01 W  00.01 T  24.80 H  37.23 P  1006.50 PI  179.6 RO  180.0 MD  283
+2025-11-27 13:44:08,574 TriSonica: Written: Wind Speed: 2025-11-27 13:44:08 m/s
+2025-11-27 13:44:08,778 TriSonica: Raw data: S  00.04 D  099 U -00.04 V  00.01 W  00.02 T  24.79 H  37.19 P  1006.50 PI  179.6 RO  179.9 MD  282
+2025-11-27 13:44:08,779 TriSonica: Written: Wind Speed: 2025-11-27 13:44:08 m/s
+2025-11-27 13:44:08,982 TriSonica: Raw data: S  00.07 D  100 U -00.06 V  00.01 W  00.04 T  24.76 H  37.22 P  1006.51 PI  179.6 RO  179.9 MD  278
+2025-11-27 13:44:08,983 TriSonica: Written: Wind Speed: 2025-11-27 13:44:08 m/s
+2025-11-27 13:44:09,187 TriSonica: Raw data: S  00.04 D  130 U -00.03 V  00.02 W  00.02 T  24.75 H  37.24 P  1006.50 PI  179.6 RO  180.0 MD  280
+2025-11-27 13:44:09,187 TriSonica: Written: Wind Speed: 2025-11-27 13:44:09 m/s
+2025-11-27 13:44:09,391 TriSonica: Raw data: S  00.03 D  155 U -00.01 V  00.03 W  00.01 T  24.73 H  37.23 P  1006.53 PI  179.6 RO  180.0 MD  275
+2025-11-27 13:44:09,392 TriSonica: Written: Wind Speed: 2025-11-27 13:44:09 m/s
+2025-11-27 13:44:09,596 TriSonica: Raw data: S  00.04 D  119 U -00.03 V  00.02 W  00.01 T  24.66 H  37.22 P  1006.54 PI  179.6 RO  180.0 MD  280
+2025-11-27 13:44:09,596 TriSonica: Written: Wind Speed: 2025-11-27 13:44:09 m/s
+2025-11-27 13:44:09,800 TriSonica: Raw data: S  00.05 D  114 U -00.05 V  00.02 W  00.01 T  24.63 H  37.21 P  1006.48 PI  179.6 RO  180.0 MD  276
+2025-11-27 13:44:09,800 TriSonica: Written: Wind Speed: 2025-11-27 13:44:09 m/s
+2025-11-27 13:44:10,004 TriSonica: Raw data: S  00.04 D  129 U -00.03 V  00.03 W  00.01 T  24.62 H  37.19 P  1006.51 PI  179.6 RO  179.9 MD  279
+2025-11-27 13:44:10,004 TriSonica: Written: Wind Speed: 2025-11-27 13:44:10 m/s
+2025-11-27 13:44:10,208 TriSonica: Raw data: S  00.05 D  112 U -00.05 V  00.02 W  00.02 T  24.60 H  37.18 P  1006.51 PI  179.6 RO  180.0 MD  279
+2025-11-27 13:44:10,209 TriSonica: Written: Wind Speed: 2025-11-27 13:44:10 m/s
+2025-11-27 13:44:10,417 TriSonica: Raw data: S  00.05 D  123 U -00.04 V  00.02 W  00.02 T  24.58 H  37.19 P  1006.50 PI  179.6 RO  179.9 MD  278
+2025-11-27 13:44:10,418 TriSonica: Written: Wind Speed: 2025-11-27 13:44:10 m/s
+2025-11-27 13:44:10,622 TriSonica: Raw data: S  00.04 D  126 U -00.03 V  00.02 W  00.02 T  24.61 H  37.25 P  1006.51 PI  179.6 RO  180.0 MD  280
+2025-11-27 13:44:10,622 TriSonica: Written: Wind Speed: 2025-11-27 13:44:10 m/s
+2025-11-27 13:44:10,826 TriSonica: Raw data: S  00.03 D  107 U -00.02 V  00.01 W  00.01 T  24.63 H  37.21 P  1006.47 PI  179.6 RO  179.9 MD  273
+2025-11-27 13:44:10,826 TriSonica: Written: Wind Speed: 2025-11-27 13:44:10 m/s
+2025-11-27 13:44:11,030 TriSonica: Raw data: S  00.04 D  085 U -00.04 V -00.00 W  00.02 T  24.64 H  37.20 P  1006.50 PI  179.6 RO  179.9 MD  279
+2025-11-27 13:44:11,030 TriSonica: Written: Wind Speed: 2025-11-27 13:44:11 m/s
+2025-11-27 13:44:11,234 TriSonica: Raw data: S  00.02 D  081 U -00.02 V -00.00 W  00.02 T  24.65 H  37.21 P  1006.52 PI  179.6 RO  180.0 MD  278
+2025-11-27 13:44:11,234 TriSonica: Written: Wind Speed: 2025-11-27 13:44:11 m/s
+2025-11-27 13:44:11,438 TriSonica: Raw data: S  00.03 D  112 U -00.02 V  00.01 W  00.01 T  24.65 H  37.21 P  1006.49 PI  179.6 RO  180.0 MD  282
+2025-11-27 13:44:11,438 TriSonica: Written: Wind Speed: 2025-11-27 13:44:11 m/s
+2025-11-27 13:44:11,642 TriSonica: Raw data: S  00.06 D  099 U -00.05 V  00.01 W  00.03 T  24.63 H  37.21 P  1006.50 PI  179.6 RO  180.0 MD  282
+2025-11-27 13:44:11,642 TriSonica: Written: Wind Speed: 2025-11-27 13:44:11 m/s
+2025-11-27 13:44:11,846 TriSonica: Raw data: S  00.05 D  094 U -00.04 V  00.00 W  00.03 T  24.65 H  37.22 P  1006.48 PI  179.6 RO  179.9 MD  281
+2025-11-27 13:44:11,846 TriSonica: Written: Wind Speed: 2025-11-27 13:44:11 m/s
+2025-11-27 13:44:12,050 TriSonica: Raw data: S  00.02 D  033 U -00.01 V -00.02 W  00.01 T  24.67 H  37.26 P  1006.49 PI  179.6 RO  180.0 MD  278
+2025-11-27 13:44:12,050 TriSonica: Written: Wind Speed: 2025-11-27 13:44:12 m/s
+2025-11-27 13:44:12,254 TriSonica: Raw data: S  00.03 D  098 U -00.03 V  00.00 W  00.01 T  24.71 H  37.25 P  1006.49 PI  179.6 RO  180.0 MD  277
+2025-11-27 13:44:12,254 TriSonica: Written: Wind Speed: 2025-11-27 13:44:12 m/s
+2025-11-27 13:44:12,458 TriSonica: Raw data: S  00.03 D  109 U -00.02 V  00.01 W  00.03 T  24.69 H  37.23 P  1006.52 PI  179.6 RO  179.9 MD  276
+2025-11-27 13:44:12,459 TriSonica: Written: Wind Speed: 2025-11-27 13:44:12 m/s
+2025-11-27 13:44:12,564 TriSonica: Raw data: S  00.03 D  054 U -00.01 V -00.01 W  00.02 T  24.85 H  37.22 P  1006.47 PI  179.6 RO  180.0 MD  278
+2025-11-27 13:44:12,564 TriSonica: Written: Wind Speed: 2025-11-27 13:44:12 m/s
+2025-11-27 13:44:12,768 TriSonica: Raw data: S  00.05 D  049 U -00.03 V -00.03 W  00.03 T  24.84 H  37.22 P  1006.51 PI  179.6 RO  179.9 MD  280
+2025-11-27 13:44:12,769 TriSonica: Written: Wind Speed: 2025-11-27 13:44:12 m/s
+2025-11-27 13:44:12,972 TriSonica: Raw data: S  00.06 D  042 U -00.03 V -00.04 W  00.02 T  24.83 H  37.23 P  1006.51 PI  179.6 RO  180.0 MD  287
+2025-11-27 13:44:12,974 TriSonica: Written: Wind Speed: 2025-11-27 13:44:12 m/s
+2025-11-27 13:44:13,177 TriSonica: Raw data: S  00.05 D  078 U -00.05 V -00.01 W  00.02 T  24.84 H  37.17 P  1006.50 PI  179.6 RO  180.0 MD  278
+2025-11-27 13:44:13,178 TriSonica: Written: Wind Speed: 2025-11-27 13:44:13 m/s
+2025-11-27 13:44:13,381 TriSonica: Raw data: S  00.07 D  082 U -00.06 V -00.01 W  00.03 T  24.81 H  37.25 P  1006.49 PI  179.6 RO  179.9 MD  283
+2025-11-27 13:44:13,382 TriSonica: Written: Wind Speed: 2025-11-27 13:44:13 m/s
+2025-11-27 13:44:13,585 TriSonica: Raw data: S  00.08 D  072 U -00.06 V -00.02 W  00.04 T  24.83 H  37.22 P  1006.50 PI  179.6 RO  180.0 MD  285
+2025-11-27 13:44:13,586 TriSonica: Written: Wind Speed: 2025-11-27 13:44:13 m/s
+2025-11-27 13:44:13,790 TriSonica: Raw data: S  00.08 D  081 U -00.07 V -00.01 W  00.03 T  24.85 H  37.20 P  1006.52 PI  179.6 RO  179.9 MD  282
+2025-11-27 13:44:13,790 TriSonica: Written: Wind Speed: 2025-11-27 13:44:13 m/s
+2025-11-27 13:44:13,997 TriSonica: Raw data: S  00.09 D  069 U -00.08 V -00.03 W  00.03 T  24.82 H  37.26 P  1006.50 PI  179.6 RO  180.0 MD  277
+2025-11-27 13:44:13,998 TriSonica: Written: Wind Speed: 2025-11-27 13:44:13 m/s
+2025-11-27 13:44:14,201 TriSonica: Raw data: S  00.08 D  082 U -00.07 V -00.01 W  00.03 T  24.77 H  37.21 P  1006.52 PI  179.6 RO  179.9 MD  275
+2025-11-27 13:44:14,202 TriSonica: Written: Wind Speed: 2025-11-27 13:44:14 m/s
+2025-11-27 13:44:14,405 TriSonica: Raw data: S  00.06 D  086 U -00.05 V -00.00 W  00.03 T  24.75 H  37.22 P  1006.52 PI  179.6 RO  179.9 MD  280
+2025-11-27 13:44:14,406 TriSonica: Written: Wind Speed: 2025-11-27 13:44:14 m/s
+2025-11-27 13:44:14,609 TriSonica: Raw data: S  00.06 D  081 U -00.04 V -00.01 W  00.04 T  24.71 H  37.22 P  1006.50 PI  179.6 RO -180.0 MD  279
+2025-11-27 13:44:14,610 TriSonica: Written: Wind Speed: 2025-11-27 13:44:14 m/s
+2025-11-27 13:44:14,814 TriSonica: Raw data: S  00.07 D  073 U -00.06 V -00.02 W  00.03 T  24.65 H  37.19 P  1006.52 PI  179.6 RO  179.9 MD  279
+2025-11-27 13:44:14,814 TriSonica: Written: Wind Speed: 2025-11-27 13:44:14 m/s
+2025-11-27 13:44:15,017 TriSonica: Raw data: S  00.08 D  076 U -00.07 V -00.02 W  00.02 T  24.64 H  37.22 P  1006.49 PI  179.6 RO  179.9 MD  279
+2025-11-27 13:44:15,018 TriSonica: Written: Wind Speed: 2025-11-27 13:44:15 m/s
+2025-11-27 13:44:15,222 TriSonica: Raw data: S  00.07 D  109 U -00.06 V  00.02 W  00.01 T  24.67 H  37.19 P  1006.48 PI  179.6 RO  180.0 MD  279
+2025-11-27 13:44:15,222 TriSonica: Written: Wind Speed: 2025-11-27 13:44:15 m/s
+2025-11-27 13:44:15,426 TriSonica: Raw data: S  00.06 D  096 U -00.06 V  00.01 W  00.02 T  24.80 H  37.22 P  1006.51 PI  179.6 RO  180.0 MD  291
+2025-11-27 13:44:15,426 TriSonica: Written: Wind Speed: 2025-11-27 13:44:15 m/s
+2025-11-27 13:44:15,636 TriSonica: Raw data: S  00.06 D  106 U -00.05 V  00.02 W  00.03 T  24.85 H  37.19 P  1006.51 PI  179.6 RO  180.0 MD  281
+2025-11-27 13:44:15,637 TriSonica: Written: Wind Speed: 2025-11-27 13:44:15 m/s
+2025-11-27 13:44:15,846 TriSonica: Raw data: S  00.05 D  115 U -00.04 V  00.02 W  00.01 T  24.79 H  37.25 P  1006.53 PI  179.6 RO  180.0 MD  284
+2025-11-27 13:44:15,846 TriSonica: Written: Wind Speed: 2025-11-27 13:44:15 m/s
+2025-11-27 13:44:16,056 TriSonica: Raw data: S  00.04 D  121 U -00.03 V  00.02 W  00.02 T  24.74 H  37.21 P  1006.52 PI  179.6 RO  179.9 MD  281
+2025-11-27 13:44:16,057 TriSonica: Written: Wind Speed: 2025-11-27 13:44:16 m/s
+2025-11-27 13:44:16,165 TriSonica: Raw data: S  00.05 D  116 U -00.04 V  00.02 W  00.02 T  24.71 H  37.21 P  1006.49 PI  179.6 RO  179.9 MD  274
+2025-11-27 13:44:16,166 TriSonica: Written: Wind Speed: 2025-11-27 13:44:16 m/s
+2025-11-27 13:44:16,376 TriSonica: Raw data: S  00.05 D  097 U -00.04 V  00.01 W  00.03 T  24.72 H  37.23 P  1006.49 PI  179.6 RO  180.0 MD  282
+2025-11-27 13:44:16,377 TriSonica: Written: Wind Speed: 2025-11-27 13:44:16 m/s
+2025-11-27 13:44:16,586 TriSonica: Raw data: S  00.03 D  110 U -00.02 V  00.01 W  00.02 T  24.75 H  37.19 P  1006.51 PI  179.6 RO  179.9 MD  281
+2025-11-27 13:44:16,587 TriSonica: Written: Wind Speed: 2025-11-27 13:44:16 m/s
+2025-11-27 13:44:16,791 TriSonica: Raw data: S  00.04 D  116 U -00.03 V  00.02 W  00.03 T  24.76 H  37.23 P  1006.50 PI  179.6 RO  180.0 MD  283
+2025-11-27 13:44:16,792 TriSonica: Written: Wind Speed: 2025-11-27 13:44:16 m/s
+2025-11-27 13:44:16,995 TriSonica: Raw data: S  00.03 D  091 U -00.02 V  00.00 W  00.02 T  24.81 H  37.20 P  1006.52 PI  179.6 RO  180.0 MD  278
+2025-11-27 13:44:16,996 TriSonica: Written: Wind Speed: 2025-11-27 13:44:16 m/s
+2025-11-27 13:44:17,199 TriSonica: Raw data: S  00.04 D  111 U -00.03 V  00.01 W  00.02 T  24.82 H  37.19 P  1006.52 PI  179.6 RO  179.9 MD  280
+2025-11-27 13:44:17,200 TriSonica: Written: Wind Speed: 2025-11-27 13:44:17 m/s
+2025-11-27 13:44:17,403 TriSonica: Raw data: S  00.03 D  046 U -00.01 V -00.01 W  00.02 T  24.83 H  37.25 P  1006.53 PI  179.6 RO  179.9 MD  282
+2025-11-27 13:44:17,404 TriSonica: Written: Wind Speed: 2025-11-27 13:44:17 m/s
+2025-11-27 13:44:17,607 TriSonica: Raw data: S  00.02 D  040 U -00.01 V -00.01 W  00.01 T  24.85 H  37.22 P  1006.50 PI  179.6 RO  180.0 MD  283
+2025-11-27 13:44:17,608 TriSonica: Written: Wind Speed: 2025-11-27 13:44:17 m/s
+2025-11-27 13:44:17,811 TriSonica: Raw data: S  00.02 D  148 U -00.01 V  00.01 W  00.01 T  24.88 H  37.21 P  1006.52 PI  179.6 RO  180.0 MD  279
+2025-11-27 13:44:17,812 TriSonica: Written: Wind Speed: 2025-11-27 13:44:17 m/s
+2025-11-27 13:44:18,015 TriSonica: Raw data: S  00.03 D  072 U -00.01 V -00.00 W  00.02 T  24.89 H  37.25 P  1006.52 PI  179.6 RO  180.0 MD  281
+2025-11-27 13:44:18,016 TriSonica: Written: Wind Speed: 2025-11-27 13:44:18 m/s
+2025-11-27 13:44:18,219 TriSonica: Raw data: S  00.03 D  074 U -00.02 V -00.01 W  00.02 T  24.89 H  37.23 P  1006.48 PI  179.6 RO  179.9 MD  286
+2025-11-27 13:44:18,220 TriSonica: Written: Wind Speed: 2025-11-27 13:44:18 m/s
+2025-11-27 13:44:18,423 TriSonica: Raw data: S  00.03 D  059 U -00.01 V -00.01 W  00.02 T  24.89 H  37.19 P  1006.49 PI  179.6 RO  180.0 MD  280
+2025-11-27 13:44:18,424 TriSonica: Written: Wind Speed: 2025-11-27 13:44:18 m/s
+2025-11-27 13:44:18,627 TriSonica: Raw data: S  00.03 D  339 U  00.01 V -00.02 W  00.02 T  24.88 H  37.21 P  1006.52 PI  179.6 RO  179.9 MD  282
+2025-11-27 13:44:18,628 TriSonica: Written: Wind Speed: 2025-11-27 13:44:18 m/s
+2025-11-27 13:44:18,832 TriSonica: Raw data: S  00.04 D  033 U -00.01 V -00.02 W  00.03 T  24.83 H  37.22 P  1006.53 PI  179.6 RO  180.0 MD  279
+2025-11-27 13:44:18,832 TriSonica: Written: Wind Speed: 2025-11-27 13:44:18 m/s
+2025-11-27 13:44:19,036 TriSonica: Raw data: S  00.04 D  036 U -00.01 V -00.02 W  00.03 T  24.73 H  37.19 P  1006.55 PI  179.6 RO  180.0 MD  279
+2025-11-27 13:44:19,037 TriSonica: Written: Wind Speed: 2025-11-27 13:44:19 m/s
+2025-11-27 13:44:19,240 TriSonica: Raw data: S  00.04 D  018 U -00.01 V -00.04 W  00.01 T  24.57 H  37.25 P  1006.53 PI  179.6 RO  180.0 MD  279
+2025-11-27 13:44:19,241 TriSonica: Written: Wind Speed: 2025-11-27 13:44:19 m/s
+2025-11-27 13:44:19,444 TriSonica: Raw data: S  00.03 D  357 U  00.00 V -00.02 W -00.01 T  24.50 H  37.23 P  1006.51 PI  179.6 RO  179.9 MD  281
+2025-11-27 13:44:19,445 TriSonica: Written: Wind Speed: 2025-11-27 13:44:19 m/s
+2025-11-27 13:44:19,649 TriSonica: Raw data: S  00.04 D  085 U -00.03 V -00.00 W  00.00 T  24.48 H  37.24 P  1006.52 PI  179.6 RO  180.0 MD  278
+2025-11-27 13:44:19,650 TriSonica: Written: Wind Speed: 2025-11-27 13:44:19 m/s
+2025-11-27 13:44:19,854 TriSonica: Raw data: S  00.03 D  086 U -00.03 V -00.00 W -00.01 T  24.50 H  37.21 P  1006.49 PI  179.6 RO  180.0 MD  283
+2025-11-27 13:44:19,854 TriSonica: Written: Wind Speed: 2025-11-27 13:44:19 m/s
+2025-11-27 13:44:20,057 TriSonica: Raw data: S  00.05 D  051 U -00.04 V -00.03 W  00.00 T  24.51 H  37.19 P  1006.49 PI  179.6 RO  180.0 MD  284
+2025-11-27 13:44:20,058 TriSonica: Written: Wind Speed: 2025-11-27 13:44:20 m/s
+2025-11-27 13:44:20,164 TriSonica: Raw data: S  00.04 D  062 U -00.04 V -00.02 W -00.01 T  24.51 H  37.23 P  1006.51 PI  179.6 RO  180.0 MD  279
+2025-11-27 13:44:20,164 TriSonica: Written: Wind Speed: 2025-11-27 13:44:20 m/s
+2025-11-27 13:44:20,368 TriSonica: Raw data: S  00.07 D  063 U -00.06 V -00.03 W  00.03 T  24.50 H  37.26 P  1006.50 PI  179.6 RO  180.0 MD  282
+2025-11-27 13:44:20,368 TriSonica: Written: Wind Speed: 2025-11-27 13:44:20 m/s
+2025-11-27 13:44:20,574 TriSonica: Raw data: S  00.06 D  049 U -00.04 V -00.04 W  00.02 T  24.52 H  37.17 P  1006.52 PI  179.6 RO  180.0 MD  280
+2025-11-27 13:44:20,575 TriSonica: Written: Wind Speed: 2025-11-27 13:44:20 m/s
+2025-11-27 13:44:20,778 TriSonica: Raw data: S  00.05 D  051 U -00.03 V -00.02 W  00.02 T  24.54 H  37.24 P  1006.53 PI  179.6 RO  180.0 MD  280
+2025-11-27 13:44:20,779 TriSonica: Written: Wind Speed: 2025-11-27 13:44:20 m/s
+2025-11-27 13:44:20,983 TriSonica: Raw data: S  00.04 D  054 U -00.03 V -00.02 W  00.02 T  24.57 H  37.27 P  1006.51 PI  179.6 RO  180.0 MD  278
+2025-11-27 13:44:20,983 TriSonica: Written: Wind Speed: 2025-11-27 13:44:20 m/s
+2025-11-27 13:44:21,187 TriSonica: Raw data: S  00.01 D  141 U -00.00 V  00.01 W  00.00 T  24.64 H  37.21 P  1006.52 PI  179.6 RO  180.0 MD  277
+2025-11-27 13:44:21,187 TriSonica: Written: Wind Speed: 2025-11-27 13:44:21 m/s
+2025-11-27 13:44:21,391 TriSonica: Raw data: S  00.03 D  222 U  00.02 V  00.03 W  00.00 T  24.74 H  37.21 P  1006.50 PI  179.6 RO  180.0 MD  280
+2025-11-27 13:44:21,391 TriSonica: Written: Wind Speed: 2025-11-27 13:44:21 m/s
+2025-11-27 13:44:21,595 TriSonica: Raw data: S  00.02 D  266 U  00.02 V  00.00 W  00.00 T  24.74 H  37.21 P  1006.49 PI  179.6 RO  179.9 MD  279
+2025-11-27 13:44:21,596 TriSonica: Written: Wind Speed: 2025-11-27 13:44:21 m/s
+2025-11-27 13:44:21,801 TriSonica: Raw data: S  00.02 D  274 U  00.01 V -00.00 W  00.01 T  24.68 H  37.25 P  1006.52 PI  179.6 RO  179.9 MD  280
+2025-11-27 13:44:21,803 TriSonica: Written: Wind Speed: 2025-11-27 13:44:21 m/s
+2025-11-27 13:44:22,007 TriSonica: Raw data: S  00.03 D  314 U  00.02 V -00.02 W  00.02 T  24.71 H  37.24 P  1006.49 PI  179.6 RO  179.9 MD  282
+2025-11-27 13:44:22,008 TriSonica: Written: Wind Speed: 2025-11-27 13:44:22 m/s
+2025-11-27 13:44:22,211 TriSonica: Raw data: S  00.01 D  201 U  00.00 V  00.01 W  00.01 T  24.72 H  37.23 P  1006.51 PI  179.6 RO  180.0 MD  280
+2025-11-27 13:44:22,212 TriSonica: Written: Wind Speed: 2025-11-27 13:44:22 m/s
+2025-11-27 13:44:22,415 TriSonica: Raw data: S  00.02 D  176 U -00.00 V  00.02 W  00.01 T  24.67 H  37.24 P  1006.50 PI  179.6 RO  180.0 MD  274
+2025-11-27 13:44:22,416 TriSonica: Written: Wind Speed: 2025-11-27 13:44:22 m/s
+2025-11-27 13:44:22,620 TriSonica: Raw data: S  00.05 D  166 U -00.01 V  00.04 W  00.03 T  24.62 H  37.25 P  1006.48 PI  179.6 RO  180.0 MD  276
+2025-11-27 13:44:22,620 TriSonica: Written: Wind Speed: 2025-11-27 13:44:22 m/s
+2025-11-27 13:44:22,824 TriSonica: Raw data: S  00.03 D  130 U -00.02 V  00.02 W  00.02 T  24.56 H  37.26 P  1006.52 PI  179.6 RO  180.0 MD  277
+2025-11-27 13:44:22,824 TriSonica: Written: Wind Speed: 2025-11-27 13:44:22 m/s
+2025-11-27 13:44:23,028 TriSonica: Raw data: S  00.05 D  120 U -00.04 V  00.02 W  00.02 T  24.54 H  37.23 P  1006.52 PI  179.6 RO  180.0 MD  278
+2025-11-27 13:44:23,028 TriSonica: Written: Wind Speed: 2025-11-27 13:44:23 m/s
+2025-11-27 13:44:23,232 TriSonica: Raw data: S  00.04 D  111 U -00.03 V  00.01 W  00.01 T  24.53 H  37.25 P  1006.51 PI  179.6 RO  180.0 MD  279
+2025-11-27 13:44:23,233 TriSonica: Written: Wind Speed: 2025-11-27 13:44:23 m/s
+2025-11-27 13:44:23,437 TriSonica: Raw data: S  00.06 D  110 U -00.05 V  00.02 W  00.02 T  24.52 H  37.24 P  1006.53 PI  179.6 RO  179.9 MD  278
+2025-11-27 13:44:23,438 TriSonica: Written: Wind Speed: 2025-11-27 13:44:23 m/s
+2025-11-27 13:44:23,641 TriSonica: Raw data: S  00.04 D  115 U -00.04 V  00.02 W  00.01 T  24.55 H  37.22 P  1006.51 PI  179.6 RO  180.0 MD  280
+2025-11-27 13:44:23,642 TriSonica: Written: Wind Speed: 2025-11-27 13:44:23 m/s
+2025-11-27 13:44:23,691 TriSonica: Stopping TriSonica data collection...
+2025-11-27 13:44:23,719 - SensorController - ERROR - Spectrometer ERROR: 2025-11-27 13:43:54,275 OceanSR6: Starting continuous reading. Press Ctrl+C to stop.
+2025-11-27 13:44:23,721 - SensorController - INFO - Stopped Spectrometer
+2025-11-27 13:44:23,722 - SensorController - INFO - All processes stopped
+2025-11-27 13:44:23,722 - SensorController - INFO - Stopping all processes...
+2025-11-27 13:44:23,723 - SensorController - INFO - Stopping merger process...
+2025-11-27 13:44:23,724 - SensorController - INFO - Stopping iMet...
+2025-11-27 13:44:23,724 - SensorController - INFO - Stopping POM...
+2025-11-27 13:44:23,725 - SensorController - INFO - Stopping TriSonica...
+2025-11-27 13:44:23,725 - SensorController - INFO - Stopping Spectrometer...
+2025-11-27 13:44:23,726 - SensorController - INFO - All processes stopped
+2025-11-30 09:47:52,351 - SensorController - INFO - Loaded configuration from sensor_config.json
+2025-11-30 09:47:52,352 - SensorController - INFO - Initialized sensor: iMet
+2025-11-30 09:47:52,353 - SensorController - INFO - Initialized sensor: POM
+2025-11-30 09:47:52,354 - SensorController - INFO - Initialized sensor: TriSonica
+2025-11-30 09:47:52,354 - SensorController - INFO - Initialized sensor: Spectrometer
+2025-11-30 09:47:52,355 - SensorController - INFO - Initialized data merger
+2025-11-30 09:47:52,355 - SensorController - INFO - Starting all sensor processes...
+2025-11-30 09:47:52,357 - SensorController - DEBUG - Starting iMet with script: /home/rsp/air_pollution_collector/uri_aplogger/iMet_safe.py
+2025-11-30 09:47:52,362 - SensorController - INFO - Started iMet (PID: 39049)
+2025-11-30 09:47:52,363 - SensorController - INFO - Waiting 2 seconds for iMet to initialize...
+2025-11-30 09:47:54,371 - SensorController - DEBUG - Starting POM with script: /home/rsp/air_pollution_collector/uri_aplogger/pom_safe.py
+2025-11-30 09:47:54,376 - SensorController - INFO - Started POM (PID: 39079)
+2025-11-30 09:47:54,377 - SensorController - INFO - Waiting 2 seconds for POM to initialize...
+2025-11-30 09:47:56,380 - SensorController - DEBUG - Starting TriSonica with script: /home/rsp/air_pollution_collector/uri_aplogger/trisonica_safe.py
+2025-11-30 09:47:56,385 - SensorController - INFO - Started TriSonica (PID: 39103)
+2025-11-30 09:47:56,386 - SensorController - INFO - Waiting 2 seconds for TriSonica to initialize...
+2025-11-30 09:47:58,389 - SensorController - DEBUG - Starting Spectrometer with script: /home/rsp/air_pollution_collector/uri_aplogger/spectro.py
+2025-11-30 09:47:58,394 - SensorController - INFO - Started Spectrometer (PID: 39109)
+2025-11-30 09:47:58,396 - SensorController - INFO - Waiting 2 seconds for Spectrometer to initialize...
+2025-11-30 09:48:00,399 - SensorController - INFO - Waiting 5 seconds before starting merger...
+2025-11-30 09:48:05,405 - SensorController - DEBUG - Starting Merger with script: /home/rsp/air_pollution_collector/uri_aplogger/merger.py
+2025-11-30 09:48:05,411 - SensorController - INFO - Started Merger (PID: 39160)
+2025-11-30 09:48:05,411 - SensorController - INFO - Merger process started
+2025-11-30 09:48:05,412 - SensorController - INFO - All processes started
+2025-11-30 09:48:05,412 - SensorController - INFO - Sensor controller running. Press Ctrl+C to stop.
+2025-11-30 09:48:45,109 - SensorController - INFO - Received signal 2, shutting down...
+2025-11-30 09:48:45,111 - SensorController - INFO - Stopping all processes...
+2025-11-30 09:48:45,112 - SensorController - INFO - Stopping merger process...
+2025-11-30 09:48:45,117 - SensorController - ERROR - Merger ERROR: 2025-11-30 09:48:05,518 Merger: Starting sensor merger - Input: output, Output: output/merged_sensors.csv
+2025-11-30 09:48:45,121 - SensorController - INFO - Stopped Merger
+2025-11-30 09:48:45,122 - SensorController - INFO - Stopping iMet...
+2025-11-30 09:48:45,128 - SensorController - ERROR - iMet ERROR: 2025-11-30 09:47:52,519 iMet: Starting iMet data collection
+2025-11-30 09:48:45,130 - SensorController - INFO - Stopped iMet
+2025-11-30 09:48:45,131 - SensorController - INFO - Stopping POM...
+2025-11-30 09:48:45,144 - SensorController - ERROR - POM ERROR: 2025-11-30 09:47:54,517 POM: Starting POM data collection
+2025-11-30 09:48:45,148 - SensorController - INFO - Stopped POM
+2025-11-30 09:48:45,149 - SensorController - INFO - Stopping TriSonica...
+2025-11-30 09:48:45,157 - SensorController - ERROR - TriSonica ERROR: 2025-11-30 09:47:56,529 TriSonica: Starting TriSonica data collection
+2025-11-30 09:48:45,160 - SensorController - INFO - Stopped TriSonica
+2025-11-30 09:48:45,162 - SensorController - INFO - Stopping Spectrometer...
+2025-11-30 09:48:45,174 - SensorController - ERROR - Spectrometer ERROR: 2025-11-30 09:47:58,670 OceanSR6: Starting continuous reading. Press Ctrl+C to stop.
+2025-11-30 09:48:45,179 - SensorController - INFO - Stopped Spectrometer
+2025-11-30 09:48:45,180 - SensorController - INFO - All processes stopped
+2025-11-30 09:48:45,181 - SensorController - INFO - Stopping all processes...
+2025-11-30 09:48:45,181 - SensorController - INFO - Stopping merger process...
+2025-11-30 09:48:45,182 - SensorController - INFO - Stopping iMet...
+2025-11-30 09:48:45,183 - SensorController - INFO - Stopping POM...
+2025-11-30 09:48:45,183 - SensorController - INFO - Stopping TriSonica...
+2025-11-30 09:48:45,184 - SensorController - INFO - Stopping Spectrometer...
+2025-11-30 09:48:45,185 - SensorController - INFO - All processes stopped
+2025-12-01 09:54:19,810 - SensorController - INFO - Loaded configuration from sensor_config.json
+2025-12-01 09:54:19,811 - SensorController - INFO - Initialized sensor: imet
+2025-12-01 09:54:19,812 - SensorController - INFO - Initialized sensor: trisonica
+2025-12-01 09:54:19,813 - SensorController - INFO - Initialized data merger
+2025-12-01 09:54:19,813 - SensorController - INFO - Starting all sensor processes...
+2025-12-01 09:54:19,814 - SensorController - DEBUG - Starting imet with script: /home/rsp/air_pollution_collector/uri_aplogger/sensor_runner.py
+2025-12-01 09:54:19,820 - SensorController - INFO - Started imet (PID: 58048)
+2025-12-01 09:54:19,821 - SensorController - INFO - Waiting 5 seconds for imet to initialize...
+2025-12-01 09:54:19,981 - SensorController - INFO - imet: Usage: python sensor_runner.py <sensor_name>
+2025-12-01 09:54:24,824 - SensorController - DEBUG - Starting trisonica with script: /home/rsp/air_pollution_collector/uri_aplogger/sensor_runner.py
+2025-12-01 09:54:24,829 - SensorController - INFO - Started trisonica (PID: 58083)
+2025-12-01 09:54:24,829 - SensorController - INFO - Waiting 5 seconds for trisonica to initialize...
+2025-12-01 09:54:24,974 - SensorController - INFO - trisonica: Usage: python sensor_runner.py <sensor_name>
+2025-12-01 09:54:29,831 - SensorController - INFO - Waiting 15 seconds before starting merger...
+2025-12-01 09:54:40,474 - SensorController - INFO - Received signal 2, shutting down...
+2025-12-01 09:54:40,474 - SensorController - INFO - Stopping all processes...
+2025-12-01 09:54:40,474 - SensorController - INFO - Stopping merger process...
+2025-12-01 09:54:40,475 - SensorController - INFO - Stopping imet...
+2025-12-01 09:54:40,475 - SensorController - INFO - Stopped imet
+2025-12-01 09:54:40,475 - SensorController - INFO - Stopping trisonica...
+2025-12-01 09:54:40,475 - SensorController - INFO - Stopped trisonica
+2025-12-01 09:54:40,476 - SensorController - INFO - All processes stopped
+2025-12-01 09:54:50,622 - SensorController - INFO - Loaded configuration from sensor_config.json
+2025-12-01 09:54:50,623 - SensorController - INFO - Initialized sensor: imet
+2025-12-01 09:54:50,623 - SensorController - INFO - Initialized sensor: spectro
+2025-12-01 09:54:50,624 - SensorController - INFO - Initialized data merger
+2025-12-01 09:54:50,625 - SensorController - INFO - Starting all sensor processes...
+2025-12-01 09:54:50,626 - SensorController - DEBUG - Starting imet with script: /home/rsp/air_pollution_collector/uri_aplogger/sensor_runner.py
+2025-12-01 09:54:50,632 - SensorController - INFO - Started imet (PID: 58316)
+2025-12-01 09:54:50,633 - SensorController - INFO - Waiting 5 seconds for imet to initialize...
+2025-12-01 09:54:50,824 - SensorController - INFO - imet: Usage: python sensor_runner.py <sensor_name>
+2025-12-01 09:54:55,636 - SensorController - DEBUG - Starting spectro with script: /home/rsp/air_pollution_collector/uri_aplogger/spectro_timestamped.py
+2025-12-01 09:54:55,647 - SensorController - INFO - Started spectro (PID: 58371)
+2025-12-01 09:54:55,648 - SensorController - INFO - Waiting 2 seconds for spectro to initialize...
+2025-12-01 09:54:57,651 - SensorController - INFO - Waiting 15 seconds before starting merger...
+2025-12-01 09:55:12,662 - SensorController - DEBUG - Starting Merger with script: /home/rsp/air_pollution_collector/uri_aplogger/merger_fresh.py
+2025-12-01 09:55:12,673 - SensorController - INFO - Started Merger (PID: 58487)
+2025-12-01 09:55:12,675 - SensorController - INFO - Merger process started
+2025-12-01 09:55:12,676 - SensorController - INFO - All processes started
+2025-12-01 09:55:12,677 - SensorController - INFO - Sensor controller running. Press Ctrl+C to stop.
+2025-12-01 09:55:42,703 - SensorController - WARNING - Sensor imet is not running (exit code: 1)
+2025-12-01 09:55:42,704 - SensorController - INFO - Restarting imet (restart #1)
+2025-12-01 09:55:42,704 - SensorController - INFO - Stopped imet
+2025-12-01 09:55:45,708 - SensorController - DEBUG - Starting imet with script: /home/rsp/air_pollution_collector/uri_aplogger/sensor_runner.py
+2025-12-01 09:55:45,713 - SensorController - INFO - Started imet (PID: 58645)
+2025-12-01 09:55:45,863 - SensorController - INFO - imet: Usage: python sensor_runner.py <sensor_name>
+2025-12-01 09:55:50,652 - SensorController - INFO - Received signal 2, shutting down...
+2025-12-01 09:55:50,652 - SensorController - INFO - Stopping all processes...
+2025-12-01 09:55:50,653 - SensorController - INFO - Stopping merger process...
+2025-12-01 09:55:50,655 - SensorController - ERROR - Merger ERROR: 2025-12-01 09:55:12,835 Merger: Starting fresh data merger - Session: 2025-12-01 09:55:12.835006
+2025-12-01 09:55:50,657 - SensorController - INFO - Stopped Merger
+2025-12-01 09:55:50,657 - SensorController - INFO - Stopping imet...
+2025-12-01 09:55:50,657 - SensorController - INFO - Stopped imet
+2025-12-01 09:55:50,657 - SensorController - INFO - Stopping spectro...
+2025-12-01 09:55:50,663 - SensorController - ERROR - spectro ERROR: 2025-12-01 09:54:56,208 Spectrometer: Starting Spectrometer data collection. Output: output/spectro_data_20251201_095456.csv
+2025-12-01 09:55:50,665 - SensorController - INFO - Stopped spectro
+2025-12-01 09:55:50,666 - SensorController - INFO - All processes stopped
+2025-12-01 09:55:50,666 - SensorController - INFO - Stopping all processes...
+2025-12-01 09:55:50,666 - SensorController - INFO - Stopping merger process...
+2025-12-01 09:55:50,666 - SensorController - INFO - Stopping imet...
+2025-12-01 09:55:50,667 - SensorController - INFO - Stopping spectro...
+2025-12-01 09:55:50,667 - SensorController - INFO - All processes stopped
+2025-12-01 09:58:03,941 - SensorController - INFO - Loaded configuration from sensor_config.json
+2025-12-01 09:58:03,942 - SensorController - INFO - Initialized sensor: imet
+2025-12-01 09:58:03,942 - SensorController - INFO - Initialized sensor: spectro
+2025-12-01 09:58:03,942 - SensorController - INFO - Initialized data merger
+2025-12-01 09:58:03,943 - SensorController - INFO - Starting all sensor processes...
+2025-12-01 09:58:03,943 - SensorController - DEBUG - Starting imet with script: /home/rsp/air_pollution_collector/uri_aplogger/sensor_runner_time.py
+2025-12-01 09:58:03,948 - SensorController - INFO - Started imet (PID: 58789)
+2025-12-01 09:58:03,949 - SensorController - INFO - Waiting 5 seconds for imet to initialize...
+2025-12-01 09:58:04,104 - SensorController - INFO - imet: Usage: python sensor_runner.py <sensor_name>
+2025-12-01 09:58:08,956 - SensorController - DEBUG - Starting spectro with script: /home/rsp/air_pollution_collector/uri_aplogger/spectro_timestamped.py
+2025-12-01 09:58:08,966 - SensorController - INFO - Started spectro (PID: 58827)
+2025-12-01 09:58:08,968 - SensorController - INFO - Waiting 2 seconds for spectro to initialize...
+2025-12-01 09:58:10,971 - SensorController - INFO - Waiting 15 seconds before starting merger...
+2025-12-01 09:58:25,988 - SensorController - DEBUG - Starting Merger with script: /home/rsp/air_pollution_collector/uri_aplogger/merger_fresh.py
+2025-12-01 09:58:25,999 - SensorController - INFO - Started Merger (PID: 58879)
+2025-12-01 09:58:26,003 - SensorController - INFO - Merger process started
+2025-12-01 09:58:26,005 - SensorController - INFO - All processes started
+2025-12-01 09:58:26,007 - SensorController - INFO - Sensor controller running. Press Ctrl+C to stop.
+2025-12-01 09:58:36,146 - SensorController - INFO - Received signal 2, shutting down...
+2025-12-01 09:58:36,147 - SensorController - INFO - Stopping all processes...
+2025-12-01 09:58:36,148 - SensorController - INFO - Stopping merger process...
+2025-12-01 09:58:36,150 - SensorController - ERROR - Merger ERROR: 2025-12-01 09:58:26,156 Merger: Starting fresh data merger - Session: 2025-12-01 09:58:26.156538
+2025-12-01 09:58:36,151 - SensorController - INFO - Stopped Merger
+2025-12-01 09:58:36,152 - SensorController - INFO - Stopping imet...
+2025-12-01 09:58:36,152 - SensorController - INFO - Stopped imet
+2025-12-01 09:58:36,152 - SensorController - INFO - Stopping spectro...
+2025-12-01 09:58:36,157 - SensorController - ERROR - spectro ERROR: 2025-12-01 09:58:09,294 Spectrometer: Starting Spectrometer data collection. Output: output/spectro_data_20251201_095809.csv
+2025-12-01 09:58:36,160 - SensorController - INFO - Stopped spectro
+2025-12-01 09:58:36,161 - SensorController - INFO - All processes stopped
+2025-12-01 09:58:36,161 - SensorController - INFO - Stopping all processes...
+2025-12-01 09:58:36,161 - SensorController - INFO - Stopping merger process...
+2025-12-01 09:58:36,161 - SensorController - INFO - Stopping imet...
+2025-12-01 09:58:36,161 - SensorController - INFO - Stopping spectro...
+2025-12-01 09:58:36,161 - SensorController - INFO - All processes stopped
+2025-12-01 10:03:20,273 - SensorController - INFO - Loaded configuration from sensor_config.json
+2025-12-01 10:03:20,275 - SensorController - INFO - Initialized sensor: imet
+2025-12-01 10:03:20,277 - SensorController - INFO - Initialized sensor: spectro
+2025-12-01 10:03:20,277 - SensorController - INFO - Initialized data merger
+2025-12-01 10:03:20,278 - SensorController - INFO - Starting all sensor processes...
+2025-12-01 10:03:20,279 - SensorController - DEBUG - Starting imet with script: /home/rsp/air_pollution_collector/uri_aplogger/sensor_runner_time.py
+2025-12-01 10:03:20,286 - SensorController - INFO - Started imet (PID: 59210)
+2025-12-01 10:03:20,287 - SensorController - INFO - Waiting 5 seconds for imet to initialize...
+2025-12-01 10:03:20,451 - SensorController - INFO - imet: Usage: python sensor_runner.py <sensor_name>
+2025-12-01 10:18:50,520 - SensorController - INFO - Loaded configuration from sensor_config.json
+2025-12-01 10:18:50,521 - SensorController - INFO - Initialized sensor: imet
+2025-12-01 10:18:50,522 - SensorController - INFO - Initialized sensor: spectro
+2025-12-01 10:18:50,522 - SensorController - INFO - Initialized data merger
+2025-12-01 10:18:50,523 - SensorController - INFO - Starting all sensor processes...
+2025-12-01 10:18:50,523 - SensorController - DEBUG - Starting imet with script: /home/rsp/air_pollution_collector/uri_aplogger/sensor_runner.py
+2025-12-01 10:18:50,528 - SensorController - INFO - Started imet (PID: 59405)
+2025-12-01 10:18:50,529 - SensorController - INFO - Waiting 5 seconds for imet to initialize...
+2025-12-01 10:18:50,676 - SensorController - INFO - imet: Usage: python sensor_runner.py <sensor_name>
+2025-12-01 10:18:55,535 - SensorController - DEBUG - Starting spectro with script: /home/rsp/air_pollution_collector/uri_aplogger/spectro_timestamped.py
+2025-12-01 10:18:55,539 - SensorController - INFO - Started spectro (PID: 59448)
+2025-12-01 10:18:55,540 - SensorController - INFO - Waiting 2 seconds for spectro to initialize...
+2025-12-01 10:18:57,543 - SensorController - INFO - Waiting 15 seconds before starting merger...
+2025-12-01 10:19:12,560 - SensorController - DEBUG - Starting Merger with script: /home/rsp/air_pollution_collector/uri_aplogger/merger_enhanced.py
+2025-12-01 10:19:12,570 - SensorController - INFO - Started Merger (PID: 59499)
+2025-12-01 10:19:12,573 - SensorController - INFO - Merger process started
+2025-12-01 10:19:12,575 - SensorController - INFO - All processes started
+2025-12-01 10:19:12,576 - SensorController - INFO - Sensor controller running. Press Ctrl+C to stop.
+2025-12-01 10:19:39,146 - SensorController - INFO - Received signal 2, shutting down...
+2025-12-01 10:19:39,147 - SensorController - INFO - Stopping all processes...
+2025-12-01 10:19:39,147 - SensorController - INFO - Stopping merger process...
+2025-12-01 10:19:39,150 - SensorController - ERROR - Merger ERROR: 2025-12-01 10:19:12,731 Merger: Starting enhanced sensor merger
+2025-12-01 10:19:39,150 - SensorController - ERROR - Merger ERROR: 2025-12-01 10:19:12,731 Merger: Input directory: output
+2025-12-01 10:19:39,151 - SensorController - INFO - Stopped Merger
+2025-12-01 10:19:39,151 - SensorController - INFO - Stopping imet...
+2025-12-01 10:19:39,152 - SensorController - INFO - Stopped imet
+2025-12-01 10:19:39,152 - SensorController - INFO - Stopping spectro...
+2025-12-01 10:19:39,157 - SensorController - ERROR - spectro ERROR: 2025-12-01 10:18:55,824 Spectrometer: Starting Spectrometer data collection. Output: output/spectro_data_20251201_101855.csv
+2025-12-01 10:19:39,160 - SensorController - INFO - Stopped spectro
+2025-12-01 10:19:39,160 - SensorController - INFO - All processes stopped
+2025-12-01 10:19:39,160 - SensorController - INFO - Stopping all processes...
+2025-12-01 10:19:39,161 - SensorController - INFO - Stopping merger process...
+2025-12-01 10:19:39,161 - SensorController - INFO - Stopping imet...
+2025-12-01 10:19:39,161 - SensorController - INFO - Stopping spectro...
+2025-12-01 10:19:39,161 - SensorController - INFO - All processes stopped

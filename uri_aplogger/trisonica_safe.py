@@ -29,7 +29,7 @@ class OptimizedTriSonicaReader:
         self.running = True
         self.serial = None
         self.consecutive_failures = 0
-        self.max_failures = 5
+        self.max_failures = -1
         self.reconnect_delay = 5
         
         self.setup_logging()
@@ -56,7 +56,7 @@ class OptimizedTriSonicaReader:
                     device.get('ID_MODEL_ID') == self.IDENTIFIERS["ID_MODEL_ID"]):
                     self.logger.info(f"Found TriSonica at: {device.device_node}")
                     return device.device_node
-            self.logger.warning("TriSonica device not found")
+            self.logger.warning("TriSonica device not connected")
             return None
         except Exception as e:
             self.logger.error(f"Error finding TriSonica port: {e}")

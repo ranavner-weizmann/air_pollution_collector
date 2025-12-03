@@ -138,7 +138,7 @@ class OptimizediMetReader:
         self.logger.info("Starting iMet data collection")
         Path('output').mkdir(exist_ok=True)
         
-        output_file = 'output/iMet_data.csv'
+        output_file = 'output/imet_data.csv'
         with open(output_file, 'w', newline='') as csvfile:
             csv.writer(csvfile).writerow(self.PV_NAMES)
         

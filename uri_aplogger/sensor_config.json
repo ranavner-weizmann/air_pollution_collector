@@ -1,28 +1,60 @@
 {
   "sensors": {
-    "iMet": {
-      "script": "iMet_safe.py",
+    "imet": {
+      "type": "iMet",
+      "script": "sensor_runner.py",
       "enabled": true,
-      "restart_delay": 5
+      "restart_delay": 5,
+      "startup_delay": 2,
+      "identifiers": {
+        "vendor_id": "0403",
+        "model_id": "6015"
+      },
+      "baudrate": 57600,
+      "timeout": 2,
+      "column_names": ["Timestamp", "pressure", "temp", "rel_hum", "hum_temp", "date", "time", "longitude", "latitude", "altitude", "sat"]
     },
-    "POM": {
-      "script": "pom_safe.py",
+    "pom": {
+      "type": "POM",
+      "script": "sensor_runner.py", 
       "enabled": true,
-      "restart_delay": 5
+      "restart_delay": 5,
+      "startup_delay": 2,
+      "identifiers": {
+        "vendor_id": "067b",
+        "model_id": "23a3"
+      },
+      "baudrate": 19200,
+      "timeout": 1,
+      "column_names": ["Timestamp", "Ozone_ppb", "Cell_Temperature_K", "Cell_Pressure_torr", "Photodiode_Voltage_V", "Power_Supply_V", "Latitude", "Longitude", "Altitude_m", "GPS_Quality", "Date", "Time"]
     },
-    "TriSonica": {
-      "script": "trisonica_safe.py",
+    "trisonica": {
+      "type": "TriSonica",
+      "script": "sensor_runner.py",
       "enabled": true,
-      "restart_delay": 5
+      "restart_delay": 5,
+      "startup_delay": 2,
+      "identifiers": {
+        "vendor_id": "10c4",
+        "model_id": "ea60"
+      },
+      "baudrate": 115200,
+      "timeout": 1,
+      "column_names": ["Timestamp", "Wind_Speed", "Wind_Direction", "U_Vector", "V_Vector", "W_Vector", "Temperature", "Relative_Humidity", "Pressure", "Compass_Heading", "Pitch", "Roll"]
     },
-    "Spectrometer": {
-      "script": "spectro.py",
-      "enabled": true,
-      "restart_delay": 5
-    }
+    "spectro": {
+    "type": "spectrometer",
+    "script": "spectro_timestamped.py",
+    "enabled": false,
+    "restart_delay": 5,
+    "startup_delay": 2,
+    "output_file_pattern": "output/spectro_data_*.csv",
+    "column_names": ["Timestamp", "peak_wavelength", "max_intensity", "total_points", "status"]
+  }
   },
   "merger": {
-    "script": "merger.py",
-    "enabled": true
+    "script": "real_time_merger.py",
+    "enabled": true,
+    "startup_delay": 5
   }
 }
