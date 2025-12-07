@@ -83,3 +83,44 @@
 2025-12-03 11:34:51,181 - Merger - INFO - Created merged output file: output/merged_data_20251203_113451.csv
 2025-12-03 11:35:32,095 - Merger - INFO - Keyboard interrupt received
 2025-12-03 11:35:32,096 - Merger - INFO - Real-time merger stopped
+2025-12-04 10:26:54,619 - Merger - INFO - Tracking imet with pattern: output/imet_data_*.csv
+2025-12-04 10:26:54,622 - Merger - INFO - Tracking pom with pattern: output/pom_data_*.csv
+2025-12-04 10:26:54,622 - Merger - INFO - Tracking trisonica with pattern: output/trisonica_data_*.csv
+2025-12-04 10:26:54,623 - Merger - INFO - Starting real-time data merger
+2025-12-04 10:26:54,623 - Merger - INFO - Output file: output/merged_data_20251204_102654.csv
+2025-12-04 10:26:54,623 - Merger - INFO - Output interval: 1.0s
+2025-12-04 10:26:54,626 - Merger - INFO - Created merged output file: output/merged_data_20251204_102654.csv
+2025-12-04 10:27:15,956 - Merger - INFO - Keyboard interrupt received
+2025-12-04 10:27:15,957 - Merger - INFO - Real-time merger stopped
+2025-12-04 10:27:40,478 - Merger - INFO - Tracking imet with pattern: output/imet_data_*.csv
+2025-12-04 10:27:40,478 - Merger - INFO - Tracking pom with pattern: output/pom_data_*.csv
+2025-12-04 10:27:40,478 - Merger - INFO - Tracking trisonica with pattern: output/trisonica_data_*.csv
+2025-12-04 10:27:40,478 - Merger - INFO - Tracking spectro with pattern: output/spectro_data_*.csv
+2025-12-04 10:27:40,478 - Merger - INFO - Starting real-time data merger
+2025-12-04 10:27:40,479 - Merger - INFO - Output file: output/merged_data_20251204_102740.csv
+2025-12-04 10:27:40,479 - Merger - INFO - Output interval: 1.0s
+2025-12-04 10:27:40,480 - Merger - INFO - Created merged output file: output/merged_data_20251204_102740.csv
+2025-12-04 10:29:06,232 - Merger - INFO - Keyboard interrupt received
+2025-12-04 10:29:06,233 - Merger - INFO - Real-time merger stopped
+2025-12-04 10:35:10,035 - Merger - INFO - Tracking imet with pattern: output/imet_data_*.csv
+2025-12-04 10:35:10,036 - Merger - INFO - Tracking pom with pattern: output/pom_data_*.csv
+2025-12-04 10:35:10,036 - Merger - INFO - Tracking trisonica with pattern: output/trisonica_data_*.csv
+2025-12-04 10:35:10,036 - Merger - INFO - Tracking spectro with pattern: output/spectro_data_*.csv
+2025-12-04 10:35:10,036 - Merger - INFO - Starting real-time data merger
+2025-12-04 10:35:10,036 - Merger - INFO - Output file: output/merged_data_20251204_103510.csv
+2025-12-04 10:35:10,037 - Merger - INFO - Output interval: 1.0s
+2025-12-04 10:35:10,039 - Merger - INFO - Created merged output file: output/merged_data_20251204_103510.csv
+2025-12-04 10:35:10,049 - Merger - INFO - Merged data from 2 sensors: imet, trisonica
+2025-12-04 10:35:20,092 - Merger - INFO - Merged data from 3 sensors: imet, trisonica, spectro
+2025-12-04 10:37:02,550 - Merger - INFO - Keyboard interrupt received
+2025-12-04 10:37:02,550 - Merger - INFO - Real-time merger stopped
+2025-12-04 12:50:42,362 - Merger - INFO - Tracking imet with pattern: output/imet_data_*.csv
+2025-12-04 12:50:42,362 - Merger - INFO - Tracking pom with pattern: output/pom_data_*.csv
+2025-12-04 12:50:42,363 - Merger - INFO - Tracking trisonica with pattern: output/trisonica_data_*.csv
+2025-12-04 12:50:42,363 - Merger - INFO - Tracking spectro with pattern: output/spectro_summary_*.csv
+2025-12-04 12:50:42,363 - Merger - INFO - Starting real-time data merger
+2025-12-04 12:50:42,363 - Merger - INFO - Output file: output/merged_data_20251204_125042.csv
+2025-12-04 12:50:42,363 - Merger - INFO - Output interval: 1.0s
+2025-12-04 12:50:42,365 - Merger - INFO - Created merged output file: output/merged_data_20251204_125042.csv
+2025-12-04 12:51:17,585 - Merger - INFO - Keyboard interrupt received
+2025-12-04 12:51:17,586 - Merger - INFO - Real-time merger stopped
