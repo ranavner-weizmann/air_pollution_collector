@@ -124,3 +124,24 @@
 2025-12-04 12:50:42,365 - Merger - INFO - Created merged output file: output/merged_data_20251204_125042.csv
 2025-12-04 12:51:17,585 - Merger - INFO - Keyboard interrupt received
 2025-12-04 12:51:17,586 - Merger - INFO - Real-time merger stopped
+2025-12-08 13:20:00,494 - Merger - INFO - Tracking imet with pattern: output/imet_data_*.csv
+2025-12-08 13:20:00,497 - Merger - INFO - Tracking pom with pattern: output/pom_data_*.csv
+2025-12-08 13:20:00,497 - Merger - INFO - Starting real-time data merger
+2025-12-08 13:20:00,497 - Merger - INFO - Output file: output/merged_data_20251208_132000.csv
+2025-12-08 13:20:00,498 - Merger - INFO - Output interval: 1.0s
+2025-12-08 13:20:00,499 - Merger - INFO - Created merged output file: output/merged_data_20251208_132000.csv
+2025-12-08 13:20:28,537 - Merger - INFO - Keyboard interrupt received
+2025-12-08 13:20:28,539 - Merger - INFO - Real-time merger stopped
+2025-12-08 13:34:28,708 - Merger - INFO - Tracking imet with pattern: output/imet_data_*.csv
+2025-12-08 13:34:28,709 - Merger - INFO - Tracking pom with pattern: output/pom_data_*.csv
+2025-12-08 13:34:28,709 - Merger - INFO - Tracking trisonica with pattern: output/trisonica_data_*.csv
+2025-12-08 13:34:28,709 - Merger - INFO - Tracking spectro with pattern: output/spectro_data_*.csv
+2025-12-08 13:34:28,709 - Merger - INFO - Starting real-time data merger
+2025-12-08 13:34:28,709 - Merger - INFO - Output file: output/merged_data_20251208_133428.csv
+2025-12-08 13:34:28,709 - Merger - INFO - Output interval: 1.0s
+2025-12-08 13:34:28,711 - Merger - INFO - Created merged output file: output/merged_data_20251208_133428.csv
+2025-12-08 13:35:30,012 - Merger - INFO - Merged data from 4 sensors: imet, pom, trisonica, spectro
+2025-12-08 13:35:40,051 - Merger - INFO - Merged data from 4 sensors: imet, pom, trisonica, spectro
+2025-12-08 13:35:50,095 - Merger - INFO - Merged data from 4 sensors: imet, pom, trisonica, spectro
+2025-12-08 13:36:55,517 - Merger - INFO - Keyboard interrupt received
+2025-12-08 13:36:55,518 - Merger - INFO - Real-time merger stopped
