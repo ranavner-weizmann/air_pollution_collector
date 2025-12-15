@@ -129,6 +129,7 @@ class GenericSensor:
             self.consecutive_failures += 1
             return False
 
+    # generic_sensor.py - Updated read_serial_data method
     def read_serial_data(self):
         """Read data from serial port - Common for all sensors"""
         if not self.serial_conn or not self.serial_conn.is_open:
@@ -136,7 +137,7 @@ class GenericSensor:
                 return None
 
         try:
-            # Always try to read available data
+            # Read available data
             if self.serial_conn.in_waiting > 0:
                 line = self.serial_conn.readline()
                 if line:
@@ -144,6 +145,19 @@ class GenericSensor:
                     if decoded:
                         self.logger.debug(f"Raw data: {decoded}")
                         return decoded
+            
+            # For some sensors like Partector 2 Pro, we might need to read anyway
+            # Try a non-blocking read with timeout
+            try:
+                line = self.serial_conn.readline()
+                if line:
+                    decoded = line.decode('utf-8', errors='ignore').strip()
+                    if decoded:
+                        self.logger.debug(f"Raw data (direct read): {decoded}")
+                        return decoded
+            except:
+                pass
+                
             return None
             
         except Exception as e:

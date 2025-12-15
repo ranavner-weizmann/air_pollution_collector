@@ -10,7 +10,7 @@ from sensor_implementations import create_sensor
 def main():
     if len(sys.argv) < 2:
         print("Usage: python sensor_runner.py <sensor_name>")
-        print("Available sensors: imet, pom, trisonica")
+        print("Available sensors: imet, pom, trisonica, partector2pro")
         sys.exit(1)
     
     sensor_name = sys.argv[1].lower()  # Use lowercase for consistency

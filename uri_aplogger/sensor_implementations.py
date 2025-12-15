@@ -5,6 +5,7 @@ Sensor-specific implementations
 
 from generic_sensor import GenericSensor
 from datetime import datetime, timedelta
+import time
 
 class iMetSensor(GenericSensor):
     """iMet sensor implementation"""
@@ -21,12 +22,6 @@ class iMetSensor(GenericSensor):
             data_list[3] /= 100
 
             # Adjust time by 2 hours
-
-
-            # --------------------------NEED TO VERIFY !!!!! ---------------------------------
-
-
-
             if len(data_list) > 5 and data_list[5] and ':' in data_list[5]:
                 try:
                     time_obj = datetime.strptime(data_list[5], "%H:%M:%S")
@@ -120,6 +115,80 @@ class TriSonicaSensor(GenericSensor):
             self.logger.error(f"Parse error: {e}, data: {data}")
             return None
 
+class Partector2ProSensor(GenericSensor):
+    """Partector 2 Pro sensor implementation"""
+    
+    def __init__(self, name, config):
+        super().__init__(name, config)
+        self.command_sent = False
+        self.mode = config.get('mode', 1)  # Default to 1Hz mode
+        # Override baudrate to 115200 for Partector 2 Pro
+        self.baudrate = 115200
+        self.timeout = config.get('timeout', 2)
+        
+    def init_serial(self):
+        """Initialize serial connection and send start command"""
+        success = super().init_serial()
+        if success and self.serial_conn and self.serial_conn.is_open:
+            # Send command to start data streaming
+            try:
+                command = f"X000{self.mode}!\r\n".encode('utf-8')
+                self.serial_conn.write(command)
+                self.logger.info(f"Sent start command: X000{self.mode}!")
+                time.sleep(1)  # Wait for device to initialize
+                
+                # Clear any initial data
+                self.serial_conn.flushInput()
+                self.command_sent = True
+            except Exception as e:
+                self.logger.error(f"Error sending start command: {e}")
+                return False
+        return success
+    
+    def parse_data(self, data):
+        """
+        Parse Partector 2 Pro data.
+        Data format is tab-separated values according to the PDF documentation.
+        """
+        try:
+            # Clean up the data
+            data = data.strip()
+            
+            # Skip empty lines or command responses
+            if not data or data.startswith("X"):
+                return None
+            
+            # Split by tabs (tsv format)
+            data_list = data.split('\t')
+            
+            # Remove any empty strings
+            data_list = [item for item in data_list if item]
+            
+            # Based on the PDF, we expect either:
+            # - 18 fields for standard 1Hz mode (mode 1)
+            # - 32 fields for size distribution mode (mode 6)
+            
+            # Convert numeric values where possible
+            parsed_values = []
+            for value in data_list:
+                try:
+                    # Try to convert to float if it looks like a number
+                    if value.replace('.', '', 1).replace('-', '', 1).isdigit():
+                        parsed_values.append(float(value))
+                    else:
+                        parsed_values.append(value)
+                except:
+                    parsed_values.append(value)
+            
+            # Add timestamp as first column
+            parsed_values.insert(0, datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
+            
+            return parsed_values
+            
+        except Exception as e:
+            self.logger.error(f"Parse error: {e}, data: {data}")
+            return None
+
 # Factory function to create sensors
 def create_sensor(sensor_type, name, config):
     """Factory function to create appropriate sensor instance"""
@@ -127,6 +196,7 @@ def create_sensor(sensor_type, name, config):
         'iMet': iMetSensor,
         'POM': POMSensor,
         'TriSonica': TriSonicaSensor,
+        'Partector2Pro': Partector2ProSensor,
         'Generic': GenericSensor  # Fallback
     }
     
